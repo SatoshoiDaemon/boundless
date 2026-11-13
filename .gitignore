@@ -18,20 +18,24 @@
 /schematics/
 /trees/
 /screenshots/
-/patchouli_books/
-/emojiful/
-/data/
-/mod_data/
 
 # Runtime output and caches
 /logs/
 /crash-reports/
 /downloads/
-/local/
-/modernfix/
+/local/crash_assistant/
+/local/kubejs/dev.properties
+/data/fabricDefaultResourcePacks.dat
+/emojiful/cache/
+/mod_data/gml/
+/modernfix/structureCacheV1/
 /particular_cache/
-/moonlight-global-datapacks/
-/local-patches/
+
+# Local patch build output and validation saves
+/local-patches/*/validation/
+/local-patches/nether-validation/*/*-test-save/
+/local-patches/nether-validation/*/*copied-nether-before-test/
+/local-patches/**/backups/
 
 # Include mods. They are necessary, for a modpack.
 
