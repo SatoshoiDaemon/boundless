@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.satoshoidaemon.boundlesscompat.compat",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.satoshoidaemon.boundlesscompat.compat.jumpanimation.BoundlessCompatMixinPlugin",
+  "refmap": "boundlesscompat.refmap.json",
+  "mixins": [],
+  "client": [
+    "jumpanimation.JumpAnimationNullGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
