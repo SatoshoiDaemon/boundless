@@ -1,0 +1,21 @@
+filename = 'golem_spawn_animation_copper-1.0.0-forge-1.20.1.jar'
+name = 'Golem Spawn Animation: Copper Golem Addon'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Golem Spawn Animation: Copper Golem Addon 1.0.0'
+
+[download]
+hash = '52bc2c82fe50e3b0ef933951b915f1f3610b8a9b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8677232
+project-id = 1652575
+
+[[x-prismlauncher-dependencies]]
+addonId = '1224240'
+type = 'REQUIRED'

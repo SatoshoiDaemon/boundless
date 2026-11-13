@@ -1,0 +1,21 @@
+filename = 'weaponleveling-1.20.1-3.2.0-forge.jar'
+name = "Lukas' Weapon Leveling"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'weaponleveling-1.20.1-3.2.0-forge.jar'
+
+[download]
+hash = '98e212af478c7f165636c6f83beee2cd83e20568'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8400008
+project-id = 644704
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

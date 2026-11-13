@@ -1,0 +1,60 @@
+# Live CurseForge instance metadata and local profile identity
+/.curseclient
+/minecraftinstance.json
+/profileImage/
+/usercache.json
+/usernamecache.json
+/TrashSlotSaveState.json
+/patchouli_data.json
+/rhino.local.properties
+/options.txt
+/options.txt.*
+
+# Worlds and personal play data
+/saves/
+/backups/
+/XaeroWaypoints_BACKUP*/
+/xaero/
+/schematics/
+/trees/
+/screenshots/
+/patchouli_books/
+/emojiful/
+/data/
+/mod_data/
+
+# Runtime output and caches
+/logs/
+/crash-reports/
+/downloads/
+/local/
+/modernfix/
+/particular_cache/
+/moonlight-global-datapacks/
+/local-patches/
+
+# Include mods. They are necessary, for a modpack.
+
+# Build and export output
+/build/
+/dist/
+**/build/
+__pycache__/
+*.py[cod]
+
+# Backups, temporary files, and credentials
+*.bak
+*.bak-*
+*.backup
+*.backup-*
+*.tmp
+*.temp
+*.old
+*.orig
+*.toml_backup*
+*.log
+*.log.*
+
+# CurseForge index and generated root artwork
+/config/**/*.bak*
+/config/**/*.toml_backup*

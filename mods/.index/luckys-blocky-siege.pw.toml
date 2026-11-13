@@ -1,0 +1,18 @@
+filename = 'blocky_siege-6.1.92-1.20.1.jar'
+name = 'Blocky Siege'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Blocky_siege-6.1.92-1.20.1.jar'
+
+[download]
+hash = '86f4fd36f44486c1b6d1d4c2b0eee105419836b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5191020
+project-id = 619202

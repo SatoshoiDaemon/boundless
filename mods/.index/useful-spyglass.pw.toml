@@ -1,0 +1,18 @@
+filename = 'usefulspyglass-forge-1.20.1-1.0.2.jar'
+name = 'Useful Spyglass'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'usefulspyglass-forge-1.20.1-1.0.2.jar'
+
+[download]
+hash = '9e1273d18e74cb4fa2c03a3192f768f1487ed39e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8203579
+project-id = 840027

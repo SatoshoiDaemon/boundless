@@ -1,0 +1,21 @@
+filename = 'enhancedai-3.3.7.5.jar'
+name = 'Enhanced AI'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.3.7.5'
+
+[download]
+hash = '8cb138410fd857d457a26eca5315546fd0417319'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8946003
+project-id = 515276
+
+[[x-prismlauncher-dependencies]]
+addonId = '465109'
+type = 'REQUIRED'

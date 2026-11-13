@@ -1,0 +1,21 @@
+filename = 'diversity_better_bundle-forge-1.20.1-2.5.1.jar'
+name = 'Diversity: Better Bundle'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge 1.20.1] Diversity Better Bundle v2.5.1'
+
+[download]
+hash = 'c1ff3ca292d97d451815b250ed21dce09cb328fb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6799075
+project-id = 1081089
+
+[[x-prismlauncher-dependencies]]
+addonId = '1209568'
+type = 'REQUIRED'

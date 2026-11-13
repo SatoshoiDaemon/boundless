@@ -1,0 +1,24 @@
+
+[mercy]
+	#Health and damage a boss loses per death it has dealt you, as a fraction. 0 disables mercy.
+	#Range: 0.0 ~ 1.0
+	per_death = 0.08
+	#Most a boss can ever be weakened by mercy.
+	#Range: 0.0 ~ 0.95
+	cap = 0.4
+	#Players this close to a spawning boss count toward its mercy. The most deaths among them sets it.
+	#Range: 8 ~ 512
+	radius = 64
+
+[screen]
+	#Seconds the death screen waits before it can be dismissed.
+	#Range: 0 ~ 30
+	lock_seconds = 3
+	#Death screen look. SLATE is plain and flat; CRIMSON is the textured modpack frame.
+	#Allowed Values: SLATE, CRIMSON
+	theme = "SLATE"
+
+[tiers]
+	#Gear tiers in order. Tier n is any item tagged forge:<name>_tools, forge:<name>_armor or armageddon_mod:<name>_tools.
+	names = ["iron", "golden", "emerald", "diamond", "netherite", "elvenite", "voiderite", "bloody", "helionite", "hollow"]
+

@@ -1,0 +1,21 @@
+filename = 'ItemPhysicLite_FORGE_v1.6.13_mc1.20.1.jar'
+name = 'ItemPhysic Lite'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ItemPhysicLite_FORGE_v1.6.13_mc1.20.1.jar'
+
+[download]
+hash = 'cd2e5d5f7406dc4a6bfa28873308a9f9d6a7e5a1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8974961
+project-id = 270441
+
+[[x-prismlauncher-dependencies]]
+addonId = '257814'
+type = 'REQUIRED'

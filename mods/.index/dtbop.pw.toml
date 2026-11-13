@@ -1,0 +1,29 @@
+filename = 'DynamicTreesBOP-1.20.1-3.3.4.jar'
+name = "Dynamic Trees - Biomes O' Plenty"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DynamicTreesBOP-1.20.1-3.3.4.jar'
+
+[download]
+hash = 'b9897d05cfc6779fe64bc8dc4bb3410e11bec86b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7764165
+project-id = 289529
+
+[[x-prismlauncher-dependencies]]
+addonId = '478155'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '252818'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '220318'
+type = 'REQUIRED'

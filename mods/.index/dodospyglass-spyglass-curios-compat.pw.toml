@@ -1,0 +1,21 @@
+filename = 'DodoSpyglass-1.0.0-1.20.1-forge.jar'
+name = 'DodoSpyglass [Spyglass Curios Compat]'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DodoSpyglass-1.0.0-1.20.1-forge.jar'
+
+[download]
+hash = '511bc7a69c44b6b4cce2b201362e295dbf4d6749'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8166927
+project-id = 1551145
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'

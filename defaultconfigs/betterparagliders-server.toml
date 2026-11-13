@@ -1,0 +1,8 @@
+[stamina]
+	# Reduced combat stamina costs for this instance.
+	melee_stamina_consumption = 0.5
+	two_handed_stamina_consumption = 1.0
+	one_handed_stamina_consumption = 1.25
+	ranged_stamina_consumption = 2.5
+	block_stamina_consumption = 5.0
+	block_projectile_stamina_consumption = 2.5

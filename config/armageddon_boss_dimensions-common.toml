@@ -1,0 +1,11 @@
+
+#Arena settings
+[arena]
+	#Which arena to generate when a player enters the boss dimension.
+	#Arenas:
+	#  "Arena"     - open-air colosseum, 52 blocks across and 30 tall (default).
+	#  "Classic"   - the original 45x45 vanilla-block box.
+	#  "Linggango" - made for the linggango modpack.
+	#Unknown values fall back to "Arena".
+	activeArena = "Arena"
+

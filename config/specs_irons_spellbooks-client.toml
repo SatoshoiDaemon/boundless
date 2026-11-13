@@ -1,0 +1,12 @@
+#Horizontal offset for the cast/charge bar, in pixels. Positive values move right.
+#Range: -512 ~ 512
+castBarOffsetX = 0
+#Vertical offset for the cast/charge bar, in pixels. Positive values move up.
+#Range: -512 ~ 512
+castBarOffsetY = 0
+#Scale for the cast/charge bar HUD (0.75–1.25).
+#Range: 0.75 ~ 1.25
+castBarScale = 1.0
+#Last Codex tab. Use "all" for All spells, or a school id such as irons_spellbooks:evocation.
+lastCodexTab = "all"
+

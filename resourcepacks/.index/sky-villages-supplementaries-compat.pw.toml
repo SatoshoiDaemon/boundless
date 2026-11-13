@@ -1,0 +1,18 @@
+filename = 'SkyVillages-SupplementariesCompat-1.20.1-1.0.3.1.zip'
+name = 'Sky Villages - Supplementaries Compat'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SkyVillages-SupplementariesCompat-1.20.1-1.0.3.1.zip'
+
+[download]
+hash = 'a960cfaff551f3c443932d7a90b9cc9710d29209'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4796879
+project-id = 920761

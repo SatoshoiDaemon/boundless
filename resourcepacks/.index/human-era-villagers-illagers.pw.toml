@@ -1,0 +1,18 @@
+filename = 'HumanEraVillagersIllagers[3.91.6].zip'
+name = 'Human Era: Villagers & Illagers X Fresh Animations'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.8.9', '1.12.2', '1.14.4', '1.16.5', '1.18.2', '1.19.4', '1.20.1', '1.21.11', '26.1.2', '26.2', '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hevi_3.91.6_full_content'
+
+[download]
+hash = '59f083afcfdf326cfd1fbd536db29bde9ecc4e3e7dae1d8574baadf2ac32e569854b1bba258768b47f9c8bdec40c87776b1d7c7a4a349cff059ec6fe21734be1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/u69nu00u/versions/V8BbkFtF/HumanEraVillagersIllagers%5B3.91.6%5D.zip'
+
+[update.modrinth]
+mod-id = 'u69nu00u'
+version = 'V8BbkFtF'

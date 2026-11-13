@@ -1,0 +1,21 @@
+filename = 'MoogsOceanStructures-universal-1.20-1.1.0.jar'
+name = "MOS - Moog's Ocean Structures"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = 'a176034580b7299ee7c2f4164a75abd2ca1db3768ea8085f93da4e5206ea1f19d9e6b65674b3469b84aa740cbfca766301c4b085b16efaaa97e82de58d7133cd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZKBkklMv/versions/O1LxGHhC/MoogsOceanStructures-universal-1.20-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'ZKBkklMv'
+version = 'O1LxGHhC'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1oUDhxuy'
+type = 'REQUIRED'

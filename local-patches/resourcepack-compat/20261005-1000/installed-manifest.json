@@ -1,0 +1,308 @@
+[
+  {
+    "project_id": "HAeb3B1W",
+    "version_id": "GRCQqXnf",
+    "version_number": "2.0",
+    "game_versions": [
+      "1.9",
+      "1.9.1",
+      "1.9.2",
+      "1.9.3",
+      "1.9.4",
+      "1.10",
+      "1.10.1",
+      "1.10.2",
+      "1.11",
+      "1.11.1",
+      "1.11.2",
+      "1.12",
+      "1.12.1",
+      "1.12.2",
+      "1.13",
+      "1.13.1",
+      "1.13.2",
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1"
+    ],
+    "file": {
+      "id": "jkYyABvz",
+      "hashes": {
+        "sha512": "2b3d4732590a6333f18f854f6044025a716a9c800e98ce6a0fcc0473fe0a7ac06593085450f8ddf07249b40d9f9b923ffce903b35b2e44ea8477fb4d57128c34",
+        "sha1": "1652568a78d97102ab9b1d8241332e15c0d71d76"
+      },
+      "url": "https://cdn.modrinth.com/data/HAeb3B1W/versions/GRCQqXnf/Artisans_Armory_2-0.zip",
+      "filename": "Artisans_Armory_2-0.zip",
+      "primary": true,
+      "size": 681145,
+      "file_type": null
+    },
+    "path": "/tmp/other-resource-audit/Artisans_Armory_2-0.zip",
+    "index_name": "artisans-armory.pw.toml",
+    "name": "Artisan's Armory | Equipment Overhaul",
+    "dependencies": []
+  },
+  {
+    "project_id": "IjeNkkG5",
+    "version_id": "yxmvFbtN",
+    "version_number": "1.20-1.20.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "file": {
+      "id": "eCeT7AyL",
+      "hashes": {
+        "sha1": "a803d7dfda56bbb1a68272ca8199569969036641",
+        "sha512": "ec4a29b0d865240a8402ec62f3f88f34b05c2c7c5b9b6dca36e0fa171491d9edc8426905e05a4cab0a5954e720a8e586cdd65486baa78e0eb87ffc20050be529"
+      },
+      "url": "https://cdn.modrinth.com/data/IjeNkkG5/versions/yxmvFbtN/%5BCompressed%5D%20Alternative%20Rain%20Sounds%201.20-1.20.1.zip",
+      "filename": "[Compressed] Alternative Rain Sounds 1.20-1.20.1.zip",
+      "primary": true,
+      "size": 812169,
+      "file_type": null
+    },
+    "path": "/tmp/other-resource-audit/[Compressed] Alternative Rain Sounds 1.20-1.20.1.zip",
+    "index_name": "alternative-rain-sounds.pw.toml",
+    "name": "Alternative Rain Sounds",
+    "dependencies": []
+  },
+  {
+    "project_id": "YAVTU8mK",
+    "version_id": "RfJ3uz2J",
+    "version_number": "1.8.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "file": {
+      "id": "6DZAboqF",
+      "hashes": {
+        "sha512": "a035c1e6c771177676672f93fa68858cfd949426a83bc141ad9fec6def3714aadb62c052d93b259662d03a399bd03ca70947a2ff7dd9b7262dcb16d311e33234",
+        "sha1": "d39eefcb1d3a24debc979bbf7aa3e42b92cc5a80"
+      },
+      "url": "https://cdn.modrinth.com/data/YAVTU8mK/versions/RfJ3uz2J/FA%2BAll_Extensions-v1.8.1.zip",
+      "filename": "FA+All_Extensions-v1.8.1.zip",
+      "primary": true,
+      "size": 425088,
+      "file_type": null
+    },
+    "path": "/tmp/other-resource-audit/FA+All_Extensions-v1.8.1.zip",
+    "index_name": "fresh-animations-extensions.pw.toml",
+    "name": "Fresh Animations: Extensions",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "50dA9Sha",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "project_id": "iKIcN9kc",
+    "version_id": "Qb0ailBs",
+    "version_number": "1.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21"
+    ],
+    "file": {
+      "id": "BO5ppXzj",
+      "hashes": {
+        "sha1": "f12ddb5448a4813afa1999973194f0975444a013",
+        "sha512": "12c503b0551cd37d4a375ee6d2032b676ef6b89fe1978d1cac2268fb7b60987cfb3a38cb830d345cf522a28f0c83982d03afbbb1fd26ca9a809c2d90f52bd408"
+      },
+      "url": "https://cdn.modrinth.com/data/iKIcN9kc/versions/Qb0ailBs/AL%27s%20Zombies%20Revamped%2BFA%201.3.zip",
+      "filename": "AL's Zombies Revamped+FA 1.3.zip",
+      "primary": true,
+      "size": 821980,
+      "file_type": null
+    },
+    "path": "/tmp/animations-audit/AL's Zombies Revamped+FA 1.3.zip",
+    "index_name": "als-zombies-revamped-x-fresh-animations.pw.toml",
+    "name": "AL's Zombies Revamped x Fresh Animations"
+  },
+  {
+    "project_id": "d2srP5t3",
+    "version_id": "M9V8lKDB",
+    "version_number": "1.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21"
+    ],
+    "file": {
+      "id": "uCLSHrPX",
+      "hashes": {
+        "sha1": "cf3f673dcdeb8b29b373f149293950c07476b669",
+        "sha512": "a2f8457580d037ed9dcfa2253bf44d45035ab2c7b611b6a52e66fb7470af95f81c4cd992e789c2252463be8c383004eadcbc72b07186f5ad639fbd7f73b51a04"
+      },
+      "url": "https://cdn.modrinth.com/data/d2srP5t3/versions/M9V8lKDB/AL%27s%20Creepers%20Revamped%201.3.zip",
+      "filename": "AL's Creepers Revamped 1.3.zip",
+      "primary": true,
+      "size": 171432,
+      "file_type": null
+    },
+    "path": "/tmp/animations-audit/AL's Creepers Revamped 1.3.zip",
+    "index_name": "als-creepers-revamped.pw.toml",
+    "name": "AL's Creepers Revamped"
+  },
+  {
+    "curseforge_project_id": 916842,
+    "curseforge_file_id": 5253518,
+    "version_number": "1.3.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4"
+    ],
+    "file": {
+      "filename": "AL's Skeletons Revamped+FA 1.3.1.zip",
+      "hashes": {
+        "sha1": "01b562561a9897ac079979cb138771a033b6cc5c",
+        "sha512": "62b9ab144c70f97b0e8434680ed855de4b50bae19de200ec5d3670936c890a973880ffda5174f6629b5e2ab68e2803f0ad116ee985ca66cf15bb195eee128f9a"
+      },
+      "url": "https://mediafilez.forgecdn.net/files/5253/518/AL%27s%20Skeletons%20Revamped%2BFA%201.3.1.zip"
+    },
+    "path": "/tmp/animations-audit/AL's Skeletons Revamped+FA 1.3.1.zip",
+    "index_name": "als-skeletons-revamped-x-fresh-animations.pw.toml",
+    "name": "AL's Skeletons Revamped x Fresh Animations"
+  },
+  {
+    "name": "private-local-creeper-compatibility",
+    "local": true,
+    "path": "/tmp/animations-audit/Local - AL Creepers 1.3 with Fresh Animations 1.10.4.zip",
+    "file": {
+      "filename": "Local - AL Creepers 1.3 with Fresh Animations 1.10.4.zip",
+      "hashes": {
+        "sha512": "bd76d9e5c561ba15dddb5a7dc91fdaa84b42cdfbcd456565ebff74465af7b5ee6e0d07db25fa2eb669ab3afda3946f1493860050640306f36c9ae5f7afd86f45"
+      }
+    }
+  },
+  {
+    "project_id": "u69nu00u",
+    "version_id": "V8BbkFtF",
+    "version_number": "hevi_3.91.6_full_content",
+    "game_versions": [
+      "1.8.9",
+      "1.12.2",
+      "1.14.4",
+      "1.16.5",
+      "1.18.2",
+      "1.19.4",
+      "1.20.1",
+      "1.21.11",
+      "26.1.2",
+      "26.2",
+      "26.3"
+    ],
+    "file": {
+      "id": "pukrsyZR",
+      "hashes": {
+        "sha512": "201478ebe4cd2616fd754bc4871a848376a354decd2ca24690dcfc020da8fc7e55f86f0b5242da59d0ff20d7fd9695e4313c14b6a8db85b80bb6d24d54557c58",
+        "sha1": "1d51c2e933cd9c45d235816ed57cae31e8271736"
+      },
+      "url": "https://cdn.modrinth.com/data/u69nu00u/versions/V8BbkFtF/HEVI%20FreshAni%20Activator%20Fix%202.zip",
+      "filename": "HEVI FreshAni Activator Fix 2.zip",
+      "primary": false,
+      "size": 461736,
+      "file_type": null
+    },
+    "path": "/tmp/resourcepack-fix-20261005/HEVI FreshAni Activator Fix 2.zip",
+    "index_name": "human-era-freshani-activator.pw.toml",
+    "name": "Human Era: FreshAni Activator Fix 2"
+  },
+  {
+    "project_id": "Z6cnZeGU",
+    "version_id": "AwVu5ygs",
+    "version_number": "1.3",
+    "game_versions": [
+      "1.20.1",
+      "1.20.4",
+      "1.21.1",
+      "1.21.4",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "file": {
+      "id": "40yP1mAB",
+      "hashes": {
+        "sha1": "80a1efaf621d7b376b0ce8e5fab7462ed10b9ce3",
+        "sha512": "548cd46223a96142463646f613ecdec004226bed46e71c990ab3ddee5e8f55e20a3e326f916f6dd5c936f0d0e975534b86a6b094f8065ff873dd5f132191dc97"
+      },
+      "url": "https://cdn.modrinth.com/data/Z6cnZeGU/versions/AwVu5ygs/Visual%20Titles%201.3.zip",
+      "filename": "Visual Titles 1.3.zip",
+      "primary": true,
+      "size": 444982,
+      "file_type": null
+    },
+    "path": "/tmp/visual-titles-analysis/Visual Titles 1.3.zip",
+    "index_name": "visual-travelers-titles.pw.toml",
+    "name": "Visual Traveler's Titles"
+  },
+  {
+    "name": "AL Armor Stands local1.20.1 compatibility overlay",
+    "local": true,
+    "path": "/tmp/other-resource-audit/AL-Armor-Stands-local-1.20.1.zip",
+    "file": {
+      "filename": "AL-Armor-Stands-local-1.20.1.zip",
+      "hashes": {
+        "sha512": "644e67aacec3441adce89223f08d3e489eb431422ccbe069a0e09ef1ff086fd797a7a6d267b56403c8d090db60b9c5115a8f9c247ea5af6b1cbf9128db74849e"
+      }
+    }
+  }
+]

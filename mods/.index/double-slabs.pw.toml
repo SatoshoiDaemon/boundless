@@ -1,0 +1,18 @@
+filename = 'doubleslabs-forge-1.20.1-0.2.0.jar'
+name = 'Double Slabs'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DoubleSlabs-Forge-1.20.1-0.2.0'
+
+[download]
+hash = '48363150bbcc5fdef13ec64b4a18c9db67aa80c9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7413529
+project-id = 350179

@@ -1,0 +1,18 @@
+filename = 'caveore-1.20.1-4.0.jar'
+name = 'Cave Spelunking'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'caveore-1.20.1-4.0.jar'
+
+[download]
+hash = '9dfeeda722ac9142b279cf0a1f551781c79b9433'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6445025
+project-id = 468643

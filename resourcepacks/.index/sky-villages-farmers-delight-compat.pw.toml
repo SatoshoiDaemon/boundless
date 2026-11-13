@@ -1,0 +1,18 @@
+filename = 'SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip'
+name = "Sky Villages - Farmer's Delight Compat"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip'
+
+[download]
+hash = 'a79f0bb95bcab95934d3d909e6c83b42249c4542'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4849958
+project-id = 934914

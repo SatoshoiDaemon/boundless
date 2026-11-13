@@ -1,0 +1,18 @@
+filename = 'trek-B0.6.2.jar'
+name = 'Trek'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'B0.6.2+mod'
+
+[download]
+hash = 'f33df96dc5181f8b679f4d14c39d662cd2b0efc0c5322629c870bfdaacc3a2727c10ac7fb2641fc206f0a177be46a2417fe75b429a33c920762ffbac6dc14b36'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h2jngREY/versions/1GsZGXOm/trek-B0.6.2.jar'
+
+[update.modrinth]
+mod-id = 'h2jngREY'
+version = '1GsZGXOm'

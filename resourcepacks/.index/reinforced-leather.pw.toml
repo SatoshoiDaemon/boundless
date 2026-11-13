@@ -1,0 +1,18 @@
+filename = 'reinforced_leather19.zip'
+name = 'Reinforced Leather Armor'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Reinforced Leather Armor V1.1 for 1.19'
+
+[download]
+hash = '891be2c3dab42f82c5e6367904c07e8ac330a127'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3875737
+project-id = 622927

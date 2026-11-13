@@ -1,0 +1,33 @@
+filename = 'emf_compat_watut_1.20.1_1.0.0.jar'
+name = 'EMF Compat: WATUT'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'emf_compat_watut_1.20.1_1.0.0.jar'
+
+[download]
+hash = '019787c26dac572d91a342843e36d437a73ff99d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8539980
+project-id = 1629292
+
+[[x-prismlauncher-dependencies]]
+addonId = '568563'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '844662'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '945479'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1605113'
+type = 'REQUIRED'

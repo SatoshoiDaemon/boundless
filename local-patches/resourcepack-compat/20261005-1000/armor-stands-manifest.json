@@ -1,0 +1,46 @@
+{
+  "name": "AL Armor Stands local1.20.1 compatibility overlay",
+  "path": "/tmp/other-resource-audit/AL-Armor-Stands-local-1.20.1.zip",
+  "size": 2117,
+  "sha512": "644e67aacec3441adce89223f08d3e489eb431422ccbe069a0e09ef1ff086fd797a7a6d267b56403c8d090db60b9c5115a8f9c247ea5af6b1cbf9128db74849e",
+  "requires_original": "AL's Armor Stands Revamped.zip",
+  "original_sha512": "7a9f383233c590b83cda77eb4d64d7f3949e8bb6015a4084256c1a8dfdcf1eef51ed780499b7620dd985d8fdd5dd9f36ec00e05cc85cf38e9e5244e67eba9c56",
+  "requires_mods": [
+    "entity_model_features",
+    "entity_texture_features"
+  ],
+  "overlay_priority": "Above AL Armor Stands original (and any other pack providing armor_stand.properties)",
+  "assets_changed": [
+    "assets/minecraft/optifine/cem/armor_stand.properties"
+  ],
+  "properties": {
+    "models.1": "1",
+    "items.1": "any",
+    "models.2": "2",
+    "name.2": "ipattern:*Gargoyle*",
+    "models.3": "3",
+    "name.3": "iregex:(Creeper Anatomy|Anatomy of a Creeper)",
+    "models.4": "4",
+    "name.4": "ipattern:*Wildfire*",
+    "models.5": "5",
+    "name.5": "iregex:(Stone Pawn|Deepslate Pawn)",
+    "models.6": "6",
+    "name.6": "iregex:(Stone Rook|Deepslate Rook)",
+    "models.7": "7",
+    "name.7": "iregex:(Stone Knight|Deepslate Knight)",
+    "models.8": "8",
+    "name.8": "iregex:(Stone Bishop|Deepslate Bishop)",
+    "models.9": "9",
+    "name.9": "iregex:(Stone Queen|Deepslate Queen)",
+    "models.10": "10",
+    "name.10": "iregex:(Stone King|Deepslate King)",
+    "models.11": "1"
+  },
+  "validation": "ZIP integrity, JSON, model references, retained name rules, ETF7.2.5 bytecode+source inspection; no in-game visual test",
+  "source_urls": [
+    "https://modrinth.com/resourcepack/als-armor-stands-revamped",
+    "https://github.com/Traben-0/Entity_Texture_Features/blob/ETF-Main/src/main/java/traben/entity_texture_features/features/property_reading/properties/etf_properties/ItemProperty.java",
+    "https://github.com/Traben-0/Entity_Texture_Features/blob/ETF-Main/src/main/java/traben/entity_texture_features/features/property_reading/properties/optifine_properties/NBTProperty.java",
+    "https://www.minecraft.net/pt-br/article/minecraft-java-edition-1-21-5"
+  ]
+}

@@ -1,0 +1,46 @@
+filename = 'Icons v.1.14.zip'
+name = 'Icons'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2',
+    '26.3'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Icons v.1.14'
+
+[download]
+hash = 'febb55bee872325eaeaa1d361c275d212762c902'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8906797
+project-id = 422346
+
+[[x-prismlauncher-dependencies]]
+addonId = '430090'
+type = 'OPTIONAL'

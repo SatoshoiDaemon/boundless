@@ -1,0 +1,16 @@
+﻿timestamp_log,fase,duracao_reportada,evidencia_local,observacao,leitura_causal,confianca
+09:51:25,render/dados,33.840 s,7996,Conclusão da carga inicial de datapacks reportada; ocorre antes de iniciar o servidor integrado.,Tempo confirmado de carga; não é tick de jogo nem prova de causa para spikes posteriores.,Alta: medida do log; atribuição causal baixa.
+09:51:32,servidor/chunks,—,8036–8049,Preparação da região inicial de minecraft:overworld; spawn area repetido em 0%; 5.786 s até elapsed reportado.,Geração/carregamento de spawn coincide com preparação; apenas dá contexto para primeiro atraso.,Alta para evento; insuficiente para explicar pausas posteriores.
+09:51:42,sessão/jogador,—,8124,Jogador entra no mundo integrado.,Marca início da atividade da sessão; não contém coordenadas/evento de movimento em cada spike.,Alta.
+09:51:45,watchdog/servidor,3.910 s / 78 ticks,8197,"Primeiro warning de tick atrás, três segundos após login/spawn.","Compatível com custo de inicialização, chunks ou outra carga; não há perfil.",Alta para atraso; hipótese para origem.
+09:52:34,watchdog/servidor,40.091 s (um tick),8281–8820,ModernFix captura um único stack momentâneo no thread do servidor: Villager.tick → Brain → HurtBySensor.,"Stack mostra o caminho ativo no instante da amostra; sem contagem de entidades, tempo acumulado ou profiling. Não prova que villager seja causa.",Alta para observação; baixa para causalidade.
+09:53:52,watchdog/servidor,111.641 s / 2232 ticks,9016,Maior atraso do trecho.,Sem evento de chunk/entidade em log próximo e sem profiler; origem desconhecida.,Alta para atraso; causa aberta.
+09:54:51,watchdog/servidor,43.975 s / 879 ticks,9019,Segundo maior atraso.,"Nenhum vínculo demonstrado com a amostra do villager, geração ou save.",Alta para atraso; causa aberta.
+09:55:13,watchdog/servidor,7.352 s / 147 ticks,9021,Novo atraso após intervalo de 22 s.,Sem profiler/eventos de chunks correlacionáveis.,Alta para atraso; causa aberta.
+09:55:46,watchdog/servidor,17.508 s / 350 ticks,9022,Atraso contínuo por outro período.,Sem dados para atribuição.,Alta para atraso; causa aberta.
+09:56:07,watchdog/servidor,6.734 s / 134 ticks,9023,Novo aviso.,Sem dados para atribuição.,Alta para atraso; causa aberta.
+09:56:36,watchdog/servidor,13.740 s / 274 ticks,9024,Novo aviso.,Sem dados para atribuição.,Alta para atraso; causa aberta.
+09:56:57,watchdog/servidor,6.097 s / 121 ticks,9025,Novo aviso.,Sem dados para atribuição.,Alta para atraso; causa aberta.
+09:57:45,watchdog/servidor,32.830 s / 656 ticks,9043,Último `Can’t keep up` registrado antes de salvar/parar.,"Sem dados para atribuição; saving só inicia depois, às 09:58:02.",Alta para atraso; saving como causa desses spikes contradito pela ordem temporal.
+09:58:02–09:58:16,salvamento/servidor,—,9048–9065,“Saving and pausing game” seguido por salvamento dos chunks de oito dimensões.,Acontece depois dos picos listados; não explica retroativamente esses warnings.,Alta.
+09:58:24,crash cliente,—,crash-reports/crash-2026-11-13_09.58.24-client.txt,NPE JumpAnimation durante mouseClicked/input na transição de menu; server já estava salvando/desconectando.,Problema separado da causa dos atrasos de tick.,Alta.

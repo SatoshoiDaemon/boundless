@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="combatrollhudfix"
+version="1.1.1"
+displayName="HUD Compatibility Fix"
+displayTest="IGNORE_ALL_VERSION"
+description="Prevents AutoHUD's canceled-overlay cleanup from removing the GUI root matrix. Combat Roll HUD, AutoHUD animations and gameplay remain enabled."
+
+[[mixins]]
+config="combatrollhudfix.mixins.json"
+
+[[dependencies.combatrollhudfix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.combatrollhudfix]]
+modId="combatroll"
+mandatory=true
+versionRange="[1.2.1,)"
+ordering="AFTER"
+side="CLIENT"

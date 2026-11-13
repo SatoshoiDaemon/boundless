@@ -1,0 +1,14 @@
+{
+  "status": "temperature_cutoff",
+  "max_cpu_temp": 88.0,
+  "test": "menu resource reload only; no world opened",
+  "elapsed_seconds": 77,
+  "options_restored": true,
+  "process_detection_corrected": true,
+  "test_game_pids": [
+    9892
+  ],
+  "options_restored_after_process_exit": true,
+  "main_menu_resource_reload_complete": true,
+  "runtime_scope": "Main menu reached and resource reload completed; no world entered"
+}

@@ -1,0 +1,339 @@
+
+[1_general]
+	#Master switch for the entire mod. Off by default? No - ON by default, as expected.
+	#Turn this off to disable every kick type and door-kicking at once, without touching any
+	#other setting below. Checked before anything else, every time a kick is requested.
+	modEnabled = true
+	#If the player throws another kick (NORMAL, SPRINT or - still v1.0.0, on request -
+	#SPRINT_JUMP too, now that it alternates as well, see [6_sprintJumpKick]) within this many
+	#ticks of the previous one, the mod alternates legs (right, then left, then right...) to
+	#simulate spamming the key. Outside of this window, a kick always starts back on the
+	#right leg. Shared by all three kick types, so mixing types still counts toward the same
+	#left/right sequence.
+	#
+	#IMPORTANT: this must stay GREATER than the longest cooldown among normalKickCooldownTicks
+	#/ sprintKickCooldownTicks / sprintJumpKickCooldownTicks (40 by default), or that kick
+	#type's own alternation silently breaks - the earliest it could possibly be thrown again
+	#is right when its cooldown ends, so if this window is shorter than (or equal to) that
+	#cooldown, the game always sees that as 'too long since the last kick' and keeps resetting
+	#back to the right leg every time, no matter how fast the player actually presses the key.
+	#This is a real bug that shipped with a too-low default (30) here against a 40-tick
+	#sprintJumpKickCooldownTicks default - fixed by raising this default; if you lower any
+	#kick type's cooldown, raise this to match (or vice versa).
+	#Range: 1 ~ 20000
+	legAlternationWindowTicks = 50
+	#Flat additive damage bonus granted by the 'Spiked Point' boots enchantment, PER LEVEL:
+	#level I adds this value, level II twice it, level III three times it (+1 / +2 / +3 by
+	#default). Applies the same way regardless of which kick type lands.
+	#Range: 0.0 ~ 1024.0
+	spikedPointDamageBonus = 1.0
+	#Should kicking cause the same food exhaustion as a vanilla melee attack?
+	kickConsumesFood = true
+	#Off by default. When on, the mod never draws its own kicking leg in first-person view
+	#(and no longer pushes your hands down during a kick). Turn this on when you use a mod that
+	#renders your whole body in first person (First Person Model and similar): that mod already
+	#shows the kick animation on your body, so the extra leg would be drawn twice.
+	#The kick itself, its animation in third person and for other players are not affected.
+	hideFirstPersonLeg = false
+
+# Every door - vanilla or modded - is auto-classified into one of two material
+# categories the moment it's kicked, based on its registry name (see metalDoorKeywords):
+#   whitelist1 ("simple"): wood, bamboo, glass, or anything not matching a metal keyword.
+#                            Opens in a single hit from ANY kick type. No self-damage, no
+#                            hit-counting.
+#   whitelist2 ("power"):   iron, steel, copper, or any other metal keyword match.
+#                            A door-forcing-capable kick type (see [4_normalKick]/
+#                            [5_sprintKick]/[6_sprintJumpKick] above) can force it open given
+#                            enough consecutive hits; a kick type that can't force doors does
+#                            nothing to it.
+# A locked SA Decor padlock (if SA Decor is installed and enableSaDecorPadlockCompat in
+# [3_compatibility] is on) is treated the same way as a whitelist2 door for forcing purposes,
+# using the exact same per-kick-type settings, and breaks the padlock instead of just opening
+# a blockstate.
+# enableDoorOverrideLists lets you hand-correct individual doors the automatic keyword match
+# gets wrong, and permanently forbid specific doors from ever being kicked open.
+[2_doors]
+	#Master switch for the whole door-kicking feature. Turn off to make kicks never
+	#interact with doors at all (combat-only kicks).
+	doorKickingEnabled = true
+	#Off by default (v1.1.2). When on, every kicked-open door first fires the same
+	#right-click interaction event a real right-click would, so any OTHER mod's own
+	#lock/claim/anti-grief system also gets a chance to block the kick, exactly like it
+	#would block a real right-click. This is OFF by default because in a large modpack it
+	#can cause unrelated mods that also listen for that same event (menus, quest hooks,
+	#tooltips, etc.) to silently swallow the interaction and stop doors from opening at
+	#all - if you were affected by "doors don't open anymore", this setting is why, and
+	#keeping it off is the fix. SA Decor's own padlock is NOT affected by this toggle -
+	#that check always runs directly against SA Decor's own lock data no matter what this
+	#is set to.
+	respectExternalDoorProtections = false
+	#v1.3.0: how long (ticks) a door 'remembers' consecutive force-kicks toward opening it
+	#before the count resets to zero. Kept short by default (100 ticks = 5 seconds) so forcing
+	#a door means committing to it in one go, not chipping away at it over unrelated visits.
+	#Progress is per-door (by position) and kept only in memory - it does not survive a
+	#server restart.
+	#Range: 1 ~ 20000
+	doorForceProgressResetTicks = 100
+	#Any door whose registry id (e.g. 'sa_decor:gray_steel_door') has one of these keywords
+	#as a WHOLE underscore-separated segment of its path (matching 'gray_steel_door' on
+	#'steel', but NOT matching a hypothetical 'conifer_door' on 'fer') is auto-classified as
+	#a power/metal (whitelist2) door. Everything else defaults to whitelist1 (simple). Add
+	#your own keywords here if a modded door's material isn't being detected correctly - for
+	#a compound word (like Steam Rails' 'locometal'), add the exact segment as it appears in
+	#the registry id, not just a substring of it.
+	metalDoorKeywords = ["iron", "steel", "copper", "metal", "netherite", "gold", "golden", "bronze", "tin", "zinc", "titanium", "aluminum", "aluminium", "lead", "nickel", "platinum", "brass", "chrome", "cobalt", "tungsten", "acier", "fer", "locometal", "industrial", "security", "reinforced", "jail", "armored"]
+	#Was off by default through the previous update; now ON by default (still v1.0.0, no
+	#version bump) so doorWhitelist2Overrides below (which now ships with
+	#'doomsday_decoration:door_14' pre-added, on request) actually takes effect out of the
+	#box. When on, the three override lists below are consulted (checked in order:
+	#doorBlacklist, then doorWhitelist2Overrides, then doorWhitelist1Overrides) BEFORE the
+	#automatic keyword match, so you can hand-correct individual doors.
+	#doorWhitelist1Overrides/doorWhitelist2Overrides are kept in sync automatically: every
+	#door this world has ever seen gets auto-added to whichever list its keyword match
+	#picked, the first time the server starts with a given door installed - this happens
+	#regardless of this toggle. Feel free to move entries between the two lists (or into
+	#doorBlacklist) by hand once they're there - the auto-fill only ever ADDS missing doors,
+	#it never moves or removes an entry you've placed yourself. IMPORTANT if you already had
+	#a config file from before this change: the auto-fill above has almost certainly already
+	#added 'doomsday_decoration:door_14' to YOUR doorWhitelist1Overrides the first time your
+	#server started with that door present, and the auto-fill never removes it from there.
+	#If so, delete that one line from doorWhitelist1Overrides in your existing config (or just
+	#delete the whole config file to regenerate it fresh) so the whitelist2 entry below wins -
+	#as long as the id is in BOTH lists, whitelist2 takes priority, so in practice you may not
+	#even need to touch doorWhitelist1Overrides, but removing it there is the clean fix.
+	enableDoorOverrideLists = true
+	#Registry ids (e.g. 'minecraft:oak_door') or whole-namespace wildcards
+	#(e.g. 'mcwdoors:*') always treated as simple (whitelist1) doors. Only consulted when
+	#enableDoorOverrideLists is true.
+	doorWhitelist1Overrides = ["biomesoplenty:dead_door", "biomesoplenty:empyreal_door", "biomesoplenty:fir_door", "biomesoplenty:hellbark_door", "biomesoplenty:jacaranda_door", "biomesoplenty:magic_door", "biomesoplenty:mahogany_door", "biomesoplenty:maple_door", "biomesoplenty:palm_door", "biomesoplenty:pine_door", "biomesoplenty:redwood_door", "biomesoplenty:umbran_door", "biomesoplenty:willow_door", "born_in_chaos_v1:mesh_door", "born_in_chaos_v1:scorched_planks_door", "cataclysm:door_of_seal", "create:andesite_door", "create:framed_glass_door", "create:train_door", "ecologics:azalea_door", "ecologics:coconut_door", "ecologics:flowering_azalea_door", "ecologics:walnut_door", "eeeabsmobs:blighted_oak_door", "eeeabsmobs:sliding_door", "minecraft:acacia_door", "minecraft:bamboo_door", "minecraft:birch_door", "minecraft:cherry_door", "minecraft:crimson_door", "minecraft:dark_oak_door", "minecraft:jungle_door", "minecraft:mangrove_door", "minecraft:oak_door", "minecraft:spruce_door", "minecraft:warped_door", "netherexp:claret_door", "netherexp:smokestalk_door", "palegardenbackport:pale_oak_door", "quark:ancient_door", "quark:azalea_door", "quark:blossom_door", "ribbits:mossy_oak_door", "snifferplus:stone_pine_door", "tconstruct:bloodshroom_door", "tconstruct:enderbark_door", "tconstruct:greenheart_door", "tconstruct:skyroot_door", "undergarden:grongle_door", "undergarden:smogstem_door", "undergarden:wigglewood_door", "upgrade_aquatic:driftwood_door", "upgrade_aquatic:glass_door", "upgrade_aquatic:river_door", "upgrade_aquatic:tooth_door", "valhelsia_structures:dungeon_door", "valhelsia_structures:dungeon_door_leaf"]
+	#Registry ids or 'modid:*' wildcards always treated as power/metal (whitelist2) doors.
+	#Only consulted when enableDoorOverrideLists is true. Ships with
+	#'doomsday_decoration:door_14' pre-added on request - remove it here if you'd rather it
+	#stayed whitelist1.
+	doorWhitelist2Overrides = ["blocky_siege:cast_iron_door", "blocky_siege:reinforced_acacia_door", "blocky_siege:reinforced_bamboo_door", "blocky_siege:reinforced_birch_door", "blocky_siege:reinforced_crimson_door", "blocky_siege:reinforced_dark_oak_door", "blocky_siege:reinforced_jungle_door", "blocky_siege:reinforced_mangrove_door", "blocky_siege:reinforced_oak_door", "blocky_siege:reinforced_spruce_door", "blocky_siege:reinforced_warped_door", "create:brass_door", "create:copper_door", "doomsday_decoration:door_14", "graveyard:dark_iron_door", "immersive_weathering:exposed_iron_door", "immersive_weathering:rusted_iron_door", "immersive_weathering:waxed_exposed_iron_door", "immersive_weathering:waxed_iron_door", "immersive_weathering:waxed_rusted_iron_door", "immersive_weathering:waxed_weathered_iron_door", "immersive_weathering:weathered_iron_door", "minecraft:iron_door", "supplementaries:gold_door", "supplementaries:netherite_door", "trials:copper_door", "trials:copper_door_exposed", "trials:copper_door_oxidized", "trials:copper_door_weathered", "trials:waxed_copper_door", "trials:waxed_copper_door_exposed", "trials:waxed_copper_door_oxidized", "trials:waxed_copper_door_weathered"]
+	#Registry ids or 'modid:*' wildcards that can NEVER be kicked open, no matter the kick
+	#type or how many hits land. Empty by default - you decide what belongs here. Only
+	#consulted when enableDoorOverrideLists is true.
+	doorBlacklist = []
+
+# Glass breaking: kicking a glass block, stained/tinted glass or a glass pane (vanilla, and
+# modded blocks whose id clearly says glass/pane) breaks it after enough kicks. The block
+# drops nothing, like glass broken by hand. Glass doors are handled by the door settings
+# above, not by this section. Kicks on the same block only add up while each one lands within
+# doorForceProgressResetTicks (see [2_doors]) of the previous one.
+[2b_glass]
+	#Master switch for breaking glass and glass panes with kicks.
+	glassBreakingEnabled = true
+	#How many kicks it takes to break a glass block or a glass pane.
+	#Range: 1 ~ 100
+	glassBreakKicks = 2
+	#Off by default. When on, players in adventure mode can break glass with kicks even
+	#though adventure mode normally forbids breaking blocks. Spawn protection and other
+	#mods' protection or claim systems still apply.
+	glassBreakInAdventureMode = false
+
+# Every toggle for an OPTIONAL integration with another mod, all in one place (new in
+# v1.0.0 - previously scattered between [general] and door-forcing code with no toggle at
+# all). Every one of these does nothing if the mod it names isn't installed.
+[3_compatibility]
+	#If 'Legendary Survival Overhaul' is installed, should kicking also consume a small amount
+	#of thirst (mirroring vanilla hunger exhaustion)?
+	enableLsoThirstCompat = true
+	#If 'Stamina For Tweakers' is installed, should kicking cost stamina and require stamina
+	#to be available at all? Each kick type's own stamina cost is read from SFT directly
+	#where possible, falling back to that kick type's sftFallback*KickCost otherwise.
+	enableSftStaminaCompat = true
+	#If 'SA Decor' is installed, can a door-forcing-capable kick (see doorForceHits in each
+	#kick type's own section) break one of its padlocks the same way it forces open a
+	#power/metal door? This existed since v1.2.0 but had no dedicated toggle until now -
+	#turning it off here makes kicks ignore SA Decor padlocks entirely (the door underneath
+	#is still classified/kicked normally by material, same as if SA Decor weren't installed).
+	enableSaDecorPadlockCompat = true
+	#If 'Legendary Survival Overhaul' is installed, should self-damage from forcing a door/
+	#padlock (see doorForceDamage*Enabled/doorForceDamage in each kick type's own section) be
+	#routed through LSO's own foot/leg body-part injury system instead of generic damage? When
+	#on, each hit that costs self-damage lands on ONE random zone among the right foot, left
+	#foot, right leg or left leg, picked uniformly by this mod's own RNG and applied directly
+	#to that one zone (see LSOCompat#hurtRandomLegOrFoot - this used to call LSO's own
+	#randomHurtBodyParts, but that was found by decompiling LSO 2.4.7 to have an off-by-one
+	#bug that can never pick the last entry of the list it's given, so as of this update this
+	#mod picks the zone itself instead). Off (or LSO not installed): falls back to plain
+	#generic damage, same as before this existed. Doesn't apply to anything except door/
+	#padlock-forcing self-damage - LSO's thirst compat above is separate and unaffected by
+	#this toggle. Note: LSO's own damage-spillover mechanic can still, rarely, push overflow
+	#damage onto a neighbouring body part (including the chest, for a leg hit that exceeds
+	#that leg's remaining health pool) - that's LSO's own design, not something this mod
+	#controls, and is far less likely to matter with the small doorForceDamage values this
+	#mod uses by default.
+	#
+	#IMPORTANT - this OVERRIDES each kick type's own *KickDoorForceDamageEnabled for REAL
+	#health specifically: when this is on and LSO is installed, door/padlock-forcing NEVER
+	#costs real hearts, no matter what *KickDoorForceDamageEnabled says - only LSO's own
+	#body-part health pool is spent. This isn't a design choice, it's working around a real
+	#bug: LSO doesn't just track its foot/leg hit in isolation, it ALSO intercepts real/
+	#generic damage on its own (the same way it intercepts a zombie hit or fall damage) and
+	#redirects a share of THAT to a random body part too - so letting both happen at once
+	#meant a single failed door-force hit produced the intended foot/leg hit PLUS a second,
+	#unrelated random-body-part hit from LSO's own interception of the heart damage. Turn
+	#this toggle off if you want *KickDoorForceDamageEnabled to actually cost real hearts
+	#again while LSO is installed - you'll lose the foot/leg targeting, but avoid the
+	#double-hit bug.
+	enableLsoBodyDamageCompat = true
+
+# A single tap of the kick key, not sprinting.
+[4_normalKick]
+	#Master switch for the normal kick. If off, a plain (non-sprinting) tap of the kick key
+	#does nothing at all.
+	normalKickEnabled = true
+	#Damage dealt by a normal kick. Default is 0.2 above an empty-hand punch (1.0).
+	#Range: 0.0 ~ 1024.0
+	normalKickDamage = 1.2
+	#Knockback strength applied by a normal kick.
+	#Range: 0.0 ~ 10.0
+	normalKickKnockback = 0.35
+	#Cooldown (ticks) before another kick can be thrown after a normal kick.
+	#Range: 1 ~ 20000
+	normalKickCooldownTicks = 20
+	#v1.3.0: can a normal kick force open a power/metal door, or break an SA Decor padlock,
+	#given enough consecutive hits (normalKickDoorForceHits)? Previously (through v1.2.2) a
+	#normal kick could never do this at all.
+	normalKickCanForceDoors = true
+	#Consecutive normal kicks required to force open a power/metal door or break an SA Decor
+	#padlock. Each hit that doesn't yet open the door costs normalKickDoorForceDamage self-damage.
+	#Only matters if normalKickCanForceDoors is true.
+	#Range: 1 ~ 64
+	normalKickDoorForceHits = 3
+	#Should forcing a power/metal or SA Decor-padlocked door with a normal kick cost
+	#self-damage at all? ON by default (still v1.0.0, no version bump) - changed from the
+	#earlier OFF default on request, so the mod behaves consistently "plug and play" out of
+	#the box for everyone rather than needing to be turned on manually. This used to be
+	#implicit in normalKickDoorForceDamage defaulting to 0.0, but that wasn't a discoverable
+	#on/off option in a config GUI, so it's now this explicit checkbox instead. Forcing a
+	#door still fully works either way and still needs the hits below - this only controls
+	#whether it also hurts. Turn this off if you don't want normalKickDoorForceDamage below
+	#to apply.
+	#NOTE: has no effect on REAL health while enableLsoBodyDamageCompat (in
+	#[3_compatibility]) is on and LSO is installed - see that setting's own comment for why.
+	normalKickDoorForceDamageEnabled = true
+	#Self-damage taken for EACH normal kick thrown at a power/metal or SA Decor-padlocked
+	#door while forcing it (see normalKickDoorForceHits). Only applies at all if
+	#normalKickDoorForceDamageEnabled above is true. If enableLsoBodyDamageCompat is on and
+	#LSO is installed, this lands on a random foot/leg via LSO's own injury system instead
+	#of generic damage.
+	#Range: 0.0 ~ 6.0
+	normalKickDoorForceDamage = 1.0
+	#Stamina cost for a normal kick if Stamina For Tweakers' own 'cost per attack' value cannot
+	#be read (e.g. after an SFT update). Normally this is read straight from SFT's own config.
+	#Range: 0.0 ~ 1024.0
+	sftFallbackNormalKickCost = 0.0
+
+# Sprinting (not airborne) + pressing the kick key. New in v1.3.0: sits between the
+# normal kick and the sprint+jump kick in damage, cooldown and knockback, and - like the
+# sprint+jump kick - fires instantly on key press rather than on release.
+[5_sprintKick]
+	#Master switch for the sprint kick. If off, sprinting (without jumping) and pressing the
+	#kick key does nothing at all - it does NOT fall back to a normal kick.
+	sprintKickEnabled = true
+	#Damage dealt by a sprint kick. Default sits between normalKickDamage (1.2) and
+	#sprintJumpKickDamage (1.75).
+	#Range: 0.0 ~ 1024.0
+	sprintKickDamage = 1.45
+	#Knockback strength applied by a sprint kick.
+	#Range: 0.0 ~ 10.0
+	sprintKickKnockback = 0.7
+	#Cooldown (ticks) before another kick can be thrown after a sprint kick.
+	#Range: 1 ~ 20000
+	sprintKickCooldownTicks = 30
+	#Can a sprint kick force open a power/metal door, or break an SA Decor padlock, given
+	#enough consecutive hits (sprintKickDoorForceHits)?
+	sprintKickCanForceDoors = true
+	#Consecutive sprint kicks required to force open a power/metal door or break an SA Decor
+	#padlock. Each hit that doesn't yet open the door costs sprintKickDoorForceDamage self-damage.
+	#Only matters if sprintKickCanForceDoors is true.
+	#Range: 1 ~ 64
+	sprintKickDoorForceHits = 2
+	#Should forcing a power/metal or SA Decor-padlocked door with a sprint kick cost
+	#self-damage at all? ON by default, same reasoning as normalKickDoorForceDamageEnabled
+	#above. Turn this off if you don't want sprintKickDoorForceDamage below to apply.
+	#NOTE: has no effect on REAL health while enableLsoBodyDamageCompat (in
+	#[3_compatibility]) is on and LSO is installed - see that setting's own comment for why.
+	sprintKickDoorForceDamageEnabled = true
+	#Self-damage taken for EACH sprint kick thrown at a power/metal or SA Decor-padlocked
+	#door while forcing it (see sprintKickDoorForceHits). Only applies at all if
+	#sprintKickDoorForceDamageEnabled above is true - the LSO foot/leg routing applies here
+	#too.
+	#Range: 0.0 ~ 6.0
+	sprintKickDoorForceDamage = 1.5
+	#Stamina cost for a sprint kick if Stamina For Tweakers' own value cannot be read. SFT has
+	#no dedicated 'sprint kick' stat of its own, so its generic 'cost per attack' value is used
+	#when available, same as the normal kick; this is only the fallback used otherwise.
+	#Range: 0.0 ~ 1024.0
+	sftFallbackSprintKickCost = 2.0
+
+# Sprinting + airborne ('jumping') + pressing the kick key. Always instant.
+# Still v1.0.0, on request: now alternates legs (right, then left...) the same way the normal
+# and sprint kicks do - through v1.3.0 this always rendered on the right leg only, see
+# legAlternationWindowTicks in [1_general].
+[6_sprintJumpKick]
+	#Master switch for the sprint+jump kick. If off, sprinting + jumping + pressing the kick
+	#key does nothing at all.
+	sprintJumpKickEnabled = true
+	#Damage dealt by a sprint+jump kick.
+	#The spec describes this attack as roughly x1.25 a normal kick's damage; this is the actual
+	#number applied and can be tuned independently of normalKickDamage.
+	#Range: 0.0 ~ 1024.0
+	sprintJumpKickDamage = 1.75
+	#Knockback strength applied by a sprint+jump kick.
+	#Range: 0.0 ~ 10.0
+	sprintJumpKickKnockback = 1.1
+	#Cooldown (ticks) before another kick can be thrown after a sprint+jump kick.
+	#Range: 1 ~ 20000
+	sprintJumpKickCooldownTicks = 40
+	#Can a sprint+jump kick force open a power/metal door, or break an SA Decor padlock, given
+	#enough consecutive hits (sprintJumpKickDoorForceHits, 1 by default)? Through v1.2.2 this
+	#was the ONLY kick type able to do this at all; as of v1.3.0 all three kick types can.
+	sprintJumpKickCanForceDoors = true
+	#Consecutive sprint+jump kicks required to force open a power/metal door or break an SA
+	#Decor padlock. Default 1 (unchanged from v1.2.0-v1.2.2): a single sprint+jump kick is
+	#still enough on its own. Each hit that doesn't yet open the door costs sprintJumpKickDoorForceDamage self-damage.
+	#Range: 1 ~ 64
+	sprintJumpKickDoorForceHits = 1
+	#Should forcing a power/metal or SA Decor-padlocked door with a sprint+jump kick cost
+	#self-damage at all? ON by default, same reasoning as normalKickDoorForceDamageEnabled
+	#above. Turn this off if you don't want sprintJumpKickDoorForceDamage below to apply.
+	#NOTE: has no effect on REAL health while enableLsoBodyDamageCompat (in
+	#[3_compatibility]) is on and LSO is installed - see that setting's own comment for why.
+	sprintJumpKickDoorForceDamageEnabled = true
+	#Self-damage taken for EACH sprint+jump kick thrown at a power/metal or SA Decor-padlocked
+	#door while forcing it. Only applies at all if sprintJumpKickDoorForceDamageEnabled above
+	#is true - the LSO foot/leg routing applies here too.
+	#Range: 0.0 ~ 6.0
+	sprintJumpKickDoorForceDamage = 2.0
+	#Informational only (documents the spec's 'x1.25' intent). The actual damage dealt is
+	#controlled by sprintJumpKickDamage above; this value is not separately applied to it.
+	#Range: 1.0 ~ 10.0
+	sprintJumpDamageMultiplier = 1.25
+	#Stamina cost for a sprint+jump kick if Stamina For Tweakers' own 'cost per jump' value
+	#cannot be read. Normally this is read straight from SFT's own config.
+	#Range: 0.0 ~ 1024.0
+	sftFallbackSprintJumpKickCost = 4.0
+
+# Still v1.0.0, on request: individually-toggleable checks that block a player from
+# kicking at all while in one of these physical states/activities. Every toggle here defaults
+# to ON ("tout activé par défaut", same plug-and-play philosophy as [3_compatibility]).
+# Checked identically on both the client (ClientKickInputHandler, purely for responsiveness -
+# no request is even sent) and the server (ServerKickHandler, the authoritative check).
+# A blocked kick fails silently, exactly like being on cooldown.
+[7_kickEligibility]
+	#Block kicking while riding ANY entity - a horse/donkey/mule/camel/pig/strider, a boat or
+	#chest boat, a minecart, or any modded vehicle (checked generically via Player#isPassenger,
+	#so this covers a car/plane/etc from a modded vehicle mod too, not just vanilla mounts).
+	blockKickWhenMounted = true
+	#Block kicking while climbing a vanilla ladder or vine (checked via Player#onClimbable,
+	#so this also covers any modded block registered in the climbable block tag).
+	blockKickWhenClimbing = true
+	#If 'ParCool' is installed, block kicking while the player is actively doing a ParCool
+	#parkour action (vaulting, wall-climbing, sliding, rolling, etc - anything ParCool's own
+	#Parkourability#isDoingNothing reports as false). Does nothing if ParCool isn't installed.
+	blockKickWhenParkour = true
+

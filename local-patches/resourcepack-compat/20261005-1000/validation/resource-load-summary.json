@@ -1,0 +1,24 @@
+{
+  "emf_errors": [],
+  "emf_warnings": [],
+  "font_provider_errors": [],
+  "full_resource_reload_completed": true,
+  "runtime_scope": "Startup/menu only; no world opened; ended after CPU threshold observed",
+  "existing_other_errors": [
+    "[05Oct2026 10:03:28.433] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify \"minVersion\" property",
+    "[05Oct2026 10:03:28.481] [main/ERROR] [mixin/]: Mixin config cameraoverhaul.mixins.json does not specify \"minVersion\" property",
+    "[05Oct2026 10:03:28.506] [main/ERROR] [mixin/]: Mixin config reactivemusic-common.mixins.json does not specify \"minVersion\" property",
+    "[05Oct2026 10:03:28.654] [main/ERROR] [mixin/]: Mixin config dodospyglass.mixins.json does not specify \"minVersion\" property",
+    "[05Oct2026 10:03:42.774] [Render thread/ERROR] [Embeddium-MixinTaintDetector/]: Mod mixin into Embeddium internals detected. This instance is now tainted. The Embeddium team does not provide any guarantee of support for issues encountered while such mods are installed.",
+    "[05Oct2026 10:04:02.536] [Worker-Main-1/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair",
+    "[05Oct2026 10:04:03.920] [pool-6-thread-1/ERROR] [Moonlight/]: fromAnimatedImage - Palette mask cataclysm:item/music_disc_maledictus needs to be at least as large as the target image amendments:block/music_discs/music_disc_mask and have the same frame count. You must alter the mask's 16x16 to match the texture size's 16x208",
+    "[05Oct2026 10:04:03.993] [Worker-ResourceReload-0/ERROR] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Could not generate heavy leaf pile texture for type biomesoplenty:null",
+    "[05Oct2026 10:04:04.361] [Worker-Main-1/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair",
+    "[05Oct2026 10:04:06.536] [Worker-ResourceReload-0/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model twilightforest:models/block/giant_leaves.json",
+    "[05Oct2026 10:04:07.201] [Worker-ResourceReload-0/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model v_slab_compat:models/block/vertical_slab_template.json",
+    "[05Oct2026 10:04:07.442] [Worker-ResourceReload-0/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model minecraft:models/item/firstperson/axe/enchanted_axe.json",
+    "[05Oct2026 10:04:07.695] [Worker-ResourceReload-0/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model v_slab_compat:models/item/vertical_slab_template.json",
+    "[05Oct2026 10:04:14.331] [Worker-ResourceReload-2/ERROR] [ModernFix/]: A mod is calling registerReloadListener at the wrong time. This will cause random concurrency crashes when ModernFix is not installed. Please report this to them. If you are a modder, refer to https://github.com/embeddedt/ModernFix/wiki/registerReloadListener-called-on-wrong-thread for more information."
+  ],
+  "options_restored": true
+}

@@ -1,0 +1,63 @@
+{
+  "active_packs": {
+    "artisans": {
+      "replace_with_version": "GRCQqXnf",
+      "note": "Release oficial 2.0 marcada 1.20.1, pack_format9 causa aviso de pack antigo; assets tradicionais1.20.1. Não alterar pack.mcmeta para mascarar."
+    },
+    "rain": {
+      "replace_with_version": "yxmvFbtN",
+      "note": "Release específica1.20–1.20.1 tem pack_format15."
+    },
+    "armor-stands": {
+      "only_official_release": "NNFbgODp",
+      "official_game_versions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "recommendation": "Preservar se usuário quer modelo base; documentar suporte parcial e não fingir release1.20.1.",
+      "technical_limitations": [
+        "assets/minecraft/items/armor_stand.json utiliza condição/seleção de minecraft:custom_name inexistente em1.20.1, assim ícones de itens renomeados não mudam.",
+        "Equipamento agora corrigível com overlay local: items.1=any evita estrutura equipment pós1.21.5 e bug de índices do parserNBT7.2.5. Modelo padrão quando armado, variantes decorativas quando vazio.",
+        "JEMs usam parts tradicionais e funções simples; modelo base e skins nomeadas de entidades provavelmente funcionam com EMF/ETF existentes. Requer confirmação em jogo."
+      ],
+      "local_overlay": "/tmp/other-resource-audit/local-overlay-manifest.json"
+    }
+  },
+  "inactive_packs": {
+    "extensions": {
+      "replace_with_version": "RfJ3uz2J",
+      "keep_inactive": true,
+      "note": "Release1.8.1 usa pack_format15+overlays para novos MC; exige Fresh Animations. Inativa evita colisões com AL."
+    },
+    "skeleton-physics": {
+      "no_official_1_20_1_release": true,
+      "minimum_official_version": "1.20.2",
+      "recommendation": "Arquivar zip26.1 fora de resourcepacks; nenhuma substituição oficial1.20.1 encontrada."
+    }
+  },
+  "gui": {
+    "current_pack": "PCGR5Y1W/7grstCHa",
+    "note": "Release atual marcada suporte1.20.1 e pack_format15; vanilla GUI funciona, custom chest/end chest/shulkers + animações precisam OptiGUI/Animatica ou OptiFine. OptiGUI apenasFabric/Quilt; sem Connector/OptiFine não há habilitador simplesForge1.20.1 identificado.",
+    "alternative": {
+      "name": "Colourful Containers [Forge Workbench UI]",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/workbench-ui-plus",
+      "version": "wbui-1.1",
+      "minecraft": "1.20.1",
+      "loader": "Forge",
+      "dependencies": [],
+      "note": "É port oficial em mod com arte própria, não dependência genérica do Dark Mode GUI existente. Implicaria substituição de estilo; não baixado nem instalado."
+    }
+  },
+  "sources": [
+    "https://modrinth.com/resourcepack/artisans-armory/version/2.0",
+    "https://modrinth.com/resourcepack/alternative-rain-sounds/version/1.20-1.20.1",
+    "https://modrinth.com/resourcepack/fresh-animations-extensions/version/1.8.1",
+    "https://modrinth.com/resourcepack/fresh-skeleton-physics",
+    "https://modrinth.com/resourcepack/als-armor-stands-revamped",
+    "https://modrinth.com/mod/optigui",
+    "https://www.curseforge.com/minecraft/mc-mods/workbench-ui-plus",
+    "https://www.minecraft.net/pt-br/article/minecraft-java-edition-1-21-5"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "target": "Minecraft 1.20.1 Forge 47.4.10",
+  "downloaded": [
+    {
+      "name": "Default-Dark-Mode-1.20-2023.7.0.zip",
+      "source": "https://www.curseforge.com/minecraft/texture-packs/default-dark-mode/files/4633979",
+      "sha1": "fc488eca9d771b6bd7ce5c651793d812a0adb1ae",
+      "sha512": "52012b320a1d6e7c5c1e391cd475cc8d733b954a99f227131c2a7271198b403c3e2ce06cbfacb61328936c7618792a6a6a6ce557a1f82bbf95232e19dec1306e"
+    }
+  ],
+  "already_installed_and_verified": [
+    "FreshAnimations_v1.10.4.zip",
+    "AL's Creepers Revamped 1.3.zip",
+    "Local - AL Creepers 1.3 with Fresh Animations 1.10.4.zip",
+    "AL's Skeletons Revamped+FA 1.3.1.zip",
+    "AL's Zombies Revamped+FA 1.3.zip",
+    "Visual Titles 1.3.zip"
+  ],
+  "selected_archive_validation": [
+    {
+      "name": "Fancy Crops v1.3.zip",
+      "size": 92779,
+      "sha1": "788e5169eb064b696b2e20d4c5d998cceb387a2e",
+      "sha512": "ce8e34ce76f5368169722f9949edf372af5d9e1d3c262395006a5a1561ed7bae1259b9d69e4838914d637817f611283bfaf8be07c7b45b317fd2bdb22f32b7e3",
+      "entries": 139
+    },
+    {
+      "name": "Better-Leaves-9.6.zip",
+      "size": 1977146,
+      "sha1": "fa3a961b82a9f15a4e80b1f7f021bc121649f073",
+      "sha512": "793dacaca4c200656e8875195e42975ecb628af114e13aad2059368b51cf45f00280f86075368e9adf492e847718a9d593bdf481664e10cf1aa9628d2a51a8d6",
+      "entries": 4717
+    },
+    {
+      "name": "§8§lDarkmode §f§lColourful Containers§8.zip",
+      "size": 771993,
+      "sha1": "89b9b71e2d1b52ebb881ee22e1837f0240ea6dc9",
+      "sha512": "49db160f134828c7c43d33ba6c9b6dcf0f56fda8a224cc9b35c2fae0dd15d8ed84e53d37524f54be065bbaabc50d7cb88bf86dc0eaf310d19a42d813fa0247ba",
+      "entries": 667
+    },
+    {
+      "name": "EnderEyes_26.3_v3.1.zip",
+      "size": 251632,
+      "sha1": "f0b2226223ad8e9aa58f27fcadb7eb6b0f43ce29",
+      "sha512": "1da342991bba29dfd068ab83b883576fed309f4ba19719cb47d391f2a145dea71df21bdc09f36b79721f98c9bc44cc6ccc1ea08371b8af355e0bb3e0cc76aaa3",
+      "entries": 198
+    },
+    {
+      "name": "Enchantment Outlines.zip",
+      "size": 1220387,
+      "sha1": "517bd444ea55bd23d2a15856edeebce7a3a225b1",
+      "sha512": "c1ddfaa7ec27d72c1ee611667988ca2dfb26d5ac49b89bfbb837d7476df816b457e24488240a75ed929f9d44bf5c093b02bd2a56cb499316a247d36903fcde47",
+      "entries": 1888
+    },
+    {
+      "name": "Enhanced Audio r7.zip",
+      "size": 18977120,
+      "sha1": "2cd4bd529641bde061c2d2d4c44de3228fd6d767",
+      "sha512": "7db245933253d731c8df3060d85629ce984c98568f02e022d79466882c97485b6237d4b5df5f1075c0f61dfd7dd3344a5ba7a3e6a4e2a64372c14ada211451fe",
+      "entries": 746
+    },
+    {
+      "name": "Enhanced Audio Ambience r2.zip",
+      "size": 10791718,
+      "sha1": "48197034431ec37e00f08b018e4d01afd03214e1",
+      "sha512": "ed5b824cc22679e276a74ba4f3a3527c433a9c0bf52184950fef14ff60c89bb5397c00b10092b8873f52fd2fff2f2321844abfded0d1a9354c21f7166574d19c",
+      "entries": 75
+    },
+    {
+      "name": "JustExpressions_v1.2.1.zip",
+      "size": 262755,
+      "sha1": "4485a851140d337fa8ecca25939db3be50a3ba59",
+      "sha512": "f20f3960caf66863dc7fd99f2cb1a32d574c1861e2b5b7ebb8551b1072460d834c8d680359e2c231888fb324519f350eb7f22c5ae955b04831db87564696a42d",
+      "entries": 40
+    },
+    {
+      "name": "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+      "size": 321871,
+      "sha1": "7049cc12935ff4be20173c908ad946f530861a4c",
+      "sha512": "40daf2d7bbccd19d38637adc2d14df1e16685aacd6c00af22d686b547d8df675246170137b7372139d34dcb9ad4c3f8606222bc771a85a335242c760254c99b3",
+      "entries": 35
+    },
+    {
+      "name": "[1.6] Enhanced Boss Bars.zip",
+      "size": 109140,
+      "sha1": "0c4978ce9daa8343189cffb55f0ad0f096718f50",
+      "sha512": "4abb98ea60fd15c1f19c59f82c69d44003cf575dab13d31728f51145a567f392d6cd68779f5305da4f6448d1c9bd819503b6cabea19092c44206060a9fa1e3c7",
+      "entries": 139
+    },
+    {
+      "name": "§5§lModded §f§lContainers §8§lDark§8.zip",
+      "size": 1494702,
+      "sha1": "45151b0164876800ffd52644ee081c438ea17ad2",
+      "sha512": "deb0080304affd602e9c5fcdee2f5444587e1dc18367275a65f5016e7c3e2617528c82a40a8e0bf046d80ad2956d653196fbca6901d3b6c4206e24a5c872fbd3",
+      "entries": 580
+    },
+    {
+      "name": "Artisans_Armory_2-0.zip",
+      "size": 681145,
+      "sha1": "1652568a78d97102ab9b1d8241332e15c0d71d76",
+      "sha512": "2b3d4732590a6333f18f854f6044025a716a9c800e98ce6a0fcc0473fe0a7ac06593085450f8ddf07249b40d9f9b923ffce903b35b2e44ea8477fb4d57128c34",
+      "entries": 128
+    },
+    {
+      "name": "Ender_Dragon_Reborn-1.1.zip",
+      "size": 515764,
+      "sha1": "3d3fcac4231f237b2d18e4caa6e6c7ba8678e27e",
+      "sha512": "aaf69d047de8c64d944364bc288f4ec009d2712b7794a78b52824e91ee29699cc928621a89c84f1a0906fe56899cbba381de2eb50dca77853532df190ef98d4c",
+      "entries": 97
+    },
+    {
+      "name": "Slightly-Improved-Font-1.1.5.zip",
+      "size": 74599,
+      "sha1": "da836f13d948d0024a6aa5818beb3b06102bbe40",
+      "sha512": "f7d8bade8f1e924e06e062beda759fda2e390bcac4d7200b11938f87128f22dc931e929de5ddfc1f80be3ad5dbc00b18c7299f804aa1b3264423a4defc275308",
+      "entries": 11
+    },
+    {
+      "name": "[Compressed] Alternative Rain Sounds 1.20-1.20.1.zip",
+      "size": 812169,
+      "sha1": "a803d7dfda56bbb1a68272ca8199569969036641",
+      "sha512": "ec4a29b0d865240a8402ec62f3f88f34b05c2c7c5b9b6dca36e0fa171491d9edc8426905e05a4cab0a5954e720a8e586cdd65486baa78e0eb87ffc20050be529",
+      "entries": 20
+    },
+    {
+      "name": "FreshAnimations_v1.10.4.zip",
+      "size": 850941,
+      "sha1": "73db740a6868e043c5e615c036fca2c912615b6e",
+      "sha512": "41258f9bea1a773d823f9a014d0c08206e9e7b339bc538e1538211fff28fadd06878a836d292cbb636ed6829cd2801a509368ae3eb3ad4bedf42190a0d5f7a90",
+      "entries": 574
+    },
+    {
+      "name": "HumanEraVillagersIllagers[3.91.6].zip",
+      "size": 11292169,
+      "sha1": "c63d36e8eb099cf1add98c5a39a1cf9d67f6ada9",
+      "sha512": "59f083afcfdf326cfd1fbd536db29bde9ecc4e3e7dae1d8574baadf2ac32e569854b1bba258768b47f9c8bdec40c87776b1d7c7a4a349cff059ec6fe21734be1",
+      "entries": 5036
+    },
+    {
+      "name": "HEVI FreshAni Activator Fix 2.zip",
+      "size": 461736,
+      "sha1": "1d51c2e933cd9c45d235816ed57cae31e8271736",
+      "sha512": "201478ebe4cd2616fd754bc4871a848376a354decd2ca24690dcfc020da8fc7e55f86f0b5242da59d0ff20d7fd9695e4313c14b6a8db85b80bb6d24d54557c58",
+      "entries": 198
+    },
+    {
+      "name": "AL's Armor Stands Revamped.zip",
+      "size": 398472,
+      "sha1": "d0be625d2c21885b25848672f4a34d7d2a30cebd",
+      "sha512": "7a9f383233c590b83cda77eb4d64d7f3949e8bb6015a4084256c1a8dfdcf1eef51ed780499b7620dd985d8fdd5dd9f36ec00e05cc85cf38e9e5244e67eba9c56",
+      "entries": 84
+    },
+    {
+      "name": "AL-Armor-Stands-local-1.20.1.zip",
+      "size": 2117,
+      "sha1": "7a729f140dff90793fe87e1ae29a92fa1c5ab2b6",
+      "sha512": "644e67aacec3441adce89223f08d3e489eb431422ccbe069a0e09ef1ff086fd797a7a6d267b56403c8d090db60b9c5115a8f9c247ea5af6b1cbf9128db74849e",
+      "entries": 3
+    },
+    {
+      "name": "AL's Creepers Revamped 1.3.zip",
+      "size": 171432,
+      "sha1": "cf3f673dcdeb8b29b373f149293950c07476b669",
+      "sha512": "a2f8457580d037ed9dcfa2253bf44d45035ab2c7b611b6a52e66fb7470af95f81c4cd992e789c2252463be8c383004eadcbc72b07186f5ad639fbd7f73b51a04",
+      "entries": 21
+    },
+    {
+      "name": "Local - AL Creepers 1.3 with Fresh Animations 1.10.4.zip",
+      "size": 8476,
+      "sha1": "ebcd1d45f1b15b778f67f4b3efd6ba000841fee0",
+      "sha512": "bd76d9e5c561ba15dddb5a7dc91fdaa84b42cdfbcd456565ebff74465af7b5ee6e0d07db25fa2eb669ab3afda3946f1493860050640306f36c9ae5f7afd86f45",
+      "entries": 5
+    },
+    {
+      "name": "AL's Skeletons Revamped+FA 1.3.1.zip",
+      "size": 369123,
+      "sha1": "01b562561a9897ac079979cb138771a033b6cc5c",
+      "sha512": "62b9ab144c70f97b0e8434680ed855de4b50bae19de200ec5d3670936c890a973880ffda5174f6629b5e2ab68e2803f0ad116ee985ca66cf15bb195eee128f9a",
+      "entries": 91
+    },
+    {
+      "name": "AL's Zombies Revamped+FA 1.3.zip",
+      "size": 821980,
+      "sha1": "f12ddb5448a4813afa1999973194f0975444a013",
+      "sha512": "12c503b0551cd37d4a375ee6d2032b676ef6b89fe1978d1cac2268fb7b60987cfb3a38cb830d345cf522a28f0c83982d03afbbb1fd26ca9a809c2d90f52bd408",
+      "entries": 134
+    },
+    {
+      "name": "Visual Titles 1.3.zip",
+      "size": 444982,
+      "sha1": "80a1efaf621d7b376b0ce8e5fab7462ed10b9ce3",
+      "sha512": "548cd46223a96142463646f613ecdec004226bed46e71c990ab3ddee5e8f55e20a3e326f916f6dd5c936f0d0e975534b86a6b094f8065ff873dd5f132191dc97",
+      "entries": 209
+    }
+  ],
+  "visual_titles_index": "Modrinth project Z6cnZeGU version AwVu5ygs; installed SHA512 matches previous official manifest",
+  "known_limit": "AL Armor Stands has no official 1.20.1 release. Its local compatibility overlay is enabled above the original pack."
+}

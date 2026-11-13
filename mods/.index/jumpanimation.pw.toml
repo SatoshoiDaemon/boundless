@@ -1,0 +1,21 @@
+filename = 'jumpanimation-2.0.0-1.20.1.jar'
+name = 'JumpAnimation'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jumpanimation-2.0.0-1.20.1'
+
+[download]
+hash = 'b955cb42d41e788174db3b638e668e68e5fbf8f0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6433673
+project-id = 944006
+
+[[x-prismlauncher-dependencies]]
+addonId = '658587'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'chatanimation-forge-1.3.4+mc1.20.1.jar'
+name = 'Chat Animation [Smooth Chat]'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.4'
+
+[download]
+hash = '0de86b4545b00dc0d06dd5c11d053279b0133523'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9069806
+project-id = 892086

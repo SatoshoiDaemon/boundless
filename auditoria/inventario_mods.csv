@@ -1,0 +1,492 @@
+﻿mod_id;nome_no_loader;versoes_reportadas;artefatos_reportados;ocorrencias_na_tabela;mixin_configs;hash_modrinth;hash_curseforge;fonte
+aggrofix;Aggro Fix;2.0.0;mods/aggrofix-1.20.1-v2.0.1.jar;1;;4afb8974ef1975016312ff0637411f8ef5662f68;3520439838;logs/modlist.txt
+aiimprovements;AI-Improvements;0.5.2;mods/AI-Improvements-1.20-0.5.2.jar;1;;11ad483d1fd1f7ebd84b4940b1dc0926b3e9daa8;2983526960;logs/modlist.txt
+alexsmobs;Alex's Mobs;1.22.9;mods/alexsmobs-1.22.9.jar;1;citadel.mixins.json;dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f;1000930585;logs/modlist.txt
+alternate_current;Alternate Current;1.7.0;mods/alternate_current-mc1.20-1.7.0.jar;1;alternate-current.mixins.json;02def44a2c416459ee5daecbe1caa6d78571e205;3174366965;logs/modlist.txt
+ambientadditions;Ambient Additions;1.20.1-1.1.2;mods/ambientadditions-1.20.1-1.1.2.jar;1;ambientadditions.mixins.json;54cc1706b7d591ced432081420f2b3fcea344e3d;795057518;logs/modlist.txt
+ambientenvironment;Ambient Environment;11.0.0.1;mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar;1;ambientenvironment.mixins.json;821b958ee15d97b19583d00f9513093147417540;2485496832;logs/modlist.txt
+ambientsounds;AmbientSounds;6.3.9;mods/AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar;1;ambientsounds.mixins.refmap.json, ambientsounds.mixins.json;28441539a998b5e0822176d8db7b8594042bacbf;3683828254;logs/modlist.txt
+amendments;Amendments;1.20-2.2.6;mods/amendments-1.20-2.2.6.jar;1;amendments-common.mixins.json, amendments.mixins.json;dc79f8c5326b059c8f136765b4bca826147cf2d7;1476823960;logs/modlist.txt
+amplified_nether;Amplified Nether;1.2.15;mods/Amplified_Nether_26.2_v1.2.15.jar;1;;a7bef32334559d8d747f0ca61520656c68c05336;1753969534;logs/modlist.txt
+anvilrepairing;AnvilRepairing;4.0.10;mods/AnvilRepairing-Forge-1.20.1-4.0.10.jar;1;;13d8a1b9a569ab1244acc01883da1e7c01d8070a;2161804363;logs/modlist.txt
+apotheosis;Apotheosis;7.4.8;mods/Apotheosis-1.20.1-7.4.8.jar;1;apotheosis.mixins.json;e508c4724a24f0c80836818fcdd3df6424b1fc40;4213312087;logs/modlist.txt
+apothiccombat;Apothic Combat;1.1.0;mods/ApothicCombat-1.20.1-1.1.0.jar;1;apothiccombat.mixins.json;6e23435c5b6baef09b5e697d5a1b431d88c19837;3932109932;logs/modlist.txt
+appleskin;AppleSkin;2.5.1+mc1.20.1;mods/appleskin-forge-mc1.20.1-2.5.1.jar;1;;81919356f84eab14258db98924b66c3c38e372b1;1671637789;logs/modlist.txt
+aquaculture;Aquaculture 2;2.5.7;mods/Aquaculture-1.20.1-2.5.7.jar;1;;308a0e92401e29bdb9cae24532a3b07a1bf6e757;3842956886;logs/modlist.txt
+aquamirae;Aquamirae;7.1.14;mods/aquamirae-forge-1.20.1-7.1.14.jar;1;aquamirae.mixins.json, aquamirae.forge.mixins.json;5b84a5387300910aef9c07c33308ce33110be515;887475325;logs/modlist.txt
+aquamirae_mod_extra_music;Aquamirae Mod EXTRA Music;1.0.0;mods/Aquamirae Mod Boss Music Tweaks 1.20.1 v1.1.0.jar;1;;3cd130f137bba8429dec78b943db6ddc47a306d4;2068271261;logs/modlist.txt
+aquamiraexbettercombat;Aquamirae x Better Combat;1.0;mods/aquamirae_bettercombat.jar;1;;ad9570e2f63f0b9ce165335f170a82c175abc4f4;680705008;logs/modlist.txt
+architectury;Architectury;9.2.14;mods/architectury-9.2.14-forge.jar;1;architectury.mixins.json, architectury-common.mixins.json;a52918a500ff421180a1cbd1a0cabee712134ec4;98480002;logs/modlist.txt
+armageddon_ai_tweaks;Armageddon AI Tweaks;1.5;mods/armageddon_ai_tweaks-1.5-all.jar;1;armageddon_ai_tweaks.mixins.json;ce46c5bac563b44a9b0075bcd1703fc38e566b08;1792126679;logs/modlist.txt
+armageddon_boss_dimensions;Armageddon Boss Dimensions;2.8;mods/armageddon_boss_dimensions-2.8.jar;1;;01bba0ad4b6d0a16c02553dd206db4be95b2af7f;148028820;logs/modlist.txt
+armageddon_mod;Armageddon;3.3.0;mods/Armageddon for Forge 1.20.1 (v3.3.0b) - Polished.jar;1;mixins.armageddon_mod.json;3f582245488065ca17610cfbb572d9cb252215ea;630941541;logs/modlist.txt
+artifacts;Artifacts;9.5.19;mods/artifacts-forge-9.5.19.jar;1;mixins.artifacts.forge.json, mixins.artifacts.common.json;91ab6fc2cc208550f7fc37c43e42eba81eff318e;530214686;logs/modlist.txt
+astikorcartsredux;AstikorCarts Redux;1.2.5;mods/astikorcartsredux-1.2.5.jar;1;astikorcartsredux.mixins.json;77a95e6f367d286d903ea2bc2aa7145f2ec7108f;3640812920;logs/modlist.txt
+attributefix;AttributeFix;21.0.5;mods/AttributeFix-Forge-1.20.1-21.0.5.jar;1;attributefix.mixins.json;76d6b2d0f2a3c9842587ad20666ba419cd8c1efa;3762486546;logs/modlist.txt
+attributeslib;Apothic Attributes;1.3.7;mods/ApothicAttributes-1.20.1-1.3.7.jar;1;attributeslib.mixins.json;1dc0744d17f0861fe6b067798d39abce9d8e0e86;2709009994;logs/modlist.txt
+autohud;Auto HUD;8.6;mods/autohud-8.6+1.20.1-forge.jar;1;autohud-compat.mixins.json, autohud.mixins.json;2d01b28f4761a076afef96b7aa95c930a6e5925a;3561593868;logs/modlist.txt
+awcapi;Advanced Wall Climber API;1.0.3;/META-INF/jarjar/awcapi-neoforge-1.20.1-1.0.3.jar;1;awcapi.mixins.json;;;logs/modlist.txt
+badoptimizations;BadOptimizations;2.4.1;mods/BadOptimizations-2.4.1-1.20.1.jar;1;forge-badoptimizations.mixins.json, fabric-badoptimizations.mixins.json;304007dcb0fb15ed1a1bc3771736470dafc5be0f;3405088325;logs/modlist.txt
+baguettelib;BaguetteLib;2.0.7;mods/baguettelib-1.20.1-Forge-2.0.7.jar;1;baguettelib.forge.mixins.json;e4f18588d02137f34989393fad5a7369ef03a862;578588602;logs/modlist.txt
+balm;Balm;7.3.44;mods/balm-forge-1.20.1-7.3.44.jar;1;balm.mixins.json;dae7e647fc54609e66e4f910931be65776352b72;2828349029;logs/modlist.txt
+bc_particle;Better Combat Particle;0.0.6-forge-1.20.1;mods/bc_particle-0.0.6-forge-1.20.1.jar;1;;3d309df955df5e936524dce787bb833aead4e415;1940083731;logs/modlist.txt
+bcc;Better Compatibility Checker;3.0.1-build.58+mc1.20;mods/BetterCompatibilityChecker-3.0.1-build.58+mc1.20.jar;1;bcc.mixins.json;5c63ec18176fdf072c3b8d0fb7e8445ed73b9b86;44084310;logs/modlist.txt
+beaconrevisioned;BeaconRevisioned;1.2.0;mods/BeaconRevisioned-V1.2-1.20.1.jar;1;;6e6dea5fca650506e853e2aeca7f084948e0a4f5;2621146200;logs/modlist.txt
+bedspreads;Bedspreads;6.3.0+1.20.1;mods/bedspreads-forge-6.3.0+1.20.1.jar;1;bedspreads.mixins.json;37e18532608a0f5d6f9efa200c0c71a734f4f8dd;1531614848;logs/modlist.txt
+better_beacons;Better Beacons;2.0.0;mods/BetterBeacons-Forge-1.20.1-2.0.0.jar;1;better_beacons.mixins.json, better_beacons-common.mixins.json;af05241e1b25d6d843464a9b335d21002badd31e;1223754412;logs/modlist.txt
+better_climbing;Better Climbing;3;mods/better_climbing-forge-3.jar;1;better_climbing.xplat_mixins.json;74558f3499d9e5e1f4e29e0163781c594df52eb8;309488169;logs/modlist.txt
+better_combat_reach_fix;Better Combat Reach Fix;1.0.0;mods/better_combat_reach_fix-1.1.0.jar;1;better_combat_reach_fix.mixins.json;1908485d9e5397e1c87cca6c07f450b161480582;792938853;logs/modlist.txt
+better_spellcasting;Better Spellcasting;1.0.0;mods/better_spellcasting-1.20.1-1.2.0.jar;1;;d61725bc90ba1c861b2075b6b583695621ff62b8;1455160947;logs/modlist.txt
+betterbiomereblend;Better Biome Reblend;1.5.3;mods/betterbiomereblend-1.5.3.jar;1;betterbiomeblend-common.mixins.json;80d2e5e3bc88c610244d449859c4e3480f3edae1;1291111688;logs/modlist.txt
+betterchunkloading;betterchunkloading mod;1.20.1-5.4;mods/betterchunkloading-1.20.1-5.4.jar;1;betterchunkloading.mixins.json;cd7e61a4f5eca956094e0844560382ca58d79bc6;1208386908;logs/modlist.txt
+bettercombat;Better Combat;1.9.0+1.20.1;mods/bettercombat-forge-1.9.0+1.20.1.jar;1;bettercombat.mixins.json;ea7e7247132cb3acacadd96b2b6b635c4cc63a74;1449708850;logs/modlist.txt
+bettercombatkick;Better Combat Kick;3.0.0;mods/bettercombat-kick-3.0.0-neo-forge-1.20.1.jar;1;bettercombatkick.mixins.json;06adbf663939e1cdb0c98d6dde57e61ccf7d0b52;3560498805;logs/modlist.txt
+betterdeserttemples;YUNG's Better Desert Temples;1.20-Forge-3.0.3;mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar;1;betterdeserttemples.mixins.json, betterdeserttemples_forge.mixins.json;31b386b2dbaa4933e0a10ccdfb25f56da16931a6;3061133685;logs/modlist.txt
+betterdungeons;YUNG's Better Dungeons;1.20-Forge-4.0.4;mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar;1;betterdungeons_forge.mixins.json, betterdungeons.mixins.json;67a9e1c2ff126ab54cea8e0709d178915243039e;1320004755;logs/modlist.txt
+betterendcities;Better End Cities Vanilla;1.0.0-1.20.1;mods/betterendcities-1.0.0-1.20.1.jar;1;;be5951d1f64cbac1f1d5a60e415f6e7bd90551d4;3225702455;logs/modlist.txt
+betterendisland;YUNG's Better End Island;1.20-Forge-2.0.6;mods/YungsBetterEndIsland-1.20-Forge-2.0.6.jar;1;betterendisland_forge.mixins.json, betterendisland.mixins.json;4e7bf109981593061b8100bc8bf23e1c9bbcbb76;3970260058;logs/modlist.txt
+betterf3;BetterF3;7.0.2;mods/BetterF3-7.0.2-Forge-1.20.1.jar;1;betterf3.mixins.json, betterf3.forge.mixins.json;b65cba59e87dc6c6d1aa9c47f09b9996b4e5075d;3838314854;logs/modlist.txt
+betterfortresses;YUNG's Better Nether Fortresses;1.20-Forge-2.0.6;mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar;1;betterfortresses_forge.mixins.json, betterfortresses.mixins.json;889cd16a93764d1d6af2e2dda5bbc286a2683e7a;4156404560;logs/modlist.txt
+betterfpsdist;betterfpsdist mod;1.20.1-6.0;mods/betterfpsdist-1.20.1-6.0.jar;1;betterfpsdist.mixins.json;8e4fe2cd85c08c24ab363b47a63d1c872fc3cc1e;514915357;logs/modlist.txt
+betterjungletemples;YUNG's Better Jungle Temples;1.20-Forge-2.0.5;mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar;1;betterjungletemples_forge.mixins.json, betterjungletemples.mixins.json;0b3c8556983895fea980247bb4d437ca535e7259;2549372144;logs/modlist.txt
+bettermineshafts;YUNG's Better Mineshafts;1.20-Forge-4.0.4;mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar;1;bettermineshafts_forge.mixins.json, bettermineshafts.mixins.json;e2cbc574807a994bb9610184eb4bbfe29a6c0774;1016555382;logs/modlist.txt
+betteroceanmonuments;YUNG's Better Ocean Monuments;1.20-Forge-3.0.4;mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar;1;betteroceanmonuments_forge.mixins.json, betteroceanmonuments.mixins.json;d8e74ed19903752a97ed0e1d2b1a8bf378bc252f;1334321869;logs/modlist.txt
+betterparagliders;Better Paragliders;0.6.0-1.20.1;mods/betterparagliders-0.6.0-1.20.1.jar;1;betterparagliders.mixins.json, mixin.refmap.json;7355858dc488ce7b646deff0c9f2ff8f1706fcda;954554527;logs/modlist.txt
+betterthanmending;BetterThanMending;1.7.2;mods/BetterThanMending-1.7.2.jar;1;;d54e7e41e992ccc8038a9ecc8dd6ee666f659f8e;2501034203;logs/modlist.txt
+bettertridents;Better Tridents;8.0.1;mods/BetterTridents-v8.0.1-1.20.1-Forge.jar;1;bettertridents.common.mixins.json;900d906d80c33a10f277bbfbca166b40af1d68b5;4155207040;logs/modlist.txt
+betterwitchhuts;YUNG's Better Witch Huts;1.20-Forge-3.0.3;mods/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar;1;betterwitchhuts_forge.mixins.json, betterwitchhuts.mixins.json;71fee574f920c6b05004f100ba07e9b8d5844169;1089403503;logs/modlist.txt
+biomemusic;biomemusic mod;1.20.1-4.1;mods/biomemusic-1.20.1-4.1.jar;1;biomemusic.mixins.json;f802fa65812616761afd6a292c2b431955caec9d;1226259636;logs/modlist.txt
+biomesoplenty;Biomes O' Plenty;19.0.0.96;mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar;1;biomesoplenty.mixins.json, biomesoplenty.forge.mixins.json;957adcd274e7c64853c93293976ecdd388a3b7fe;1672303396;logs/modlist.txt
+blazegear;Blaze Gear;1.4.7;mods/blazegear-1.4.7.jar;1;mixins.blazegear.refmap.json, mixins.blazegear.json;0bdbd7e402faccecba29028f924c98ef84ce411f;3746670628;logs/modlist.txt
+blessfulled;Blessfulled;0.6;mods/blessfulled-0.6.jar;1;blessfulled.mixins.json;a8a3ad55d993eea95ba4b4edbe0a7dafce897b39;3303635114;logs/modlist.txt
+blocky_siege;Blocky Siege;6.1.92;mods/blocky_siege-6.1.92-1.20.1.jar;1;;86f4fd36f44486c1b6d1d4c2b0eee105419836b0;4292769989;logs/modlist.txt
+blueprint;Blueprint;7.1.5;mods/blueprint-1.20.1-7.1.5.jar;1;blueprint.mixins.json;78d5ce605ee1c19396fa59c45f541b99e1086768;2081370666;logs/modlist.txt
+blur;Blur (Forge);3.1.1;mods/blur-forge-3.1.1.jar;1;mixins.blur.json;562f34155f3849463449aeb1ab54cc7064e4bc86;1712179068;logs/modlist.txt
+born_in_chaos_v1;Born in Chaos;1.7.5;mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar;1;;4d616e1ccef4c55e14b04ca63228d826f4fdda5e;1190387047;logs/modlist.txt
+bosses_of_mass_destruction;Bosses of Mass Destruction;1.1.2;mods/BOMD-Forge-1.20.1-1.1.2.jar;1;mixins.bosses_of_mass_destruction.json, mixins.bosses_of_mass_destruction.refmap.json;2caa8739ed9702c5ad87b6c5436432f8be755217;2302192386;logs/modlist.txt
+bountiful;Bountiful;6.0.4+1.20.1;mods/Bountiful-6.0.4+1.20.1-forge.jar;1;;3627112f17aeef9018d98883a2469e7f90afc3c4;3861227374;logs/modlist.txt
+bowenchants;Advanced Bow Enchantments;1.2.0;mods/advancedbowenchants-1.2.0.jar;1;;d7f5bae5461ee79e84589da1754aa53c35c1b067;848192302;logs/modlist.txt
+bowinfinityfix;Bow Infinity Fix;2.6.0;mods/bowinfinityfix-1.20.x-forge-2.6.0.jar;1;;aecf2b133ef23251d2640795f719fbc7dec10b44;1156133389;logs/modlist.txt
+bygonenether;Bygone Nether;1.3.2;mods/bygonenether-1.3.2-1.20.x.jar;1;bygonenether.mixins.json;529e31d2877b87a8bf006f590513a33ab6b73171;3349407418;logs/modlist.txt
+caelus;Caelus API;3.2.0+1.20.1;mods/caelus-forge-3.2.0+1.20.1.jar;1;caelus.mixins.json;fa834f140bf7dce7b67c29b46cb531f4309d3209;2212904341;logs/modlist.txt
+callablehorses;Callable Horses;1.3.0.1;mods/callablehorses-1.20.1-1.3.0.1.jar;1;;66ea4e6802e357cfd82fc5f4edb1e10b1ef2c176;2712683267;logs/modlist.txt
+cameraoverhaul;CameraOverhaul;2.1.2-forge+mc.1.20-1.20.5;mods/CameraOverhaul-v2.1.2-forge+mc[1.20-1.20.5].jar;1;cameraoverhaul.mixins.json;2b9e4499b00449e670a9dd399dddbb9cd7c0e531;2720070922;logs/modlist.txt
+carryon;Carry On;2.1.2.7;mods/carryon-forge-1.20.1-2.1.2.7.jar;1;carryon.mixins.json, carryon.forge.mixins.json;9999714ca3dd2f2401f0396ca44f3b27c3784c4f;1899432453;logs/modlist.txt
+cataclysm;cataclysm;3.31;mods/L_Enders_Cataclysm-3.31.jar;1;lionfishapi.mixins.json, cataclysm.mixins.json;4f1165cb39521292e826b471b4808bb89f0f4f3f;3482280408;logs/modlist.txt
+cataclysm_compat;Cataclysm & BetterCombat - Compatibility;1.20.1-1.0.2;mods/cataclysm_compat_1.20.1-1.0.2.jar;1;;d044de22552787ea6c078be0a3eb6358006b3b8d;100775557;logs/modlist.txt
+cataclysmfortresses;Cataclysm x YUNG's Better Nether Fortresses Compat;1.20.1;mods/cataclysmfortresses-1.20.1-Forge.jar;1;;f2124c088990f46a1b02ec7fdb249f948bb24a6a;829782583;logs/modlist.txt
+caveore;CaveOre Mod;1.20.1-4.0;mods/caveore-1.20.1-4.0.jar;1;caveore.mixins.json;9dfeeda722ac9142b279cf0a1f551781c79b9433;772203265;logs/modlist.txt
+cerbons_api;Cerbons API;1.1.0;mods/CerbonsAPI-Forge-1.20.1-1.1.0.jar;1;cerbons_api.mixins.json, cerbons_api-common.mixins.json;83cccb66e679d72345a5194e4ca520f647bc97e6;222529288;logs/modlist.txt
+chalk;Chalk;1.6.7;mods/chalk-1.20.1-1.6.7.jar;1;;42f34947910ca428497fac0bf2566a45959a51a5;2339474770;logs/modlist.txt
+chat_heads;Chat Heads;0.15.7;mods/chat_heads-0.15.7-forge-1.20.jar;1;chat_heads.forge.mixins.json, chat_heads.mixins.json;80582e413216eb014d83252b05c731a4a151fe9b;1661898894;logs/modlist.txt
+chatanimation;ChatAnimation;1.3.4;mods/chatanimation-forge-1.3.4+mc1.20.1.jar;1;chatanimation.mixins.json;0de86b4545b00dc0d06dd5c11d053279b0133523;4103255875;logs/modlist.txt
+chefsdelight;Chefs Delight;1.0.5-forge-1.20.1;mods/chefs-delight-1.0.5-forge-1.20.1.jar;1;;4123040047a6ce1dda13dc02cf3e4295b3bc99aa;1280586424;logs/modlist.txt
+cherishedworlds;Cherished Worlds;6.1.7+1.20.1;mods/cherishedworlds-forge-6.1.7+1.20.1.jar;1;cherishedworlds.mixins.json;d3eb588c64691c9da83460e3b2e783401d337a34;2374033839;logs/modlist.txt
+chunksending;chunksending mod;1.20.1-4.1;mods/chunksending-1.20.1-4.1.jar;1;chunksending.mixins.json;a7d156ac54f32938376205683bb9cd3f32970a36;2131768929;logs/modlist.txt
+cinematic_respawn;Cinematic Respawn;1.4.0;mods/cinematic_respawn-1.20.1-forge-1.4.0.jar;1;cinematic_respawn.mixins.json;d01bda94589c8623c69c7bbcf0297eeb11ecbd28;2895950508;logs/modlist.txt
+cinematiccataclysm;Cinematic Cataclysm;1.0.1;mods/cinematiccataclysm-1.0.1-1.20.1.jar;1;cinematiccataclysm.mixins.json;aafb5fd0242d4022cb44a1238bf739d74f20ff5b;2791946036;logs/modlist.txt
+citadel;Citadel;2.6.0;mods/citadel-2.6.0-1.20.1.jar;1;citadel.mixins.json;fed1e7cb25232d31aaebe86f4ebafe8d9b663387;1509781679;logs/modlist.txt
+cleanswing;Clean Swing Through Grass;1.8;mods/cleanswing-1.20-1.8.jar;1;;c128e24c47ab4a389b3868ff6913ee0631f254e8;2191402716;logs/modlist.txt
+clickadv;clickadv mod;1.20.1-3.9;mods/clickadv-1.20.1-3.9.jar;1;clickadv.mixins.json;32f1efb2a9dfd0da147387ba496b97289bebf937;2021901919;logs/modlist.txt
+cloth_config;Cloth Config v10 API;11.1.136;mods/cloth-config-11.1.136-forge.jar;1;;c65d07748acc57ceb45d53b3964368b84f34d54f;635589968;logs/modlist.txt
+clumps;Clumps;12.0.0.4;mods/Clumps-forge-1.20.1-12.0.0.4.jar;1;clumps.mixins.json;8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c;1556873767;logs/modlist.txt
+cobweb;Cobweb;1.0.1;mods/cobweb-forge-1.20.1-1.0.1.jar;1;cobweb.mixins.json, cobweb.forge.mixins.json;607bbb82656d28ddfaa5ef2ec6e9c413859f5956;3246400390;logs/modlist.txt
+collective;Collective;8.42;mods/collective-1.20.1-8.42.jar;1;collective_fabric.crop.mixins.json, collective_fabric.mixins.json, collective_forge.mixins.json;86581d9c67960360dfe276853497a50524420769;3608696378;logs/modlist.txt
+com_teamresourceful_bytecodecs;bytecodecs;1.0.2;resourcefullib-forge-1.20.1-2.1.29.jar!/META-INF/jars/bytecodecs-1.0.2.jar | creeperoverhaul-3.0.2-forge.jar!/META-INF/jars/resourcefullib-forge-1.20.1-2.1.20.jar!/META-INF/jars/bytecodecs-1.0.2.jar;2;;;;logs/modlist.txt
+com_teamresourceful_yabn;yabn;1.0.3;resourcefullib-forge-1.20.1-2.1.29.jar!/META-INF/jars/yabn-1.0.3.jar | creeperoverhaul-3.0.2-forge.jar!/META-INF/jars/resourcefullib-forge-1.20.1-2.1.20.jar!/META-INF/jars/yabn-1.0.3.jar;2;;;;logs/modlist.txt
+combat_dash;CombatDash;1.7;mods/combat_dash-1.7-forge-1.20.1.jar;1;mixins.combat_dash.json;620c657425cd8966197ffc0c9220388c2ab9ad4b;741289705;logs/modlist.txt
+combatroll;Combat Roll;1.2.1+1.20.1;mods/combatroll-forge-1.2.1+1.20.1.jar;1;combatroll.mixins.json;fc792699af551103fe04ddf8a06e3ceaf85d4df6;3633815552;logs/modlist.txt
+combatrollhudfix;HUD Compatibility Fix;1.1.1;mods/combatroll-hudfix-1.1.1.jar;1;combatrollhudfix.mixins.json;e49160b81a5b308cc2d498809cab33e14a8c1862;3517253660;logs/modlist.txt
+commongroovylibrary;CommonGroovyLibrary;0.3.3;/META-INF/jarjar/cgl-1.20-forge-0.3.3.jar;1;;;;logs/modlist.txt
+conditional_mixin;conditional mixin;0.6.4;/META-INF/jarjar/conditional-mixin-forge-0.6.4.jar;2;;;;logs/modlist.txt
+configuration;Configuration;3.1.0;mods/configuration-forge-1.20.1-3.1.0.jar;1;configuration.mixins.json;8757a9f1d47f48463765d1d202cdadc41c84f6b0;3130708032;logs/modlist.txt
+configured;Configured;2.2.3;mods/configured-forge-1.20.1-2.2.3.jar;1;configured.common.mixins.json;065c2d287a52f52fc8d33d780192325ee6f4b6ae;3251861014;logs/modlist.txt
+connectiblechains;Connectible Chains;1.1.0;mods/Connectible Chains-forge-1.20.1-1.1.1.jar;1;connectiblechains.mixins.json;c2d46c7d488623a65df0225459231d0b0102c0f9;2388497597;logs/modlist.txt
+connectivity;Connectivity Mod;1.20.1-7.7;mods/connectivity-1.20.1-7.7.jar;1;connectivity.mixins.json;e9426c921b5c3c43ed90bf1d8faea8a307c0bc8d;2096163568;logs/modlist.txt
+controlling;Controlling;12.0.2;mods/Controlling-forge-1.20.1-12.0.2.jar;1;controlling.mixins.json, controlling.forge.mixins.json;6195a3d1464f8fb641d7e165163aea1a857ce08e;2626540686;logs/modlist.txt
+coroutil;CoroUtil;1.20.1-1.3.7;mods/coroutil-forge-1.20.1-1.3.7.jar;1;coroutil.mixins.json, coroutil_fabric.mixins.json;7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0;1380297823;logs/modlist.txt
+corpse;Corpse;1.20.1-1.0.23;mods/corpse-forge-1.20.1-1.0.23.jar;1;;843b16ca88bc5c390bb22a2a84437e6bffdd43dd;4282386808;logs/modlist.txt
+corpsecurioscompat;Corpse Curios Compatibility;4.0.1;mods/corpsecurioscompat-1.20.1-Forge-4.0.1.jar;1;corpsecurioscompat.mixins.json;1320497f252c57bf2ac0149e7b499a9f9db74650;1860816416;logs/modlist.txt
+crash_assistant;Crash Assistant;1.11.12;mods/CrashAssistant-forge-1.19-1.20.1-1.11.12.jar | /META-INF/jarjar/crash_assistant-forge.jar;2;crash_assistant.mixins.json, crash_assistant-forge.mixins.json;b309bd4803d5fcf27397b5ea60bbe4bb332bc809;3257096293;logs/modlist.txt
+create;Create;6.0.8;mods/create-1.20.1-6.0.8.jar;1;create.mixins.json;b13d912b9247a38d66d11598c121442585a1c1e9;2156032012;logs/modlist.txt
+create_dragons_plus;Create: Dragons Plus;1.11.9;mods/CreateDragonsPlus-1.11.9.jar;1;create_dragons_plus.create_garnished.mixins.json, create_dragons_plus.mixins.json, create_dragons_plus.aether.mixins.json;cb249347ad15914619a81371b4cfa35f74f575ed;3552941159;logs/modlist.txt
+create_enchantment_industry;Create: Enchantment Industry;2.5.4;mods/create-enchantment-industry-2.5.4.jar;1;create_enchantment_industry.apothic_enchanting.mixins.json, create_enchantment_industry.apotheosis.mixins.json, create_enchantment_industry.mixins.json, create_enchantment_industry.touhou_little_maid.mixins.json;6b6129812bbcffc12f1a7d253f0413664576e1b6;1928310714;logs/modlist.txt
+creativecore;CreativeCore;2.12.40;mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar;1;creativecore.mixins.json, creativecore.mixins.refmap.json, creativecore.forge.mixins.json;f8b65310e0183630dd00c1ade12f9b6ecd243287;3422940614;logs/modlist.txt
+creeperoverhaul;Creeper Overhaul;3.0.2;mods/creeperoverhaul-3.0.2-forge.jar;1;creeperoverhaul-common.mixins.json;01e3275d3eb586c953ac786b1afee6e473eef947;176422656;logs/modlist.txt
+cristellib;Cristel Lib;1.1.6;mods/cristellib-1.1.6-forge.jar;1;cristellib.mixins.json, cristellib-common.mixins.json;524ecf0f93f28be2f5db21d87dd81bdbc1a450e1;3580663282;logs/modlist.txt
+critical_strike;Critical Strike;1.0.4;mods/critical_strike-forge-1.0.4.jar;1;critical_strike.mixins.json;64df73255d592a1c27ab230f09a0e4d67b2bff54;1654355182;logs/modlist.txt
+crittersandcompanions;Critters and Companions;2.7.1;mods/crittersandcompanions-forge-1.20.1-2.7.1.jar;1;crittersandcompanions.mixins.json;914802e55d21ffb6221875e47838f8175bc28f2f;3091152390;logs/modlist.txt
+culllessleaves;Cull Less Leaves Reforged;1.20.1-1.0.5;mods/CullLessLeaves-Reforged-1.20.1-1.0.5.jar;1;cull-less-leaves.mixins.json;71b1603071461e036a3ba2aaeeb52cc10fa3d348;3417341354;logs/modlist.txt
+cupboard;Cupboard utilities;1.20.1-4.2;mods/cupboard-1.20.1-4.2.jar;1;cupboard.mixins.json;db25dfc4935b7f1bde62c69f13a7b70e2ecd9f2f;3579181797;logs/modlist.txt
+curios;Curios API;5.14.1+1.20.1;mods/curios-forge-5.14.1+1.20.1.jar;1;curios.mixins.json;452175b95ad3db6ff58bb8968f6bf7a9d1e0f480;1288931317;logs/modlist.txt
+curious_armor_stands;Curious Armor Stands;1.20-5.1.0;mods/curious_armor_stands-1.20-5.1.0.jar;1;;7c69c82603c4797616fc7f4aed07062dd0afe203;2733385113;logs/modlist.txt
+curious_mobs;Curious Mobs;1.6.0;mods/Curious Mobs 1.6.0.jar;1;;cc5130f91535cc5c07f3abcd338c6b3551ea5706;1182066148;logs/modlist.txt
+curses_naturals;Curses' Naturals;1.0.0;mods/Curses' Naturals 1.0.0 - 1.20.1.jar;1;;530f15374ba2ee3242cec9b1ec6251ae4636262b;1199144102;logs/modlist.txt
+deltaboxlib;Deltabox Lib;2.2.0;mods/deltaboxlib-forge-2.2.0+1.20.1.jar;1;deltaboxlib.mixins.json;8f5cd619b02eaccd936cc6a3e1e47fe558a728b7;3612345047;logs/modlist.txt
+diagonalblocks;Diagonal Blocks;8.0.6;/META-INF/jarjar/diagonalblocks-forge-8.0.6.jar;1;diagonalblocks.common.mixins.json;;;logs/modlist.txt
+diagonalfences;Diagonal Fences;8.1.5;mods/DiagonalFences-v8.1.5-1.20.1-Forge.jar;1;;3c3266729f531939a9aba47e28fe910875a78755;44817309;logs/modlist.txt
+distraction_free_recipes;Distraction Free Recipes (EMI);1.2.1;mods/distraction_free_recipes-forge-1.2.1-1.20.1.jar;1;mixins.distraction_free_recipes.json;8cb739a7b1707d535b29a01e8b7d45e31d2874c0;900164350;logs/modlist.txt
+diversity_better_bundle;Diversity Better Bundle;2.5.1;mods/diversity_better_bundle-forge-1.20.1-2.5.1.jar;1;diversity_better_bundle.compat.mixins.json, diversity_better_bundle.mixins.json, diversity_better_bundle.forge.mixins.json, diversity_better_bundle.client.mixins.json;c1ff3ca292d97d451815b250ed21dce09cb328fb;664008926;logs/modlist.txt
+dodospyglass;DodoSpyglass;1.0.0;mods/DodoSpyglass-1.0.0-1.20.1-forge.jar;1;dodospyglass.mixins.refmap.json, dodospyglass.mixins.json;511bc7a69c44b6b4cce2b201362e295dbf4d6749;2829871843;logs/modlist.txt
+domesticationinnovation;Domestication Innovation;1.7.1;mods/domesticationinnovation-1.7.1-1.20.1.jar;1;domesticationinnovation.mixins.json, citadel.mixins.json;8feae4ba8a3ffb117fa7b3b4291a520e2497fa1e;2979022269;logs/modlist.txt
+doubledoors;Double Doors;7.2;mods/doubledoors-1.20.1-7.2.jar;1;doubledoors_forge.mixins.json, doubledoors_fabric.mixins.json;e97abe73c78be318584623a5e5b6e311e545da31;2972800135;logs/modlist.txt
+doublejump;Double Jump;4.6;mods/DoubleJump-v4.6_MOD.jar;1;;af3d5a1038c65b9432caf36f024587ccb2d10f82;1987154187;logs/modlist.txt
+doubleslabs;DoubleSlabs;0.2.0;mods/doubleslabs-forge-1.20.1-0.2.0.jar;1;doubleslabs.forge.mixins.json, doubleslabs.mixins.json;48363150bbcc5fdef13ec64b4a18c9db67aa80c9;1273912840;logs/modlist.txt
+dragonfight;dragonfight mod;1.20.1-5.0;mods/dragonfight-1.20.1-5.0.jar;1;dragonfight.mixins.json;9f7215c27bd6ca0eca3818dbdf0db018b7efe3eb;1678054176;logs/modlist.txt
+dtaddon_lib;Dynamic Trees Addon Lib;1.20.1-0.1.0-BETA5;mods/DynamicTreesAddonLib-1.20.1-0.1.0-BETA5.jar;1;;fc1d4a6511f7b144cfc125e2b83449f07950b7de;709832498;logs/modlist.txt
+dtbop;Dynamic Trees for Biomes o' Plenty;1.20.1-3.3.4;mods/DynamicTreesBOP-1.20.1-3.3.4.jar;1;;b9897d05cfc6779fe64bc8dc4bb3410e11bec86b;211269895;logs/modlist.txt
+dtecologics;Dynamic Trees for Ecologics;1.20.1-1.1.1;mods/DynamicTreesEcologics-1.20.1-1.1.1.jar;1;;1b69f616ecdb9a8ff09613996cb9fcaf009c7861;1714970352;logs/modlist.txt
+dtterralith;Dynamic Trees for Terralith;1.20.1-1.2.6;mods/DynamicTreesTerralith-1.20.1-1.2.6.jar;1;;44d6457c1d174b1a6741db44d903e48231661879;1742141383;logs/modlist.txt
+duckling;Duckling;3.0.0;mods/duckling-3.0.0-forge.jar;1;;825c169fffde45f343b732f8c00db31ba434759e;383863901;logs/modlist.txt
+dummmmmmy;MmmMmmMmmMmm;1.20-2.0.11;mods/dummmmmmy-1.20-2.0.12-forge.jar;1;dummmmmmy-common.mixins.json, dummmmmmy.mixins.json;3b6da54436955ea2ca6e8891ef69d0f6621ab878;2343751397;logs/modlist.txt
+dungeoncrawl;Dungeon Crawl;2.3.15;mods/Dungeon Crawl-1.20.1-2.3.15.jar;1;;e17ebc9be0b3f0646f2de10563b72827442cc866;3170941169;logs/modlist.txt
+dynamic_fps;Dynamic FPS;3.11.4;mods/dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar;1;dynamic_fps-common.mixins.json, dynamic_fps.mixins.json;43b3e0766a9e7a30651cc01756476657b865b7a2;3918164268;logs/modlist.txt
+dynamiccrosshair;Dynamic Crosshair;9.10;mods/dynamiccrosshair-9.10+1.20.1-forge.jar;1;dynamiccrosshair.compat.mixins.json, dynamiccrosshair.mixins.json;9ec4f7fefa33d1be77883a080f69b2bc9c521ea4;192034179;logs/modlist.txt
+dynamiccrosshairapi;Dynamic Crosshair API;1.2;dynamiccrosshair-9.10+1.20.1-forge.jar!/META-INF/jars/dynamiccrosshair-api-9.10+1.20.1-forge.jar;1;;;;logs/modlist.txt
+dynamictrees;Dynamic Trees;1.20.1-1.4.11;mods/DynamicTrees-1.20.1-1.4.11.jar;1;;574c52edcd3bc93395a59947f96b4d95a648200f;4219605603;logs/modlist.txt
+dynview;Dynamic view distance;2.3;mods/dynview-1.20.1-4.0.jar;1;dynview.mixins.json;626d970796531ae63a4029176ef0db07b2109c4f;3039947824;logs/modlist.txt
+easyanvils;Easy Anvils;8.0.2;mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar;1;easyanvils.common.mixins.json, easyanvils.forge.mixins.json;d44a8b549b27713a92d59148729bf374ff3e25f0;1758431750;logs/modlist.txt
+easyelytratakeoff;Easy Elytra Takeoff;4.6;mods/easyelytratakeoff-1.20.1-4.6.jar;1;easyelytratakeoff_forge.mixins.json, easyelytratakeoff_fabric.mixins.json;04989409d386487dd9c252902666eb9687f3402f;445460360;logs/modlist.txt
+easymagic;Easy Magic;8.0.1;mods/EasyMagic-v8.0.1-1.20.1-Forge.jar;1;easymagic.common.mixins.json;9bfb5d63ac2e03ecdab8755c968ffa25b799469b;1186236462;logs/modlist.txt
+easyshulkerboxes;Easy Shulker Boxes;8.0.2;mods/EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar;1;easyshulkerboxes.common.mixins.json;c5245255c422afa2d627e89bbbf4a2f1d5d721e8;2149531480;logs/modlist.txt
+eatinganimation;Eating Animation;5.1.0;mods/eatinganimation-1.20.1-5.1.0.jar;1;;d80502ca23195814f245bb8a4bffcb778ea4c02a;2186954911;logs/modlist.txt
+ecologics;Ecologics;2.2.7;mods/ecologics-forge-1.20.1-2.2.7.jar;1;ecologics-common.mixins.json, ecologics.mixins.json;733bf5965a3b7153fa261051a29f700258f9715c;2827794695;logs/modlist.txt
+eeeabsmobs;EEEAB's Mobs;1.20.1-0.98.1;mods/eeeabsmobs-1.20.1-0.98.1.jar;1;eeeabsmobs.mixins.json;3cb84f3056d2adf5ddc3e8feb5f5e2aa108bb5e9;2046857935;logs/modlist.txt
+elysium_api;Elysium;1.1.3;mods/ElysiumAPI-1.20.1-1.1.3.jar;1;mixins.elysium_api.refmap.json, mixins.elysium_api.json;2ef237d14ea228118daf2e20827bb45abb92b02a;2754677299;logs/modlist.txt
+elytra_physics;Elytra physics;2.6.2;mods/elytra_physics-forge-2.6.2_mc1.20.1.jar;1;elytra_physics.mixins.json;f987463c29df188ab16b13c50ec7aabe825026a1;4103720328;logs/modlist.txt
+elytraslot;Elytra Slot;6.4.4+1.20.1;mods/elytraslot-forge-6.4.4+1.20.1.jar;1;elytraslot-forge-integrations.mixins.json, elytraslot-integrations.mixins.json;f11443ef3371fa790eb33cba1a517638a3afcb07;834094712;logs/modlist.txt
+embeddium;Embeddium;0.3.31+mc1.20.1;mods/embeddium-0.3.31+mc1.20.1.jar;1;embeddium.mixins.json;bb2fa8f3e493af16af9160d049f96c614a1faf2f;4281946638;logs/modlist.txt
+emf_compat_better_combat;EMF Compat: Better Combat;2.0.0;mods/emf_compat_better_combat_1.20.1_2.0.0.jar;1;emf_compat_better_combat.mixins.json;6fe1c0fd57175c13f282f420b3e35204b49211f0;1008017711;logs/modlist.txt
+emf_compat_carry_on;EMF Compat: Carry On;2.0.0;mods/emf_compat_carry_on_1.20.1_2.0.0.jar;1;emf_compat_carry_on.mixins.json;f40ae512f7a806d53e5b30889d0f6ad3d3e9822a;2672994366;logs/modlist.txt
+emf_compat_core;EMF Compat: Core;2.0.0;mods/emf_compat_core_1.20.1_2.0.0.jar;1;emf_compat_core.mixins.json;bf2ae936d5d903e9941d3d12dc1ea42888f6ecd8;3311046502;logs/modlist.txt
+emf_compat_quark;EMF Compat: Quark;1.1.0;mods/emf_compat_quark_1.20.1_1.1.0.jar;1;emf_compat_quark.mixins.json;08853213b28df521c7f3a1bb202dd670531c76da;3772745565;logs/modlist.txt
+emf_compat_supplementaries;EMF Compat: Supplementaries;1.1.0;mods/emf_compat_supplementaries_1.20.1_1.1.0.jar;1;emf_compat_supplementaries.mixins.json;eff6e1f790f2398ca1ff769d9c7bc69310f0b1d5;3927808474;logs/modlist.txt
+emf_compat_watut;EMF Compat: WATUT;1.0.0;mods/emf_compat_watut_1.20.1_1.0.0.jar;1;emf_compat_watut.mixins.json;019787c26dac572d91a342843e36d437a73ff99d;2081324129;logs/modlist.txt
+emi;EMI;1.1.24+1.20.1+forge;mods/emi-1.1.24+1.20.1+forge.jar;1;emi-forge.mixins.json, emi.mixins.json;ea320200878e4a49196760234a22da763671520a;573012167;logs/modlist.txt
+emi_enchanting;EMI Enchanting;0.1.2+1.20.1+forge;mods/emi_enchanting-0.1.2+1.20.1+forge.jar;1;;0374c5c3eb4dd361f89388cda84744dc70ae638d;1279207525;logs/modlist.txt
+emiffect;EMIffect;1.1.2+mc1.20.1;mods/emiffect-forge-1.1.2+mc1.20.1.jar;1;;cb87cd6b12e3a9cc5bbb979406d310fe50cd92a6;2060908275;logs/modlist.txt
+emitrades;EMI Trades;1.2.1+mc1.20.1;mods/emitrades-forge-1.2.1+mc1.20.1.jar;1;;ea86eceb04978bc366fe022bbab5dd5ea0bd3ab4;53908515;logs/modlist.txt
+emlib;EmLib;1.0.3;chatanimation-forge-1.3.4+mc1.20.1.jar!/META-INF/jars/emlib-1.0.3+1.20.1-forge-SNAPSHOT.jar;1;emlib.mixins.json;;;logs/modlist.txt
+emojiful;Emojiful;4.2.0;mods/Emojiful-Forge-1.20.1-4.2.0.jar;1;emojiful.mixins.json;3a715b0c8e9244a0d6aace3e3d2f863a62ddc3bc;847566940;logs/modlist.txt
+endermanoverhaul;Enderman Overhaul;1.0.4;mods/endermanoverhaul-forge-1.20.1-1.0.4.jar;1;endermanoverhaul.mixins.json, endermanoverhaul-common.mixins.json;636a2b20a5973fcb80016370865cb4251e029b6a;3681337800;logs/modlist.txt
+endrem;End Remastered;5.3.3-R-1.20.1;mods/endrem_forge-5.3.3-R-1.20.1.jar;1;endrem.mixins.json;b4df41de8439e834a493fe59842709ef33ecfa82;1533249056;logs/modlist.txt
+enhancedai;Enhanced AI;3.3.7.5;mods/enhancedai-3.3.7.5.jar;1;mixins.enhancedai.refmap.json, mixins.enhancedai.json;8cb138410fd857d457a26eca5315546fd0417319;1979729470;logs/modlist.txt
+enhancedvisuals;EnhancedVisuals;1.8.33;mods/EnhancedVisuals_FORGE_v1.8.33_mc1.20.1.jar;1;enhancedvisuals.mixins.json, enhancedvisuals.fabric.mixins.json, enhancedvisuals.mixin.refmap.json;c82aeb64e63b4b6adc627da337ece4f5021dbb24;1523303044;logs/modlist.txt
+entity_model_features;Entity Model Features;3.3.10;mods/entity_model_features-3.3.10-1.20.1-forge.jar;1;entity_model_features.mixins.json;acc6670436acadc545a8f7ce3e8fbc457dfbe703;153420819;logs/modlist.txt
+entity_texture_features;Entity Texture Features;7.2.5;mods/entity_texture_features-7.2.5-1.20.1-forge.jar;1;entity_texture_features.mixins.json;90d2eb37c8572bc39246b938d3610d30afe7e509;1529806379;logs/modlist.txt
+entityculling;EntityCulling;1.11.2;mods/entityculling-forge-1.11.2-mc1.20.1.jar;1;entityculling.mixins.json, entityculling.refmap.mixins.json;856ef2e3c5bbde87fa5f06515c42fbca8af24a74;2372230928;logs/modlist.txt
+euphoria_patcher;Euphoria Patcher;1.10.5-r5.9.3-forge;mods/EuphoriaPatcher-1.10.5-r5.9.3-forge.jar;1;euphoria_patcher.mixins.json;66c44811b2972871aa6855b89c45e05d509efed9;1271676245;logs/modlist.txt
+everycomp;Every Compat;1.20-2.9.26;mods/everycomp-1.20-2.9.26-forge.jar;1;everycomp-common.mixins.json;1f824fe7454be721842d15e8f0ed81eb4567c199;3503483853;logs/modlist.txt
+exlinecopperequipment;Exline's Copper Equipment;2.0.8;mods/exlinecopperequipment-forge-1.20.1-v2.0.8.jar;1;;542ff4d52336364a71512d30de123b08364baede;2509322572;logs/modlist.txt
+expandability;ExpandAbility;9.0.4;artifacts-forge-9.5.19.jar!/META-INF/jars/expandability-forge-9.0.4.jar;1;expandability.mixins.json, expandability-common.mixins.json;;;logs/modlist.txt
+expanded_ecosphere;Expanded Ecosphere;3.2.4;mods/expanded_ecosphere-3.2.4-forge.jar;1;wwoo.mixins.json, wwoo-common.mixins.json;fd8bd4927b3e69a429790b7b2f887110fde93e96;2071459130;logs/modlist.txt
+explorify;Explorify;1.6.5;mods/Explorify v1.6.5.mod.jar;1;;5fb28be29200a41b034e423d87823eb19ad651cd;1043010622;logs/modlist.txt
+explosiveenhancement;Explosive Enhancement;1.2.0;mods/explosiveenhancement-1.2.0.jar;1;explosiveenhancement.mixins.json;35cf80849ac4b19416cadc12cf10de34295e51f5;1011037610;logs/modlist.txt
+fabric_api;Forgified Fabric API;0.92.2+1.11.12+1.20.1;txnilib-forge-1.0.24-1.20.1.jar!/META-INF/jars/fabric-api-0.92.2+1.11.12+1.20.1.jar;1;;;;logs/modlist.txt
+fabric_api_base;Fabric API Base;0.4.31+ef105b4977;sodiumdynamiclights-forge-1.0.10-1.20.1.jar!/META-INF/jars/fabric-api-base-0.4.31+ef105b4977.jar | sodiumoptionsapi-forge-1.0.10-1.20.1.jar!/META-INF/jars/fabric-api-base-0.4.31+ef105b4977.jar | /META-INF/jarjar/fabric-api-base-0.4.31+ef105b4977.jar;3;fabric-api-base.init.mixins.json;;;logs/modlist.txt
+fabric_api_lookup_api_v1;Fabric API Lookup API (v1);1.6.36+67f9824077;/META-INF/jarjar/fabric-api-lookup-api-v1-1.6.36+67f9824077.jar;1;fabric-api-lookup-api-v1.mixins.json;;;logs/modlist.txt
+fabric_biome_api_v1;Fabric Biome API (v1);13.0.13+dc36698e77;/META-INF/jarjar/fabric-biome-api-v1-13.0.13+dc36698e77.jar;1;fabric-biome-api-v1.mixins.json;;;logs/modlist.txt
+fabric_block_api_v1;Fabric Block API (v1);1.0.11+0e6cb7f777;/META-INF/jarjar/fabric-block-api-v1-1.0.11+0e6cb7f777.jar;1;;;;logs/modlist.txt
+fabric_block_view_api_v2;Fabric BlockView API (v2);1.0.1+0767707077;/META-INF/jarjar/fabric-block-view-api-v2-1.0.1+0767707077.jar;1;fabric-block-view-api-v2.client.mixins.json, fabric-block-view-api-v2.mixins.json;;;logs/modlist.txt
+fabric_blockrenderlayer_v1;Fabric BlockRenderLayer Registration (v1);1.1.41+1d0da21e77;/META-INF/jarjar/fabric-blockrenderlayer-v1-1.1.41+1d0da21e77.jar;1;fabric-blockrenderlayer-v1.mixins.json;;;logs/modlist.txt
+fabric_client_tags_api_v1;Fabric Client Tags;1.1.2+5d6761b877;/META-INF/jarjar/fabric-client-tags-api-v1-1.1.2+5d6761b877.jar;1;;;;logs/modlist.txt
+fabric_command_api_v1;Fabric Command API (v1);1.2.34+f71b366f77;/META-INF/jarjar/fabric-command-api-v1-1.2.34+f71b366f77.jar;1;;;;logs/modlist.txt
+fabric_command_api_v2;Fabric Command API (v2);2.2.13+561530ec77;/META-INF/jarjar/fabric-command-api-v2-2.2.13+561530ec77.jar;1;fabric-command-api-v2.mixins.json, fabric-command-api-v2.client.mixins.json;;;logs/modlist.txt
+fabric_content_registries_v0;Fabric Content Registries (v0);4.0.11+a670df1e77;/META-INF/jarjar/fabric-content-registries-v0-4.0.11+a670df1e77.jar;1;fabric-content-registries-v0.mixins.json;;;logs/modlist.txt
+fabric_convention_tags_v1;Fabric Convention Tags;1.5.5+fa3d1c0177;/META-INF/jarjar/fabric-convention-tags-v1-1.5.5+fa3d1c0177.jar;1;;;;logs/modlist.txt
+fabric_data_attachment_api_v1;Fabric Data Attachment API (v1);1.0.0+30ef839e77;/META-INF/jarjar/fabric-data-attachment-api-v1-1.0.0+30ef839e77.jar;1;fabric-data-attachment-api-v1.mixins.json, fabric-data-attachment-api-v1.client.mixins.json;;;logs/modlist.txt
+fabric_data_generation_api_v1;Fabric Data Generation API (v1);12.3.4+369cb3a477;/META-INF/jarjar/fabric-data-generation-api-v1-12.3.4+369cb3a477.jar;1;fabric-data-generation-api-v1.mixins.json;;;logs/modlist.txt
+fabric_dimensions_v1;Fabric Dimensions API (v1);2.1.54+8005d10d77;/META-INF/jarjar/fabric-dimensions-v1-2.1.54+8005d10d77.jar;1;;;;logs/modlist.txt
+fabric_entity_events_v1;Fabric Entity Events (v1);1.6.0+4ca7515277;/META-INF/jarjar/fabric-entity-events-v1-1.6.0+4ca7515277.jar;1;fabric-entity-events-v1.client.mixins.json, fabric-entity-events-v1.mixins.json;;;logs/modlist.txt
+fabric_events_interaction_v0;Fabric Events Interaction (v0);0.6.2+0d0bd5a777;/META-INF/jarjar/fabric-events-interaction-v0-0.6.2+0d0bd5a777.jar;1;fabric-events-interaction-v0.client.mixins.json, fabric-events-interaction-v0.mixins.json;;;logs/modlist.txt
+fabric_game_rule_api_v1;Fabric Game Rule API (v1);1.0.40+683d4da877;/META-INF/jarjar/fabric-game-rule-api-v1-1.0.40+683d4da877.jar;1;fabric-game-rule-api-v1.mixins.json, fabric-game-rule-api-v1.client.mixins.json;;;logs/modlist.txt
+fabric_item_api_v1;Fabric Item API (v1);2.1.28+4d0bbcfa77;/META-INF/jarjar/fabric-item-api-v1-2.1.28+4d0bbcfa77.jar;1;fabric-item-api-v1.client.mixins.json, fabric-item-api-v1.mixins.json;;;logs/modlist.txt
+fabric_item_group_api_v1;Fabric Item Group API (v1);4.0.12+c9161c2d77;/META-INF/jarjar/fabric-item-group-api-v1-4.0.12+c9161c2d77.jar;1;fabric-item-group-api-v1.client.mixins.json, fabric-item-group-api-v1.mixins.json;;;logs/modlist.txt
+fabric_key_binding_api_v1;Fabric Key Binding API (v1);1.0.37+561530ec77;/META-INF/jarjar/fabric-key-binding-api-v1-1.0.37+561530ec77.jar;1;fabric-key-binding-api-v1.mixins.json;;;logs/modlist.txt
+fabric_lifecycle_events_v1;Fabric Lifecycle Events (v1);2.2.22+afab492177;/META-INF/jarjar/fabric-lifecycle-events-v1-2.2.22+afab492177.jar;1;fabric-lifecycle-events-v1.client.mixins.json, fabric-lifecycle-events-v1.mixins.json;;;logs/modlist.txt
+fabric_loot_api_v2;Fabric Loot API (v2);1.2.1+eb28f93e77;/META-INF/jarjar/fabric-loot-api-v2-1.2.1+eb28f93e77.jar;1;fabric-loot-api-v2.mixins.json;;;logs/modlist.txt
+fabric_message_api_v1;Fabric Message API (v1);5.1.9+52cc178c77;/META-INF/jarjar/fabric-message-api-v1-5.1.9+52cc178c77.jar;1;fabric-message-api-v1.client.mixins.json, fabric-message-api-v1.mixins.json;;;logs/modlist.txt
+fabric_mining_level_api_v1;Fabric Mining Level API (v1);2.1.50+561530ec77;/META-INF/jarjar/fabric-mining-level-api-v1-2.1.50+561530ec77.jar;1;fabric-mining-level-api-v1.mixins.json;;;logs/modlist.txt
+fabric_model_loading_api_v1;Fabric Model Loading API (v1);1.0.3+6274ab9d77;/META-INF/jarjar/fabric-model-loading-api-v1-1.0.3+6274ab9d77.jar;1;fabric-model-loading-api-v1.mixins.json;;;logs/modlist.txt
+fabric_models_v0;Fabric Models (v0);0.4.2+7c3892a477;/META-INF/jarjar/fabric-models-v0-0.4.2+7c3892a477.jar;1;;;;logs/modlist.txt
+fabric_networking_api_v1;Fabric Networking API (v1);1.3.11+503a202477;/META-INF/jarjar/fabric-networking-api-v1-1.3.11+503a202477.jar;1;fabric-networking-api-v1.mixins.json, fabric-networking-api-v1.client.mixins.json;;;logs/modlist.txt
+fabric_object_builder_api_v1;Fabric Object Builder API (v1);11.1.3+4bd998fa77;/META-INF/jarjar/fabric-object-builder-api-v1-11.1.3+4bd998fa77.jar;1;fabric-object-builder-v1.mixins.json;;;logs/modlist.txt
+fabric_particles_v1;Fabric Particles (v1);1.1.2+78e1ecb877;/META-INF/jarjar/fabric-particles-v1-1.1.2+78e1ecb877.jar;1;fabric-particles-v1.client.mixins.json;;;logs/modlist.txt
+fabric_recipe_api_v1;Fabric Recipe API (v1);1.0.21+514a076577;/META-INF/jarjar/fabric-recipe-api-v1-1.0.21+514a076577.jar;1;fabric-recipe-api-v1.mixins.json;;;logs/modlist.txt
+fabric_registry_sync_v0;Fabric Registry Sync (v0);2.3.3+1c0ea72177;/META-INF/jarjar/fabric-registry-sync-v0-2.3.3+1c0ea72177.jar;1;fabric-registry-sync-v0.mixins.json, fabric-registry-sync-v0.client.mixins.json;;;logs/modlist.txt
+fabric_renderer_api_v1;Fabric Renderer API (v1);3.2.1+cf68abbe77;/META-INF/jarjar/fabric-renderer-api-v1-3.2.1+cf68abbe77.jar;1;fabric-renderer-api-v1.debughud.mixins.json, fabric-renderer-api-v1.mixins.json;;;logs/modlist.txt
+fabric_renderer_indigo;Fabric Renderer - Indigo;1.5.2+b5b2da4177;/META-INF/jarjar/fabric-renderer-indigo-1.5.2+b5b2da4177.jar;1;fabric-renderer-indigo.mixins.json;;;logs/modlist.txt
+fabric_rendering_data_attachment_v1;Fabric Rendering Data Attachment (v1);0.3.37+a6081afc77;/META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.37+a6081afc77.jar;1;fabric-rendering-data-attachment-v1.client.mixins.json, fabric-rendering-data-attachment-v1.mixins.json;;;logs/modlist.txt
+fabric_rendering_fluids_v1;Fabric Rendering Fluids (v1);3.0.28+4ac5e37a77;/META-INF/jarjar/fabric-rendering-fluids-v1-3.0.28+4ac5e37a77.jar;1;fabric-rendering-fluids-v1.mixins.json;;;logs/modlist.txt
+fabric_rendering_v1;Fabric Rendering (v1);3.0.8+66e9a48f77;/META-INF/jarjar/fabric-rendering-v1-3.0.8+66e9a48f77.jar;1;fabric-rendering-v1.mixins.json;;;logs/modlist.txt
+fabric_resource_conditions_api_v1;Fabric Resource Conditions API (v1);2.3.8+9e342fc177;/META-INF/jarjar/fabric-resource-conditions-api-v1-2.3.8+9e342fc177.jar;1;fabric-resource-conditions-api-v1.mixins.json;;;logs/modlist.txt
+fabric_resource_loader_v0;Fabric Resource Loader (v0);0.11.10+bcd08ed377;/META-INF/jarjar/fabric-resource-loader-v0-0.11.10+bcd08ed377.jar;1;fabric-resource-loader-v0.mixins.json, fabric-resource-loader-v0.client.mixins.json;;;logs/modlist.txt
+fabric_screen_api_v1;Fabric Screen API (v1);2.0.8+45a670a577;/META-INF/jarjar/fabric-screen-api-v1-2.0.8+45a670a577.jar;1;fabric-screen-api-v1.mixins.json;;;logs/modlist.txt
+fabric_screen_handler_api_v1;Fabric Screen Handler API (v1);1.3.30+561530ec77;/META-INF/jarjar/fabric-screen-handler-api-v1-1.3.30+561530ec77.jar;1;fabric-screen-handler-api-v1.mixins.json;;;logs/modlist.txt
+fabric_sound_api_v1;Fabric Sound API (v1);1.0.13+4f23bd8477;/META-INF/jarjar/fabric-sound-api-v1-1.0.13+4f23bd8477.jar;1;fabric-sound-api-v1.mixins.json;;;logs/modlist.txt
+fabric_transfer_api_v1;Fabric Transfer API (v1);3.3.5+631c9cd677;/META-INF/jarjar/fabric-transfer-api-v1-3.3.5+631c9cd677.jar;1;fabric-transfer-api-v1.mixins.json;;;logs/modlist.txt
+fabric_transitive_access_wideners_v1;Fabric Transitive Access Wideners (v1);4.3.1+1880499877;/META-INF/jarjar/fabric-transitive-access-wideners-v1-4.3.1+1880499877.jar;1;;;;logs/modlist.txt
+faewulf_lib;Faewulf's Lib;1.4.0;mods/faewulf_lib-forge-1.20.1-1.4.0.jar;1;faewulf_lib.mixins.json, faewulf_lib.forge.mixins.json, faewulf_lib.client.mixins.json;594dbcf19cc864fddca2e50296c4025f2035f5c9;1842717938;logs/modlist.txt
+fallingleaves;Fallingleaves;2.1.2;mods/fallingleaves-1.20.1-2.1.2.jar;1;fallingleaves.mixins.json;b890536f44a5c0a49f2b1f4af91c17d948b4ef4d;3577225291;logs/modlist.txt
+farmers_structures;FarmersStructures;1.0.4;mods/FarmersStructures-1.0.4-1.20.jar;1;;efdf64144852cb4c79396ba1303a3752ad023818;3441116480;logs/modlist.txt
+farmersdelight;Farmer's Delight;1.20.1-1.3.4;mods/FarmersDelight-1.20.1-1.3.4.jar;1;farmersdelight.mixins.json;26f615fd35f652021f5b0f1cba68afa7d578fe15;1479167034;logs/modlist.txt
+fastasyncworldsave;fastasyncworldsave mod;1.20.1-2.6;mods/fastasyncworldsave-1.20.1-2.6.jar;1;fastasyncworldsave.mixins.json;3a3180f5fc9d1209ca0ad69084afe8ee42ba44d6;1473382339;logs/modlist.txt
+fastboot;FastBoot;1.2;mods/fastboot-1.20.x-1.2.jar;1;fastboot.mixins.json;0820d6611bdf664cc84bf351089e75998a9f1962;3152139061;logs/modlist.txt
+fdbosses;Qliphoth Awakening;3.1.0.3;mods/fdbosses-3.1.0.3-1.20.1.jar;1;fdbosses.mixins.json;a7ff3fc0cc6af1222b95c6a1ccc46e8961a834a9;4039926983;logs/modlist.txt
+fdlib;FDLib;1.0.9;mods/fdlib-1.0.9-1.20.1.jar;1;fdlib.mixins.json;6918e71d62fa103c55f9184ff619351f87f49c42;3296762722;logs/modlist.txt
+ferritecore;Ferrite Core;6.0.1;mods/ferritecore-6.0.1-forge.jar;1;ferritecore.modelsides.mixin.json, ferritecore.mrl.mixin.json, ferritecore.dedupbakedquad.mixin.json, ferritecore.threaddetec.mixin.json, ferritecore.blockstatecache.mixin.json, ferritecore.dedupmultipart.mixin.json, ferritecore.fastmap.mixin.json, ferritecore.predicates.mixin.json;417fb6ce8f52abf40bd9d0390371790f9576f8ba;2683111440;logs/modlist.txt
+firstperson;FirstPerson;2.7.3;mods/firstperson-forge-2.7.3-mc1.20.1.jar;1;firstperson.refmap.mixins.json, firstperson.mixins.json;229a85332b026a027e960919a263742f1eafbbc2;2361441595;logs/modlist.txt
+flywheel;Flywheel;1.0.5;/META-INF/jarjar/flywheel-forge-1.20.1-1.0.5.jar;1;flywheel.impl.mixins.json, flywheel.backend.mixins.json;;;logs/modlist.txt
+fnm_recrafted;fapdos' Nether Mobs: Recrafted;1.13.0;mods/fnm_recrafted_1130.jar;1;;f7d7fa1d067b9e49a6d38afdb775e2df77e9c797;2554283815;logs/modlist.txt
+fokusapi;FokusAPI;4.9;mods/FokusAPI-v4.9_MOD.jar;1;;55cf8efc7991edcb1c24bbace7ab898965666090;380515778;logs/modlist.txt
+forge;forge;fmlloader-1.20.1-47.4.28.jar;mods/fmlloader-1.20.1-47.4.28.jar (modloader);1;;;;logs/modlist.txt
+formations;Formations;1.0.4;mods/formations-1.0.4-forge-mc1.20.2.jar;1;formations.mixins.refmap.json, formations.mixins.json;110c95382a63c9ed4eb76125bc2fed09cac6d905;3987310421;logs/modlist.txt
+formationsnether;Formations Nether;1.0.5;mods/formationsnether-1.0.5.jar;1;formationsnether.mixins.json;5a6371db683b4d33f5034f7d192424cfe73ea05f;3371220902;logs/modlist.txt
+formationsoverworld;Formations Overworld;1.0.5;mods/formationsoverworld-1.0.5-mc1.20.jar;1;formationsoverworld.mixins.json;baffe74c5b996540bd62a88e6017df040770b405;2763312882;logs/modlist.txt
+fpsreducer;FPS Reducer;1.20.1-2.5.1;mods/FpsReducer2-forge-1.20.1-2.5.1.jar;1;fpsreducer.mixins.json;4920a2e1d17090007179a568181624847fba0993;4111825473;logs/modlist.txt
+fragmentum;Fragmentum;5.1.1;mods/fragmentum-5.1.1+1.20.1-forge.jar;1;fragmentum.mixins.json, fragmentum.mixins.refmap.json;2735f31a3910908f90894dfaea2d5a36973a041f;2231162924;logs/modlist.txt
+framework;Framework;0.8.0;mods/framework-forge-1.20.1-0.8.0.jar;1;;27347879f8760a7bc0b4bd71977abc50e498811c;174485922;logs/modlist.txt
+friendsandfoes;Friends&Foes;3.0.9;mods/friendsandfoes-forge-mc1.20.1-3.0.9.jar;1;friendsandfoes-common.mixins.json, friendsandfoes-forge.mixins.json;f8c84d824c433e7e6e9f44ae6d4885925a08087f;922130481;logs/modlist.txt
+fzzy_config;Fzzy Config;0.7.7+1.20.1+forge;mods/fzzy_config-0.7.7+1.20.1+forge.jar;1;;1a4f550dea4fb6316a96591dc46a463ee1f6602b;3873159638;logs/modlist.txt
+galosphere;Galosphere;1.5.2;mods/Galosphere-1.20.1-1.5.2-Forge.jar;1;galosphere.mixins.json;c75060ce1eaa42e044f409717b771b59fe63adb1;3265832930;logs/modlist.txt
+geckolib;GeckoLib 4;4.8.4;mods/geckolib-forge-1.20.1-4.8.4.jar;1;geckolib.mixins.json;81982cc287f80ffabb2fd36d22cc95e4255c739d;3690314662;logs/modlist.txt
+glitchcore;GlitchCore;0.0.1.1;mods/GlitchCore-forge-1.20.1-0.0.1.1.jar;1;glitchcore.mixins.json, glitchcore.forge.mixins.json;1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7;3328741320;logs/modlist.txt
+gml;GroovyModLoader;4.0.11;/META-INF/jarjar/mod-4.0.11.jar;1;;;;logs/modlist.txt
+goblintraders;Goblin Traders;1.11.5;mods/goblintraders-forge-1.20.1-1.11.5.jar;1;goblintraders.common.mixins.json;12bf1775fae7132c4f10ce3f61122bc0a2f171d6;3878486938;logs/modlist.txt
+golem_spawn_animation;Golem Spawn Animation;1.1;mods/golem_spawn_animation-1.1-forge-1.20.1.jar;1;mixins.golem_spawn_fix.json, mixins.golem_spawn_animation.json;a1d8e2177342ff51688aa7f0067c5a3bc03307e7;3015373331;logs/modlist.txt
+golem_spawn_animation_copper;Golem Spawn Animation: Copper Golem Addon;1.0.0;mods/golem_spawn_animation_copper-1.0.0-forge-1.20.1.jar;1;golem_spawn_animation_copper.mixins.json;52bc2c82fe50e3b0ef933951b915f1f3610b8a9b;577694045;logs/modlist.txt
+golemsarefriends;Golems Are Friends Not Fodder;1.20.0-1.0.1;mods/golemsarefriends-1.20.0-1.0.1.jar;1;golemsarefriends.mixin.json;e6a26611478acb166d8715eda955e09a0325a758;2619512710;logs/modlist.txt
+gore_and_more;Gore and More;1.0.0;mods/gore_and_more-1.2-forge-1.20.1.jar;1;;22a0d4221ed025e20d1cfed5046745f2a634b3ff;3557155182;logs/modlist.txt
+graveyard;The Graveyard;3.1;mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar;1;graveyard-forge.mixins.json, graveyard-common.mixins.json;11ae4c94aa94b38b78cf9b901dad4612b679f8ac;617006471;logs/modlist.txt
+guardvillagers;Guard Villagers;1.20.1-1.6.19;mods/guardvillagers-1.20.1-1.6.19.jar;1;guardvillagers.mixins.json;7e86fe325d27700385080d9ca4a1e4c8d38ec425;22625576;logs/modlist.txt
+handcrafted;Handcrafted;3.0.6;mods/handcrafted-forge-1.20.1-3.0.6.jar;1;handcrafted.mixins.json, handcrafted-common.mixins.json;f1b9a009529134c736c59d6d192d53a4a25e5e5f;2938560098;logs/modlist.txt
+happyghastmod;Happy Ghast Mod;1.5.4;mods/happyghastmod-1.5.4.jar;1;happyghastmod.mixins.json;3281b4ad608b4e3df2b5bef8740c5d605e91e8e6;1235832314;logs/modlist.txt
+harderspawners;Harder Spawners Mod;46.25.3;mods/harderspawners-1.20-46.25.3.jar;1;;c9d915e0cd3ab3d756ddf31ab409e46667c15272;4034731517;logs/modlist.txt
+highlighter;Highlighter;1.1.9;mods/Highlighter-1.20.1-forge-1.1.9.jar;1;highlighter.mixins.json;644dc33b1745ad100f513b4d169ace86fff3b2bf;3155872847;logs/modlist.txt
+hit_indicator;Hit Indicator;1.8.5;mods/hit_indicator-1.8.5.jar;1;hit_indicator.mixins.json;b3e096598e4f02976b46155da81f7a27856b1405;1541505146;logs/modlist.txt
+hopo;HopoBetterMineshaft;1.2.2;mods/HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar;1;;d06445736ba2462f4dd1489f66ee57c298f5dbc4;3069872909;logs/modlist.txt
+hoporp;HopoBetterRuinedPortals;1.3.7c;mods/HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7c.jar;1;;73fc57472fea0195c55401f87cfff92b9a899f21;775888868;logs/modlist.txt
+hopour;HopoBetterUnderwaterRuins;1.1.4;mods/HopoBetterUnderwaterRuins-[1.20.1-1.20.4]-1.1.5b.jar;1;;ef2a3bf07d771480bd3b0010bd8a20728919cd1c;3373150765;logs/modlist.txt
+iceandfire;Ice and Fire;2.1.13-1.20.1;mods/iceandfire-2.1.13-1.20.1-beta-5.jar;1;iceandfire.mixins.json;7e828cbb046ca3d622e92c68f956bd1c0155dc6f;1655037482;logs/modlist.txt
+iceandfirebettercombat;Ice and Fire x Better Combat;1.0;mods/iceandfirebettercombat.jar;1;;e6dad8643b89258d8866533b4ac088d1c154e5df;2381371199;logs/modlist.txt
+iceberg;Iceberg;1.1.25;mods/Iceberg-1.20.1-forge-1.1.25.jar;1;iceberg.mixins.json;d551ff55814cfb01403b812459ee5a02b020d87b;263977206;logs/modlist.txt
+illageandspillage;Illage and Spillage: Respillaged;1.2.8;mods/illageandspillagerespillaged-1.2.8.jar;1;illageandspillage.mixins.json, illageandspillage.mixins.refmap.json;4770eeb199c1947642456bc6ed4a0a9f54c953d6;384584490;logs/modlist.txt
+illagerraidmusic;IllagerRaidMusic;1.1.1;mods/illagerraidmusic-1.20-1.20.1-1.2.jar;1;illagerraidmusic.mixins.json;2f90c3b308f239c31fdcbcfe90918be3546a1ce9;833647164;logs/modlist.txt
+immediatelyfast;ImmediatelyFast;1.5.5+1.20.4;mods/ImmediatelyFast-Forge-1.5.5+1.20.4.jar;1;immediatelyfast-common.mixins.json, immediatelyfast-forge.mixins.json;9eacd407b7dea636d375dc47335d92f616484ea2;220541488;logs/modlist.txt
+immersive_armors;Immersive Armors;1.7.2+1.20.1;mods/immersive_armors-1.7.2+1.20.1-forge.jar;1;immersive_armors.mixins.json;9c4fb7f1287470353125a9c4b61047c7009e1949;2038597733;logs/modlist.txt
+immersive_weathering;Immersive Weathering;1.20.1-2.0.5;mods/immersive_weathering-1.20.1-2.0.5-forge.jar;1;immersive_weathering-common.mixins.json, immersive_weathering.mixins.json;d89ad3793ffb97df27f415ac6cc07c61460dd9f3;53948787;logs/modlist.txt
+immersiveui;ImmersiveUI;0.3.0;mods/ImmersiveUI-FORGE-0.3.0.jar;1;immersiveui-common.mixins.json, immersiveui.mixins.json;b2b36a49f1b8daf8d8fc0521f532fb706649c09c;372492397;logs/modlist.txt
+incendium;Incendium;5.3.5;mods/Incendium_1.20.x_v5.3.5.jar;1;;484556937b1b2dde2682144e7953e79bff717104;52166841;logs/modlist.txt
+incontrol;InControl;1.20-9.5.0;mods/incontrol-1.20-9.5.0.jar;1;;d9de091a691c65bb24523036de66b13939427fde;1045902606;logs/modlist.txt
+info_on_death;Info On Death;1.3;mods/info_on_death-1.3.jar;1;info_on_death.mixins.json;e7881ef0afe46d5ea5b5e2476bb497f35aedd0ad;316178896;logs/modlist.txt
+insanelib;InsaneLib;1.23.4.6;mods/insanelib-1.23.4.6.jar;1;mixins.insanelib.json, mixins.insanelib.refmap.json;cca086a7ff34c4ffadb3caf3e825acb87f7e7322;1032289239;logs/modlist.txt
+integrated_api;Integrated API;1.9.0;mods/integrated_api-forge-1.20.1-1.9.0.jar;1;integrated_api-forge.mixins.json, integrated_api-common.mixins.json;a6dab9c4bd8944bdf64d979b501c87ab46a10c48;2601962522;logs/modlist.txt
+integrated_mowzies_mobs;Integrated Mowzie's Mobs;1.3.2;mods/IMM v1.3.2-1.20.1.jar;1;;94c65bb9dc2c0710d46fc12765bdc73cca74ffaa;408277069;logs/modlist.txt
+irisflw;Oculus Flywheel Compat;2.0.3;mods/oculus-flywheel-compat-Forge-2.0.3.jar;1;irisflw.mixins.flw.json, irisflw.mixins.iris.json, irisflw.mixins.forge.json;a11227479ddcddcb0eed3f9c3717c53fd5a47222;500463479;logs/modlist.txt
+irons_lib;Iron's Lib;1.20.1-2.2.0;mods/irons_lib-1.20.1-2.2.0.jar;1;irons_lib.mixins.json;8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa;1744450337;logs/modlist.txt
+irons_spellbooks;Iron's Spells 'n Spellbooks;1.20.1-3.16.3;mods/irons_spellbooks-1.20.1-3.16.3.jar;1;mixins.irons_spellbooks.json;726345aa215756bd30b7cf8c338c9ae6bbc59799;4104012336;logs/modlist.txt
+itemphysiclite;ItemPhysicLite;1.6.13;mods/ItemPhysicLite_FORGE_v1.6.13_mc1.20.1.jar;1;itemphysiclite.mixin.refmap.json, itemphysiclite.mixins.json;cd2e5d5f7406dc4a6bfa28873308a9f9d6a7e5a1;486931758;logs/modlist.txt
+jamlib;JamLib;1.3.6+1.20.1-patch.1;mods/jamlib-forge-1.3.6+1.20.1-patch.1.jar;1;jamlib.client.mixins.json, jamlib.mixins.json;1d376bf7e9e516869fac7f58ec5ac1dd48830f0c;2794231701;logs/modlist.txt
+jumpanimation;jumpanimation;2.0.0;mods/jumpanimation-2.0.0-1.20.1.jar;1;jumpanimation.mixins.json;b955cb42d41e788174db3b638e668e68e5fbf8f0;3423827904;logs/modlist.txt
+just_parry;just parry;2.5;mods/just_parry-2.5-forg-1.20.1.jar;1;mixins.just_parry.json;a791bf554d3555565b0d4577c37e3b5e93d39a90;2067016771;logs/modlist.txt
+kambrik;Kambrik;6.1.1+1.20.1;mods/Kambrik-6.1.1+1.20.1-forge.jar;1;kambrik.mixins.json;48cdc22a0f6698c9059f437538e5546f74900541;1481151549;logs/modlist.txt
+kiwi;Kiwi Library;11.10.3+forge;mods/Kiwi-1.20.1-Forge-11.10.3.jar;1;kiwi.mixins.json;1380034abc414f84fbfaf4a39ceea359db0723c0;500326019;logs/modlist.txt
+kotlinforforge;Kotlin For Forge;4.11.0 | 4.12.0;/META-INF/jarjar/kffmod-4.11.0.jar | /META-INF/jarjar/kffmod-4.12.0.jar;2;;;;logs/modlist.txt
+kubejs;KubeJS;2001.6.5-build.26;mods/kubejs-forge-2001.6.5-build.26.jar;1;kubejs-common.mixins.json, kubejs-forge.mixins.json;8b0cc9797d4ed00fd2d1002d58960af8b32012ae;2994552797;logs/modlist.txt
+kuma_api;KumaAPI;20.1.12;/META-INF/jarjar/kuma-api-forge-20.1.12+1.20.1.jar;1;kuma_api.forge.mixins.json, kuma_api.mixins.json;;;logs/modlist.txt
+leavemybarsalone;Leave My Bars Alone;8.0.0;mods/LeaveMyBarsAlone-v8.0.0-1.20.1-Forge.jar;1;;d4b545c4ed05152acb920396de9600938cd01962;168702818;logs/modlist.txt
+legendary_monsters;LegendaryMonsters;1.20.1;mods/legendarymonsters-2.2.3 MC 1.20.1.jar;1;legendary_monsters.mixins.json;a805897c0f29923c5bb65fb99c5f2a7fcd999d59;2041432357;logs/modlist.txt
+libbamboo;LibBamboo;2.17 | 2.23;autohud-8.6+1.20.1-forge.jar!/META-INF/jars/libbamboo-2.17+1.20.1-forge.jar | dynamiccrosshair-9.10+1.20.1-forge.jar!/META-INF/jars/libbamboo-2.23+1.20.1-forge.jar;2;libbamboo.mixins.json;;;logs/modlist.txt
+lionfishapi;LionfishAPI;3.0;mods/lionfishapi-3.0.jar;1;lionfishapi.mixins.json;79d0404f87fa066480b18c844c1e0b1c5f5475f9;970646236;logs/modlist.txt
+lithostitched;Lithostitched;1.4.11;mods/lithostitched-forge-1.20.1-1.4.11.jar;1;lithostitched.mixins.json, lithostitched.forge.mixins.json;d1a755de84ee5d8910ff1e65e815473056e93ece;940772176;logs/modlist.txt
+loot_journal;Loot Journal;6.2.2;mods/loot_journal-forge-1.20.1-6.2.2.jar;1;loot_journal.forge.mixins.json, loot_journal.mixins.json;e9bf2830f3ee8adaacd4b951aaf27c0d28e25090;3218883349;logs/modlist.txt
+lootbeams;LootBeams;1.20.1;mods/lootbeams-1.20.1-1.2.6.jar;1;lootbeams.mixins.json;6b36aa6fb6adf19ce5c6c045e5cf0c292d28d505;4218394787;logs/modlist.txt
+lootbundles;Loot Bundles;1.20.1-1.0.6;mods/lootbundles-1.20.1-1.0.6.jar;1;;27960df5ddb50e7e931ef64b4a47824083fff4f3;1608667373;logs/modlist.txt
+lootintegrations;Lootintegrations mod;1.20.1-4.7;mods/lootintegrations-1.20.1-4.7.jar;1;lootintegrations.mixins.json;2aa541075b8e13480db4a8021482fbffb2132337;3552897390;logs/modlist.txt
+lootintegrations_hopo;lootintegrations_hopo mod;1;mods/lootintegrations_hopo-1.7.jar;1;;d4ad2dd8b7e704017a11d911c2e7016ad6a5a13d;874932647;logs/modlist.txt
+lootintegrations_yungs;lootintegrations_yungs mod;1;mods/lootintegrations_yungs-1.6.jar;1;;a0a2a57cb89435048819be14666c2a9f8d956828;1226344913;logs/modlist.txt
+lootjs;LootJS;1.20.1-2.13.1;mods/lootjs-forge-1.20.1-2.13.1.jar;1;lootjs-forge.mixins.json, lootjs-common.mixins.json;804deb0bd34d69cad873170642b9d7e47fa0d6ad;1389353380;logs/modlist.txt
+luckys_armory;Lucky's Armory;0.4.0.1;mods/luckys_armory-0.4.0.2-forge-1.20.1.jar;1;;57908156418b0ce55b5640ea7d60b00f60338ee7;1002480361;logs/modlist.txt
+majruszlibrary;Majrusz Library;7.0.8;mods/majrusz-library-forge-1.20.1-7.0.8.jar;1;majruszlibrary-forge.mixins.json, majruszlibrary-common.mixins.json;be0e1b5808206abcc2ff6a369ce0c2ba53968c55;2744375869;logs/modlist.txt
+majruszsdifficulty;Majrusz's Progressive Difficulty;1.9.10;mods/majruszs-difficulty-forge-1.20.1-1.9.10.jar;1;majruszsdifficulty-common.mixins.json, majruszsdifficulty-forge.mixins.json;18495da41285e8450d1b5fcd066816f6cf55f3a7;1868859216;logs/modlist.txt
+majruszsenchantments;Majrusz's Enchantments;1.10.8;mods/majruszs-enchantments-forge-1.20.1-1.10.8.jar;1;majruszsenchantments-common.mixins.json;f40859a5dbf2d98ebc3b5628678aa15a5bb8518a;1349262555;logs/modlist.txt
+make_bubbles_pop;Make Bubbles Pop;${file.jarVersion}-forge;mods/make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar;1;make_bubbles_pop.mixins.json;b918de5212256c7f39acd2d125ec12704a226a3c;2128942270;logs/modlist.txt
+mantle;Mantle;1.11.117;mods/Mantle-1.20.1-1.11.117.jar;1;;0d6af73ad4f11fe685aa466cedd2786b7bc57245;4130372343;logs/modlist.txt
+matmos_tct;Matmos;7.7;mods/matmos_tct-7.7-forge-1.20.1.jar;1;;7089113a461df16e72aad413994d6e7215448ff4;4048745760;logs/modlist.txt
+mbs;MoogsBountifulStructures;1.0.5;mods/MoogsBountifulStructures-1.20-1.0.5.jar;1;;4eec2cdd163d7714aa14d30e409665d659beb231;1340598372;logs/modlist.txt
+medieval_buildings;Medieval Buildings;1.1.3;mods/medieval_buildings-1.20.1-1.1.3-forge.jar;1;mixins.medieval_buildings.refmap.json, mixins.medieval_buildings.json;e9beed6998e6805acbbdd0fd10f4e873dde6a269;3982985949;logs/modlist.txt
+medieval_nether;Medieval Buildings [The Nether Edition];1.0.2;mods/medieval_buildings_nether_edition-1.20.1-1.0.2-forge.jar;1;mixins.medieval_nether.json, mixins.medieval_nether.refmap.json;5c6c11ef678a500bdf1fb35e8e82739a71765f3e;3316717447;logs/modlist.txt
+medievalend;Medieval Buildings [The End Edition];1.0.1;mods/forge-medievalend-1.0.1.jar;1;mixins.medievalend.json, mixins.medievalend.refmap.json;11e2b53ec5c85ee01fe689ea9ebd695ee0ceb299;2427537758;logs/modlist.txt
+memoryleakfix;Memory Leak Fix;1.1.5;mods/memoryleakfix-forge-1.17+-1.1.5.jar;1;memoryleakfix.mixins.json, memoryleakfix-16.mixins.json;9f60142dd94631800386a16a4ad70ad9e84cd78a;3221047096;logs/modlist.txt
+memorysettings;memorysettings mod;1.20.1-6.0;mods/memorysettings-1.20.1-6.0.jar;1;memorysettings.mixins.json;a31b01c140372043755b7f059a675d0c55a7d154;3022957107;logs/modlist.txt
+mes;MoogsEndStructures;2.1.0;mods/MoogsEndStructures-universal-1.20-2.1.0.jar;1;;a581935313f819fe67bbe810e03fb8a44b356089;1523621200;logs/modlist.txt
+meteor_shower;Ex-Meteor-Shower;0.0.4.2;mods/meteor_shower-0.0.4.2.jar;1;meteor_shower.mixins.json;4e542422df2b3146a2a9d130ce6535de64868e7f;1690546752;logs/modlist.txt
+midnightlib;MidnightLib;1.4.2;naturalist-5.0pre5+forge-1.20.1.jar!/META-INF/jars/midnightlib-1.4.2-forge.jar | weaponleveling-1.20.1-3.2.0-forge.jar!/META-INF/jars/midnightlib-1.4.2-forge.jar;2;midnightlib.mixins.json;;;logs/modlist.txt
+minimod;minimod1.20.1;1.0.0;mods/minimod.dash.1.20.1.jar;1;;8192f354c55955f781f7db3cee10d20e5a407e89;1308797801;logs/modlist.txt
+mmv;MoogsMissingVillages;2.2.0;mods/MoogsMissingVillages-universal-1.20-2.2.0.jar;1;;f806838fb5b9d34a03ae02c02e839bda809aa8cf;2824343534;logs/modlist.txt
+mns;MoogsNetherStructures;3.1.0;mods/MoogsNetherStructures-universal-1.20-3.1.0.jar;1;;fcfef161397f7865e3a6642c5170cd13fd7ad9ef;1312878301;logs/modlist.txt
+mobhealthbar;YDM's Mob Health Bar;2.3.0;mods/mobhealthbar-forge-1.20.x-2.3.0.jar;1;;ced8ae0775e0bb079bae13b761c0e7ad33090f33;544563568;logs/modlist.txt
+mobplayeranimator;Mob Player Animator;1.3.3;mods/mobplayeranimator-forge-1.20.1-1.3.3-all.jar;1;mobplayeranimator.forge.mixins.json, mobplayeranimator.mixins.json;5767ecee24e34efb138403a45de1589e38ddc624;3320375087;logs/modlist.txt
+modefite;Modefite - Item Definition Backport;1.0.3+1.20.1;mods/modefite-forge-1.0.3+1.20.1.jar;1;modefite.mixins.json;274bb79c55736808bd8a1848bdd370838052705f;1861282778;logs/modlist.txt
+modelfix;Model Gap Fix;1.15;mods/modelfix-1.15.jar;1;modelfix.mixins.json;5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84;3993116548;logs/modlist.txt
+modernfix;ModernFix;5.27.85+mc1.20.1;mods/modernfix-forge-5.27.85+mc1.20.1.jar;1;modernfix-modernfix.mixins.json;ba76615cdaff6de931c2e33c71f0b05deb1dad41;3859317857;logs/modlist.txt
+moogs_structures;Moog's Structure Lib;3.4.2;mods/MoogsStructureLib-forge-1.20-3.4.2.jar;1;moogs_structures-common.mixins.json, moogs_structures-forge.mixins.json;f91a62466de6e9b3a1166a1e88a837668cbb6eae;2087876018;logs/modlist.txt
+moonlight;Moonlight Library;1.20-2.16.35;mods/moonlight-1.20-2.16.35-forge.jar;1;moonlight.mixins.json, moonlight-common.mixins.json;a7885d318f5a6810b0ef543cd1cce7d4308f10e6;2570511985;logs/modlist.txt
+moredragoneggs;More Dragon Eggs;4.0;mods/moredragoneggs-4.0.jar;1;mixins.moredragoneggs.json, mixins.moredragoneggs.refmap.json;22122de407d0df09a0f36c580ed56c22faa52551;3402123077;logs/modlist.txt
+mos;MoogsOceanStructures;1.1.0;mods/MoogsOceanStructures-universal-1.20-1.1.0.jar;1;;f75e5a004eefdb0e8f6eb3ec7dc5d50814d79158;1895264580;logs/modlist.txt
+mousetweaks;Mouse Tweaks;2.25.1;mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar;1;mousetweaks-fabric.mixins.json, mousetweaks.mixins.refmap.json, mousetweaks.mixins.json;d751153e722a4e014691c83f39f5b07c6ec5333c;3001740257;logs/modlist.txt
+mowziesmobs;Mowzie's Mobs;1.8.2;mods/mowziesmobs-1.8.2.jar;1;mowziesmobs.mixins.json;25ffcd175cc03650e38e60d3cb7b3e038d9d3345;2037529958;logs/modlist.txt
+mr_dungeons_andtaverns;Dungeons and Taverns;3.0.3.f;mods/dungeons-and-taverns-3.0.3.f.jar;1;;3f324242f3daf4785a8b9338f228679418f4870a;2455489755;logs/modlist.txt
+mr_hero_proof;Hero Proof;5.2.1;mods/hero-proof-5.2.1.jar;1;;94251d3feea22f90f664598042002a3e66d15c62;22983065;logs/modlist.txt
+mr_lukis_grandcapitals;Luki's Grand Capitals;1.1.3;mods/lukis-grand-capitals-1.1.3.jar;1;;a07986ac59268f1343737b81acd24ad34e5371ca;4154975689;logs/modlist.txt
+mr_lukis_strongholds;Luki's Strongholds;1-v1.0;mods/lukis-strongholds-v1.0.jar;1;;893f55af95054fe8b71e51a90a071064793bee8c;1461247866;logs/modlist.txt
+mr_lukis_woodlandmansions;Luki's Woodland Mansions;1-v.1.0;mods/lukis-woodland-mansions-v.1.0.jar;1;;b3dd7845f2721c51bad97206c0db3ffd2c09050a;2392790494;logs/modlist.txt
+mr_tidal_towns;Tidal Towns;2.0;mods/tidal-towns-2.0.jar;1;;f48816fb1b0759350b60e96cd595512fe2b24baf;1124759260;logs/modlist.txt
+mr_trek;Trek;1-B0.6.2;mods/trek-B0.6.2.jar;1;;42a1e4e28eb3cada71a4bc8811e50c5332799a1b;3425612976;logs/modlist.txt
+mss;MoogsSoaringStructures;2.2.0;mods/MoogsSoaringStructures-universal-1.20-2.2.0.jar;1;;98de8e594ff5780e66b213d70d41f376554030ff;2466465531;logs/modlist.txt
+mvs;MoogsVoyagerStructures;5.1.3;mods/MoogsVoyagerStructures-universal-1.20-5.1.3.jar;1;;10f6327a8586581bdad42515e527b4abbabbd2d0;2623009483;logs/modlist.txt
+naturalist;Naturalist;5.0pre5;mods/naturalist-5.0pre5+forge-1.20.1.jar;1;naturalist-common.mixins.json, naturalist.mixins.json;bc2c527dd52a1e6a92a3e34db1a88742e8e7d596;888228621;logs/modlist.txt
+ncbetterblastfurnace;NoCube's Better Blast Furnace;1.0.1;mods/nocube's_better_blast_furnace_1.0.1_Forge_1.20.1.jar;1;;aef8153be6396dee092122ddaccbd9d4d52d35fa;2318648255;logs/modlist.txt
+nerb;Not Enough Recipe Book;0.4.1;mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar;1;nerb-common.mixins.json;c0806369f4257149664904db44efc60bd1785c17;1367373369;logs/modlist.txt
+netherchested;Nether Chested;8.0.4;mods/NetherChested-v8.0.4-1.20.1-Forge.jar;1;netherchested.common.mixins.json;25e30fc421f7efabea7760d2c81b150132633e26;665658478;logs/modlist.txt
+netherdepthsupgrade;Nether Depths Upgrade;3.1.5-1.20;mods/netherdepthsupgrade-3.1.5-1.20.jar;1;netherdepthsupgrade.mixins.json;d0347db9b56927172b545884d7fbb00ac2b2a1ce;1513668027;logs/modlist.txt
+netherexp;Jaden's Nether Expansion;2.3.5;mods/Jadens-Nether-Expansion-2.3.5.jar;1;mixins.netherexp.refmap.json, mixins.netherexp.json;bfb10b56cb5dcc34f3643472aa09bc4120808d31;423607225;logs/modlist.txt
+noanimaltemptdelay;No Animal Tempt Delay;1.3;mods/noanimaltemptdelay-1.20.1-1.3.jar;1;noanimaltemptdelay_fabric.mixins.json, noanimaltemptdelay_forge.mixins.json;187a695839f9abc11ebbcf1cedf188cac67953e1;322454328;logs/modlist.txt
+nochatreports;No Chat Reports;1.20.1-v2.2.3;mods/NoChatReports-FORGE-1.20.1-v2.2.3.jar;1;mixins/common/nochatreports.mixins.json, mixins/forge/nochatreports-forge.mixins.json;fa524b8f5475aef5d09b2787e553c903e4e3fe94;2353634613;logs/modlist.txt
+nocubesbetterfletchingtable;NoCube's Better Fletching Table;1.0.1;mods/nocubes_better_fletching_table_1.0.1_forge_1.20.1.jar;1;;34fd59c2d7dee28ded2dcbcca289f60c965f1c21;1531397484;logs/modlist.txt
+nocubesbettergrindstone;NoCube's Better Grindstone;1.0.1;mods/nocube's_better_grindstone_1.0.1_forge_1.20.1.jar;1;;9e7d524e1357196a2355b1effab8a8d98fa59440;1251622374;logs/modlist.txt
+notenoughanimations;NotEnoughAnimations;1.12.6;mods/notenoughanimations-forge-1.12.6-mc1.20.1.jar;1;notenoughanimations.refmap.mixins.json, notenoughanimations.mixins.json;993252c9946e22aa4ba0b28cb5b81183d5bcf50d;4216813964;logs/modlist.txt
+nullscape;Nullscape;1.2.8;mods/Nullscape_1.20.x_v1.2.8.jar;1;;e4afd980e788f1861d8a8263bc700312667df977;2335606410;logs/modlist.txt
+nyfsspiders;Nyf's Spiders;3.0.2;mods/nyfsspiders-Forge-1.20.1-3.0.2.jar;1;nyfsspiders.mixins.json;6dfaee0568fe608b1cb5ceaaf5444e27221522f9;3042012125;logs/modlist.txt
+obscure_api;Obscure API;18;mods/obscure_api-18.jar;1;obscure_api.mixins.json;d395153341a9a732fc80463c475b202d78675e28;1237693652;logs/modlist.txt
+obscure_tooltips;Obscure Tooltips;3.10.1;mods/obscure_tooltips-forge-1.20.1-3.10.1.jar;1;obscure_tooltips.mixins.json, obscure_tooltips.forge.mixins.json;95c1b6fcca75d023564ccda62c8345212f431ece;3361551151;logs/modlist.txt
+obscure_tooltips_fix;Obscure Tooltips Fix;1.3.0;mods/obscure_tooltips_fix-1.20.1-1.3.0-all.jar;1;obscure_tooltips_fix.mixins.json;438cde1a1bfce97e9a2c53cb5c1f84d0dbc65a96;3683057708;logs/modlist.txt
+octolib;OctoLib;0.5.0.1;mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar;1;octolib-common.mixins.json;9eab28baff36942e1c924489e34753df10f40208;2265070471;logs/modlist.txt
+oculus;Oculus;1.8.0;mods/oculus-mc1.20.1-1.8.0.jar;1;mixins.oculus.compat.sodium.json, sodiumCompatibility-oculus-mixins-refmap.json, mixins.oculus.integrationtest.json, mixins.oculus.compat.dh.json, mixins.oculus.vertexformat.json, mixins.oculus.fixes.maxfpscrash.json, oculus-batched-entity-rendering.mixins.json, mixins.oculus.compat.indium.json, mixins.oculus.json, oculus-mixins-refmap.json, mixins.oculus.compat.indigo.json, mixins.oculus.bettermipmaps.json, mixins.oculus.compat.pixelmon.json, mixins.oculus.fantastic.json;984f774e71790deaec674c7587bd24e0711871b2;516527841;logs/modlist.txt
+palegardenbackport;Pale Garden Backport;2.0.3;mods/palegardenbackport-forge-2.0.3+1.20.1.jar;1;palegardenbackport.mixins.json;bb216158fb0a671f2e6eb2ddf71818407ff2b732;440989101;logs/modlist.txt
+paraglider;Paraglider;20.1.3;mods/Paraglider-forge-20.1.3.jar;1;paraglider.mixins.json;51fdf94686fc847515e6de8a6c9fd4dab3466ea5;4171088984;logs/modlist.txt
+particlerain;Particle Rain;4.0.0-beta.11;mods/particlerain-4.0.0-beta.11+1.20.1-forge.jar;1;particlerain.mixins.json;d124375e5955254b6bf39cbf16240053b5f3cad8;433687079;logs/modlist.txt
+particular;Particular Reforged;1.5.7;mods/particular-1.20.1-Forge-1.5.7.jar;1;particular.forge.mixins.json, particular.mixins.json;735ad052616e135e45a8c9195f1c22f11274f180;2332134085;logs/modlist.txt
+passablefoliage;Passable Foliage;8.2.1;mods/PassableFoliage-1.20.1-forge-8.2.1.jar;1;passablefoliage.mixins.json;5c6c739ce9bf34e6b434503190ff4c109986ba19;4255052743;logs/modlist.txt
+patchouli;Patchouli;1.20.1-85-FORGE;mods/Patchouli-1.20.1-85-FORGE.jar;1;patchouli_xplat.mixins.json;d4614507d6e4c7cb464bba5eca891978272062ef;1383309397;logs/modlist.txt
+perception;Perception;0.1.4;mods/Perception-FORGE-0.1.4+1.20.1.jar;1;perception-forge.mixins.json, perception-common.mixins.json;a1b3cdfb0895cbfc81a53f6f6eacdb0a0ee091e1;1987020420;logs/modlist.txt
+philipsruins;Philips Ruins;5.6;mods/PhilipsRuins1.20.1-5.7.jar;1;;2b5ca7b5adc7feb6721ce6406fcd903e4c382c38;2536278713;logs/modlist.txt
+pingtomapxaeros;Ping to Map: Xaero's Minimap & Ping Wheel Addon;1.1.1;mods/pingtomapxaeros-1.1.1-forge-1.20.1.jar;1;pingtomapxaeros.mixins.json;139484a538fd61a9f98ff070a98b691e4815bcdf;4069038882;logs/modlist.txt
+pingwheel;Ping Wheel;1.12.1;mods/Ping-Wheel-1.12.1-forge-1.20.1.jar;1;;54a5964c89ed073a2856d22799ceb174febd9329;1688651921;logs/modlist.txt
+placebo;Placebo;8.6.3;mods/Placebo-1.20.1-8.6.3.jar;1;placebo.mixins.json;e85f53de2e582a79ce25ff1df1e7b5b5fc08440f;3174429337;logs/modlist.txt
+playeranimator;Player Animator;1.0.2-rc1+1.20;mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar;1;playerAnimator-common.mixins.json;16808f94a41d45d8e986b4e4ea6b02ba57fa058a;2854309810;logs/modlist.txt
+ponder;Ponder;1.0.91;/META-INF/jarjar/Ponder-Forge-1.20.1-1.0.91.jar;1;ponder-common.mixins.json, ponder.mixins.json;;;logs/modlist.txt
+pots_and_mimics;Realm RPG: Pots & Mimics;1.0.2;mods/realmrpg_pots_and_mimics_1.0.2_forge_1.20.1.jar;1;;612e6082f61f9cc56246e42d4039acbbec6159c8;3109199595;logs/modlist.txt
+presencefootsteps;Presence Footsteps (Forge);1.20.1-1.9.1-beta.1;mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar;1;presencefootsteps.mixin.json, presencefootsteps.mixin.refmap.json;6ccb76043763f929a11f1857a57b41bb70ab7512;1633971404;logs/modlist.txt
+projectvibrantjourneys;Project: Vibrant Journeys;1.20.1-6.3.0;mods/projectvibrantjourneys-1.20.1-6.3.0.jar;1;projectvibrantjourneys.mixins.json;397031c9edec8fcbbcf67b26213e745865e37c50;2328549957;logs/modlist.txt
+pulse_trims;Pulse Trims;1.0.2;mods/pulse_trims-1.0.2-forge-1.20.1.jar;1;pulse-trims.mixins.json;50c94227d5ea14481b0f58182f96f8b5e28a7f64;1433669172;logs/modlist.txt
+puzzlesaccessapi;Puzzles Access Api;8.0.9 | 20.1.1;/META-INF/jarjar/puzzlesaccessapi-forge-8.0.9.jar | /META-INF/jarjar/puzzlesaccessapi-forge-20.1.1.jar;3;puzzlesaccessapi.forge.mixins.json, puzzlesaccessapi.common.mixins.json;;;logs/modlist.txt
+puzzlesapi;Puzzles Api;8.1.6 | 8.1.7;/META-INF/jarjar/puzzlesapi-forge-8.1.6.jar | /META-INF/jarjar/puzzlesapi-forge-8.1.7.jar;2;puzzlesapi.common.mixins.json;;;logs/modlist.txt
+puzzleslib;Puzzles Lib;8.1.33;mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar;1;puzzleslib.common.mixins.json, puzzleslib.forge.mixins.json;285b7c7616971338ccbe0022c9ea0f8ad3036aaf;3151848185;logs/modlist.txt
+quark;Quark;4.0-462;mods/Quark-4.0-462.jar;1;quark.mixins.json, quark_integrations.mixins.json, quark.mixins.refmap.json;9b0fb82995622a0070c00827c698c43b49d9d14b;4061553554;logs/modlist.txt
+raidsenhanced;Raids: Enhanced;1.0.2;mods/raidsenhanced-1.0.2-1.20.1.jar;1;raidsenhanced.mixins.json;4e403354d71c2812b7c6d78963f815976a12da0d;1989788916;logs/modlist.txt
+rainbows;Rainbows;1.5;mods/Rainbows-1.20.1-1.5.jar;1;rainbows.mixins.json;0440283fedc2c8f915b9ed427b24bccd415f1d95;2738537828;logs/modlist.txt
+ramcompat;RAM-Compat;0.1.4;mods/ramcompat-1.20.1-0.1.4.jar;1;ramcompat.mixins.json;6475d3d9eed8ede0a2e9356aacc6a81bf713de2a;3835055730;logs/modlist.txt
+rarcompat;RAR-Compat;0.5;mods/rarcompat-1.20.1-0.5.jar;1;rarcompat.mixins.json;a6d83f41f0bff392fec5db7e392d57d8b0c818e0;3336012854;logs/modlist.txt
+reactivemusic;Reactive Music;1.3.5;mods/reactivemusic-forge-1.3.5+1.20.1.jar;1;reactivemusic-common.mixins.json;e5a9cd891b0f11c476f1d93d87a4c4770c77477c;2856147726;logs/modlist.txt
+realmrpg_balloons;[NoCube's] Realm RPG: Treasure Balloons;1.0.0;mods/realmrpg_balloons-1.0.0-forge-1.20.1.jar;1;;2ca7dc891be7654ac2cfc3e4b1f1dc45f72671df;226084292;logs/modlist.txt
+realmrpg_skeletons;Realm RPG: Fallen Adventurers;1.1.0;mods/realmrpg_skeletons-1.1.0-forge-1.20.1.jar;1;;b3e2385a5df9a24b12089b76f97a9e9337956255;2492634010;logs/modlist.txt
+realmrpg_wyrms;Realm RPG: Dragon Wyrms;1.0.1;mods/realmrpg_dragon_wyrms_1.0.1_forge_1.20.1.jar;1;;72de4bf43e33b96fdfcd48bd6f9215e40a8f7369;2980905780;logs/modlist.txt
+relics;Relics;0.8.0.13;mods/relics-1.20.1-0.8.0.13.jar;1;relics.mixins.json;940358d190780a9a59a69dd7e75a5e7cf07e4209;2688565275;logs/modlist.txt
+repurposed_structures;Repurposed Structures;7.1.25+1.20.1-forge;mods/repurposed_structures-7.1.25+1.20.1-forge.jar;1;repurposed_structures-forge.mixins.json, repurposed_structures-common.mixins.json;a1534373cf9bcd237d5c444ebdfdbd9a04584006;2822896061;logs/modlist.txt
+resourcefulconfig;Resourcefulconfig;2.1.3;mods/resourcefulconfig-forge-1.20.1-2.1.3.jar;1;;597d40920dcc935f963842c817dcc4901862ab14;2554742015;logs/modlist.txt
+resourcefullib;Resourceful Lib;2.1.20 | 2.1.29;creeperoverhaul-3.0.2-forge.jar!/META-INF/jars/resourcefullib-forge-1.20.1-2.1.20.jar | mods/resourcefullib-forge-1.20.1-2.1.29.jar;2;;6fc590a7c56a720fec57e290cbb0a106efbb3ffa;4227743239;logs/modlist.txt
+rhino;Rhino;2001.2.3-build.10;mods/rhino-forge-2001.2.3-build.10.jar;1;rhino-common.mixins.json;c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1;1432081092;logs/modlist.txt
+ribbits;Ribbits;1.20.1-Forge-3.0.5;mods/Ribbits-1.20.1-Forge-3.0.5.jar;1;ribbits.mixins.json, ribbits_forge.mixins.json;5cc73d3399248300a188164406cd801cc4ae00b3;3978204156;logs/modlist.txt
+rightclickharvest;Right Click Harvest;4.6.1+1.20.1;mods/rightclickharvest-forge-4.6.1+1.20.1.jar;1;rightclickharvest.mixins.json;539bfd7e456eec310707ca577e029fb9ace626c7;654121266;logs/modlist.txt
+rpgz;RpgZ;0.6.0-forge;mods/rpgz-0.6.0-forge.jar;1;rpgz.mixins.json;8c5b354eaf92f699b5779d8e82fc64c654a389e8;1856776582;logs/modlist.txt
+satin;Satin Forge;1.20.1+1.15.0-SNAPSHOT;blur-forge-3.1.1.jar!/META-INF/jars/satin-forge-1.20.1+1.15.0-SNAPSHOT.jar;1;mixins.satin.client.json;;;logs/modlist.txt
+scribble;Scribble;1.5.1;mods/Scribble-1.5.1+mc1.20.1-forge.jar;1;scribble.mixins.json;27c1cf656d8817e489a778a562b7f06711e13a09;4110005656;logs/modlist.txt
+seadwellers;Realm RPG: Sea Dwellers;2.9.9;mods/realmrpg_seadwellers_2.9.9_forge_1.20.1.jar;1;;f6d203ddb9590c613f644e163fdc1e6af7f7c36e;1742301144;logs/modlist.txt
+searchables;Searchables;1.0.3;mods/Searchables-forge-1.20.1-1.0.3.jar;1;searchables.forge.mixins.json, searchables.mixins.json;5b976f6e76ec74cdef21865e31f56bcb11558db7;3494294894;logs/modlist.txt
+shouldersurfing;Shoulder Surfing Reloaded;1.20.1-5.2.0;mods/ShoulderSurfing-Forge-1.20.1-5.2.0.jar;1;shouldersurfing.api-legacy.mixins.json, shouldersurfing.forge.mixins.json, shouldersurfing.forge.compat.mixins.json, shouldersurfing.common.mixins.json, shouldersurfing.common.compat.mixins.json;e53a03212e2d181b6d9c47928ba91c4866489c6e;2437184224;logs/modlist.txt
+shulkerboxtooltip;ShulkerBoxTooltip;4.0.4+1.20.1;mods/shulkerboxtooltip-forge-4.0.4+1.20.1.jar;1;shulkerboxtooltip-forge.mixins.json, shulkerboxtooltip-common.mixins.json;467a97815cd47ee8843f1e3b6e520ca1d6a81fe7;3623816384;logs/modlist.txt
+simplyswords;Simply Swords;1.70.2-1.20.1;mods/simplyswords-forge-neoforge-1.70.2-1.20.1.jar;1;simplyswords.mixins.json, simplyswords-common.mixins.json;7e8b9cc255f57df9ed00b507435308d600aebc24;928391893;logs/modlist.txt
+simplytooltips;Simply Tooltips;0.1.5-1.20.1;mods/SimplyTooltips-forge-0.1.5-1.20.1.jar;1;simplytooltips.mixins.json;6f437b9269a171bf88eb6215f0dfab6e614f9f00;1291726602;logs/modlist.txt
+sit;Sit;1.3.5;mods/sit-1.20.1-1.3.5.jar;1;;228fa17d1bbacbc3e49c20e6d9b91050011f6ee2;1791087772;logs/modlist.txt
+skinlayers3d;3d-Skin-Layers;1.11.3;mods/skinlayers3d-forge-1.11.3-mc1.20.1.jar;1;skinlayers3d.mixins.json, skinlayers3d.refmap.mixins.json;066d8ce36155f0018e30e905240fc12e422972e9;1406550357;logs/modlist.txt
+skyvillages;Sky Villages;1.0.4;mods/SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar;1;;3f7b0e8594556cd861c3c3bd470f5f41da250784;4064246031;logs/modlist.txt
+smallships;Small Ships;2.0.0;mods/smallships-2.0.0-forge-1.20.1.jar;1;smallships-common-soft.mixins.json, smallships-common.mixins.json, smallships.mixins.json, smallships-fabric-forge.mixins.json;5d8170937099ecf7a897f19af38300a67dbb4dbc;2585729767;logs/modlist.txt
+smarterfarmers;Smarter Farmers;1.20-2.1.2;mods/smarterfarmers-1.20-2.1.2.jar;1;smarterfarmers-common.mixins.json, smarterfarmers.mixins.json;03bae1d509d5a9644bf2ef955fefb2e6b78fc861;555316449;logs/modlist.txt
+smoothchunk;Smoothchunk mod;1.20.1-4.1;mods/smoothchunk-1.20.1-4.1.jar;1;smoothchunk.mixins.json;3e142e4a2e12db1c9a3777879cc021aff49da088;2007224494;logs/modlist.txt
+snifferplus;Hellion's Sniffer+;0.3.0;mods/Sniffer+-forge-1.20.1-0.3.0.jar;1;snifferplus_forge.mixins.json, snifferplus.mixins.json;3b084397c77d1b6b8af9c9648cd99eb79779a8e5;251844133;logs/modlist.txt
+snowundertrees;Snow Under Trees;1.4.12;mods/snowundertrees-1.20.1-1.4.12.jar;1;;0fc0abf8969c10ebf127cb18a81a7420f489f138;165537190;logs/modlist.txt
+snowy_tents;Snowy Tents;1.0.0;mods/snowy_tents-1.0.0 forge 1.20.1.jar;1;;0e83d7d904589c856a03c6da1c7a90aa77035f38;864774729;logs/modlist.txt
+sodiumdynamiclights;Sodium Dynamic Lights;1.0.9;mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar;1;mixins.sodiumdynamiclights.json;d27524e85bed0f0af83c03be46f9ca3eb02a1be9;4061843185;logs/modlist.txt
+sodiumextras;Sodium Extras;1.0.6;mods/sodiumextras-forge-1.0.7-1.20.1.jar;1;mixins.sodiumextras.json;7603f44bc4750774fbbdc07a3153c391650fcf3d;3493046010;logs/modlist.txt
+sodiumoptionsapi;Sodium Options API;1.0.10;mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar;1;mixins.sodiumoptionsapi.json;7529fbf938787ed13a251cbf40936f8c29ec4b6c;2197810606;logs/modlist.txt
+sophisticatedbackpacks;Sophisticated Backpacks;3.26.6.2176;mods/sophisticatedbackpacks-1.20.1-3.26.6.2176.jar;1;sophisticatedbackpacks.mixins.json;a6231c95e0eefbd43500f4b72df315fad7d4f97e;1614143431;logs/modlist.txt
+sophisticatedcore;Sophisticated Core;1.5.4.2362;mods/sophisticatedcore-1.20.1-1.5.4.2362.jar;1;sophisticatedcore.mixins.json, sophisticatedcore.create.mixins.json;4aee05ebc1a855b4915374a54bb4ea013983184b;1997251968;logs/modlist.txt
+sophisticatedstorage;Sophisticated Storage;1.5.0.2137;mods/sophisticatedstorage-1.20.1-1.5.0.2137.jar;1;;15ed0676ffad77017bbb4095b26b3aae8d0c3ecf;3927217916;logs/modlist.txt
+sound_physics_remastered;Sound Physics Remastered;1.20.1-1.5.1;mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar;1;sound_physics_remastered.mixins.json;944b4673bcab118f411d050b2cd6b693262bb664;1363428698;logs/modlist.txt
+sparsestructures;SparseStructures;3.0;mods/sparsestructures-forge-1.20.1-3.0.jar;1;sparsestructures.mixins.json, sparsestructures.forge.mixins.json;3a14160106a66c54ce47c5e26d8a20c70b44d4c1;3386940382;logs/modlist.txt
+spartanshields;Spartan Shields;3.1.1;mods/SpartanShields-1.20.1-forge-3.1.1.jar;1;;2d1c99c2a5c6116ed17be0ac3cb223a2f46636e8;3816569768;logs/modlist.txt
+spartanweaponry;Spartan Weaponry;3.2.1;mods/SpartanWeaponry-1.20.1-forge-3.2.1-all.jar;1;spartanweaponry.mixins.json, spartanweaponry.mixins.refmap.json;187977cf09972df5773c92b8af5fd342a9d726cb;239651359;logs/modlist.txt
+specs_irons_spellbooks;Specs: Iron's Spells 'n Spellbooks Addon;1.6.10;mods/specs_irons_spellbooks-1.6.10-forge-1.20.1.jar;1;specs_irons_spellbooks.mixins.json;07cb96b547f5ca6164e752d3067f48b89fc01195;2852362266;logs/modlist.txt
+spell_actionbar;Spell Actionbar;1.1.7;mods/spell_actionbar-1.1.7-forge-1.20.1.jar;1;;176ca2afb2fef2a57f9da7b85f88ad0dbc6e42df;675242625;logs/modlist.txt
+spelunkers_charm;Spelunker's Charm;3.6.0;mods/spelunkers_charm-3.6.0-1.20.1.jar;1;;9148bb02edb26fb1546081c10555cfd204e1c933;2437651832;logs/modlist.txt
+stardew_fishing;Stardew Fishing;3.7;mods/stardew_fishing-3.7-1.20.1.jar;1;mixins.stardew_fishing.refmap.json, mixins.stardew_fishing.json;6c9d80bb6faeec33402a03ad02ce28e50fcf8253;3344405848;logs/modlist.txt
+statuseffectbars;Status Effect Bars;1.0.3;mods/statuseffectbars-1.20.1-Forge-1.0.3.jar;1;statuseffectbars.mixins.json;342702843a5e15e05149bc791699464cf57bd893;1398057171;logs/modlist.txt
+stonezone;Stone Zone;1.20-2.9.13;mods/stonezone-1.20-2.9.13-forge.jar;1;;91f9d5d110d60b3dc6e235bc06e72586ca1d4c1f;3730413678;logs/modlist.txt
+structory;Structory;1.3.5;mods/Structory_1.20.x_v1.3.5.jar;1;;4196a2fa68f755b46616f4071e84c72ec4d6dacc;1652946165;logs/modlist.txt
+structory_towers;Structory: Towers;1.0.7;mods/Structory_Towers_1.20.x_v1.0.7.jar;1;;fa147459b82e1c0a774c19b598a55a9ca0d7b0ef;4195117885;logs/modlist.txt
+structurify;Structurify;2.0.42;mods/structurify-forge-2.0.42+mc1.20.1.jar;1;structurify-common.mixins.json, structurify-forge.mixins.json;228b6cd0d2aeaa79f95351a11ad9565d5f85f775;1530357132;logs/modlist.txt
+supplementaries;Supplementaries;1.20-3.1.43;mods/supplementaries-1.20-3.1.43-forge.jar;1;supplementaries-common.mixins.json, supplementaries.mixins.json;326d65a29981de28016e3828370d68a8f63e1798;1988549846;logs/modlist.txt
+takesapillage;It Takes A Pillage;1.0.3;mods/takesapillage-1.0.3-1.20.1.jar;1;takesapillage.mixins.json;058d29fcadbd5fa1fb6d92e50788329398f9467d;1824323111;logs/modlist.txt
+taxtg;Tax' Tree Giant;2.2.0;mods/TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar;1;;c91ba8d977503eae952e19a10cce6b06067918b0;1775619290;logs/modlist.txt
+tconstruct;Tinkers' Construct;3.12.1.231;mods/TConstruct-1.20.1-3.12.1.231.jar;1;;8a9a09e625ee106cf8befa953c372af4e955116c;3705667497;logs/modlist.txt
+tctcore;tctcore;2.2;mods/tctcore-2.3-forge-1.20.1.jar;1;;ad9915013fed7adc90178e2702ee7f99e7d9d209;2671162577;logs/modlist.txt
+tectonic;Tectonic;3.0.17;mods/tectonic-3.0.17-forge-1.20.1.jar;1;tectonic_1.20.1.mixins.json, tectonic.mixins.json;07bfe13bc1bd75a6277f3d62bf92a549b33067a9;2168110555;logs/modlist.txt
+terrablender;TerraBlender;3.0.1.10;mods/TerraBlender-forge-1.20.1-3.0.1.10.jar;1;terrablender.mixins.json, terrablender_forge.mixins.json;b3dbaf1aac31601b9efb19e4c67646750041968a;2523949204;logs/modlist.txt
+terralith;Terralith;2.5.4;mods/Terralith_1.20.x_v2.5.4.jar;1;;79e1409b8db4ce86df9d6d6730f09c4bd8860a30;1222598727;logs/modlist.txt
+tinkers_better_combat;Tinkers' Better Combat;1.8.6;mods/TinkerBetterCombat 0.14.jar;1;;342e8a158fccb1a1bc8e3adbe3dcfb970b24fd98;598835417;logs/modlist.txt
+tiny_config;Tiny Config;3.1.0;critical_strike-forge-1.0.4.jar!/META-INF/jars/tiny-config-3.1.0+1.20.1-forge.jar;1;tiny_config.mixins.json;;;logs/modlist.txt
+tlc;The Lost Castle;1.0.2;mods/tlc_forge-1.0.3-R-1.20.X.jar;1;tlc.mixins.json;20bdd3e3f8084cf724ebd4fa09f835b5ea693a7c;2068375965;logs/modlist.txt
+too_many_bows;Too Many Bows;4.1.2;mods/too_many_bows-forge-4.1.2.jar;1;too_many_bows.mixins.json;08b327c4f4db686ef5e215cdf86cb5e5596dac07;1585954515;logs/modlist.txt
+torch_hit;Torch hit!;7.0.0;mods/torch-hit-forge-1.20.1-7.0.0.jar;1;torch_hit.mixins.json, torch_hit.forge.mixins.json;2b21969761f9f4765fc59cfb7a6000ed08bc54cd;3184070135;logs/modlist.txt
+torchmaster;Torchmaster;20.1.9;mods/torchmaster-20.1.9.jar;1;;9a7f4ffdfe0dfe0a8071ac6501e52b1b4e208758;1441746516;logs/modlist.txt
+totw_additions;Towers of the Wild: Additions;1.3.1;mods/totw_additions-1.3.1-1.20.x-forge.jar;1;;0473e5e041bf9b2925be16834d30a0ed75cb551b;872450312;logs/modlist.txt
+trade_cycling;Trade Cycling;1.20.1-1.0.18;mods/trade-cycling-forge-1.20.1-1.0.18.jar;1;trade_cycling.mixins.json;5c5197922ad60d7d76f59b9b69dfe917ce7276cf;4046323144;logs/modlist.txt
+trade_search_cycler;Trade Cycling: Enchantment Search;1.1.0;mods/trade-cycling-enchantment-search-forge-1.20.1-1.1.0.jar;1;;846c8675d49b4eeb8465f67ae82532f2bbb7ae43;619623664;logs/modlist.txt
+transition;TRansition;1.0.25 | 1.0.11;entityculling-forge-1.11.2-mc1.20.1.jar!/META-INF/jars/TRansition-1.0.25-1.20.1-forge-SNAPSHOT.jar | firstperson-forge-2.7.3-mc1.20.1.jar!/META-INF/jars/TRansition-1.0.25-1.20.1-forge-SNAPSHOT.jar | notenoughanimations-forge-1.12.6-mc1.20.1.jar!/META-INF/jars/TRansition-1.0.25-1.20.1-forge-SNAPSHOT.jar | skinlayers3d-forge-1.11.3-mc1.20.1.jar!/META-INF/jars/TRansition-1.0.25-1.20.1-forge-SNAPSHOT.jar | waveycapes-forge-1.8.2-mc1.20.1.jar!/META-INF/jars/TRansition-1.0.11-1.20.1-forge-SNAPSHOT.jar;5;transition.mixins.json, transition.refmap.mixins.json;;;logs/modlist.txt
+trashslot;TrashSlot;15.1.5;mods/trashslot-forge-1.20.1-15.1.5.jar;1;trashslot.mixins.json;31e3469cb88841cbaca4fb963bc9e4a1db6f8f4f;3302905782;logs/modlist.txt
+travelerstitles;Traveler's Titles;1.20-Forge-4.0.2;mods/TravelersTitles-1.20-Forge-4.0.2.jar;1;travelerstitles_forge.mixins.json, travelerstitles.mixins.json;64a435eaa6e08fff5af2c720c3b6a40fe292f2f7;4191736142;logs/modlist.txt
+treasuredistance;Treasure Distance mod;1.20-1.2;mods/treasuredistance-1.20-1.2.jar;1;treasuredistance.mixins.json;736d49f14ee48422f6209807c5285e787355d785;636825256;logs/modlist.txt
+trender;TRender;1.0.17 | 1.0.10;entityculling-forge-1.11.2-mc1.20.1.jar!/META-INF/jars/TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar | firstperson-forge-2.7.3-mc1.20.1.jar!/META-INF/jars/TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar | notenoughanimations-forge-1.12.6-mc1.20.1.jar!/META-INF/jars/TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar | skinlayers3d-forge-1.11.3-mc1.20.1.jar!/META-INF/jars/TRender-1.0.17-1.20.1-forge-SNAPSHOT.jar | waveycapes-forge-1.8.2-mc1.20.1.jar!/META-INF/jars/TRender-1.0.10-1.20.1-forge-SNAPSHOT.jar;5;trender.mixins.json, trender.refmap.mixins.json;;;logs/modlist.txt
+trials;Trials Chambers;2.3.4;mods/Trials-Final.jar;1;;a464a3ee39d1770483407fcd0fc9d1620254e185;1559365412;logs/modlist.txt
+trmt;The Roads More Travelled;0.5.1b-1.20.1-forge;mods/trmt-0.5.1b-1.20.1-forge.jar;1;trmt.mixins.json;e7ee07397c502cfbc7c589db5fb5b88eb40982e6;2008407824;logs/modlist.txt
+trotting_wagons;Trotting Wagons;1.0.4;mods/trotting_wagons-1.0.4.jar;1;;5fea9ad2835a3164bc29ad4c708a50bcd7b0a153;1658621234;logs/modlist.txt
+txnilib;TxniLib;1.0.24;mods/txnilib-forge-1.0.24-1.20.1.jar;1;mixins.txnilib.json;a1e16b7d61f0f16a162d429ee1eab9b4e3eeb9ef;1205222699;logs/modlist.txt
+undergarden;The Undergarden;0.8.14;mods/The_Undergarden-1.20.1-0.8.14.jar;1;undergarden.mixins.json;d823f6da5ea81ee09df8038dc5645986b184a451;1819346941;logs/modlist.txt
+underground_rivers;Underground Rivers;1.0.1;mods/underground-rivers-1.0.1-forge-1.20.1.jar;1;;9592fa574a0110a179bffe885a886a603d0773f0;41628187;logs/modlist.txt
+upgrade_aquatic;Upgrade Aquatic;6.0.3;mods/upgrade_aquatic-1.20.1-6.0.3.jar;1;upgrade_aquatic.mixins.json;8745e0f1c1371fe5c028aa7397e4de1a0c4220f6;3590089434;logs/modlist.txt
+usefulspyglass;Useful Spyglass;1.0.2;mods/usefulspyglass-forge-1.20.1-1.0.2.jar;1;usefulspyglass.forge.mixins.json, usefulspyglass.mixins.json;9e1273d18e74cb4fa2c03a3192f768f1487ed39e;3815265657;logs/modlist.txt
+v_slab_compat;Vertical Slabs Compat;1.20-2.5;mods/v_slab_compat-1.20-2.5.jar;1;v_slab_compat.mixins.json, v_slab_compat-common.mixins.json;6e9a196d32bca1b4a54a5881df469fba9d7bd5ed;2000476933;logs/modlist.txt
+valhelsia_core;Valhelsia Core;1.1.2;mods/valhelsia_core-forge-1.20.1-1.1.2.jar;1;valhelsia_core-common.mixins.json, valhelsia_core.mixins.json;5e88feef805d15ffbe3c0918f53d6ed213a7dc6a;3501322756;logs/modlist.txt
+valhelsia_furniture;Valhelsia Furniture;1.1.3;mods/valhelsia_furniture-forge-1.20.1-1.1.3.jar;1;valhelsia_furniture-common.mixins.json, valhelsia_furniture.mixins.json;3369038794434045849f46c280c390467c8672f2;2391228365;logs/modlist.txt
+valhelsia_structures;Valhelsia Structures;1.20.1-1.1.2;mods/valhelsia_structures-forge-1.20.1-1.1.2.jar;1;valhelsia_structures.mixins.json;60e859d58b6ee8db01ea7a08e0dd6cbad761befb;3898804018;logs/modlist.txt
+visuality;Visuality: Reforged;2.2.0;mods/visuality-forge-2.2.0.jar;1;visuality.mixins.json;d2e97dc6e001757191beef81c17c5269a2cf5600;170092061;logs/modlist.txt
+visualworkbench;Visual Workbench;8.0.1;mods/VisualWorkbench-v8.0.1-1.20.1-Forge.jar;1;visualworkbench.common.mixins.json;563804910a7ebb1082c1eedca363b16e2c572459;2699356434;logs/modlist.txt
+w2w2;Xaero's Map - Waystones Compability;1.1;mods/xaeros_waystones_compatibility-1.1 - 1.20.1.jar;1;;d88355bcf6d731c067ed49146a090758356bd028;3489900467;logs/modlist.txt
+wakes;Wakes;1.4.1;mods/wakes-1.20.1-Forge-1.4.1.jar;1;wakes.mixins.json;31689c3576201d806842f59c2c8dc381c7fc3cad;2982085989;logs/modlist.txt
+watut;What Are They Up To;1.20.1-1.2.3;mods/watut-forge-1.20.1-1.2.3.jar;1;watut_fabric.mixins.json, watut.mixins.json;d376debf1f96f37dbedf56919baeb7da2dcef9ab;3519258904;logs/modlist.txt
+waves;Waves;1.6.1;mods/Waves-1.20.1-1.6.1.jar;1;waves.mixins.json;9704c7049b49ba6f5969ba2a1442490385764d03;1245342365;logs/modlist.txt
+waveycapes;WaveyCapes;1.8.2;mods/waveycapes-forge-1.8.2-mc1.20.1.jar;1;waveycapes.mixins.json, waveycapes.refmap.mixins.json;0cb71c3084732b8a04bb931e419e8ec865a8539f;2257542190;logs/modlist.txt
+waystones;Waystones;14.1.21;mods/waystones-forge-1.20.1-14.1.21.jar;1;waystones.mixins.json;61952fb248a9689fe46d5ffb223fcc41e31fef1a;1482348845;logs/modlist.txt
+weaponleveling;Lukas' Weapon Leveling;3.2.0;mods/weaponleveling-1.20.1-3.2.0-forge.jar;1;weaponleveling.mixins.json, weaponleveling-common.mixins.json;98e212af478c7f165636c6f83beee2cd83e20568;591104538;logs/modlist.txt
+witherreincarnated;Wither Reincarnated;1.0.5;mods/witherreincarnated-1.20.1-1.0.5.jar;1;witherreincarnated.mixins.json;a03dac62ffce65e49b0fa7f6c6d5b33a82ea1dd2;457971023;logs/modlist.txt
+wl_bc_compat;Weapon Leveling x Better Combat Compat;1.0.0;mods/wl_bc_compat-forge-1.0.0.jar;1;wl_bc_compat.mixins.json;7353e8a502652255a6ed791214f8315834f80957;2824778763;logs/modlist.txt
+xaerolib;XaeroLib;1.7.3;/META-INF/jarjar/xaerolib-forge-1.20.1-1.7.3.jar;2;xaerolib.mixins.json, xaerolib.forge.mixins.json;;;logs/modlist.txt
+xaerominimap;Xaero's Minimap;26.6.0;mods/xaerominimap-forge-1.20.1-26.6.0.jar;1;xaerohud.forge.mixins.json, xaerohud.mixins.json, xaerominimap.mixins.json, xaerominimap.forge.mixins.json;ee73886f2f5f27bf28cffa7cc8f2b9b4540df2aa;4003633569;logs/modlist.txt
+xaeroworldmap;Xaero's World Map;1.47.0;mods/xaeroworldmap-forge-1.20.1-1.47.0.jar;1;xaeroworldmap.forge.mixins.json, xaeroworldmap.mixins.json;6715c1d3758a3805589d82c41dc581537fe185cd;2128417363;logs/modlist.txt
+yet_another_config_lib_v3;YetAnotherConfigLib;3.6.6+1.20.1-forge;/META-INF/jarjar/yet-another-config-lib-3.6.6+1.20.1-forge.jar | mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar;2;yacl.mixins.json, yacl-fabric.mixins.json;644731e321c53a35a0b3177a3cc6347fe38002f4;2226879195;logs/modlist.txt
+yungsapi;YUNG's API;1.20-Forge-4.0.6;mods/YungsApi-1.20-Forge-4.0.6.jar;1;yungsapi.mixins.json, yungsapi_forge.mixins.json;af584b690f5646c6032002b58abc4591beed3833;2072489450;logs/modlist.txt
+yungsbridges;YUNG's Bridges;1.20-Forge-4.0.3;mods/YungsBridges-1.20-Forge-4.0.3.jar;1;yungsbridges.mixins.json, yungsbridges_forge.mixins.json;88467fe87b95e6cf7a432822033cf74dd8586254;2453817392;logs/modlist.txt
+yungsextras;YUNG's Extras;1.20-Forge-4.0.3;mods/YungsExtras-1.20-Forge-4.0.3.jar;1;yungsextras.mixins.json, yungsextras_forge.mixins.json;4b2e632353a95c16a080c2e64c426480a139fbd6;946802158;logs/modlist.txt
+yungsmenutweaks;YUNG's Menu Tweaks;1.20.1-Forge-1.0.2;mods/YungsMenuTweaks-1.20.1-Forge-1.0.2.jar;1;yungsmenutweaks.mixins.json, yungsmenutweaks_forge.mixins.json;b43a0bc054d3974076d36b5cfec6aeab968d24a6;1102946380;logs/modlist.txt
+zeta;Zeta;1.0-31;mods/Zeta-1.0-31.jar;1;zeta.mixins.json, zeta.mixins.refmap.json, zeta_forge.mixins.json;8c4a8ef0444b53ff408d5b89126285031081d92f;2553435270;logs/modlist.txt

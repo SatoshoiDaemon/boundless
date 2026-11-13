@@ -1,0 +1,18 @@
+filename = 'spell_actionbar-1.1.7-forge-1.20.1.jar'
+name = 'SpellActionbar'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'spell_actionbar-1.1.7-forge-1.20.1.jar'
+
+[download]
+hash = '176ca2afb2fef2a57f9da7b85f88ad0dbc6e42df'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8976527
+project-id = 1582046

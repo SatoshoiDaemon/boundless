@@ -1,0 +1,127 @@
+{
+  "target": "Minecraft 1.20.1 Forge",
+  "packs": [
+    {
+      "project": "als-zombies-revamped-x-fresh-animations",
+      "version": "1.3",
+      "path": "/tmp/animations-audit/AL's Zombies Revamped+FA 1.3.zip",
+      "version_id": "Qb0ailBs",
+      "url": "https://cdn.modrinth.com/data/iKIcN9kc/versions/Qb0ailBs/AL%27s%20Zombies%20Revamped%2BFA%201.3.zip",
+      "sha1": "f12ddb5448a4813afa1999973194f0975444a013",
+      "sha512": "12c503b0551cd37d4a375ee6d2032b676ef6b89fe1978d1cac2268fb7b60987cfb3a38cb830d345cf522a28f0c83982d03afbbb1fd26ca9a809c2d90f52bd408",
+      "supports_1.20.1": true,
+      "pack_metadata": {
+        "pack": {
+          "pack_format": 34,
+          "description": "A pack that makes Zombies Revamped compatible with Fresh Animations by Fresh_LX!"
+        }
+      },
+      "zip_integrity": "OK"
+    },
+    {
+      "project": "als-creepers-revamped",
+      "version": "1.3",
+      "path": "/tmp/animations-audit/AL's Creepers Revamped 1.3.zip",
+      "version_id": "M9V8lKDB",
+      "url": "https://cdn.modrinth.com/data/d2srP5t3/versions/M9V8lKDB/AL%27s%20Creepers%20Revamped%201.3.zip",
+      "sha1": "cf3f673dcdeb8b29b373f149293950c07476b669",
+      "sha512": "a2f8457580d037ed9dcfa2253bf44d45035ab2c7b611b6a52e66fb7470af95f81c4cd992e789c2252463be8c383004eadcbc72b07186f5ad639fbd7f73b51a04",
+      "supports_1.20.1": true,
+      "pack_metadata": {
+        "pack": {
+          "pack_format": 18,
+          "description": "A pack that revamps Creepers and adds more variants!"
+        }
+      },
+      "zip_integrity": "OK"
+    },
+    {
+      "project": "als-skeletons-revamped-x-fresh-animations",
+      "version": "1.3.1",
+      "path": "/tmp/animations-audit/AL's Skeletons Revamped+FA 1.3.1.zip",
+      "curseforge_file_id": 5253518,
+      "source_page": "https://www.curseforge.com/minecraft/texture-packs/als-skeletons-revamped-x-fresh-animations/files/5253518",
+      "url": "https://mediafilez.forgecdn.net/files/5253/518/AL%27s%20Skeletons%20Revamped%2BFA%201.3.1.zip",
+      "sha1": "01b562561a9897ac079979cb138771a033b6cc5c",
+      "sha512": "62b9ab144c70f97b0e8434680ed855de4b50bae19de200ec5d3670936c890a973880ffda5174f6629b5e2ab68e2803f0ad116ee985ca66cf15bb195eee128f9a",
+      "supports_1.20.1": true,
+      "supports_game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "pack_metadata": {
+        "pack": {
+          "pack_format": 18,
+          "description": "A pack that makes Skeletons Revamped compatible with Fresh Animations by FreshLX!"
+        }
+      },
+      "zip_integrity": "OK",
+      "release_notes": "Fixes normal Skeletons invisible with Entity Model Features."
+    },
+    {
+      "project": "private-local-creeper-compatibility",
+      "version": "1",
+      "path": "/tmp/animations-audit/Local - AL Creepers 1.3 with Fresh Animations 1.10.4.zip",
+      "sha1": "ebcd1d45f1b15b778f67f4b3efd6ba000841fee0",
+      "sha512": "bd76d9e5c561ba15dddb5a7dc91fdaa84b42cdfbcd456565ebff74465af7b5ee6e0d07db25fa2eb669ab3afda3946f1493860050640306f36c9ae5f7afd86f45",
+      "supports_1.20.1": true,
+      "zip_integrity": "OK",
+      "source_project": "Fresh Animations by FreshLX",
+      "source_version": "1.9.2",
+      "source_url": "https://cdn.modrinth.com/data/50dA9Sha/versions/8vtPih5h/FreshAnimations_v1.9.2.zip",
+      "source_sha512": "97a387112a5a94b0e7f4d0d2439977a9f28579303ad883ed3d0fcc3277357f8b3ab2418960f698d1a5f435903e0b2f82716fc92f8500cac090f900b2d2135dcf",
+      "changes": [
+        {
+          "path": "assets/minecraft/optifine/cem/creeper.jem",
+          "removed_optional_missing_jpm_hooks": [
+            "creeper_head.jpm",
+            "creeper_body.jpm",
+            "creeper_leg_lb.jpm",
+            "creeper_leg_rb.jpm",
+            "creeper_leg_lf.jpm",
+            "creeper_leg_rf.jpm"
+          ],
+          "preserved_attachment_ids": true
+        },
+        {
+          "path": "assets/minecraft/optifine/cem/creeper_charge.jem",
+          "removed_optional_missing_jpm_hooks": [
+            "creeper_charge_head.jpm",
+            "creeper_charge_body.jpm",
+            "creeper_charge_leg_lb.jpm",
+            "creeper_charge_leg_rb.jpm",
+            "creeper_charge_leg_lf.jpm",
+            "creeper_charge_leg_rf.jpm"
+          ],
+          "preserved_attachment_ids": true
+        },
+        {
+          "path": "assets/minecraft/optifine/cem/head_creeper.jem",
+          "removed_optional_missing_jpm_hooks": [],
+          "preserved_attachment_ids": true
+        }
+      ],
+      "terms": "Author permits private personal-use modifications. Do not redistribute local compatibility pack."
+    }
+  ],
+  "priority_notes": "Fresh Animations below AL +FA and HumanEra main+activator. Use +FA only, no simultaneous AL base packs. Highest list index wins.",
+  "evidence": {
+    "emf_resource_directory_priority": "https://github.com/Traben-0/Entity_Model_Features/blob/master/src/main/java/traben/entity_model_features/utils/EMFDirectoryHandler.java",
+    "al_priority": "https://modrinth.com/resourcepack/als-zombies-revamped-x-fresh-animations",
+    "al_creeper_1.3_for_fa1.9": "https://modrinth.com/resourcepack/als-creepers-revamped/version/1.3"
+  },
+  "diagnosis": {
+    "installed_Fresh_Animations_1.10.4": "Local SHA512 matches official Modrinth xN57JJts and is latest explicitly marked Minecraft1.20.1. Retain unchanged.",
+    "ordering": "Original options.txt selected Fresh Animations last (highest priority), replacing AL models while AL custom-sized entity textures remained. Original Skeleton base also above Skeleton+FA.",
+    "modern_AL_Skeletons_2.0": "Tagged Minecraft1.21.5+; skeleton.properties uses nbt.equipment.head.id and quiver equipment.mainhand.components strings unavailable in Minecraft1.20.1 entity NBT.",
+    "modern_AL_Zombies_1.4.1": "Tagged Minecraft1.21.8+; uses nbt.equipment and nbt.attributes.*.id while Minecraft1.20.1 uses ArmorItems/HandItems/Attributes conventions.",
+    "modern_AL_Creepers_2.0": "Tagged Minecraft1.21.8+; texture assets match modern FA1.10 UV. Latest officially tagged1.20.1 is1.3 and matches FA1.9 UV. Local Creeper-only model overlay resolves that transition.",
+    "base_plus_FA": "AL+FA archives inspected include complete model and texture assets. Base version unnecessary and conflicts with +FA version.",
+    "entity_config": "EMF allowedCEM=ALL and ETF enableCustomTextures/enableEmissiveTextures=true, no disabled models/properties. No reset required.",
+    "EMF_namespace_priority_verified": "Verified source EMFDirectoryHandler and javap installed3.3.10 bytecode: Math.max packIndex per emf/optifine then compare; emf wins only tie. EMFManager fallback chooser also prefers higher resourcepack index.",
+    "HumanEra_zombie": "HumanEra and Activator use vanilla zombie.jem/ zombie_baby.jem only in optifine/cem. Higher AL zombie pack wins ordinary namespace and fallback selection."
+  }
+}

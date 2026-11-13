@@ -1,0 +1,25 @@
+filename = 'specs_irons_spellbooks-1.6.10-forge-1.20.1.jar'
+name = "Spell Codex: Iron's Spells 'n Spellbooks Addon"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'specs_irons_spellbooks-1.6.10-forge-1.20.1.jar'
+
+[download]
+hash = '07cb96b547f5ca6164e752d3067f48b89fc01195'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9013892
+project-id = 1623374
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1582046'
+type = 'REQUIRED'

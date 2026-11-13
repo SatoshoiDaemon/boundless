@@ -1,0 +1,22 @@
+filename = 'betterparagliders-0.6.0-1.20.1.jar'
+name = 'Better Paragliders'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.6.0-1.20.1'
+
+[download]
+hash = '9ebafab62651d49cb693eb26affa17ebd1ae6659a78e12ed2fddc9f51e2a65240cd881287b4ddea2ecb320bd82d869cd642f44f0ff27982bf67ac6c28b81551a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xAsaECDH/versions/vBtw25xg/betterparagliders-0.6.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'xAsaECDH'
+version = 'vBtw25xg'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5sy6g3kz'
+type = 'REQUIRED'
+version = 'UjlaL0Fm'
