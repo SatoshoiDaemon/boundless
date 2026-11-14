@@ -1,0 +1,2834 @@
+{
+  "schemaVersion": 1,
+  "runId": "p01-current-20261114",
+  "scenario": "client-startup",
+  "status": "complete",
+  "startedAtLocal": "2026-11-13T23:04:28.3018206-03:00",
+  "startedAtUtc": "2026-11-14T02:04:28.3018206Z",
+  "endedAtLocal": "2026-11-13T23:23:49.0805075-03:00",
+  "endedAtUtc": "2026-11-14T02:23:49.0805075Z",
+  "stopReason": "manual-stop",
+  "git": {
+    "commit": "57a230b6039f94ec635381246613faa702a3f033",
+    "branch": "work/p0.1-performance-baseline",
+    "workingTreeClean": false
+  },
+  "minecraft": {
+    "version": "1.20.1",
+    "forge": "47.4.28",
+    "javaMajor": 17
+  },
+  "world": {
+    "label": "startup only; no world load observed",
+    "seed": "",
+    "route": ""
+  },
+  "visual": {
+    "profile": "Custom Popular; Fancy; Complementary Reimagined r5.9.3 + Euphoria Patches 1.10.5; dynamic lighting realtime; RD12/SD8; 1920x1080",
+    "renderDistance": "12",
+    "simulationDistance": "8",
+    "graphicsMode": "1",
+    "fullscreen": "true",
+    "shaderPack": "ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5",
+    "shadersEnabled": "true"
+  },
+  "host": {
+    "os": "Microsoft Windows 11 Pro",
+    "osVersion": "10.0.26300",
+    "processors": [
+      "Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz"
+    ],
+    "logicalProcessors": 4,
+    "physicalMemoryBytes": 12786397184,
+    "graphics": [
+      {
+        "name": "Radeon (TM) RX 480 Graphics",
+        "driverVersion": "31.0.21925.1001",
+        "currentWidth": 1920,
+        "currentHeight": 1080
+      }
+    ],
+    "screenResolution": "1920x1080"
+  },
+  "inventory": {
+    "modJarCount": 438,
+    "modLock": "mod-lock.csv",
+    "configFingerprints": [
+      {
+        "file": "config/advancedbowenchants-common.toml",
+        "sizeBytes": 3655,
+        "sha256": "74442fe5444476cc17e65f0fa4cb65871cfdf4d2abc665e22c5468c917d29856"
+      },
+      {
+        "file": "config/aggrofix.toml",
+        "sizeBytes": 234,
+        "sha256": "e36c97b6681fbb7a15428346e3bb6eac1b901058b41ddf1fb5db3d15afd688c1"
+      },
+      {
+        "file": "config/aiimprovements-common.toml",
+        "sizeBytes": 6211,
+        "sha256": "08a9f7c6f63bd35d49b15fa5bccd8cdf667f21af0c9a8cb2ab5998eb598ee7c3"
+      },
+      {
+        "file": "config/alexsmobs.toml",
+        "sizeBytes": 36192,
+        "sha256": "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
+      },
+      {
+        "file": "config/alexsmobs/alligator_snapping_turtle_spawns.json",
+        "sizeBytes": 754,
+        "sha256": "df14afd6e1e96ace0dc8e4c71bc325e3baec8dbeaebf61f682561a70fc145f9d"
+      },
+      {
+        "file": "config/alexsmobs/anaconda_spawns.json",
+        "sizeBytes": 1036,
+        "sha256": "ca961946a7b3c6e9abcb1bb82bbf36e1f9ce01d11769a06a7fbff6351293ff5d"
+      },
+      {
+        "file": "config/alexsmobs/anteater_spawns.json",
+        "sizeBytes": 1166,
+        "sha256": "f65e31155b2f2e033bed66dc5ec2ce7f6962be3389369ff800b69dfdecb5d990"
+      },
+      {
+        "file": "config/alexsmobs/bald_eagle_spawns.json",
+        "sizeBytes": 2723,
+        "sha256": "f8b51a798bfa4b51e0ee8fb78c860ca5b2677583db10584792a0e1548f17d396"
+      },
+      {
+        "file": "config/alexsmobs/banana_slug_spawns.json",
+        "sizeBytes": 1697,
+        "sha256": "1d5d0ce4ef42e94f0361c41b4b2402b64e87f0b1b987e1f1b2f6b2ac377211a7"
+      },
+      {
+        "file": "config/alexsmobs/bison_spawns.json",
+        "sizeBytes": 1761,
+        "sha256": "78e726ed002a31f5084a7b49fcce467c5623a046981d6c59d9ed7c4eb6cdbb1e"
+      },
+      {
+        "file": "config/alexsmobs/blobfish_spawns.json",
+        "sizeBytes": 146,
+        "sha256": "7e7b175c33aed22c3d2cd31e215c6243e3790b07a3664b42d130a8f3b897489f"
+      },
+      {
+        "file": "config/alexsmobs/blue_jay_spawns.json",
+        "sizeBytes": 4020,
+        "sha256": "7d1f784ab378e1e851e73dbb6f81866420c1328d25f754546d82c417bf304644"
+      },
+      {
+        "file": "config/alexsmobs/bone_serpent_spawns.json",
+        "sizeBytes": 257,
+        "sha256": "47eef91378d3d6455a911d58cc3afdbfcdda7fd49968a7921b22620faa8ff672"
+      },
+      {
+        "file": "config/alexsmobs/bunfungus_spawns.json",
+        "sizeBytes": 486,
+        "sha256": "5d5a9d2039b6df546b788f62cb376cc29312a7115a5553541652aad7259436a6"
+      },
+      {
+        "file": "config/alexsmobs/cachalot_whale_beached_spawns.json",
+        "sizeBytes": 642,
+        "sha256": "73b8f83ddfa936642b38af1003e3c47eab6f089ad61612ee5181137409038f57"
+      },
+      {
+        "file": "config/alexsmobs/cachalot_whale_spawns.json",
+        "sizeBytes": 893,
+        "sha256": "fb901f1ea0bce7b9fb51dfaeb565539a3c1a9ee86bafb49caddac7ca1002e296"
+      },
+      {
+        "file": "config/alexsmobs/caiman_spawns.json",
+        "sizeBytes": 291,
+        "sha256": "542cca079ae671a6d928737b622b205deebfe2aed5864a01b5048f501aec2753"
+      },
+      {
+        "file": "config/alexsmobs/capuchin_monkey_spawns.json",
+        "sizeBytes": 1184,
+        "sha256": "83b68d395236771ae9276f48b2988cfa9eb65e14dc41531b37a6b4e77c64859a"
+      },
+      {
+        "file": "config/alexsmobs/catfish_spawns.json",
+        "sizeBytes": 1097,
+        "sha256": "3c097d29c1f74807815d4c13e3586a76528ac3c104670ce95852bd3b62f9e16e"
+      },
+      {
+        "file": "config/alexsmobs/cave_centipede_spawns.json",
+        "sizeBytes": 2200,
+        "sha256": "973b8ebc19fa04e02b050f28359ee6bffbae93367f49ecac10892f4a2c1dad7d"
+      },
+      {
+        "file": "config/alexsmobs/cockroach_spawns.json",
+        "sizeBytes": 2085,
+        "sha256": "97a67afb52f1398f2c55e2a74001e5b893394e28d3f0eb00695f049bdd19f204"
+      },
+      {
+        "file": "config/alexsmobs/comb_jelly_spawns.json",
+        "sizeBytes": 414,
+        "sha256": "cf9ba87b0d2001543fe09d8f6a4c602c03644643a9bd49d1e9ca0b041ab4dc02"
+      },
+      {
+        "file": "config/alexsmobs/cosmaw_spawns.json",
+        "sizeBytes": 371,
+        "sha256": "8e1d05a9b4ab8b923ff4951ef391665f3bdd218d943152f6f1f57509786bc0f7"
+      },
+      {
+        "file": "config/alexsmobs/cosmic_cod_spawns.json",
+        "sizeBytes": 139,
+        "sha256": "aed14e990ed38ee78214b1ea4a15e06bca1b8d098e1e440596be9ab14e4403b8"
+      },
+      {
+        "file": "config/alexsmobs/crimson_mosquito_spawns.json",
+        "sizeBytes": 785,
+        "sha256": "104fa9ce71421c5023abba88ce382957828b22341b44c2d03b3300b760482c9d"
+      },
+      {
+        "file": "config/alexsmobs/crocodile_spawns.json",
+        "sizeBytes": 1007,
+        "sha256": "a73d36d1b5dd75eb20f6143193b991e942f4ef4cef725835b66ec01197d7074f"
+      },
+      {
+        "file": "config/alexsmobs/crow_spawns.json",
+        "sizeBytes": 5146,
+        "sha256": "cace87b5d504be10d1fff107ad14349066ae1c39d5200a7a29bdd5476167d9b8"
+      },
+      {
+        "file": "config/alexsmobs/devils_hole_pupfish_spawns.json",
+        "sizeBytes": 145,
+        "sha256": "e7855fa7d73f4d3af77f47ddd70b4fcbab7862302d004b4ddae9dddc75c4e402"
+      },
+      {
+        "file": "config/alexsmobs/dropbear_spawns.json",
+        "sizeBytes": 403,
+        "sha256": "0fa8f72e4c73805727577a343758cfd39377cbdadebb88b6b2343183053e16cb"
+      },
+      {
+        "file": "config/alexsmobs/elephant_spawns.json",
+        "sizeBytes": 1163,
+        "sha256": "cac271d780a6ed65db7b22e6944b6d456805d72b309865d6293ad6aa4f60c3e2"
+      },
+      {
+        "file": "config/alexsmobs/emu_spawns.json",
+        "sizeBytes": 1661,
+        "sha256": "70e30e058709266e665eb6642df126eeee744d05e63d77344501e78cb4a37851"
+      },
+      {
+        "file": "config/alexsmobs/endergrade_spawns.json",
+        "sizeBytes": 250,
+        "sha256": "ca6e68bd3e74eb9cedcdbae4c82f594c4e85bdd54e1d0e35344a3febb9672980"
+      },
+      {
+        "file": "config/alexsmobs/enderiophage_spawns.json",
+        "sizeBytes": 603,
+        "sha256": "846748f4f352dead7fae39221d653713b7cbd775eaf10f80e0dea86f4e9ccb9a"
+      },
+      {
+        "file": "config/alexsmobs/farseer.json",
+        "sizeBytes": 266,
+        "sha256": "c245528d844458d8ac416572ee0df7575bb23d58beb07367d4cd55c66fec9000"
+      },
+      {
+        "file": "config/alexsmobs/flutter_spawns.json",
+        "sizeBytes": 147,
+        "sha256": "f729be2a0bc7bccc88cde40464f990d6074bfcf52a0d1d6719d8ebcd63c496ff"
+      },
+      {
+        "file": "config/alexsmobs/fly_spawns.json",
+        "sizeBytes": 145,
+        "sha256": "e7855fa7d73f4d3af77f47ddd70b4fcbab7862302d004b4ddae9dddc75c4e402"
+      },
+      {
+        "file": "config/alexsmobs/flying_fish_spawns.json",
+        "sizeBytes": 716,
+        "sha256": "69904b309696b6081cdec1ea87bdb62f84886cf6dac600a8bca231860c3a3f2f"
+      },
+      {
+        "file": "config/alexsmobs/frilled_shark_spawns.json",
+        "sizeBytes": 146,
+        "sha256": "7e7b175c33aed22c3d2cd31e215c6243e3790b07a3664b42d130a8f3b897489f"
+      },
+      {
+        "file": "config/alexsmobs/froststalker_spawns.json",
+        "sizeBytes": 934,
+        "sha256": "2cc43cdc9df3b20cc2eeb75a3c11736558f544571640607d08dec5c0a939c02d"
+      },
+      {
+        "file": "config/alexsmobs/gazelle_spawns.json",
+        "sizeBytes": 1050,
+        "sha256": "17a5c3263942410596f91fb0aece138e5115bfabfa2a5913a63406fcb64b42d0"
+      },
+      {
+        "file": "config/alexsmobs/gelada_monkey_spawns.json",
+        "sizeBytes": 1001,
+        "sha256": "cdd0380bfa9b754856150966a042f807ac48d2f9409f4f2b543be19e87f4c41f"
+      },
+      {
+        "file": "config/alexsmobs/giant_squid_spawns.json",
+        "sizeBytes": 146,
+        "sha256": "7e7b175c33aed22c3d2cd31e215c6243e3790b07a3664b42d130a8f3b897489f"
+      },
+      {
+        "file": "config/alexsmobs/gorilla_spawns.json",
+        "sizeBytes": 1053,
+        "sha256": "8c90151f66a632b01e7b8f6998f72618720aae5362c1df0bdd7fefdb13cc20c8"
+      },
+      {
+        "file": "config/alexsmobs/grizzly_bear_spawns.json",
+        "sizeBytes": 4020,
+        "sha256": "7d1f784ab378e1e851e73dbb6f81866420c1328d25f754546d82c417bf304644"
+      },
+      {
+        "file": "config/alexsmobs/guster_spawns.json",
+        "sizeBytes": 1132,
+        "sha256": "263974f58a4b48df633648246820681745da9f9e16f30fefe6e07f576251dfb1"
+      },
+      {
+        "file": "config/alexsmobs/hammerhead_shark_spawns.json",
+        "sizeBytes": 254,
+        "sha256": "a5eeb1a3843a12ef4fde1d8a3a5f13161034457c0901d3f938aa71a20e6712f3"
+      },
+      {
+        "file": "config/alexsmobs/hummingbird_spawns.json",
+        "sizeBytes": 3029,
+        "sha256": "6aa305d47ca32364d445c04c8a20da36a7ccef97955c27e834d4114604d2785d"
+      },
+      {
+        "file": "config/alexsmobs/jerboa_spawns.json",
+        "sizeBytes": 1252,
+        "sha256": "c4b2ef89d9ad5c4dffcebb51209837da430b166c5767c1a38d90911c4445b124"
+      },
+      {
+        "file": "config/alexsmobs/kangaroo_spawns.json",
+        "sizeBytes": 1661,
+        "sha256": "70e30e058709266e665eb6642df126eeee744d05e63d77344501e78cb4a37851"
+      },
+      {
+        "file": "config/alexsmobs/komodo_dragon_spawns.json",
+        "sizeBytes": 775,
+        "sha256": "695a3eb4d61a8208cc634871c237b0e6efc980ac668793f4686848e32cda0907"
+      },
+      {
+        "file": "config/alexsmobs/laviathan_spawns.json",
+        "sizeBytes": 142,
+        "sha256": "07d0215377f12f1299ec46b6277426c3cf957aa1d310c97fa943cdf5ace8d260"
+      },
+      {
+        "file": "config/alexsmobs/leafcutter_anthill_spawns.json",
+        "sizeBytes": 1166,
+        "sha256": "f65e31155b2f2e033bed66dc5ec2ce7f6962be3389369ff800b69dfdecb5d990"
+      },
+      {
+        "file": "config/alexsmobs/lobster_spawns.json",
+        "sizeBytes": 398,
+        "sha256": "bb0c918e8dbd4d003417a1bcabb38b8433d1f9be95fe6f8feef95d30616b49a7"
+      },
+      {
+        "file": "config/alexsmobs/maned_wolf_spawns.json",
+        "sizeBytes": 1037,
+        "sha256": "8483d96341369b430ff2ebfebd7562b0c58c40b96be541cc88189fc696606a0d"
+      },
+      {
+        "file": "config/alexsmobs/mantis_shrimp_spawns.json",
+        "sizeBytes": 385,
+        "sha256": "4f6099fe4d9f99530f9f0f9bae7e55c0713506efdc47da69d227ae62137647e4"
+      },
+      {
+        "file": "config/alexsmobs/mimic_octopus_spawns.json",
+        "sizeBytes": 373,
+        "sha256": "9c68a433ab6f75ff9e8d46868480158e4c1f46949779cb0b0d973f7759dbfc2d"
+      },
+      {
+        "file": "config/alexsmobs/mimicube_spawns.json",
+        "sizeBytes": 365,
+        "sha256": "fcace6e8c558df6eb13827f7a2b4a7f43c9fdfd3015331bd7e277329ca034c34"
+      },
+      {
+        "file": "config/alexsmobs/moose_spawns.json",
+        "sizeBytes": 2291,
+        "sha256": "abac051da2458ec848604b66a6d7889f7c715060bb9706c1d1822155127d096c"
+      },
+      {
+        "file": "config/alexsmobs/mudskipper_spawns.json",
+        "sizeBytes": 291,
+        "sha256": "542cca079ae671a6d928737b622b205deebfe2aed5864a01b5048f501aec2753"
+      },
+      {
+        "file": "config/alexsmobs/mungus_spawns.json",
+        "sizeBytes": 486,
+        "sha256": "5d5a9d2039b6df546b788f62cb376cc29312a7115a5553541652aad7259436a6"
+      },
+      {
+        "file": "config/alexsmobs/murmur.json",
+        "sizeBytes": 2200,
+        "sha256": "973b8ebc19fa04e02b050f28359ee6bffbae93367f49ecac10892f4a2c1dad7d"
+      },
+      {
+        "file": "config/alexsmobs/orca_spawns.json",
+        "sizeBytes": 255,
+        "sha256": "2e62ae273c3488a294068e5ed737dbf08791f4758cd3659308824d7bf4ece377"
+      },
+      {
+        "file": "config/alexsmobs/platypus_spawns.json",
+        "sizeBytes": 625,
+        "sha256": "b96f9e44f59f54b67460784fb1fdfa06d053f9ca9abb4fc3b04f222fd65ee958"
+      },
+      {
+        "file": "config/alexsmobs/potoo_spawns.json",
+        "sizeBytes": 148,
+        "sha256": "59c5832a40ef0e7212a4d499862f931a5dfcd3ff6d68598153f1274191b0939d"
+      },
+      {
+        "file": "config/alexsmobs/raccoon_spawns.json",
+        "sizeBytes": 3712,
+        "sha256": "2f353aa8720d03fbdef9d9e4932ecc4435b7923bbc72191fab6f46acb66d3a12"
+      },
+      {
+        "file": "config/alexsmobs/rain_frog_spawns.json",
+        "sizeBytes": 1252,
+        "sha256": "c4b2ef89d9ad5c4dffcebb51209837da430b166c5767c1a38d90911c4445b124"
+      },
+      {
+        "file": "config/alexsmobs/rattlesnake_spawns.json",
+        "sizeBytes": 1646,
+        "sha256": "b8662bb3de9e2e5cc4af3773700fe6446c389980a80f6350f99d51f3fa2cef39"
+      },
+      {
+        "file": "config/alexsmobs/rhinoceros_spawns.json",
+        "sizeBytes": 1050,
+        "sha256": "17a5c3263942410596f91fb0aece138e5115bfabfa2a5913a63406fcb64b42d0"
+      },
+      {
+        "file": "config/alexsmobs/roadrunner_spawns.json",
+        "sizeBytes": 1646,
+        "sha256": "b8662bb3de9e2e5cc4af3773700fe6446c389980a80f6350f99d51f3fa2cef39"
+      },
+      {
+        "file": "config/alexsmobs/rocky_roller_spawns.json",
+        "sizeBytes": 673,
+        "sha256": "98dc351abc061685560adc82bd3ffa6e4c87d4faab81e9bb6a9e2a6f07cdb177"
+      },
+      {
+        "file": "config/alexsmobs/seagull_spawns.json",
+        "sizeBytes": 1296,
+        "sha256": "4dca182ebef46ea0076b8e8066add18f69527cf2f81da83e77e0409127c92dc4"
+      },
+      {
+        "file": "config/alexsmobs/seal_spawns.json",
+        "sizeBytes": 877,
+        "sha256": "ef706c1e2ba0b9356523f8aeb3679303ab98d85c9b761d0e55962e930be4d8e6"
+      },
+      {
+        "file": "config/alexsmobs/shoebill_spawns.json",
+        "sizeBytes": 623,
+        "sha256": "0d8683c0a1b8176d4e89f88c4f3b1e6fbf6b269781497a190749904c7323eeec"
+      },
+      {
+        "file": "config/alexsmobs/skelewag_spawns.json",
+        "sizeBytes": 374,
+        "sha256": "86aad88d05c283679e85900cab1bf3977d496849005ac068a14e40b93db35aa2"
+      },
+      {
+        "file": "config/alexsmobs/skreecher.json",
+        "sizeBytes": 276,
+        "sha256": "f812e719afb24421c6853dacf4d1f66864305e335cfdf6193613d7c408ecab30"
+      },
+      {
+        "file": "config/alexsmobs/skunk_spawns.json",
+        "sizeBytes": 2037,
+        "sha256": "01cc2eb4d92ba30b7301b9325a353cd96c5c7ff263c348795bfb34698cf8f11b"
+      },
+      {
+        "file": "config/alexsmobs/snow_leopard_spawns.json",
+        "sizeBytes": 1808,
+        "sha256": "fdf546af7c7ff2307d0862c0802450eef1e99554af3a340e7a6af69fa5785ea5"
+      },
+      {
+        "file": "config/alexsmobs/soul_vulture_spawns.json",
+        "sizeBytes": 523,
+        "sha256": "45407796e49769550eef92fd3953daa191c85aaf032fb2be32fe591b0199a172"
+      },
+      {
+        "file": "config/alexsmobs/spectre_spawns.json",
+        "sizeBytes": 250,
+        "sha256": "ca6e68bd3e74eb9cedcdbae4c82f594c4e85bdd54e1d0e35344a3febb9672980"
+      },
+      {
+        "file": "config/alexsmobs/straddler_spawns.json",
+        "sizeBytes": 664,
+        "sha256": "5ee746cf50b358048a0243e4c45997285cf4a9b736758d388ad730d4ed493900"
+      },
+      {
+        "file": "config/alexsmobs/stradpole_spawns.json",
+        "sizeBytes": 664,
+        "sha256": "5ee746cf50b358048a0243e4c45997285cf4a9b736758d388ad730d4ed493900"
+      },
+      {
+        "file": "config/alexsmobs/sugar_glider_spawns.json",
+        "sizeBytes": 418,
+        "sha256": "cec5208e2e9f12aa8ce13d0f6d34a18500a77d143441c9b511df21c623fe368f"
+      },
+      {
+        "file": "config/alexsmobs/sunbird_spawns.json",
+        "sizeBytes": 3925,
+        "sha256": "7b82ff39e191bd213cd8ecf06ff9a78c4658e6f6b9d8b48a4fcc4017e7268cb5"
+      },
+      {
+        "file": "config/alexsmobs/tarantula_hawk_spawns.json",
+        "sizeBytes": 1252,
+        "sha256": "c4b2ef89d9ad5c4dffcebb51209837da430b166c5767c1a38d90911c4445b124"
+      },
+      {
+        "file": "config/alexsmobs/tasmanian_devil_spawns.json",
+        "sizeBytes": 1908,
+        "sha256": "40c769365424d492a4c17700bb8cfac4c8ce7fac2bc16728f0c4287e3a043130"
+      },
+      {
+        "file": "config/alexsmobs/terrapin_spawns.json",
+        "sizeBytes": 625,
+        "sha256": "b96f9e44f59f54b67460784fb1fdfa06d053f9ca9abb4fc3b04f222fd65ee958"
+      },
+      {
+        "file": "config/alexsmobs/tiger_spawns.json",
+        "sizeBytes": 1209,
+        "sha256": "f88fc1b519759fe41347afca59030619365e173c577e8c1adfcb88777078d066"
+      },
+      {
+        "file": "config/alexsmobs/toucan_spawns.json",
+        "sizeBytes": 1166,
+        "sha256": "f65e31155b2f2e033bed66dc5ec2ce7f6962be3389369ff800b69dfdecb5d990"
+      },
+      {
+        "file": "config/alexsmobs/triops_spawns.json",
+        "sizeBytes": 1252,
+        "sha256": "c4b2ef89d9ad5c4dffcebb51209837da430b166c5767c1a38d90911c4445b124"
+      },
+      {
+        "file": "config/alexsmobs/tusklin_spawns.json",
+        "sizeBytes": 882,
+        "sha256": "9ab4772704660c679ea30dff2db2c1272843e00675e2a7e610adcc6486120c3c"
+      },
+      {
+        "file": "config/alexsmobs/underminer.json",
+        "sizeBytes": 2085,
+        "sha256": "97a67afb52f1398f2c55e2a74001e5b893394e28d3f0eb00695f049bdd19f204"
+      },
+      {
+        "file": "config/alexsmobs/void_worm_spawns.json",
+        "sizeBytes": 18,
+        "sha256": "6712a2d6165ed52b7d251a8fc4cbfb6c1f834210a8bda82b55440402fd2d3273"
+      },
+      {
+        "file": "config/alexsmobs/warped_mosco_spawns.json",
+        "sizeBytes": 18,
+        "sha256": "6712a2d6165ed52b7d251a8fc4cbfb6c1f834210a8bda82b55440402fd2d3273"
+      },
+      {
+        "file": "config/alexsmobs/warped_toad_spawns.json",
+        "sizeBytes": 661,
+        "sha256": "72126b26d7f3ae03b80df97dd103e0cec87d10829e86ac8b08da23abc7b318d8"
+      },
+      {
+        "file": "config/ambientsounds-client.json",
+        "sizeBytes": 4198,
+        "sha256": "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
+      },
+      {
+        "file": "config/amendments-client.toml",
+        "sizeBytes": 4363,
+        "sha256": "5a79e0eb09553dad02e8201e017a20aaf5c8e94fe9382561b323214a8d7db073"
+      },
+      {
+        "file": "config/amendments-common.toml",
+        "sizeBytes": 5008,
+        "sha256": "7c0d6e5285fa81d9967a2562e03bc3e4aaf202b696defb3ad29973d38599c154"
+      },
+      {
+        "file": "config/apotheosis/adventure.cfg",
+        "sizeBytes": 6502,
+        "sha256": "56840e4c6a265049bce2846b6c11d0267a6fafa1b72a75b9d7b9a94dc55c5022"
+      },
+      {
+        "file": "config/apotheosis/apotheosis.cfg",
+        "sizeBytes": 1128,
+        "sha256": "995fae4fd41085e363ecc8f38d84feae1e6a8f215a39d1618b0973e390ba2eb1"
+      },
+      {
+        "file": "config/apotheosis/ench.cfg",
+        "sizeBytes": 465,
+        "sha256": "557cc1b6ba1369f5d2459054cc2b9e9f91c58b9cdecb0a3023a911b435b1a9c8"
+      },
+      {
+        "file": "config/apotheosis/enchantments.cfg",
+        "sizeBytes": 211056,
+        "sha256": "23e1a23b8a113ef6f157dbb73e5dd8ba5f15d63686ee31652aee18a9082f7896"
+      },
+      {
+        "file": "config/apotheosis/garden.cfg",
+        "sizeBytes": 708,
+        "sha256": "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
+      },
+      {
+        "file": "config/apotheosis/names.cfg",
+        "sizeBytes": 155135,
+        "sha256": "a66ccf6f3e5682e2fed50fc43b2dc3b7026c690f84aae89c829e7c9481abd931"
+      },
+      {
+        "file": "config/apotheosis/potion.cfg",
+        "sizeBytes": 815,
+        "sha256": "41cbb8ec035cdefaf47ca7ca71187b41eb8ce67905f825cc05e3c8dd8ba2702e"
+      },
+      {
+        "file": "config/apotheosis/spawner.cfg",
+        "sizeBytes": 1009,
+        "sha256": "40913dd340992cb232ed886157673decf3a02a0faa28bb05caf55906da4f7f79"
+      },
+      {
+        "file": "config/apotheosis/village.cfg",
+        "sizeBytes": 787,
+        "sha256": "9c06164bad9a22d779a4986dc231071e7a9d3bc8f1d7d67fa277999e510d2a78"
+      },
+      {
+        "file": "config/appleskin-client.toml",
+        "sizeBytes": 1361,
+        "sha256": "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
+      },
+      {
+        "file": "config/aquaculture-common.toml",
+        "sizeBytes": 825,
+        "sha256": "aff201054383adfd67347e968dd6aeaccd339454d51dd50983654b2c732acc31"
+      },
+      {
+        "file": "config/armageddon_boss_dimensions-common.toml",
+        "sizeBytes": 360,
+        "sha256": "e344cb3cdf9dce7a4164a8758bdf1a0c71b41a3829b6e6b6dff7c64b9f3b6dcb"
+      },
+      {
+        "file": "config/armageddon_mod_config.toml",
+        "sizeBytes": 47671,
+        "sha256": "ba846541d935b600b9a927aa72225a514a073e105787a726d97ecf6c66d4b811"
+      },
+      {
+        "file": "config/armageddon_mod_keeper_config.toml",
+        "sizeBytes": 3157,
+        "sha256": "0592f42e9d7452efa719c5d860a11608b3f8dc7851d53ea88571e06ac4dbe83d"
+      },
+      {
+        "file": "config/astikorcartsredux-client.toml",
+        "sizeBytes": 553,
+        "sha256": "157229abeff72272f3d9e40904f1b5b780672c21361d3052d24f9853f0a85366"
+      },
+      {
+        "file": "config/astikorcartsredux-common.toml",
+        "sizeBytes": 4537,
+        "sha256": "8413771f8bf30dedae75541322b7a444dc181d27eb7820e81061a3ff4fe9edae"
+      },
+      {
+        "file": "config/attributefix.json",
+        "sizeBytes": 35869,
+        "sha256": "c4d4bd289dcf34a835c61a2b8cfab155ee1f2432d349b256b46919c1e9ded0b7"
+      },
+      {
+        "file": "config/attributeslib.cfg",
+        "sizeBytes": 2619,
+        "sha256": "d263933ee4b13ea18ca743e8648d0cf2bc0f69a7d8c3f0e55829d9597d8c0c62"
+      },
+      {
+        "file": "config/badoptimizations.txt",
+        "sizeBytes": 3458,
+        "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
+      },
+      {
+        "file": "config/bcc-common.toml",
+        "sizeBytes": 370,
+        "sha256": "d048f1f87fd8e006a5a77accb0416f7ef673197b29d65d0397dce7eb6b2b7d0f"
+      },
+      {
+        "file": "config/better_combat_reach_fix-common.toml",
+        "sizeBytes": 351,
+        "sha256": "5d9e30292ef35aaf91ce8ccea16240121e76d719574e4bab290bfd535fdd8996"
+      },
+      {
+        "file": "config/bettercaves/forge-1_20_1/liquidregions.json",
+        "sizeBytes": 168,
+        "sha256": "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139"
+      },
+      {
+        "file": "config/bettercaves/forge-1_20_1/README.txt",
+        "sizeBytes": 743,
+        "sha256": "1dc29f3ad9f62887f2667aeaed28c3fd3a2520055382ecb3636e3cb9ea563baa"
+      },
+      {
+        "file": "config/bettercaves/README.txt",
+        "sizeBytes": 546,
+        "sha256": "e6f25132180339d5b7f53c1f5473f28cdf743f76292bc8f87142e4b0300e0f2c"
+      },
+      {
+        "file": "config/betterchunkloading.json",
+        "sizeBytes": 2063,
+        "sha256": "b8bbc42c268ca0d4089a039b415ff7d22af05859bdd2ecb18e956eeb4aea8f87"
+      },
+      {
+        "file": "config/bettercombat/fallback_compatibility.json",
+        "sizeBytes": 2995,
+        "sha256": "754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca"
+      },
+      {
+        "file": "config/bettercombatkick-common.toml",
+        "sizeBytes": 25207,
+        "sha256": "2513c352ef0478106740b0f50934620de337031af3b2bce24f588ba44261967d"
+      },
+      {
+        "file": "config/betterdeserttemples-forge-1_20.toml",
+        "sizeBytes": 618,
+        "sha256": "ee648242e301a55004cf2796dbf7d31ba1e46765ad07dd45c12053bbb4f4d387"
+      },
+      {
+        "file": "config/betterdeserttemples/forge-1_20/armorstands.json",
+        "sizeBytes": 1104,
+        "sha256": "c3f3b1ac2b8887a63d2b4081ed4762457f492e6ac86c77708cf6c028a410905b"
+      },
+      {
+        "file": "config/betterdeserttemples/forge-1_20/itemframes.json",
+        "sizeBytes": 614,
+        "sha256": "61ca694638cd36f1675ad44b7a2b99414baa494244ae4d5dab0c4b71ac2279cc"
+      },
+      {
+        "file": "config/betterdeserttemples/forge-1_20/README.txt",
+        "sizeBytes": 1683,
+        "sha256": "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112"
+      },
+      {
+        "file": "config/betterdeserttemples/README.txt",
+        "sizeBytes": 722,
+        "sha256": "3646bc39be8c42a1432506e77721f3b963d33948d4bbd4cd5a10703834979116"
+      },
+      {
+        "file": "config/betterdungeons-forge-1_20.toml",
+        "sizeBytes": 3486,
+        "sha256": "946ce267d09bcedf40defb277de8b64ee72b37118230d47b20eabf55aa32f91a"
+      },
+      {
+        "file": "config/betterendisland-forge-1_20.toml",
+        "sizeBytes": 329,
+        "sha256": "705bd38f35f830cdee96cda5e3b3e31bc2992b6b5962bb08820dc24fef5d0846"
+      },
+      {
+        "file": "config/betterfortresses-forge-1_20.toml",
+        "sizeBytes": 468,
+        "sha256": "d7ad821ff76f0abe305017abe4f3e4aaf7acc6870bc66983eb140cf283ed0b95"
+      },
+      {
+        "file": "config/betterfortresses/forge-1_20/itemframes.json",
+        "sizeBytes": 901,
+        "sha256": "1a7e1a871145e483b1a44ba225dd9485268b115dc9221a0f5af523f50f320f0c"
+      },
+      {
+        "file": "config/betterfortresses/forge-1_20/README.txt",
+        "sizeBytes": 1339,
+        "sha256": "1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864"
+      },
+      {
+        "file": "config/betterfortresses/README.txt",
+        "sizeBytes": 871,
+        "sha256": "70c4264947f42dd780d476f3d36966c2d01c23d6f089d98c317f8a820e4040ee"
+      },
+      {
+        "file": "config/betterfpsdist.json",
+        "sizeBytes": 722,
+        "sha256": "96e975715f05dcf6405a706676577eab34bac999a8087d39f7a402a0ef5b4644"
+      },
+      {
+        "file": "config/betterjungletemples-forge-1_20.toml",
+        "sizeBytes": 126,
+        "sha256": "1e558a006956669d6ab8dc9941eba2050365516c46f7008b3a9ee7b49764e273"
+      },
+      {
+        "file": "config/bettermineshafts-forge-1_20.toml",
+        "sizeBytes": 3773,
+        "sha256": "016afc8af06af822bdaa07681699b3c068ec26274116b30b359d5ff03ef9ce11"
+      },
+      {
+        "file": "config/betteroceanmonuments-forge-1_20.toml",
+        "sizeBytes": 460,
+        "sha256": "a3789bfdf19c068ae046d382d7fd627f31ecda4a91ecadef888ff91ea6b8ceb6"
+      },
+      {
+        "file": "config/bettertridents-common.toml",
+        "sizeBytes": 153,
+        "sha256": "391c5a5beff2f99471c7166741bcb595ecb8b49b438305a4d2a329fa24d0a078"
+      },
+      {
+        "file": "config/bettertridents-server.toml",
+        "sizeBytes": 563,
+        "sha256": "d3fe5821b645b5bbcdcfd9bbcdd1555851894b5ccd7c4655aaa8cb339cb4270c"
+      },
+      {
+        "file": "config/betterwitchhuts-forge-1_20.toml",
+        "sizeBytes": 440,
+        "sha256": "a053c7647937df86a050d1d2d5e2e42dae07b96af4a1e799c5c917e28456b15d"
+      },
+      {
+        "file": "config/biomemusic.json",
+        "sizeBytes": 2297,
+        "sha256": "48bebcdb811654c34a27d5fa68bea15dc1f5a0a9f4a44ccefe9db07432634cca"
+      },
+      {
+        "file": "config/biomesoplenty/biome_toggles.json",
+        "sizeBytes": 2101,
+        "sha256": "6e81cf8f8ffd55004413d05e2579a63613d39a180bf5a4ff67ffa98ec44b1aa9"
+      },
+      {
+        "file": "config/biomesoplenty/gameplay.toml",
+        "sizeBytes": 113,
+        "sha256": "c48cf5d4b895aae33a2e757aa7b46768d3c30b93f7f09c7a2a3156d5622ec0f1"
+      },
+      {
+        "file": "config/biomesoplenty/generation.toml",
+        "sizeBytes": 525,
+        "sha256": "b949376d74ae4b3a82851202a1ce79e2995d85c1237a50285f81d85edf29a815"
+      },
+      {
+        "file": "config/blessfulled-client.toml",
+        "sizeBytes": 1806,
+        "sha256": "ba5ae5d8206e870a6fd1a184045dfe52e7353bf26608981d2e5615ead33b6116"
+      },
+      {
+        "file": "config/blocky_siege.toml",
+        "sizeBytes": 48,
+        "sha256": "7f45ce5211361dc7aba05fa8677ab6ffa855c6db2959b7443f25c90723cd02cf"
+      },
+      {
+        "file": "config/blueprint-client.toml",
+        "sizeBytes": 903,
+        "sha256": "8fbb7db508c2d5b5d7031e2143f5a4ec2f1656cabdee5b8165e3571160584fea"
+      },
+      {
+        "file": "config/blueprint-common.toml",
+        "sizeBytes": 614,
+        "sha256": "d335fd00458005d989d55a6615073d5b390ea08d5e1d129229518f90d5d3ef9b"
+      },
+      {
+        "file": "config/blur-client.toml",
+        "sizeBytes": 801,
+        "sha256": "5d1f67d3dabefcc6eed0b1ac4074e79e6d918f000691f2c727f4d8739f6f59e7"
+      },
+      {
+        "file": "config/boundlesscompat-client.toml",
+        "sizeBytes": 158,
+        "sha256": "ea538780580b17d7d701d4d549e38766f01616fe5caa2322c3ae36e4aae76d42"
+      },
+      {
+        "file": "config/bountiful/bountiful.json",
+        "sizeBytes": 384,
+        "sha256": "d9d47ef737d069382da1d2bb2b16d52a0f27401fd5c0992a62b7e601b0e0eeea"
+      },
+      {
+        "file": "config/callablehorses-common.toml",
+        "sizeBytes": 1510,
+        "sha256": "25f6ff512b0cc12789eda736c153216c9566ecc8ee898cbd0d8edafd77d7b178"
+      },
+      {
+        "file": "config/cameraoverhaul.toml",
+        "sizeBytes": 7054,
+        "sha256": "196509ebc58f7989c5059063e15056656cce9aa3bfcf0a894bc25db3a6765d9a"
+      },
+      {
+        "file": "config/carryon-client.toml",
+        "sizeBytes": 590,
+        "sha256": "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
+      },
+      {
+        "file": "config/carryon-common.toml",
+        "sizeBytes": 7153,
+        "sha256": "9c31f7f00ebe4025a6a11ee6257fe672b57866f7ec6206f97656b6cdf095b0b1"
+      },
+      {
+        "file": "config/cataclysm-client.toml",
+        "sizeBytes": 527,
+        "sha256": "5e86c85e31fac2d0427f506c5569dac3dc2d5e1f1c4a51d249f373feac89e642"
+      },
+      {
+        "file": "config/cataclysm-common.toml",
+        "sizeBytes": 26343,
+        "sha256": "ff05ff6bd50062f7f2519f16c50adece732127ccb61a12017b17638a334b5226"
+      },
+      {
+        "file": "config/caveore.json",
+        "sizeBytes": 1354,
+        "sha256": "23449cf9f76a95359fcd798a8ba0da30563267eb2c2047b5657c30864f3a763f"
+      },
+      {
+        "file": "config/chalk-client.toml",
+        "sizeBytes": 449,
+        "sha256": "ce3f311460e4198f74c6a9f8bb8ad0ddcb12f00d20760f3edff929d666815392"
+      },
+      {
+        "file": "config/chalk-common.toml",
+        "sizeBytes": 1247,
+        "sha256": "fd5124d30a7314923ab9f5bdf96b1ebed1fcc1a48c6571a1eba5b3b1f04abcbf"
+      },
+      {
+        "file": "config/chatanimation.json",
+        "sizeBytes": 185,
+        "sha256": "b0fa9ec5d41f666fa2c770bb2bde4753cbeeef76909f4765d6ebbf5683c4ae58"
+      },
+      {
+        "file": "config/chefsdelight-common.toml",
+        "sizeBytes": 785,
+        "sha256": "e82c9444a81f9378e1f497c27863f7a774529011453ff0c7c37d6121974629c4"
+      },
+      {
+        "file": "config/chloride-client.toml",
+        "sizeBytes": 5010,
+        "sha256": "467d955cc565a6f6e07f0696ab1c46593cd7c1cc1738cb89806d39c707ad76a3"
+      },
+      {
+        "file": "config/chunksending.json",
+        "sizeBytes": 1900,
+        "sha256": "1d16073bee95b48dff7f4e167fdb5343bd488818aba86b9caa1d73f081e4f826"
+      },
+      {
+        "file": "config/cinematic_respawn.properties",
+        "sizeBytes": 131,
+        "sha256": "4172f47790df0aacc429bb591d67082475758738481c723b0732693f24a4fc08"
+      },
+      {
+        "file": "config/citadel-common.toml",
+        "sizeBytes": 648,
+        "sha256": "3fcd8013137a86c00953d4be1e56945b84b87594be722bbf3b3be8d752e2577f"
+      },
+      {
+        "file": "config/clickadv.json",
+        "sizeBytes": 448,
+        "sha256": "3e7d0ab0fa53f234355f814b56cce5ba3b9d6c77b1548f009b87862758a387fe"
+      },
+      {
+        "file": "config/combatdash/combatdash Client.toml",
+        "sizeBytes": 285,
+        "sha256": "1e027d76e1e11980fae5010f3013f0d6eed1466e6f754fb859ab1ca0a01927e0"
+      },
+      {
+        "file": "config/combatdash/combatdash Server.toml",
+        "sizeBytes": 728,
+        "sha256": "baca9eb172282d31dfcf848cec607dd53a30195b7bc95f01b99b56abbf6bf3c6"
+      },
+      {
+        "file": "config/combatroll/enchantments.json",
+        "sizeBytes": 396,
+        "sha256": "b807ca9ebe5ca5e45c8367b08cb97a08aa73181b66da4ab7c9f92e02200ca01e"
+      },
+      {
+        "file": "config/combatroll/hud_config.json",
+        "sizeBytes": 120,
+        "sha256": "dd256182183eda6d42d798798371b748908d54658805ca2b1886bae27c7b4d4c"
+      },
+      {
+        "file": "config/configuration-options.json",
+        "sizeBytes": 27,
+        "sha256": "0b68a3b324f4a172d577a10446593b8f64f38e37199c928b0fc5aee152baee00"
+      },
+      {
+        "file": "config/configured-client.toml",
+        "sizeBytes": 93,
+        "sha256": "0b2537ac36e57824caf66e589bb532f0801b99d02ac08545739af3709bf84e10"
+      },
+      {
+        "file": "config/connectiblechains-client.toml",
+        "sizeBytes": 223,
+        "sha256": "aa441cded10d0d53e7ff46fa592f6ee0f23369cb016e0feabed02cf1fa16b1b8"
+      },
+      {
+        "file": "config/connectiblechains-common.toml",
+        "sizeBytes": 405,
+        "sha256": "0fb80338fd944227a2ec5200543b169a55e7226ff3de88ba8cebb10619b5125f"
+      },
+      {
+        "file": "config/connectivity.json",
+        "sizeBytes": 1761,
+        "sha256": "fc7f1055253dfd60a7244fccad181dc4225d8dbdd51bfaf7fe6293f5f1aa6075"
+      },
+      {
+        "file": "config/CoroUtil/General.toml",
+        "sizeBytes": 133,
+        "sha256": "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
+      },
+      {
+        "file": "config/corpsecurioscompat-common.toml",
+        "sizeBytes": 292,
+        "sha256": "55245c61420b1403ebe9c37bf63a4c4ccb98b234cdb128a5bf14c1f46370889a"
+      },
+      {
+        "file": "config/crash_assistant/config.toml",
+        "sizeBytes": 23825,
+        "sha256": "a8edf6f74b7d2ffe6db399560bc926bc635327ccc71b9527b870886845b4ee1c"
+      },
+      {
+        "file": "config/create_dragons_plus-client.toml",
+        "sizeBytes": 270,
+        "sha256": "a53e8aacb7a4d59f94067a09fe11f7bdc514509122436516b59a2ef981e11b84"
+      },
+      {
+        "file": "config/create_dragons_plus-common.toml",
+        "sizeBytes": 1602,
+        "sha256": "770016ee660cbdeda60299d5fb93f35c73cc425d811584fc3bd5ac799a0d1661"
+      },
+      {
+        "file": "config/create_enchantment_industry-client.toml",
+        "sizeBytes": 140,
+        "sha256": "d1b30dfb713d118f30fcb9a07657c2c02014c7c1a7ebc29694627ad02b60e94a"
+      },
+      {
+        "file": "config/create_enchantment_industry-common.toml",
+        "sizeBytes": 403,
+        "sha256": "17d3e1783dd72a92b6d9f970ac2b1237766634233201f66eedc379f8eaaa0263"
+      },
+      {
+        "file": "config/create-client.toml",
+        "sizeBytes": 4397,
+        "sha256": "7c40bc004ba478b13d0c99c2b644e50cf3a1d2d60d9b40df15822da8d8ad710c"
+      },
+      {
+        "file": "config/create-common.toml",
+        "sizeBytes": 157,
+        "sha256": "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
+      },
+      {
+        "file": "config/critical_strike/client_config.json",
+        "sizeBytes": 126,
+        "sha256": "9d9fdc01bd2fd5a0bd2ab2edfd584d9d9f1e9ced929cdaf6fa33228b443023be"
+      },
+      {
+        "file": "config/critical_strike/server_config.json",
+        "sizeBytes": 528,
+        "sha256": "b93dda8f51a2f916ee21eb8b46ca29f9e97283849c665fd13a94ccdafa8d0f47"
+      },
+      {
+        "file": "config/cull-less-leaves.json",
+        "sizeBytes": 35,
+        "sha256": "6bc92f3695f35c601c2adfa1f51e9f616df379288f2a260fd1f4011c5bad50ee"
+      },
+      {
+        "file": "config/cupboard.json",
+        "sizeBytes": 1324,
+        "sha256": "9168e98ef6f9cd59205a3ae7915cfa5cbfca5bc0d1dfd9839e25bb3eff96ac9d"
+      },
+      {
+        "file": "config/curios-client.toml",
+        "sizeBytes": 706,
+        "sha256": "ebc96c813d601e9c61b6929a8490e71fa990dc64918c19e1f9937bb275510abc"
+      },
+      {
+        "file": "config/curios-common.toml",
+        "sizeBytes": 161,
+        "sha256": "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
+      },
+      {
+        "file": "config/distraction_free_recipes-client.toml",
+        "sizeBytes": 366,
+        "sha256": "59ab8d749e9e30ddeb46a5c9405930deecb5ad10e2b5177f92fb0ca6303885f6"
+      },
+      {
+        "file": "config/diversity_better_bundle.toml",
+        "sizeBytes": 230,
+        "sha256": "f46a0ecd0891bda41fc1508550265bbf1d1a0b3a72c6f8c6b941f00db694c641"
+      },
+      {
+        "file": "config/domestication-innovation.toml",
+        "sizeBytes": 5641,
+        "sha256": "8df5ed720b6f4e65dde564ca501ac9a4ba095684361ea90aff6110a905561d00"
+      },
+      {
+        "file": "config/dragonfight.json",
+        "sizeBytes": 3825,
+        "sha256": "8f9a9304884429dabfcc5a27978e27ebd1ada1d48037e7f12241afe61b00c6fd"
+      },
+      {
+        "file": "config/dtterralithconfig.toml",
+        "sizeBytes": 468,
+        "sha256": "342733cbd0ab1db1e66317af48a62df1c7a6865ff9975f5040746cc72c96d846"
+      },
+      {
+        "file": "config/dummmmmmy-client.toml",
+        "sizeBytes": 1611,
+        "sha256": "5647f914b26b4f8d7279a574baf3716dd08f9056ff77fe54c0798ee66a149927"
+      },
+      {
+        "file": "config/dummmmmmy-common.toml",
+        "sizeBytes": 1277,
+        "sha256": "951f25df08b8ba7c1f353d225f503ee103fff7df85eb8570dd68e877b217587a"
+      },
+      {
+        "file": "config/dungeon_crawl.toml",
+        "sizeBytes": 2845,
+        "sha256": "c4d0239ad90e1d08eb9020127d633bb01680f4581eb521a247707c58ae1aea9d"
+      },
+      {
+        "file": "config/dynamic_fps.json",
+        "sizeBytes": 3,
+        "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+      },
+      {
+        "file": "config/dynamictrees-common.toml",
+        "sizeBytes": 1555,
+        "sha256": "e3640664cf92444f5c8e99bece26f4bd4c2b32408df286f94ae76cdef9082a2f"
+      },
+      {
+        "file": "config/dynamicview.json",
+        "sizeBytes": 1422,
+        "sha256": "52776f8aee58768abdb680702288c5af1e1b80bbe47e50422173fc12259fb7d9"
+      },
+      {
+        "file": "config/easyanvils-client.toml",
+        "sizeBytes": 73,
+        "sha256": "daecf2f4b4f0f6682cfabf68dcb963535f7f4284c671141dd7c7115b0c609ba7"
+      },
+      {
+        "file": "config/easyanvils-server.toml",
+        "sizeBytes": 3484,
+        "sha256": "5bf38784a30090fbe2d5bc1a65aa5bd5744b5c9ed8a3abdce37341e5637cb570"
+      },
+      {
+        "file": "config/easymagic-client.toml",
+        "sizeBytes": 977,
+        "sha256": "187085002566bc0ad0bd0262459f92716261ae66c3b96147096a5a4ef7a25abf"
+      },
+      {
+        "file": "config/easymagic-server.toml",
+        "sizeBytes": 1907,
+        "sha256": "7dbf42819b121001c76e06c07994c363d316ce110f7b06dd032687f4099d5687"
+      },
+      {
+        "file": "config/ecologics-common.toml",
+        "sizeBytes": 816,
+        "sha256": "ae240f92ae82e771f3390b37f404e632fb409270128f9ae1d1e9d283480e383d"
+      },
+      {
+        "file": "config/eeeabsmobs-client.toml",
+        "sizeBytes": 999,
+        "sha256": "500ef89d3709f4faaf5779bf3302aa8b8da1cc033efa6e52cc1065e2ae7b3ca2"
+      },
+      {
+        "file": "config/eeeabsmobs-common.toml",
+        "sizeBytes": 13418,
+        "sha256": "f85d21861c6f06c4f4d59afb80c42707a9d6294420827d566b4d67eba83afdf6"
+      },
+      {
+        "file": "config/elytra_physics_mixin-flags.txt",
+        "sizeBytes": 18,
+        "sha256": "6d06b9b5e27b6709bc98a507315c44313cab6a645beb1378b97e85473bebd566"
+      },
+      {
+        "file": "config/elytra_physics-client.toml",
+        "sizeBytes": 522,
+        "sha256": "b7e2c7510e3dedfb9b208f85af9a94d2a86e3988c10cc82f921f7174bfb6a3ec"
+      },
+      {
+        "file": "config/embeddium-fingerprint.json",
+        "sizeBytes": 427,
+        "sha256": "0482adfd1c7254782157c6e1b46245f3e9e10e2c3b5564f62bc0bb90e4c3e657"
+      },
+      {
+        "file": "config/embeddium-mixins.properties",
+        "sizeBytes": 269,
+        "sha256": "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
+      },
+      {
+        "file": "config/embeddium-options.json",
+        "sizeBytes": 848,
+        "sha256": "77bbc0fab2fc59f5b1882c3a1f535ad41c3133bb47a18b2dbebd751f44de23c8"
+      },
+      {
+        "file": "config/emf_compat.json",
+        "sizeBytes": 42,
+        "sha256": "6cf273cc8acf37b68944b938c66b5dea4be72efb77d1ec8a1269ea4a3a3cf5f0"
+      },
+      {
+        "file": "config/emojiful-client.toml",
+        "sizeBytes": 832,
+        "sha256": "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
+      },
+      {
+        "file": "config/endrem.toml",
+        "sizeBytes": 723,
+        "sha256": "4fdf07c3f2c3887852ff0acc0f8e40b4d7a5d36a20a2e05d3d5a7cf0a455dfc5"
+      },
+      {
+        "file": "config/enhancedai/common.toml",
+        "sizeBytes": 59481,
+        "sha256": "3a87cc0941b2077a063f4c36045026d8ede324728cd531d32b0d53d512290d4e"
+      },
+      {
+        "file": "config/enhancedai/Mobs/Break anger/break_anger_config.json",
+        "sizeBytes": 145,
+        "sha256": "f8e69c88a3d84a154f46c91799d69af204b528cc4f0833b1fab6a9327c53687f"
+      },
+      {
+        "file": "config/enhancedai/Mobs/Shielding/shield_block_chance.json",
+        "sizeBytes": 524,
+        "sha256": "7ea561e710209e18c03bb98ff4a2d4861e668723365b62a9c428e7e8a0cbedc2"
+      },
+      {
+        "file": "config/enhancedvisuals-client.json",
+        "sizeBytes": 8280,
+        "sha256": "6085da56d748d1d3d13d24044a6a029149f261c4d6dc05a776a32dc491010af5"
+      },
+      {
+        "file": "config/enhancedvisuals.json",
+        "sizeBytes": 429,
+        "sha256": "0db28b852e68e602e80940bc108ec70784d8975a8921d80678a0b24b3e088fd9"
+      },
+      {
+        "file": "config/entity_model_features.json",
+        "sizeBytes": 1293,
+        "sha256": "4e089e86197a91fb87f83820b9b4451c8f066b471b89f1d1783c95284862ac43"
+      },
+      {
+        "file": "config/entity_texture_features.json",
+        "sizeBytes": 1452,
+        "sha256": "bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba"
+      },
+      {
+        "file": "config/entityculling.json",
+        "sizeBytes": 2248,
+        "sha256": "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe"
+      },
+      {
+        "file": "config/etf_warnings.json",
+        "sizeBytes": 28,
+        "sha256": "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
+      },
+      {
+        "file": "config/euphoria_patcher/settings.toml",
+        "sizeBytes": 4012,
+        "sha256": "13aee892d000bdd43d88178fbcaa96549f28ae4ae528e1f1eacaf791742f9ec6"
+      },
+      {
+        "file": "config/everycomp-client.toml",
+        "sizeBytes": 322,
+        "sha256": "c868e4a51a63df55559537615761232bc26fdecbb5aa940eb328e30e077c4c63"
+      },
+      {
+        "file": "config/everycomp-common.toml",
+        "sizeBytes": 1590,
+        "sha256": "662ecbc927ea1b7936eddef9fc99e9fa222a31f7394e71e2e4115e3fdeb3b4a7"
+      },
+      {
+        "file": "config/everycomp-entries.toml",
+        "sizeBytes": 16753,
+        "sha256": "796e8c86eb7f3b9c3ec13ced3a5f546af65347e4df0e56a58034d6659e1e2724"
+      },
+      {
+        "file": "config/everycomp-hazardous.toml",
+        "sizeBytes": 3697,
+        "sha256": "e1c71ed9fd6cc4ce9b1ba9bd3d11f1108b1489502d113dcab65d9dd9342ed800"
+      },
+      {
+        "file": "config/explosiveenhancement.toml",
+        "sizeBytes": 2150,
+        "sha256": "b9c20a23f040001f15df60783dd2eec4ff34ebf58b80bfe8c6dfb10be74bb5c6"
+      },
+      {
+        "file": "config/fabric/indigo-renderer.properties",
+        "sizeBytes": 290,
+        "sha256": "a0f22c90f4606c269b85f129f679df5bec98c714acdc3a9202388daf1200ea5e"
+      },
+      {
+        "file": "config/fallingleaves-client.toml",
+        "sizeBytes": 796,
+        "sha256": "2cd017af6632239398b694fadf8191d6073cf39585549876cc682843f521ecb3"
+      },
+      {
+        "file": "config/farmersdelight-client.toml",
+        "sizeBytes": 478,
+        "sha256": "940f68676859e852c600974c4776e986453ce7d3b2cf27ac156535e26c160e11"
+      },
+      {
+        "file": "config/farmersdelight-common.toml",
+        "sizeBytes": 3930,
+        "sha256": "459c4d9fcf137f0533da3280349f2abe51510497632130cbc23507dd121b1bd8"
+      },
+      {
+        "file": "config/fdbosses/bosses_clientside.json",
+        "sizeBytes": 235,
+        "sha256": "a32dfa5bacd322d47027982526032009768744ba768a53763231b9836eac64f8"
+      },
+      {
+        "file": "config/fdbosses/bosses.json",
+        "sizeBytes": 3098,
+        "sha256": "f6cb0da1b6fe1b5361412a24baed516e6588d8987cbdeb7105f3a47b9c1ca7c0"
+      },
+      {
+        "file": "config/fdlib/fdlib_client.json",
+        "sizeBytes": 136,
+        "sha256": "fee032c43c30c3a4cfaa26736c3c719a9baab0badaa6ed8670353670b4999074"
+      },
+      {
+        "file": "config/fdlib/test.json",
+        "sizeBytes": 215,
+        "sha256": "29c354279f36049c2cda368882d498dc20d8fc9193899e42824b75f406e33ade"
+      },
+      {
+        "file": "config/ferritecore-mixin.toml",
+        "sizeBytes": 1516,
+        "sha256": "c164439c632aa7c95c07edec5cfef74b8e2d5671a8445a781deeb4de7ad0c8b6"
+      },
+      {
+        "file": "config/firstperson.json",
+        "sizeBytes": 593,
+        "sha256": "6d9d8a3708ccf453fb710f4e10591cedd4d1767acde97c7da7bbc2cd2c4d4101"
+      },
+      {
+        "file": "config/flywheel-client.toml",
+        "sizeBytes": 622,
+        "sha256": "0dbfa4121b760a787f33d0953e1a8caddc3c64edf2020fcf1fca67deca8a1d1c"
+      },
+      {
+        "file": "config/fml.toml",
+        "sizeBytes": 1148,
+        "sha256": "506f0c4c714bf1528d45ab8202f303bde6ba5f9e53778c92a679efbc185afb12"
+      },
+      {
+        "file": "config/forge-client.toml",
+        "sizeBytes": 1628,
+        "sha256": "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
+      },
+      {
+        "file": "config/fpsreducer/fpsreducer-client.toml",
+        "sizeBytes": 3351,
+        "sha256": "f7637fe490fad786a7c62914711f068bc3d6909eff244f22788eb6f13d14fd0c"
+      },
+      {
+        "file": "config/friendsandfoes.json",
+        "sizeBytes": 1936,
+        "sha256": "df93dbd6994b265a3fdd13961dc58cb6c465d413b315e749520ecfcd590a5f45"
+      },
+      {
+        "file": "config/fzzy_config/keybinds.toml",
+        "sizeBytes": 6403,
+        "sha256": "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
+      },
+      {
+        "file": "config/galosphere-common.toml",
+        "sizeBytes": 256,
+        "sha256": "91b8a2dcf9c7f91d694cec42f218ffd77fb971b129d9772cdf8242c59f93c1c9"
+      },
+      {
+        "file": "config/gml-script-mods.toml",
+        "sizeBytes": 119,
+        "sha256": "e2efc8f94eafa0528d995a427040081180d9a1063550b3723fb35c392411651a"
+      },
+      {
+        "file": "config/goblintraders-entities.toml",
+        "sizeBytes": 6901,
+        "sha256": "808da0c9a0c1b1c2400b9e9eeb6a0796a2c117dd6611fefe7b71336b3a1c6169"
+      },
+      {
+        "file": "config/guardvillagers-client.toml",
+        "sizeBytes": 342,
+        "sha256": "4160ba1a645a91f3b89c1fd3ed1a42d77007c19aa0183f7f19e080611a9cd449"
+      },
+      {
+        "file": "config/guardvillagers-common.toml",
+        "sizeBytes": 5793,
+        "sha256": "2c2ee0fcc95a2c6baebd0fcdc78737e2650382161969108a8dcc5f7cfab111f6"
+      },
+      {
+        "file": "config/harderspawners-common.toml",
+        "sizeBytes": 1839,
+        "sha256": "c56e2fdbc9002dffd141a7367f88f248fbe2e030e4c8ae4089b0aee279ae793b"
+      },
+      {
+        "file": "config/highlighter-common.toml",
+        "sizeBytes": 720,
+        "sha256": "22b7f87be30b7e3ce6fa3fe1cb588e8b3eae0bfc9ddc390ad346a1d1bbfebb4b"
+      },
+      {
+        "file": "config/hit_indicator-client.toml",
+        "sizeBytes": 1096,
+        "sha256": "c43a0e7b3b0a7c8c12bec9e6bf91aad51caee18894cb23b9e77cbdc5d2db02ed"
+      },
+      {
+        "file": "config/hit_indicator-common.toml",
+        "sizeBytes": 8760,
+        "sha256": "b9f3cbce87e05a20fab4c89b34d4790d5bf4288931da43dc3a54d4cb19597851"
+      },
+      {
+        "file": "config/iceandfire-client.toml",
+        "sizeBytes": 320,
+        "sha256": "cda35c328969c68f4d112bbf3d537a8015b702610a0bf63f4bd1bf81e4c3e4ee"
+      },
+      {
+        "file": "config/iceandfire-common.toml",
+        "sizeBytes": 15912,
+        "sha256": "f4f30bb8fc7e695be65bad46edf7233faa1d45ab92dd052a7e6891f0e0b97aa4"
+      },
+      {
+        "file": "config/iceandfire/amphithere_biomes.json",
+        "sizeBytes": 767,
+        "sha256": "8c44f2cf4903712ff88743373cd6893b31226af031f9822ec63ae337abdbb4b0"
+      },
+      {
+        "file": "config/iceandfire/cockatrice_biomes.json",
+        "sizeBytes": 907,
+        "sha256": "d01094612d9d8a48e99809522ff7e009bc1ec7e03a57e0f5f8c9cd51ef44b0bb"
+      },
+      {
+        "file": "config/iceandfire/cyclops_cave_biomes.json",
+        "sizeBytes": 610,
+        "sha256": "0ec4ed27179c0a74651de2fe91cc17024ca05bd598b7f8043ebb794ad6d16a3a"
+      },
+      {
+        "file": "config/iceandfire/deathworm_biomes.json",
+        "sizeBytes": 1369,
+        "sha256": "119e3398276786acafe198ebf3fd62d62e0e62e544ec74980c32bf0356c6f0c9"
+      },
+      {
+        "file": "config/iceandfire/desert_myrmex_biomes.json",
+        "sizeBytes": 1369,
+        "sha256": "119e3398276786acafe198ebf3fd62d62e0e62e544ec74980c32bf0356c6f0c9"
+      },
+      {
+        "file": "config/iceandfire/fire_dragon_biomes.json",
+        "sizeBytes": 2113,
+        "sha256": "0366d55cbee86bf899cd68bee919b8b07f0925a44943a1fab08ffb89505fbeb7"
+      },
+      {
+        "file": "config/iceandfire/fire_dragon_cave_biomes.json",
+        "sizeBytes": 2113,
+        "sha256": "0366d55cbee86bf899cd68bee919b8b07f0925a44943a1fab08ffb89505fbeb7"
+      },
+      {
+        "file": "config/iceandfire/fire_dragon_skeleton_biomes.json",
+        "sizeBytes": 1369,
+        "sha256": "119e3398276786acafe198ebf3fd62d62e0e62e544ec74980c32bf0356c6f0c9"
+      },
+      {
+        "file": "config/iceandfire/fire_lily_biomes.json",
+        "sizeBytes": 277,
+        "sha256": "0a1b2ea4da236463e214dd7eed0a7837df420c3957ad61434d65995111a67b9a"
+      },
+      {
+        "file": "config/iceandfire/forest_troll_biomes.json",
+        "sizeBytes": 255,
+        "sha256": "071e4cf9db64d5771b17d2487d8229562311c584ce56a824abb478f2cc00a911"
+      },
+      {
+        "file": "config/iceandfire/frost_lily_biomes.json",
+        "sizeBytes": 624,
+        "sha256": "91d500462895af7576de5eb64efd00faed857504f9eefe56cfa418a28ae34001"
+      },
+      {
+        "file": "config/iceandfire/gorgon_temple_biomes.json",
+        "sizeBytes": 610,
+        "sha256": "0ec4ed27179c0a74651de2fe91cc17024ca05bd598b7f8043ebb794ad6d16a3a"
+      },
+      {
+        "file": "config/iceandfire/graveyard_biomes.json",
+        "sizeBytes": 467,
+        "sha256": "44810e5361d38ad87b5028ffaf139832bcbce16c55898de796e79dd86b99d7ab"
+      },
+      {
+        "file": "config/iceandfire/hippocampus_biomes.json",
+        "sizeBytes": 254,
+        "sha256": "e33237977094c9d26012e2a1883c75ff7062ca16d43f2c9a66f4ceb5d92d2fc0"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_biomes.json",
+        "sizeBytes": 855,
+        "sha256": "8a199a14a2abf91b76855781bd37ed146491e896fd05ba714a806bc47b2c1657"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_black_biomes.json",
+        "sizeBytes": 279,
+        "sha256": "c482e650dee2fc71d0ba8726ebea20d78b9e345865449c57d5717ed55af05b37"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_brown_biomes.json",
+        "sizeBytes": 486,
+        "sha256": "a05e7cbe7541bff74314da9b23976b072e727387185840645e60f5eb98e989be"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_chestnut_biomes.json",
+        "sizeBytes": 601,
+        "sha256": "88466c293acef0b7725de96c7d21747948769d2e6b33e952d4c204472c898ecd"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_creamy_biomes.json",
+        "sizeBytes": 286,
+        "sha256": "dd16c76d368fd696927c4d5b5cee80f682c0e7fe057af1a93e6cc9059b5abaab"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_dark_brown_biomes.json",
+        "sizeBytes": 1050,
+        "sha256": "a77dad8b397928fb3b1d9b249b586b8103f866790d215b9bed549add0fa6f3db"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_gray_biomes.json",
+        "sizeBytes": 418,
+        "sha256": "dbb0b4d04fe34c05a26f26df87d21967a4f6090670cfd6194e6de9badf254a1b"
+      },
+      {
+        "file": "config/iceandfire/hippogryph_white_biomes.json",
+        "sizeBytes": 1249,
+        "sha256": "172c79ed677b97663434c8bd90311802556489bcb8afb5fe246f5c8cac840ea4"
+      },
+      {
+        "file": "config/iceandfire/hydra_cave_biomes.json",
+        "sizeBytes": 747,
+        "sha256": "ae56c23cf566a2fd020dfa6dd2acbbc4ca7770ee98223fd293b0bd0290fd816a"
+      },
+      {
+        "file": "config/iceandfire/ice_dragon_biomes.json",
+        "sizeBytes": 534,
+        "sha256": "31c08e6b056b55ed9afc91ab57f11c8e0806f9d5859886445de0acf5fd35035b"
+      },
+      {
+        "file": "config/iceandfire/ice_dragon_cave_biomes.json",
+        "sizeBytes": 534,
+        "sha256": "31c08e6b056b55ed9afc91ab57f11c8e0806f9d5859886445de0acf5fd35035b"
+      },
+      {
+        "file": "config/iceandfire/ice_dragon_skeleton_biomes.json",
+        "sizeBytes": 624,
+        "sha256": "91d500462895af7576de5eb64efd00faed857504f9eefe56cfa418a28ae34001"
+      },
+      {
+        "file": "config/iceandfire/jungle_myrmex_biomes.json",
+        "sizeBytes": 767,
+        "sha256": "8c44f2cf4903712ff88743373cd6893b31226af031f9822ec63ae337abdbb4b0"
+      },
+      {
+        "file": "config/iceandfire/lightning_dragon_biomes.json",
+        "sizeBytes": 1748,
+        "sha256": "65ba1662b1a2c9b6f97c6a0f108ee1d1d0e928226d7fc1a05634e0a55329bbbf"
+      },
+      {
+        "file": "config/iceandfire/lightning_dragon_cave_biomes.json",
+        "sizeBytes": 1748,
+        "sha256": "65ba1662b1a2c9b6f97c6a0f108ee1d1d0e928226d7fc1a05634e0a55329bbbf"
+      },
+      {
+        "file": "config/iceandfire/lightning_dragon_skeleton_biomes.json",
+        "sizeBytes": 907,
+        "sha256": "d01094612d9d8a48e99809522ff7e009bc1ec7e03a57e0f5f8c9cd51ef44b0bb"
+      },
+      {
+        "file": "config/iceandfire/lightning_lily_biomes.json",
+        "sizeBytes": 907,
+        "sha256": "d01094612d9d8a48e99809522ff7e009bc1ec7e03a57e0f5f8c9cd51ef44b0bb"
+      },
+      {
+        "file": "config/iceandfire/mausoleum_biomes.json",
+        "sizeBytes": 728,
+        "sha256": "183480a63bca5a487b31b28b0ec742fb21f3115a6a1de2f38f0f6daf81d46e3e"
+      },
+      {
+        "file": "config/iceandfire/mountain_troll_biomes.json",
+        "sizeBytes": 486,
+        "sha256": "a05e7cbe7541bff74314da9b23976b072e727387185840645e60f5eb98e989be"
+      },
+      {
+        "file": "config/iceandfire/ore_gen_biomes.json",
+        "sizeBytes": 145,
+        "sha256": "e7855fa7d73f4d3af77f47ddd70b4fcbab7862302d004b4ddae9dddc75c4e402"
+      },
+      {
+        "file": "config/iceandfire/pixie_village_biomes.json",
+        "sizeBytes": 2194,
+        "sha256": "f363deb6b29d728bacaaf301fa456a393f8ce0498bde963884368956eb42ffdb"
+      },
+      {
+        "file": "config/iceandfire/sapphire_gen_biomes.json",
+        "sizeBytes": 624,
+        "sha256": "91d500462895af7576de5eb64efd00faed857504f9eefe56cfa418a28ae34001"
+      },
+      {
+        "file": "config/iceandfire/sea_serpent_biomes.json",
+        "sizeBytes": 254,
+        "sha256": "e33237977094c9d26012e2a1883c75ff7062ca16d43f2c9a66f4ceb5d92d2fc0"
+      },
+      {
+        "file": "config/iceandfire/siren_biomes.json",
+        "sizeBytes": 254,
+        "sha256": "e33237977094c9d26012e2a1883c75ff7062ca16d43f2c9a66f4ceb5d92d2fc0"
+      },
+      {
+        "file": "config/iceandfire/snowy_troll_biomes.json",
+        "sizeBytes": 250,
+        "sha256": "7b0d7d7459b06d0f5a01e0d3cb803d534f9b654ad3b4d9e336f0f50fbe06f4d7"
+      },
+      {
+        "file": "config/iceandfire/stymphalian_bird_biomes.json",
+        "sizeBytes": 747,
+        "sha256": "ae56c23cf566a2fd020dfa6dd2acbbc4ca7770ee98223fd293b0bd0290fd816a"
+      },
+      {
+        "file": "config/iceandfire/wandering_cyclops_biomes.json",
+        "sizeBytes": 632,
+        "sha256": "46fb4b80eb9d9667223509ea17aa4b5aa65851f3cb09c09886d6b9dde1a63601"
+      },
+      {
+        "file": "config/illageandspillage-client.toml",
+        "sizeBytes": 486,
+        "sha256": "b88e48939ed588a0d11d6abb022abdc65356ba20fe1f481989e51d9eb40d76a6"
+      },
+      {
+        "file": "config/illageandspillage-common.toml",
+        "sizeBytes": 12911,
+        "sha256": "77588a6b3aab912ed43f5434d48596754b239ce61db4bce53e6efbbfbce0fba9"
+      },
+      {
+        "file": "config/immediatelyfast.json",
+        "sizeBytes": 1061,
+        "sha256": "2855f4c1f0d4aa33a2bd1ae4e40f4bf17471d13759adbd6e2c0fceb2e8268d9b"
+      },
+      {
+        "file": "config/immersive_armors.json",
+        "sizeBytes": 435,
+        "sha256": "3b1b222917697f4e339d7770136473fb277c46687d94b85f0b0835be8ebad695"
+      },
+      {
+        "file": "config/immersive_weathering-client.toml",
+        "sizeBytes": 298,
+        "sha256": "f36bb759ebb4493cd78a3f06dd47368d82effc78cbf3113b5dfe4d9093243cd9"
+      },
+      {
+        "file": "config/immersive_weathering-common.toml",
+        "sizeBytes": 2449,
+        "sha256": "a8d9a9b80b82b8ad2a6101107c8f481ba2935a21bf316624c0015af3a2602d09"
+      },
+      {
+        "file": "config/incontrol/areas.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/breakevents.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/effects.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/events.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/experience.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/leftclicks.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/loot.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/phases.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/placeevents.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/rightclicks.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/spawn.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/spawner.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/incontrol/summonaid.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/info_on_death-common.toml",
+        "sizeBytes": 861,
+        "sha256": "e9bd5d7a6a31c8b996c968ec7305df3e35e2ecc62ab8695af044dfcf72f25aaf"
+      },
+      {
+        "file": "config/insanelib.toml",
+        "sizeBytes": 2413,
+        "sha256": "b3283f7986aed0dcfd85ffd3ac7424280ea55810824b96b15342b8728132d7af"
+      },
+      {
+        "file": "config/irons_spellbooks_spell_config/global_config.json",
+        "sizeBytes": 257,
+        "sha256": "7a8fd5e37e183cccd59a72a4af0b9e1fe1b4d930cd034b2f11da7307a8741580"
+      },
+      {
+        "file": "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+        "sizeBytes": 683,
+        "sha256": "324df21e5c8096bba2171dd24a0f9bdb3a86be514934f02e6cd4002d60f9cb27"
+      },
+      {
+        "file": "config/irons_spellbooks-client.toml",
+        "sizeBytes": 3575,
+        "sha256": "c02cc14cee5f91bbc236f0392ce7ce05d1a182aacc3ee0dbc8540180c739fdb4"
+      },
+      {
+        "file": "config/itemphysiclite-client.json",
+        "sizeBytes": 308,
+        "sha256": "e0ab9dbd2ac5ae54053431f22cfd56c0a49f438a3a313e2e40641351477d65ce"
+      },
+      {
+        "file": "config/jamlib/known_suspicious_jars.txt",
+        "sizeBytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "file": "config/JumpAnimationConfig.json",
+        "sizeBytes": 697,
+        "sha256": "717f501ddc4759a976c166abc1009680fca9eaa33c3f73b3074537407c18c9c0"
+      },
+      {
+        "file": "config/justparry/itempropreties.txt",
+        "sizeBytes": 283,
+        "sha256": "a73591616c3ed02b3a65c4335f8dcb2d8afa70e21a558fa94b19f6562551ca21"
+      },
+      {
+        "file": "config/justparry/justparry item proprieties.toml",
+        "sizeBytes": 543,
+        "sha256": "4aba31f91556264a0ee63e1ae7f1e7515e004f417d929e461f395c85dd6b76a2"
+      },
+      {
+        "file": "config/justparry/justparry_client/ justparry misc.toml",
+        "sizeBytes": 779,
+        "sha256": "f0343ec89239af5ccb82cebcdb6c328b4f64719a5ba17213e315f2f82ea2eacc"
+      },
+      {
+        "file": "config/justparry/justparry_client/parry first person animation.toml",
+        "sizeBytes": 629,
+        "sha256": "8065359496a6bad9e70649edcee1ac77cfcbd7ca818352d1562d859b16191782"
+      },
+      {
+        "file": "config/justparry/justparry_server.toml",
+        "sizeBytes": 3862,
+        "sha256": "782b267c5097aff0cc1a10aabafbc269963d774f40e42795165ac30e67ab7882"
+      },
+      {
+        "file": "config/leavemybarsalone-client.toml",
+        "sizeBytes": 136,
+        "sha256": "2993a01aef4fe189edaa9b616da006daabcf1d635e4b793476afcdda31b25192"
+      },
+      {
+        "file": "config/legendary_monsters-common.toml",
+        "sizeBytes": 21433,
+        "sha256": "6af5b9459b5a2c22919009246c05d7bba724734f28b53da92ceb4d1025d36041"
+      },
+      {
+        "file": "config/lithostitched.json",
+        "sizeBytes": 284,
+        "sha256": "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
+      },
+      {
+        "file": "config/lootbeams-client.toml",
+        "sizeBytes": 7065,
+        "sha256": "d49cae3eb43cbb718bfe42d6b4cbd3bd61364993f95add266e7aa25e1118510b"
+      },
+      {
+        "file": "config/lootbundles-common.toml",
+        "sizeBytes": 797,
+        "sha256": "fa0846417b47211b64f50e231520ff591d000a2f3c1381eebf5d643acbed66bc"
+      },
+      {
+        "file": "config/lootintegrations.json",
+        "sizeBytes": 936,
+        "sha256": "3db9265b03e6e50c31383ed262d951f9fac2a7ebf190e6979a1ecb4ac613968a"
+      },
+      {
+        "file": "config/luckys_armory_configuration.toml",
+        "sizeBytes": 41,
+        "sha256": "ec9b847c2b80e474ae1ffb3c8cd57ae49e06158ab7928dddd7b626292c8f06e9"
+      },
+      {
+        "file": "config/majruszlibrary.json",
+        "sizeBytes": 79,
+        "sha256": "cb33d48e8c3d60d977d6957a29baad2b219b447cdf2c7bcb3f9cb93961df4c50"
+      },
+      {
+        "file": "config/majruszsdifficulty.json",
+        "sizeBytes": 21855,
+        "sha256": "221e78272f2f8a6380eae8f5d2e7231f70778e04698470640bfd0f821e66f12a"
+      },
+      {
+        "file": "config/majruszsenchantments.json",
+        "sizeBytes": 3306,
+        "sha256": "156be9d53f7f4943b3ab7bc960930054431ff638f23b9eed0a556b0046641c91"
+      },
+      {
+        "file": "config/make_bubbles_pop.json",
+        "sizeBytes": 383,
+        "sha256": "2266b2e507e4dcea55fb1a53be33690efc8c1fe4ce7a559a98a29fecac2069c4"
+      },
+      {
+        "file": "config/mantle-client.toml",
+        "sizeBytes": 1302,
+        "sha256": "610c9fdab3f48d2e8ab962afcf80bea465fa60570827bd56880c2943230817b4"
+      },
+      {
+        "file": "config/medieval_nether.json",
+        "sizeBytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      {
+        "file": "config/medievalend.json",
+        "sizeBytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      {
+        "file": "config/memorysettings.json",
+        "sizeBytes": 2487,
+        "sha256": "19813a523ab4f90d4f50fe69f5c5ebe85bc1144837eab0f2a02cfe4d9857a2fb"
+      },
+      {
+        "file": "config/meteor_shower_natural.toml",
+        "sizeBytes": 5345,
+        "sha256": "8a1aa6ae4c2dc478b39e608bea527c03b3af0f187695f953193a71f9967c8fd6"
+      },
+      {
+        "file": "config/meteor_shower/trail_config.json",
+        "sizeBytes": 415,
+        "sha256": "8d2c778db88a1da66b6f37576cc154802f8f2823664d0ebc717c23e8286a8250"
+      },
+      {
+        "file": "config/midnightlib.json",
+        "sizeBytes": 34,
+        "sha256": "9bcdd9f5ae6c9fecc3a0dfee7507bf17c56702f14e40db9cdde90148f1d3b387"
+      },
+      {
+        "file": "config/mobhealthbar-client.toml",
+        "sizeBytes": 1141,
+        "sha256": "ee8dfffb8784e0c2539729681f0c4c8fd320df2c3a9ec7b899cd42819c560401"
+      },
+      {
+        "file": "config/modelfix-client.toml",
+        "sizeBytes": 1292,
+        "sha256": "fa745470318f2031347f2b34c369ca01b81eece56b4a9eb58e2edf47a8cea230"
+      },
+      {
+        "file": "config/modernfix-common.toml",
+        "sizeBytes": 107,
+        "sha256": "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
+      },
+      {
+        "file": "config/modernfix-mixins.properties",
+        "sizeBytes": 6643,
+        "sha256": "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0"
+      },
+      {
+        "file": "config/moogs_structures.json",
+        "sizeBytes": 527,
+        "sha256": "db860fe96eacfed4d731e6b129ef189aaec81faf2df88f978f5bcbc4d7fc99d8"
+      },
+      {
+        "file": "config/moonlight-client.toml",
+        "sizeBytes": 1027,
+        "sha256": "47297d47ca3fa4525d1adbc7234b9b0dc2ee490b87216fe6002e34ff69acac08"
+      },
+      {
+        "file": "config/moonlight-common.toml",
+        "sizeBytes": 1023,
+        "sha256": "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
+      },
+      {
+        "file": "config/MouseTweaks.cfg",
+        "sizeBytes": 135,
+        "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+      },
+      {
+        "file": "config/mowziesmobs-client.toml",
+        "sizeBytes": 984,
+        "sha256": "b2ed15f55eb1b57f7e1b4a81b99edd02d98d9000d319d72d73caae13e5fc4cc4"
+      },
+      {
+        "file": "config/mowziesmobs-common.toml",
+        "sizeBytes": 35974,
+        "sha256": "e1add6dce3cbd2d1b49536ccc3309e00a09455bd12d85a9dd6717529cdbdfcc7"
+      },
+      {
+        "file": "config/naturalist.json",
+        "sizeBytes": 3703,
+        "sha256": "022aeb6c92073255d6ad01f0f47eecf574bcb19aa9bc9d8d11eeae1479079226"
+      },
+      {
+        "file": "config/netherchested-server.toml",
+        "sizeBytes": 542,
+        "sha256": "f6db27df665cda11daf00195db304f45876262ae087751ace93631b8c26ac869"
+      },
+      {
+        "file": "config/netherdepthsupgrade-common.toml",
+        "sizeBytes": 181,
+        "sha256": "18f624a7d9f1fa2c4978b317410aadb72b571993df75b849d837f01de76c25aa"
+      },
+      {
+        "file": "config/netherexp-common.toml",
+        "sizeBytes": 8629,
+        "sha256": "7dc017587f20452d0e06e4f3f7e0780d2fa3ac4d1c9f565886ac73ff9c23a5ee"
+      },
+      {
+        "file": "config/NoChatReports/NCR-Client.json",
+        "sizeBytes": 565,
+        "sha256": "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
+      },
+      {
+        "file": "config/NoChatReports/NCR-Common.json",
+        "sizeBytes": 230,
+        "sha256": "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
+      },
+      {
+        "file": "config/NoChatReports/NCR-Encryption.json",
+        "sizeBytes": 520,
+        "sha256": "0f61ac30bfc78653a30d715f793e30a6a43d6715106706487efd0aea5d43a84c"
+      },
+      {
+        "file": "config/NoChatReports/NCR-ServerPreferences.json",
+        "sizeBytes": 24,
+        "sha256": "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
+      },
+      {
+        "file": "config/notenoughanimations.json",
+        "sizeBytes": 3357,
+        "sha256": "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
+      },
+      {
+        "file": "config/nyfsspiders.toml",
+        "sizeBytes": 191,
+        "sha256": "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
+      },
+      {
+        "file": "config/obscure_tooltips_fix-client.toml",
+        "sizeBytes": 241,
+        "sha256": "6b0771acff73740c4341f76296c4ba1a8557e683ebd4856595f803dc4c50d36b"
+      },
+      {
+        "file": "config/Obscuria/aquamirae-client.toml",
+        "sizeBytes": 548,
+        "sha256": "2497066dd65a02323f586ebcf28fab0018f6f5994dc641bf5d76a59167798cf1"
+      },
+      {
+        "file": "config/Obscuria/aquamirae-common.toml",
+        "sizeBytes": 4182,
+        "sha256": "5cd67f97f62a9339e01b48c6c427f98747e2016d846347b263270b0fc49fe4ca"
+      },
+      {
+        "file": "config/Obscuria/loot_journal-client.toml",
+        "sizeBytes": 5031,
+        "sha256": "76f9d73ac30e958e01d8653474121350f30944783df4bc6632560775b4a9c749"
+      },
+      {
+        "file": "config/Obscuria/obscure_tooltips-client.toml",
+        "sizeBytes": 5392,
+        "sha256": "e046845737179e207688839c0362b31f1d9a7783df0ff9636f042af6e6abaf4a"
+      },
+      {
+        "file": "config/Obscuria/obscure-api-client.toml",
+        "sizeBytes": 359,
+        "sha256": "90b60c01677fe0899e1b1fbf0deb8aba975f3540a0abb979a1c9aa7760930fe2"
+      },
+      {
+        "file": "config/oculus.properties",
+        "sizeBytes": 308,
+        "sha256": "8193384d679c3a4ebee6a988f7a8fa3633d4e83c4fc44f38c18a4ab155e182be"
+      },
+      {
+        "file": "config/paraglider-common.toml",
+        "sizeBytes": 1336,
+        "sha256": "850ba09e81e04386b1c0c11b91e39fc8ea9a9ffccdb77b4d27dfcb08e09ad175"
+      },
+      {
+        "file": "config/paraglider-player-states.toml",
+        "sizeBytes": 1523,
+        "sha256": "ea9b3fd429579e46e9f568f4b932945f97759085a1ace195f3c0bf36d83da423"
+      },
+      {
+        "file": "config/particlerain/config.json",
+        "sizeBytes": 1154,
+        "sha256": "e467bad5ddd60ec1f2deee790243ea6a08712d365da472cf46542c8adba84d38"
+      },
+      {
+        "file": "config/particular-common.toml",
+        "sizeBytes": 5347,
+        "sha256": "d5f85731223253fe39f35853ad279a6aa9fabd6953cf1b0015f3bb6b13913d86"
+      },
+      {
+        "file": "config/patchouli-client.toml",
+        "sizeBytes": 1091,
+        "sha256": "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
+      },
+      {
+        "file": "config/pingtomapxaeros-client.toml",
+        "sizeBytes": 754,
+        "sha256": "5a83f5a5f93e49c7e2bea23d0dbf209d50473de0a6f500b5d2b6db6fd2838bd3"
+      },
+      {
+        "file": "config/pingwheel.json",
+        "sizeBytes": 410,
+        "sha256": "6878009a9f7ca2309feb78f6884556493b6752232f7f87e12901dbb6946ab5ea"
+      },
+      {
+        "file": "config/pingwheel.server.json",
+        "sizeBytes": 111,
+        "sha256": "821d5d12d0c096996c82d1a65349ac803adffcc25b89420a146c727fb92b381a"
+      },
+      {
+        "file": "config/ponder-client.toml",
+        "sizeBytes": 619,
+        "sha256": "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
+      },
+      {
+        "file": "config/presencefootsteps/userconfig.json",
+        "sizeBytes": 250,
+        "sha256": "6cffea1c20852a079342429a0f223fcc45993a51596c4736e0fe1910c3fcba52"
+      },
+      {
+        "file": "config/projectvibrantjourneys-common.toml",
+        "sizeBytes": 3098,
+        "sha256": "b09c0e48c9dcf5aa03b6b3ab4e4928b1bb45b2811c8600b97c4027d4530b9e29"
+      },
+      {
+        "file": "config/projectvibrantjourneys/biomesoplenty/acacia_trees.json",
+        "sizeBytes": 73,
+        "sha256": "40f6669d26ec6101679a6b07607b3153f9bc53fbcf5f3ad73cc492e774bf3df8"
+      },
+      {
+        "file": "config/projectvibrantjourneys/biomesoplenty/birch_trees.json",
+        "sizeBytes": 226,
+        "sha256": "5e159ce4c9ee9b7c4d67ae86d152b4152b1046765be8d67c9b45319531e80d92"
+      },
+      {
+        "file": "config/projectvibrantjourneys/biomesoplenty/dark_oak_trees.json",
+        "sizeBytes": 151,
+        "sha256": "4ffd8670faaf5eef4d659d265497a4da1d5f766a6aaf2e56fefe823769f158b2"
+      },
+      {
+        "file": "config/projectvibrantjourneys/biomesoplenty/jungle_trees.json",
+        "sizeBytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "file": "config/projectvibrantjourneys/biomesoplenty/oak_trees.json",
+        "sizeBytes": 1167,
+        "sha256": "77dd05c3e6f11cb232e5bff6c7e8452717141a595e35bf03f0be9803e61ff59b"
+      },
+      {
+        "file": "config/projectvibrantjourneys/biomesoplenty/spruce_trees.json",
+        "sizeBytes": 448,
+        "sha256": "bb55dfad0917756ff11964b25c268db38246d73bb9c9e97fa38dcdfe6a7525dc"
+      },
+      {
+        "file": "config/projectvibrantjourneys/byg/acacia_trees.json",
+        "sizeBytes": 135,
+        "sha256": "9a9555921707254f1fcfe19a860b8c3a5f33cd3a1fb3562eaf1caa5c40b62dd2"
+      },
+      {
+        "file": "config/projectvibrantjourneys/byg/birch_trees.json",
+        "sizeBytes": 262,
+        "sha256": "386d654a95ba86a711545e99c3d10ce41f100e2138c2ebe2e1ed64d120d50090"
+      },
+      {
+        "file": "config/projectvibrantjourneys/byg/dark_oak_trees.json",
+        "sizeBytes": 73,
+        "sha256": "9034b3b807e7e67312cc83cc3d1be5e28a2d905106faa771eb647d4b78d07d72"
+      },
+      {
+        "file": "config/projectvibrantjourneys/byg/jungle_trees.json",
+        "sizeBytes": 65,
+        "sha256": "3e8db1a77d727fad1392d1d6674df67240e9eb45bc2040b669a408138dde1976"
+      },
+      {
+        "file": "config/projectvibrantjourneys/byg/oak_trees.json",
+        "sizeBytes": 715,
+        "sha256": "9a9f6bec183304ed7df9234d3cfb58a8ddcb77f8212b30f17048be04ebd3fe56"
+      },
+      {
+        "file": "config/projectvibrantjourneys/byg/spruce_trees.json",
+        "sizeBytes": 581,
+        "sha256": "026d7c342e8031d3d811e7417bf9f1e1520cbebca117b9d81cba44be1c5d6624"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/acacia_trees.json",
+        "sizeBytes": 212,
+        "sha256": "e99671dc3cde6577a86e46da369a851919d2fc14578e549f96b7c14340bcf811"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/birch_trees.json",
+        "sizeBytes": 413,
+        "sha256": "294264448ddc27a31095e3ca631df93db83f7838ede14ce083945fcfe03805de"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/cherry_trees.json",
+        "sizeBytes": 71,
+        "sha256": "5aef94a13f4a673f45350e820d80169d9de98c5d08e22299b5f2d38794ddc029"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/dark_oak_trees.json",
+        "sizeBytes": 70,
+        "sha256": "49090b7b84dc979857863852c9dd4481fd8722a7bed874f7683d635de3993e48"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/jungle_trees.json",
+        "sizeBytes": 205,
+        "sha256": "a00de783db9157c0152f475dd4d4cc1761eabefe70311189c6e25c71879f3698"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/mangrove_trees.json",
+        "sizeBytes": 73,
+        "sha256": "939ded909bfb6209e21c2c9aa71421e9428fe6461f9b698c39da7be5f99bdb5b"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/oak_trees.json",
+        "sizeBytes": 532,
+        "sha256": "b144a3c53d433aca6d6775ddf830f8a96d6b381df294f8ec8629b15704df35ae"
+      },
+      {
+        "file": "config/projectvibrantjourneys/minecraft/spruce_trees.json",
+        "sizeBytes": 355,
+        "sha256": "17e70dea9b24c935ae26eba79b08c385a3cf6a28ca9f0ab7e8e331254d91003f"
+      },
+      {
+        "file": "config/projectvibrantjourneys/pioneer/acacia_trees.json",
+        "sizeBytes": 138,
+        "sha256": "44e18fa1b350a78a6dd77e1133271c1abf6a957c3f8bbd2539a96b4f8216528f"
+      },
+      {
+        "file": "config/projectvibrantjourneys/pioneer/birch_trees.json",
+        "sizeBytes": 71,
+        "sha256": "cb6b7b1feab2bb1df5f449f8a9ff0b068e8e7e279c6e8192c68c1daff349a3de"
+      },
+      {
+        "file": "config/projectvibrantjourneys/pioneer/dark_oak_trees.json",
+        "sizeBytes": 73,
+        "sha256": "da758d73017e2229016953c06e81e3055f2cbd9bbfd82ce5b3a0513f1cc271e9"
+      },
+      {
+        "file": "config/projectvibrantjourneys/pioneer/jungle_trees.json",
+        "sizeBytes": 141,
+        "sha256": "ad244d30da3220b58ff9f03408e9600f2caf9b15884b64decd01b7f2af15ea94"
+      },
+      {
+        "file": "config/projectvibrantjourneys/pioneer/oak_trees.json",
+        "sizeBytes": 412,
+        "sha256": "ba170602d206db4b180529adbff3ac06cc651786430f2a2f762d443146d2c183"
+      },
+      {
+        "file": "config/projectvibrantjourneys/pioneer/spruce_trees.json",
+        "sizeBytes": 148,
+        "sha256": "6bf78b39483c1a000cb1ea0a62258935ff5a7607af3f863886a3d5aef5b9294c"
+      },
+      {
+        "file": "config/projectvibrantjourneys/terralith/acacia_trees.json",
+        "sizeBytes": 790,
+        "sha256": "64043d260b0b91c0b8fc1d2786aab42b0247dcb4d4f40e54a03fe3cf61ebea86"
+      },
+      {
+        "file": "config/projectvibrantjourneys/terralith/birch_trees.json",
+        "sizeBytes": 1116,
+        "sha256": "17bb6ea51c7a610ddf08d6271f7eb5467b74ffd80fbbe33eca79985d46b34b63"
+      },
+      {
+        "file": "config/projectvibrantjourneys/terralith/dark_oak_trees.json",
+        "sizeBytes": 788,
+        "sha256": "7a73951487e05d955d335d159ab9594762f8fa19f0590b1dcc1f1bcd87452342"
+      },
+      {
+        "file": "config/projectvibrantjourneys/terralith/jungle_trees.json",
+        "sizeBytes": 422,
+        "sha256": "949005088859e997c0581d4be425f791540e62cbf39e82c4f65c94275db52e2c"
+      },
+      {
+        "file": "config/projectvibrantjourneys/terralith/oak_trees.json",
+        "sizeBytes": 897,
+        "sha256": "8c765fd746e0f1ed91092c3ac6597522132b5c343b1a6a58f9654c32e44c34e5"
+      },
+      {
+        "file": "config/projectvibrantjourneys/terralith/spruce_trees.json",
+        "sizeBytes": 1189,
+        "sha256": "230a514becf3e45233d9c1a8801db645d5af93bd8c0f0e3a04f32924994e1a4d"
+      },
+      {
+        "file": "config/pulse-trims.json",
+        "sizeBytes": 856,
+        "sha256": "525e12047d658c7337d051cdeacc1ff87512e994a747e98d97a20937da65eb87"
+      },
+      {
+        "file": "config/pulse-trims/pack/assets/minecraft/shaders/core/rendertype_armor_cutout_no_cull.json",
+        "sizeBytes": 1476,
+        "sha256": "a5cb68bf8f36de33071f0e83df19631b2036158563e4aaa06f0fbec001502d90"
+      },
+      {
+        "file": "config/puzzlesapi-iteminteractions-client.toml",
+        "sizeBytes": 2988,
+        "sha256": "a6aaff33ecabcd21bd315e1f8167716faa333d64e5dc166b270a26274c5cbdd0"
+      },
+      {
+        "file": "config/puzzlesapi-iteminteractions-server.toml",
+        "sizeBytes": 675,
+        "sha256": "86ff328a054a94ad7845364eee53b77273614c13643d9b35bba1b430ed7123f7"
+      },
+      {
+        "file": "config/puzzlesapi-slotcycling-client.toml",
+        "sizeBytes": 1065,
+        "sha256": "480697ae74306cdcd17eed12a34795b7856f00d183d06ce69fd0fbf046c54c2e"
+      },
+      {
+        "file": "config/quark-common.toml",
+        "sizeBytes": 82280,
+        "sha256": "c40defc8a9d7ecd790447a905958f97687fcf44cc540181e6929904517d0a759"
+      },
+      {
+        "file": "config/raidsenhanced/raidsenhanced.json",
+        "sizeBytes": 605,
+        "sha256": "06b5173418f8eb69cedce846190d8d1158d58b38aeb516082bf70b2a91f51d6e"
+      },
+      {
+        "file": "config/rainbows-common.toml",
+        "sizeBytes": 783,
+        "sha256": "2cc5cd2a053a46dc96f3810705f0ea59611da9889056ea5eba2bb3ff32bd2bd8"
+      },
+      {
+        "file": "config/rainbows/aether.json",
+        "sizeBytes": 668,
+        "sha256": "cca420488585234eb144d7ff8ab9c380872f7009902645a66f48326ead1e1606"
+      },
+      {
+        "file": "config/rainbows/overworld.json",
+        "sizeBytes": 670,
+        "sha256": "98ecfacc072f1f9435a5c954927654b9f02c8bc21ced95379b19e0a44b07b914"
+      },
+      {
+        "file": "config/repurposed_structures-forge/modded_loot.toml",
+        "sizeBytes": 554,
+        "sha256": "2e19ce956057b47999b99180c57c3cc591a58b7eeec739aa70c3c88c5adbcce5"
+      },
+      {
+        "file": "config/resourceful-config-web.json",
+        "sizeBytes": 196,
+        "sha256": "589d07680369a8bd3f5cd3da6db398e98e925be8ff099d4651e83299d752d972"
+      },
+      {
+        "file": "config/ribbits-forge-1_20_1.toml",
+        "sizeBytes": 420,
+        "sha256": "a3a347104c669a4847fbcea06cabe3a5fb79c474164137b01074fde0c1e649be"
+      },
+      {
+        "file": "config/ribbits-options.json",
+        "sizeBytes": 33,
+        "sha256": "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
+      },
+      {
+        "file": "config/roadarchitect.json",
+        "sizeBytes": 41193,
+        "sha256": "c089b9c67ae5a0b1cf9285d0a212a3cd1cdb7edfb6426609e5928203e1f54401"
+      },
+      {
+        "file": "config/rpgz.json",
+        "sizeBytes": 249,
+        "sha256": "8bc9d0c84ad84c7353b9e25f481eb0ceb067710adbc6b221b4764ca73677e300"
+      },
+      {
+        "file": "config/scribble.json",
+        "sizeBytes": 146,
+        "sha256": "70bba512c19c9883541dc9eebbb2d66c2a31db025a2bc183b731581582aa60a5"
+      },
+      {
+        "file": "config/shouldersurfing-client.toml",
+        "sizeBytes": 19223,
+        "sha256": "65835d3ba006a0b54be774ce42114c20a443c4d0bb2dd93ce01af82f2629d402"
+      },
+      {
+        "file": "config/simplyswords/compatibility.toml",
+        "sizeBytes": 11974,
+        "sha256": "e7a5c5756ccadd5d968049a8820c83dce700d7d478a843385688d38d135a9217"
+      },
+      {
+        "file": "config/simplyswords/gem_powers.toml",
+        "sizeBytes": 3651,
+        "sha256": "4f911868905452dc01a779d424fe298c583cc31ae57b0c76157c806f70c38727"
+      },
+      {
+        "file": "config/simplyswords/general.toml",
+        "sizeBytes": 873,
+        "sha256": "0452c273bf163f178c6b03663070a9d732a63e3fecbb28b3fd4fb45dd3c6eafa"
+      },
+      {
+        "file": "config/simplyswords/gui.toml",
+        "sizeBytes": 106,
+        "sha256": "d34c7814baa027aa67fde721f3a437bcb6b3e9a89f0245970fd1489525ef5620"
+      },
+      {
+        "file": "config/simplyswords/loot.toml",
+        "sizeBytes": 1314,
+        "sha256": "d4a49a7f776392a6643171d6b440c0afb897b285ba88c44aa8386b2aa2c9d55a"
+      },
+      {
+        "file": "config/simplyswords/status_effects.toml",
+        "sizeBytes": 85,
+        "sha256": "978429e6e9aa6852c38d67cc221d7d71d8502b92df3a5803ff8c3b6966c890ce"
+      },
+      {
+        "file": "config/simplyswords/unique_effects.toml",
+        "sizeBytes": 16376,
+        "sha256": "7bc78411abd8406bf6ffd41b4e93adb2b4d2922e71e6c99357b8d0ef666e6792"
+      },
+      {
+        "file": "config/simplyswords/weapon_attributes.toml",
+        "sizeBytes": 4777,
+        "sha256": "7880be9f01875cd9e99c653c5afb1c41d98a9e649657f08bd47e702895fe133b"
+      },
+      {
+        "file": "config/simplytooltips/config.toml",
+        "sizeBytes": 342,
+        "sha256": "3e5b250f6fa5e4ffb246fd04e6dcffde1cbf4da77d424e9d88e115444427cb09"
+      },
+      {
+        "file": "config/skinlayers.json",
+        "sizeBytes": 497,
+        "sha256": "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+      },
+      {
+        "file": "config/smallships-client.toml",
+        "sizeBytes": 1778,
+        "sha256": "7386d472907bc6a21e2a707bbbc98427c091a1c116e1ef934ce01bc340448b3c"
+      },
+      {
+        "file": "config/smarterfarmers-common.toml",
+        "sizeBytes": 514,
+        "sha256": "32722ba1b3094c0ae26fcb43cd15d35ed8d4a8333529e1350fc4db83c91c9153"
+      },
+      {
+        "file": "config/smoothchunk.json",
+        "sizeBytes": 585,
+        "sha256": "1e706db3727f339ba4932965783bf987d6192cd0eba64361a5c607d97c580c4b"
+      },
+      {
+        "file": "config/snowundertrees-common.toml",
+        "sizeBytes": 474,
+        "sha256": "c554d592cbfb283aefeee5de67b89d84c51fdd305712d329b153beb7c9a7068a"
+      },
+      {
+        "file": "config/sodiumdynamiclights-client.toml",
+        "sizeBytes": 659,
+        "sha256": "46e60f0183f2cd74b64f629f9bc0316cc97883c94927575e307cc52f152071d2"
+      },
+      {
+        "file": "config/sodiumextras-client.toml",
+        "sizeBytes": 4965,
+        "sha256": "88a440687bd3591e68427b2c4cbc3de2725684b5d9063482697be61cae9aad85"
+      },
+      {
+        "file": "config/sophisticatedbackpacks-common.toml",
+        "sizeBytes": 122,
+        "sha256": "6674ec92f625296aa8accc93d71fdf1eecfc8050111c5ae7b6d9a94b4fe14506"
+      },
+      {
+        "file": "config/sophisticatedcore-client.toml",
+        "sizeBytes": 478,
+        "sha256": "3175ac14ac1da55ba706d1f0321c0b5620cd968a381e60323b283778e7b6d9e6"
+      },
+      {
+        "file": "config/sophisticatedcore-common.toml",
+        "sizeBytes": 11201,
+        "sha256": "f7d21eeb8e5997957aad8b754cb3eba421bc80f55a00e3e1a1975dc6e00920b5"
+      },
+      {
+        "file": "config/sophisticatedstorage-client.toml",
+        "sizeBytes": 652,
+        "sha256": "774beb562a978d21af3500be1dd09b50c781ba1a7ed76a8a2dcf29eedce808d3"
+      },
+      {
+        "file": "config/sophisticatedstorage-common.toml",
+        "sizeBytes": 190,
+        "sha256": "55a7b289f6d2ecb116d39b385fb8a883f8317734dd42f3be16af11380e26c0a3"
+      },
+      {
+        "file": "config/sound_physics_remastered/occlusion.properties",
+        "sizeBytes": 4831,
+        "sha256": "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
+      },
+      {
+        "file": "config/sound_physics_remastered/reflectivity.properties",
+        "sizeBytes": 4713,
+        "sha256": "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+      },
+      {
+        "file": "config/sound_physics_remastered/sound_rates.properties",
+        "sizeBytes": 186333,
+        "sha256": "090306e8a326158ab2ba901dc8e172b236e0ebda7402b88e6e998f4109713862"
+      },
+      {
+        "file": "config/sound_physics_remastered/soundphysics.properties",
+        "sizeBytes": 5104,
+        "sha256": "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d"
+      },
+      {
+        "file": "config/spartanshields-common.toml",
+        "sizeBytes": 4812,
+        "sha256": "065a53578bc9ffd9501d2783132b222dfb85ab44868d9d262f80ea9566891881"
+      },
+      {
+        "file": "config/spartanweaponry-client.toml",
+        "sizeBytes": 2014,
+        "sha256": "952a740c334c82e9140b05eed23565f025ea066658659ae86464c4c9e9efc38e"
+      },
+      {
+        "file": "config/spartanweaponry-common.toml",
+        "sizeBytes": 20591,
+        "sha256": "db834f430099b0190834443f7513f3c5cdfa00dc5b5870cc5f1897c31d10153e"
+      },
+      {
+        "file": "config/specs_irons_spellbooks-client.toml",
+        "sizeBytes": 454,
+        "sha256": "a7e89d426e48f8fb54397895b9cdbae413bdf253fc79b6de08f8b734be75e03f"
+      },
+      {
+        "file": "config/specs_irons_spellbooks/codex_settings.json",
+        "sizeBytes": 132,
+        "sha256": "ec352350f8b4e42247af046980b1562ac836b953922474b18c0549539bd12d6c"
+      },
+      {
+        "file": "config/specs_irons_spellbooks/known_spells.json",
+        "sizeBytes": 4256,
+        "sha256": "0bb6b40ce00374cd9f46f335d23039f8e6aebae779b61c9eb447e72e4c96752b"
+      },
+      {
+        "file": "config/specs_irons_spellbooks/school_blacklist.json",
+        "sizeBytes": 22,
+        "sha256": "ec061f4e803a5564669767c7dbeb5d81e1972f67f0c8536a890463dc87c44d05"
+      },
+      {
+        "file": "config/specs_irons_spellbooks/school_unlock_costs.json",
+        "sizeBytes": 299,
+        "sha256": "8319339b430b3db36f28cf7b0e597234a3bdd89157756a1160f06f6fc1cb6312"
+      },
+      {
+        "file": "config/specs_irons_spellbooks/spell_blacklist.json",
+        "sizeBytes": 22,
+        "sha256": "ec061f4e803a5564669767c7dbeb5d81e1972f67f0c8536a890463dc87c44d05"
+      },
+      {
+        "file": "config/specs_irons_spellbooks/spell_unlock_costs.json",
+        "sizeBytes": 3,
+        "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+      },
+      {
+        "file": "config/spell_actionbar-client.toml",
+        "sizeBytes": 800,
+        "sha256": "4143d69f9f982bd91812359e52f26a94315c0fb22e452d6863a453e93fd45e78"
+      },
+      {
+        "file": "config/spelunkers_charm.toml",
+        "sizeBytes": 204,
+        "sha256": "b3de4ed986b97bf321ed54dea4e2d237c9e8769f31192c786bf38b9d13554e09"
+      },
+      {
+        "file": "config/stardew_fishing-client.toml",
+        "sizeBytes": 253,
+        "sha256": "2eef8e542294c9527004ba246c24f7277d13d59f6c6f81c46588478694bf979f"
+      },
+      {
+        "file": "config/statuseffectbars-client.toml",
+        "sizeBytes": 2960,
+        "sha256": "70fa1b3bd8982ca4bb049f264efff73cb637d3d26aa8f8f96884e71b1af8a575"
+      },
+      {
+        "file": "config/stonezone-common.toml",
+        "sizeBytes": 292,
+        "sha256": "ff0e73991cdec44d2d626de45c43bd5eb17622a85c0738ed6906ed60e0a8a848"
+      },
+      {
+        "file": "config/stonezone-hazardous.toml",
+        "sizeBytes": 2171,
+        "sha256": "1ae89b68ac943a225b54b4c0f8a665950139fead5ca01a3609c1337e6afab1f1"
+      },
+      {
+        "file": "config/structurify.json",
+        "sizeBytes": 201,
+        "sha256": "5a6668357b0e8bf3ddf2e3ef5e6b9955312c6eb4f590d7e5fb99489fd944e3b3"
+      },
+      {
+        "file": "config/supplementaries-client.toml",
+        "sizeBytes": 9371,
+        "sha256": "33057c518c3901a5bfadedb064c0bcfbd6fc6fcb7519736ac11e4c9e440ae4d8"
+      },
+      {
+        "file": "config/supplementaries-common.toml",
+        "sizeBytes": 24951,
+        "sha256": "7e64537c7f8a22eed51c5c29dccf9abc4d06271727f145c410947516c0398143"
+      },
+      {
+        "file": "config/takesapillage-common.toml",
+        "sizeBytes": 612,
+        "sha256": "b865f70c987b362a3d37c43bd23d8a715a6c1e7adfd3cbf6860e44050be0e3a6"
+      },
+      {
+        "file": "config/tconstruct-client.toml",
+        "sizeBytes": 4448,
+        "sha256": "453bfc015ba48db18892d515e17efeb4cd45499e2ea2394b69a7281480b8fc31"
+      },
+      {
+        "file": "config/tconstruct-common.toml",
+        "sizeBytes": 8067,
+        "sha256": "44dd5364ec974199921156d14e0eaa2615f65200a4878e4dd8f20521c444d101"
+      },
+      {
+        "file": "config/tectonic.json",
+        "sizeBytes": 1267,
+        "sha256": "9edbc0a7900f8446e515e3a603eb6dde591b471fed228d69e38417d772eb93c3"
+      },
+      {
+        "file": "config/terrablender.toml",
+        "sizeBytes": 552,
+        "sha256": "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
+      },
+      {
+        "file": "config/tlc.toml",
+        "sizeBytes": 74,
+        "sha256": "435ee32319407ecaa6258e9ecc95ff0c6973196541abcdefdc612d1c7d8183c1"
+      },
+      {
+        "file": "config/too_many_bows.json",
+        "sizeBytes": 4144,
+        "sha256": "7e6d7045f6321a85a6ff8588ac966a7d4552a2717e369e0af49e8c897ab87fc4"
+      },
+      {
+        "file": "config/torch_hit-common.toml",
+        "sizeBytes": 3515,
+        "sha256": "b1788167a46ef66a288dcf804e60e5af38596ebb86b9311a4e62983fd683df95"
+      },
+      {
+        "file": "config/torchmaster.toml",
+        "sizeBytes": 2606,
+        "sha256": "8e6a91f152a24b60d2d03ebecb980527249f009382d2548af84e973f1d59c220"
+      },
+      {
+        "file": "config/trade_cycling-client.toml",
+        "sizeBytes": 131,
+        "sha256": "3c0d8ffdd06ce88b843ce1d94fd301da721d66ce602f4f2c584ac91ead0099de"
+      },
+      {
+        "file": "config/transition.json",
+        "sizeBytes": 97,
+        "sha256": "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
+      },
+      {
+        "file": "config/trashslot-common.toml",
+        "sizeBytes": 754,
+        "sha256": "21493e0c7d7e821cdd69f2e58647eb22f39a0f5dd6045db3bb65a9250bc0cbd7"
+      },
+      {
+        "file": "config/travelerstitles-forge-1_20.toml",
+        "sizeBytes": 10710,
+        "sha256": "80370fc5f4c01f78c0d9e1f296bcd474eb09caee8aa5ad60e08c585c275b150e"
+      },
+      {
+        "file": "config/trender.json",
+        "sizeBytes": 44,
+        "sha256": "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
+      },
+      {
+        "file": "config/trmt-client.json",
+        "sizeBytes": 23,
+        "sha256": "3f05a62ecf2b307ec62e5bf24f645121685bde1bb8ceae1c0fc375a121dac8c8"
+      },
+      {
+        "file": "config/trmt.json",
+        "sizeBytes": 1654,
+        "sha256": "7f1f94f6595d28d12f484fab43bc8c8b54238721d9805afdbf89a9ae4a0e5194"
+      },
+      {
+        "file": "config/undergarden-client.toml",
+        "sizeBytes": 144,
+        "sha256": "9bf3df7a7d80fc63a918bd9715383e995d50821acc2264ca3a0b3af8a0a0d486"
+      },
+      {
+        "file": "config/undergarden-common.toml",
+        "sizeBytes": 343,
+        "sha256": "b95da66dfc4bf280a6cab22d1456479c2ebee05a5ef7ffc196740ec25b23cc01"
+      },
+      {
+        "file": "config/upgrade_aquatic-client.toml",
+        "sizeBytes": 436,
+        "sha256": "815f751451060fcf358b949699d9fb4a171d7f85a75fffa8390fb693002d6aca"
+      },
+      {
+        "file": "config/upgrade_aquatic-common.toml",
+        "sizeBytes": 1583,
+        "sha256": "2a9c2108676ba1222066f1032d23a7da35ee5215e6b73ac2e058ef76f8cb426a"
+      },
+      {
+        "file": "config/usefulspyglass-client.toml",
+        "sizeBytes": 606,
+        "sha256": "f65cc2c35ef942162aae6f37b0ab2072787f6a757acbc36758d051a83d5a8baf"
+      },
+      {
+        "file": "config/usefulspyglass-common.toml",
+        "sizeBytes": 766,
+        "sha256": "ad07d11370f330c6889ca8353ed1aa7b6436bf0c3d2f45e7390a53ffc6243e02"
+      },
+      {
+        "file": "config/v_slab_compat-common.toml",
+        "sizeBytes": 53,
+        "sha256": "ee3dcbc1ff32050214fe041a293f983820b7fe9b2b4325a794ccb52ad013453a"
+      },
+      {
+        "file": "config/valhelsia_structures-client.toml",
+        "sizeBytes": 108,
+        "sha256": "8ab414b34601e3023481f85777bc831a1b3cc78478103b71645b503792c7e6e7"
+      },
+      {
+        "file": "config/valhelsia_structures-common.toml",
+        "sizeBytes": 720,
+        "sha256": "b867176a5df54ccc38411903baf8a5ad4129f66ffad4594fc292601cc3cb9eeb"
+      },
+      {
+        "file": "config/visual_workbench.json",
+        "sizeBytes": 11520,
+        "sha256": "7885b862b10bf4b14d3103909971114a736d14a52e4a7994ace0d66a2474c14c"
+      },
+      {
+        "file": "config/visuality/config.toml",
+        "sizeBytes": 267,
+        "sha256": "4127fd1edf4e15159bb8365cb8816c5ae0b6108a02d34aa1d964f4e16b7e3275"
+      },
+      {
+        "file": "config/visuality/particle_emitters/block_ambient.json",
+        "sizeBytes": 1093,
+        "sha256": "0ea27289f3adbd1af8101605e84887cbe040564ef4371c2b4aa0466019ff5b3c"
+      },
+      {
+        "file": "config/visuality/particle_emitters/block_step.json",
+        "sizeBytes": 219,
+        "sha256": "54d4448f6c45ba1ad311f6c35b55b9b800ad4ae664f075707e05cd798b6eab7b"
+      },
+      {
+        "file": "config/visuality/particle_emitters/entity_armor.json",
+        "sizeBytes": 737,
+        "sha256": "4fea5a33cd09a91423bf58e9404ded2edd4ba3faff2d41543c5366adab92a73a"
+      },
+      {
+        "file": "config/visuality/particle_emitters/entity_hit.json",
+        "sizeBytes": 683,
+        "sha256": "db1fe2d772c0ed136c2d1da0c315bc50ba9760032a60253be6f37ce1d7e38ead"
+      },
+      {
+        "file": "config/visualworkbench-client.toml",
+        "sizeBytes": 315,
+        "sha256": "a48b352862f74f6fe3ab071e7e43e631618e9c5f68b5f992b591d4dc87992954"
+      },
+      {
+        "file": "config/wakes-client.toml",
+        "sizeBytes": 2781,
+        "sha256": "1108654bff14339bf0805aff2b9049a1637fc0bed34070d117407645523dc1de"
+      },
+      {
+        "file": "config/waterconfig.toml",
+        "sizeBytes": 677,
+        "sha256": "e5806ca350b26f9c299c7b75728f3f9c0664c286470daa027e4ce547097b90a5"
+      },
+      {
+        "file": "config/watut-client.toml",
+        "sizeBytes": 3236,
+        "sha256": "f30aba6a74c4656d7284081651de0fbc5281e1da8daf7535dae43543959f7fdf"
+      },
+      {
+        "file": "config/watut-common.toml",
+        "sizeBytes": 154,
+        "sha256": "17a113c1bf3c30dca221ee72b7285cf1cee3aea24fd5a48d82c47398e2eaa726"
+      },
+      {
+        "file": "config/watut-item-arm-adjustments.json",
+        "sizeBytes": 3367,
+        "sha256": "543e09f71cda1d97d238ac4150e43e50868cf781027c88d68fc714f261d88982"
+      },
+      {
+        "file": "config/watut-server.toml",
+        "sizeBytes": 2880,
+        "sha256": "690202e25181bb7ab70d0cd61cf05fa84d45117764dc3bf3498457dc13309c65"
+      },
+      {
+        "file": "config/waves-common.toml",
+        "sizeBytes": 3433,
+        "sha256": "60a66f659cb23f7002b84720c81ccaa1bb002073b4338ed224a219054942185c"
+      },
+      {
+        "file": "config/waves/waves.json",
+        "sizeBytes": 217,
+        "sha256": "b313ed99c44ebb415d36ebb994cea5a6a1d8f741ece1067b60eaec722faab42c"
+      },
+      {
+        "file": "config/waveycapes.json",
+        "sizeBytes": 179,
+        "sha256": "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
+      },
+      {
+        "file": "config/waystones-common.toml",
+        "sizeBytes": 6956,
+        "sha256": "4cf1d13d8827bcdce75acadb1f3ea24732fd6fa6575ec8a261a37b21c481674d"
+      },
+      {
+        "file": "config/weaponleveling.json",
+        "sizeBytes": 534,
+        "sha256": "ed1668371bfd1025c9784977f0850294152f5de58c1c5fd30f36c64061e9d071"
+      },
+      {
+        "file": "config/witherreincarnated/client.toml",
+        "sizeBytes": 971,
+        "sha256": "c20b6848e660cb0a30d4e5d9945f98ddbf16b09929798a30dfc605b2e6958503"
+      },
+      {
+        "file": "config/witherreincarnated/common.toml",
+        "sizeBytes": 1652,
+        "sha256": "14689cdebce6edfe21ec75ef3b0fb63df09a29ee7e637339d79b25b2b89ffe1d"
+      },
+      {
+        "file": "config/xaero/lib/client.cfg",
+        "sizeBytes": 26,
+        "sha256": "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+      },
+      {
+        "file": "config/xaero/lib/common.cfg",
+        "sizeBytes": 236,
+        "sha256": "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+      },
+      {
+        "file": "config/xaero/lib/profiles/default.cfg",
+        "sizeBytes": 121,
+        "sha256": "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+      },
+      {
+        "file": "config/xaero/lib/server_profiles/default.cfg",
+        "sizeBytes": 75,
+        "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+      },
+      {
+        "file": "config/xaero/minimap/client.cfg",
+        "sizeBytes": 235,
+        "sha256": "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+      },
+      {
+        "file": "config/xaero/minimap/common.cfg",
+        "sizeBytes": 147,
+        "sha256": "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+      },
+      {
+        "file": "config/xaero/minimap/default_radar_categories_client.json",
+        "sizeBytes": 5531,
+        "sha256": "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
+      },
+      {
+        "file": "config/xaero/minimap/default_radar_categories_server.json",
+        "sizeBytes": 4597,
+        "sha256": "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+      },
+      {
+        "file": "config/xaero/minimap/profiles/default.cfg",
+        "sizeBytes": 3825,
+        "sha256": "f1ff62b22cfc97486d00e8bd3367a3207f0a8da235e7b365c5aa2a54e3f8dc25"
+      },
+      {
+        "file": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+        "sizeBytes": 684,
+        "sha256": "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+      },
+      {
+        "file": "config/xaero/minimap/server_profiles/default.cfg",
+        "sizeBytes": 75,
+        "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+      },
+      {
+        "file": "config/xaero/world-map/client.cfg",
+        "sizeBytes": 521,
+        "sha256": "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+      },
+      {
+        "file": "config/xaero/world-map/common.cfg",
+        "sizeBytes": 141,
+        "sha256": "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+      },
+      {
+        "file": "config/xaero/world-map/profiles/default.cfg",
+        "sizeBytes": 1619,
+        "sha256": "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+      },
+      {
+        "file": "config/xaero/world-map/server_profiles/default.cfg",
+        "sizeBytes": 75,
+        "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+      },
+      {
+        "file": "config/xaerohud.txt",
+        "sizeBytes": 123,
+        "sha256": "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c"
+      },
+      {
+        "file": "config/xaeropatreon.txt",
+        "sizeBytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "file": "config/YungsCaveBiomes-forge-1_20_1.toml",
+        "sizeBytes": 2521,
+        "sha256": "1106f174658cdf06203205d51ddd9f2daaedc0266e904ec327f5d4aa6ec5e35e"
+      },
+      {
+        "file": "config/yungsmenutweaks-forge-1_20_1.toml",
+        "sizeBytes": 819,
+        "sha256": "880b5e4a8471f830eb58bea3ce6dcf640821257b03d9607b9bd4dc0835f0a298"
+      },
+      {
+        "file": "config/zeta-common.toml",
+        "sizeBytes": 1912,
+        "sha256": "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
+      },
+      {
+        "file": "options.txt",
+        "sizeBytes": 16274,
+        "sha256": "6f013acdde2ce4b03b98e599b675ba39f2e75846888fddebe43c87145ed5eff6"
+      }
+    ],
+    "selectedShaderPack": "ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5",
+    "selectedShaderPackSha256": "4ec93606e843d2338f84491d2020fc806fcf3a36453addf36b094cbaf15b7028",
+    "selectedShaderPackFileCount": 633
+  },
+  "capture": {
+    "sampleIntervalSeconds": 2,
+    "maximumDurationMinutes": 45,
+    "jfrProfileEnabled": false,
+    "jfrDurationMinutes": null,
+    "jfrFile": null,
+    "lastGameProcessId": 9248,
+    "javaExecutable": "C:\\Users\\axiom\\AppData\\Local\\Packages\\Microsoft.4297127D64EC6_8wekyb3d8bbwe\\LocalCache\\Local\\runtime\\java-runtime-gamma\\windows-x64\\java-runtime-gamma\\bin\\javaw.exe",
+    "latestLogCopied": true,
+    "auxiliaryProfiles": [
+      {
+        "context": "post-startup; menu/world phase not verified",
+        "durationSeconds": 30,
+        "file": "post-startup-diagnostic.jfr",
+        "startedAtLocal": "2026-11-13T23:31:10-03:00"
+      }
+    ],
+    "lastObservedGameProcess": "PID 9248 remained responsive after diagnostic capture ended.",
+    "userInterfaceInterruption": "Computer Use interaction stopped after physical Escape; no world-ready mark or in-world command output was collected.",
+    "minecraftProcessRemainedResponsive": true,
+    "collectionLimit": "No human menu-ready or world-ready marker; no in-world Spark or Boundless Tweaks command sample."
+  }
+}

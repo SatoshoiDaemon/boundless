@@ -1,0 +1,10 @@
+{
+  "scenario": "startup-transition",
+  "processId": 9248,
+  "startedAtLocal": "2026-11-13T23:27:36.9953781-03:00",
+  "durationSeconds": 120,
+  "contextNote": "120 s PresentMon capture at 23:27:36 while PID 9248 remained alive. Display state was not verified after the last screenshot at 23:21 (Mojang loading screen); log had a MAIN_MENU music signal at 23:19:24 and no world load. Treat as startup-transition frames, not stable-menu or gameplay performance.",
+  "metrics": "PresentMon 2.x; all per-frame data retained in CSV",
+  "csv": "frametime-startup-transition-232736.csv",
+  "endedAtLocal": "2026-11-13T23:29:37-03:00"
+}

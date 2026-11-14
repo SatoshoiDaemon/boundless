@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "runId": "historical-in-world-power-outage-20261113",
+  "scenario": "client-startup",
+  "status": "interrupted-external-power-loss",
+  "startedAtLocal": "2026-11-13T21:10:22-03:00",
+  "endedAtLocal": null,
+  "stopReason": "Power outage confirmed by user; not a Minecraft crash.",
+  "git": {
+    "commit": null,
+    "branch": null,
+    "workingTreeClean": null,
+    "exactWorkingTreeStateCaptured": false
+  },
+  "minecraft": {
+    "version": "1.20.1",
+    "forge": "47.4.28",
+    "javaMajor": 17,
+    "runtimeModCount": 492
+  },
+  "world": {
+    "label": "existing integrated world",
+    "seed": null,
+    "route": null
+  },
+  "visual": {
+    "profile": "Custom Popular; Fancy; Complementary Reimagined r5.9.3 + Euphoria Patches 1.10.5; dynamic lighting realtime; RD12/SD8; 1920x1080"
+  },
+  "inventory": {
+    "modJarCount": null,
+    "modLock": null,
+    "configFingerprints": [],
+    "selectedShaderPack": "ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5",
+    "selectedShaderPackSha256": null
+  },
+  "capture": {
+    "rawLatestLogArchived": false,
+    "lastRecordedEventAtLocal": "2026-11-13T21:44:48-03:00",
+    "note": "The exact power-loss/shutdown time was not captured. Curated timings and samples were retained before the next launch replaced logs/latest.log."
+  }
+}
