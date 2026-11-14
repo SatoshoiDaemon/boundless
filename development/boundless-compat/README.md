@@ -1,12 +1,12 @@
 # Boundless Compat
 
-Boundless Compat is the first mod authored for the Boundless RPG instance. It adds narrowly scoped compatibility fixes and diagnostics for the versions used by the pack. Version 0.1.0 targets Minecraft 1.20.1, Forge 47.4.28, and Java 17.
+Boundless Compat is the first mod authored for the Boundless RPG instance. It adds narrowly scoped compatibility fixes and diagnostics for the versions used by the pack. Version 0.1.1 targets Minecraft 1.20.1, Forge 47.4.28, and Java 17.
 
 ## JumpAnimation 2.0.0 fix
 
 On the client, a Mixin targets only `JumpAnimationClient.isPlayerInSurvival(LocalPlayer)`. It is selected only when the installed mod ID is `jumpanimation` at exactly version `2.0.0`. When the player's game mode is not initialized, the helper returns `false`, so JumpAnimation skips its survival-only behavior for that callback. Once a game mode exists, the original method continues unchanged. The patch does not intercept keyboard events or modify player controls.
 
-The client config `config/boundlesscompat-client.toml` contains `compat.jumpAnimationNullGameModeGuard`, enabled by default. Mixin selection happens during startup, so the compatible-version gate is fixed for that launch; the config value is checked by the injected guard and can disable its behavior without attempting to add or remove a Mixin at runtime.
+The client config `config/boundlesscompat-client.toml` contains `compat.jumpAnimationNullGameModeGuard`, enabled by default. Mixin selection happens during startup, so the compatible-version gate is fixed for that launch; the config value is checked by the injected guard and can disable its behavior without attempting to add or remove a Mixin at runtime. The startup log records when the Mixin is applied, and the first intercepted null-gameMode call is logged once. `/boundless diagnose` reports whether the Mixin was applied and how many null-state calls it intercepted.
 
 ## Build and install
 

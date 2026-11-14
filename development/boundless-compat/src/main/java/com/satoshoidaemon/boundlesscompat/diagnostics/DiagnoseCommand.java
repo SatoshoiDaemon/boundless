@@ -38,7 +38,8 @@ public final class DiagnoseCommand {
     }
 
     private static int diagnose(CommandSourceStack source) {
-        source.sendSuccess(() -> Component.literal("Boundless Compat v0.1.0 environment"), false);
+        source.sendSuccess(() -> Component.literal("Boundless Compat v" + modVersion(BoundlessCompat.MOD_ID)
+                + " environment"), false);
         source.sendSuccess(() -> Component.literal("Minecraft " + SharedConstants.getCurrentVersion().getName()
                 + " | Java " + System.getProperty("java.version")), false);
         source.sendSuccess(() -> Component.literal("Forge " + modVersion("forge")
@@ -53,7 +54,9 @@ public final class DiagnoseCommand {
         source.sendSuccess(() -> Component.literal("JumpAnimation null-gameMode guard: config=" + enabled
                 + ", detected=" + gate.detectedVersion()
                 + ", version gate=" + gate.status()
-                + ", guard triggered=" + gate.guardTriggered()), false);
+                + ", mixin applied=" + gate.mixinApplied()
+                + ", guard triggered=" + gate.guardTriggered()
+                + ", intercept count=" + gate.guardTriggerCount()), false);
         return 1;
     }
 

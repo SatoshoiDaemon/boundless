@@ -57,5 +57,8 @@ public final class BoundlessCompatMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public void postApply(String targetClassName, ClassNode targetClass, String mixinClassName, IMixinInfo mixinInfo) {
+        if (JUMP_ANIMATION_MIXIN.equals(mixinClassName)) {
+            JumpAnimationPatchGate.markMixinApplied(targetClassName);
+        }
     }
 }

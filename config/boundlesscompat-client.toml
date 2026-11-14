@@ -2,3 +2,4 @@
 [compat]
 	#Skip JumpAnimation's survival check while the client has no game mode. Requires JumpAnimation 2.0.0.
 	jumpAnimationNullGameModeGuard = true
+

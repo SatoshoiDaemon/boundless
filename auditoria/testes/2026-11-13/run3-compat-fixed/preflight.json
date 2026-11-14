@@ -1,0 +1,13 @@
+{
+  "capturedAt": "2026-11-13T15:42:55.8983374-03:00",
+  "instance": "C:\\Users\\axiom\\curseforge\\minecraft\\Instances\\Boundless",
+  "javaPid": 22704,
+  "javaStart": "2026-11-13T15:42:22.6340987-03:00",
+  "physicalMemoryGB": 11.91,
+  "freePhysicalGB": 3.44,
+  "freeVirtualGB": 5.65,
+  "gpu": {
+    "Name": "Radeon (TM) RX 480 Graphics",
+    "DriverVersion": "31.0.21925.1001"
+  }
+}

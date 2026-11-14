@@ -1,0 +1,16 @@
+{
+  "capturedAt": "2026-11-13T14:52:50.9886781-03:00",
+  "processId": 10456,
+  "processPresent": true,
+  "workingSetGB": 4.6,
+  "privateGB": 6.23,
+  "freePhysicalGB": 0.31,
+  "freeVirtualGB": 0.82,
+  "totalVirtualGB": 28.05,
+  "pagefiles": {
+    "Name": "C:\\pagefile.sys",
+    "AllocatedBaseSize": 16524,
+    "CurrentUsage": 3511,
+    "PeakUsage": 3534
+  }
+}

@@ -17,7 +17,12 @@ class JumpAnimationGuardTest {
     }
 
     @Test
-    void disabledPatchLeavesOriginalMethodAloneEvenWhenGameModeIsNull() {
+    void disabledGuardLeavesOriginalMethodAloneEvenWhenGameModeIsNull() {
         assertFalse(JumpAnimationGuard.shouldReturnFalse(false, null));
+    }
+
+    @Test
+    void disabledGuardLeavesNormalGameModeAlone() {
+        assertFalse(JumpAnimationGuard.shouldReturnFalse(false, new Object()));
     }
 }
