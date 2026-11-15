@@ -33,7 +33,10 @@ public final class BoundlessFixMixinPlugin implements IMixinConfigPlugin {
             return true;
         }
 
-        LoadingModList loadingMods = FMLLoader.getLoadingModList();
+        return shouldApplyIllageMixin(FMLLoader.getLoadingModList());
+    }
+
+    static boolean shouldApplyIllageMixin(LoadingModList loadingMods) {
         if (loadingMods == null) {
             LOGGER.warn("Illage projectile category patch is disabled because Forge's loading mod list is unavailable.");
             return false;
