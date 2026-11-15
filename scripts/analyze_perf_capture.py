@@ -11,7 +11,9 @@ import re
 import shutil
 import statistics
 import subprocess
+import tempfile
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -301,7 +303,215 @@ def discover_jfr_tool(run_info: dict[str, Any], explicit: str | None) -> str | N
     return None
 
 
-def parse_jfr(path: Path, tool: str) -> dict[str, Any]:
+def iter_jfr_json_events(stream: Any):
+    """Yield JFR JSON events incrementally without materializing the recording."""
+    decoder = json.JSONDecoder()
+    marker = '"events"'
+    buffer = ""
+    eof = False
+
+    while marker not in buffer:
+        chunk = stream.read(64 * 1024)
+        if not chunk:
+            raise ValueError("JFR JSON output does not contain a recording.events array")
+        buffer += chunk
+
+    marker_end = buffer.index(marker) + len(marker)
+    buffer = buffer[marker_end:]
+
+    while True:
+        while True:
+            buffer = buffer.lstrip()
+            if buffer.startswith(":"):
+                buffer = buffer[1:]
+            elif buffer.startswith("["):
+                buffer = buffer[1:]
+                break
+            elif not eof:
+                chunk = stream.read(64 * 1024)
+                if chunk:
+                    buffer += chunk
+                else:
+                    eof = True
+            else:
+                raise ValueError("JFR JSON events key is not followed by an array")
+
+        while True:
+            buffer = buffer.lstrip()
+            if buffer.startswith(","):
+                buffer = buffer[1:]
+                continue
+            if buffer.startswith("]"):
+                return
+            if not buffer:
+                if eof:
+                    raise ValueError("Unexpected end of JFR JSON events array")
+                chunk = stream.read(64 * 1024)
+                if chunk:
+                    buffer += chunk
+                else:
+                    eof = True
+                continue
+
+            try:
+                event, end = decoder.raw_decode(buffer)
+            except json.JSONDecodeError as exc:
+                if eof:
+                    raise ValueError("Incomplete JFR JSON event") from exc
+                chunk = stream.read(64 * 1024)
+                if chunk:
+                    buffer += chunk
+                    if len(buffer) > 8 * 1024 * 1024:
+                        raise ValueError("JFR JSON event exceeded the 8 MiB streaming buffer") from exc
+                else:
+                    eof = True
+                continue
+
+            buffer = buffer[end:]
+            yield event
+
+
+def read_jfr_events(path: Path, tool: str, selected: str):
+    """Run the JFR CLI into a temporary file and stream its event array."""
+    with tempfile.TemporaryFile(mode="w+t", encoding="utf-8", errors="replace") as output:
+        subprocess.run(
+            [tool, "print", "--json", "--events", selected, str(path)],
+            stdout=output,
+            stderr=subprocess.PIPE,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            check=True,
+        )
+        output.seek(0)
+        yield from iter_jfr_json_events(output)
+
+
+class JfrAllocationMetrics:
+    """Summarize allocation samples and per-thread allocation-counter deltas."""
+
+    def __init__(self) -> None:
+        self.object_sample_count = 0
+        self.object_classes: Counter[str] = Counter()
+        self.allocation_sites: Counter[str] = Counter()
+        self.thread_counters: dict[str, dict[str, Any]] = {}
+
+    @staticmethod
+    def _frame_name(frame: dict[str, Any]) -> str:
+        method = frame.get("method") or {}
+        declaring_type = method.get("type") or {}
+        class_name = declaring_type.get("name") or "unknown"
+        method_name = method.get("name") or "unknown"
+        return f"{class_name}.{method_name}"
+
+    def add(self, event_type: str, values: dict[str, Any], event_time: datetime | None) -> None:
+        if event_type == "jdk.ObjectAllocationSample":
+            self.object_sample_count += 1
+            object_class = values.get("objectClass") or {}
+            class_name = object_class.get("name") if isinstance(object_class, dict) else str(object_class)
+            self.object_classes[class_name or "unknown"] += 1
+
+            frames = (values.get("stackTrace") or {}).get("frames") or []
+            for frame in frames:
+                site = self._frame_name(frame)
+                if not site.startswith((
+                    "java/", "jdk/", "sun/", "org/spongepowered/asm/", "net/minecraftforge/"
+                )):
+                    self.allocation_sites[site] += 1
+                    break
+            return
+
+        if event_type != "jdk.ThreadAllocationStatistics" or event_time is None:
+            return
+
+        allocated = values.get("allocated")
+        thread = values.get("thread") or {}
+        if not isinstance(allocated, (int, float)) or not isinstance(thread, dict):
+            return
+        thread_id = thread.get("javaThreadId")
+        if thread_id is None:
+            thread_id = thread.get("osThreadId")
+        if thread_id is None:
+            thread_id = thread.get("javaName") or thread.get("osName") or "unknown"
+        key = str(thread_id)
+        name = str(thread.get("javaName") or thread.get("osName") or "unknown")
+        snapshot = self.thread_counters.get(key)
+        current = {"time": event_time, "allocated": int(allocated), "name": name}
+        if snapshot is None:
+            self.thread_counters[key] = {"first": current, "last": current}
+        else:
+            if event_time < snapshot["first"]["time"]:
+                snapshot["first"] = current
+            if event_time > snapshot["last"]["time"]:
+                snapshot["last"] = current
+
+    def summary(self) -> dict[str, Any]:
+        thread_deltas: list[dict[str, Any]] = []
+        for snapshot in self.thread_counters.values():
+            first = snapshot["first"]
+            last = snapshot["last"]
+            elapsed = (last["time"] - first["time"]).total_seconds()
+            delta = last["allocated"] - first["allocated"]
+            if elapsed <= 0 or delta < 0:
+                continue
+            thread_deltas.append({
+                "thread": last["name"],
+                "allocatedBytes": delta,
+                "observedSeconds": elapsed,
+                "allocatedMiBPerSecond": delta / elapsed / (1024 * 1024),
+            })
+
+        if thread_deltas:
+            sampled_intervals = [
+                snapshot
+                for snapshot in self.thread_counters.values()
+                if snapshot["last"]["time"] > snapshot["first"]["time"]
+            ]
+            reference_start = min(snapshot["first"]["time"] for snapshot in sampled_intervals)
+            reference_end = max(snapshot["last"]["time"] for snapshot in sampled_intervals)
+            reference_seconds = max(0.0, (reference_end - reference_start).total_seconds())
+            observed_bytes = sum(item["allocatedBytes"] for item in thread_deltas)
+        else:
+            reference_seconds = 0.0
+            observed_bytes = 0
+
+        return {
+            "objectAllocationSampleCount": self.object_sample_count,
+            "mostSampledObjectClasses": [
+                {"class": name, "sampleCount": count}
+                for name, count in self.object_classes.most_common(20)
+            ],
+            "mostSampledAllocationSites": [
+                {"site": site, "sampleCount": count}
+                for site, count in self.allocation_sites.most_common(20)
+            ],
+            "threadAllocationCounters": {
+                "threadIntervalCount": len(thread_deltas),
+                "observedIntervalSeconds": reference_seconds,
+                "observedAllocatedBytes": observed_bytes,
+                "observedAllocatedMiBPerSecond": (
+                    observed_bytes / reference_seconds / (1024 * 1024) if reference_seconds else None
+                ),
+                "mostAllocatedThreads": sorted(
+                    thread_deltas,
+                    key=lambda item: item["allocatedBytes"],
+                    reverse=True,
+                )[:20],
+                "sampleMeaning": (
+                    "Per-thread cumulative allocation-counter differences between the first and last "
+                    "JFR ThreadAllocationStatistics events in the selected window. Object allocation "
+                    "classes and sites are sampled counts, not exact object counts."
+                ),
+            },
+        }
+
+
+def parse_jfr(
+    path: Path,
+    tool: str,
+    window_start: datetime | None = None,
+    window_end: datetime | None = None,
+) -> dict[str, Any]:
     selected = ",".join(
         [
             "minecraft.ServerTickTime",
@@ -310,33 +520,36 @@ def parse_jfr(path: Path, tool: str) -> dict[str, Any]:
             "jdk.GarbageCollection",
             "jdk.GCPhasePause",
             "jdk.GCHeapSummary",
+            "jdk.ObjectAllocationSample",
+            "jdk.ThreadAllocationStatistics",
         ]
     )
-    completed = subprocess.run(
-        [tool, "print", "--json", "--events", selected, str(path)],
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-        check=True,
-    )
-    data = json.loads(completed.stdout.lstrip("\ufeff"))
-    events = data.get("recording", {}).get("events", [])
+    events = read_jfr_events(path, tool, selected)
     tick_ms: list[float] = []
     gc_pause_s: list[float] = []
     gc_phase_s: list[float] = []
-    heap_used_bytes: list[float] = []
+    heap_used_after_gc_bytes: list[float] = []
+    heap_used_before_gc_bytes: list[float] = []
+    heap_summary_when_counts: Counter[str] = Counter()
     chunk_durations_s: list[float] = []
     counts: dict[str, int] = defaultdict(int)
     stack_methods: dict[str, Counter[str]] = defaultdict(Counter)
     stack_sample_counts: Counter[str] = Counter()
+    allocation_metrics = JfrAllocationMetrics()
 
     for event in events:
         if not isinstance(event, dict):
             continue
         event_type = event.get("type", "")
         values = event.get("values") or {}
+        event_time = parse_iso_datetime(values.get("startTime") or event.get("startTime"))
+        if window_start is not None and (event_time is None or event_time < window_start):
+            continue
+        if window_end is not None and (event_time is None or event_time > window_end):
+            continue
         counts[event_type] += 1
+        if event_type in ("jdk.ObjectAllocationSample", "jdk.ThreadAllocationStatistics"):
+            allocation_metrics.add(event_type, values, event_time)
         if event_type == "minecraft.ServerTickTime":
             duration = duration_seconds(values.get("averageTickDuration"))
             if duration is not None and duration > 0:
@@ -352,7 +565,12 @@ def parse_jfr(path: Path, tool: str) -> dict[str, Any]:
         elif event_type == "jdk.GCHeapSummary":
             used = values.get("heapUsed")
             if isinstance(used, (int, float)):
-                heap_used_bytes.append(float(used))
+                when = str(values.get("when") or "unknown").strip().lower()
+                heap_summary_when_counts[when] += 1
+                if when == "after gc":
+                    heap_used_after_gc_bytes.append(float(used))
+                elif when == "before gc":
+                    heap_used_before_gc_bytes.append(float(used))
         elif event_type == "minecraft.ChunkGeneration":
             duration = duration_seconds(values.get("duration"))
             if duration is not None:
@@ -376,12 +594,20 @@ def parse_jfr(path: Path, tool: str) -> dict[str, Any]:
         "pauseSecondsSumOfPauses": sum(gc_pause_s) if gc_pause_s else None,
         "gcPhasePauseEventCount": counts.get("jdk.GCPhasePause", 0),
         "gcPhasePauseDurations_s": stats(gc_phase_s),
-        "heapUsedBytesObservedAfterGc": stats(heap_used_bytes),
+        "heapUsedBytesObservedAfterGc": stats(heap_used_after_gc_bytes),
+        "heapUsedBytesObservedBeforeGc": stats(heap_used_before_gc_bytes),
+        "heapSummaryWhenCounts": dict(sorted(heap_summary_when_counts.items())),
     }
     return {
         "sourceJfr": path.name,
+        "windowUtc": {
+            "start": window_start.isoformat() if window_start else None,
+            "end": window_end.isoformat() if window_end else None,
+        },
         "durationSampledServerTicks_ms": {
             **stats(tick_ms),
+            "above50msCount": sum(1 for value in tick_ms if value > 50),
+            "above50msPercentOfSamples": (100 * sum(1 for value in tick_ms if value > 50) / len(tick_ms)) if tick_ms else None,
             "sampleMeaning": "Minecraft ServerTickTime interval averages; not per-tick raw durations",
         },
         "gc": gc,
@@ -390,6 +616,7 @@ def parse_jfr(path: Path, tool: str) -> dict[str, Any]:
             "duration_s": stats(chunk_durations_s),
             "sampleMeaning": "JFR chunk-generation events present in this recording window",
         },
+        "allocationDiagnostics": allocation_metrics.summary(),
         "executionSamples": {
             thread: {
                 "sampleCount": stack_sample_counts[thread],
@@ -453,6 +680,8 @@ def analyze_presentmon(path: Path) -> dict[str, Any]:
     low_01, low_01_count = low_fps(chosen, 0.001)
     frame_stats = stats(chosen)
     mean_ms = frame_stats["mean"]
+    max_frame_ms = frame_stats["max"]
+    freeze_thresholds = (50, 100, 250, 500, 1000)
     metadata_path = path.with_suffix(".json")
     metadata = json.loads(metadata_path.read_text(encoding="utf-8-sig")) if metadata_path.exists() else {}
     return {
@@ -464,6 +693,12 @@ def analyze_presentmon(path: Path) -> dict[str, Any]:
         "frameCount": len(chosen),
         "metricUsed": source_metric,
         "meanFps": 1000 / mean_ms if mean_ms else None,
+        "minimumObservedFps": 1000 / max_frame_ms if max_frame_ms else None,
+        "maximumFrameFreezeMs": max_frame_ms,
+        "framesOverThresholdMs": {
+            str(threshold): sum(1 for value in chosen if value > threshold)
+            for threshold in freeze_thresholds
+        },
         "onePercentLowFps": low_1,
         "onePercentSlowFrameCount": low_1_count,
         "zeroPointOnePercentLowFps": low_01,
@@ -482,8 +717,8 @@ def read_csv_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(stream))
 
 
-def summarize_system_samples(path: Path) -> dict[str, Any] | None:
-    rows = read_csv_rows(path)
+def summarize_system_samples(path: Path, rows: list[dict[str, str]] | None = None) -> dict[str, Any] | None:
+    rows = read_csv_rows(path) if rows is None else rows
     if not rows:
         return None
     game_rows = [row for row in rows if row.get("pid")]
@@ -531,6 +766,39 @@ def summarize_pressure_samples(path: Path) -> dict[str, Any] | None:
         "processCpuPct": stats(floats("process_cpu_pct")),
         "note": "Windows memory-manager rates are physical paging counters; non-zero rates can also include file-backed page loads.",
     }
+
+
+def summarize_pressure_from_system_samples(rows: list[dict[str, str]]) -> dict[str, Any] | None:
+    if not rows:
+        return None
+
+    def floats(column: str, scale: float = 1.0) -> list[float]:
+        return [float(row[column]) / scale for row in rows if row.get(column)]
+
+    return {
+        "sampleCount": len(rows),
+        "availableMemoryMiB": stats(floats("free_physical_bytes", 1024 * 1024)),
+        "committedBytesPct": stats(floats("commit_pct")),
+        "pagesPerSecond": stats(floats("pages_per_sec")),
+        "pageReadsPerSecond": stats(floats("page_reads_per_sec")),
+        "pagesInputPerSecond": stats(floats("pages_input_per_sec")),
+        "pagesOutputPerSecond": stats(floats("pages_output_per_sec")),
+        "processPageFaultsPerSecond": stats(floats("process_page_faults_per_sec")),
+        "processCpuPct": stats(floats("process_cpu_pct")),
+        "note": "Windows memory-manager rates are physical paging counters; non-zero rates can also include file-backed page loads.",
+    }
+
+
+def parse_iso_datetime(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def render_markdown(summary: dict[str, Any]) -> str:
@@ -601,12 +869,36 @@ def render_markdown(summary: dict[str, Any]) -> str:
         for capture in frames:
             if capture["frameCount"]:
                 lines.append(
-                    f"- `{capture['sourceCsv']}` ({capture['scenario'] or 'scenario unspecified'}, {capture['frameCount']} frames, {capture['metricUsed']}): mean {show(capture['meanFps'])} FPS; 1% low {show(capture['onePercentLowFps'])}; 0.1% low {show(capture['zeroPointOnePercentLowFps'])}; frametime p95/p99 {show(capture['frametimeMs'].get('p95'))}/{show(capture['frametimeMs'].get('p99'))} ms. Context: {(capture['contextNote'] or 'none').rstrip('.')}."
+                    f"- `{capture['sourceCsv']}` ({capture['scenario'] or 'scenario unspecified'}, {capture['frameCount']} frames, {capture['metricUsed']}): mean/min observed {show(capture['meanFps'])}/{show(capture.get('minimumObservedFps'))} FPS; 1% low {show(capture['onePercentLowFps'])}; 0.1% low {show(capture['zeroPointOnePercentLowFps'])}; frametime mean/p50/p95/p99/max {show(capture['frametimeMs'].get('mean'))}/{show(capture['frametimeMs'].get('p50'))}/{show(capture['frametimeMs'].get('p95'))}/{show(capture['frametimeMs'].get('p99'))}/{show(capture['maximumFrameFreezeMs'])} ms; >50/>100/>250/>500/>1000 ms frames {capture.get('framesOverThresholdMs', {}).get('50', 0)}/{capture.get('framesOverThresholdMs', {}).get('100', 0)}/{capture.get('framesOverThresholdMs', {}).get('250', 0)}/{capture.get('framesOverThresholdMs', {}).get('500', 0)}/{capture.get('framesOverThresholdMs', {}).get('1000', 0)}. Context: {(capture['contextNote'] or 'none').rstrip('.')}."
                 )
             else:
                 lines.append(f"- `{capture['sourceCsv']}` returned no usable frames; do not treat it as an FPS sample. Context: {capture['contextNote'] or 'none'}.")
     else:
         lines.append("- No PresentMon frame CSV found.")
+    window_samples = summary.get("presentMonWindowSamples") or {}
+    if window_samples:
+        lines.extend(["", "## Host metrics aligned to PresentMon windows", ""])
+        for capture in frames:
+            window = window_samples.get(capture.get("sourceCsv"))
+            if not window:
+                continue
+            aligned_system = window.get("systemSamples") or {}
+            aligned_pressure = window.get("systemPressureSamples") or {}
+            cpu = aligned_system.get("processCpuPctOfWholeMachine") or {}
+            system_cpu = aligned_system.get("systemCpuPctWhileGameRunning") or {}
+            working_set = aligned_system.get("workingSetBytes") or {}
+            private = aligned_system.get("privateBytes") or {}
+            free = aligned_system.get("freePhysicalBytesWhileGameRunning") or {}
+            available = aligned_pressure.get("availableMemoryMiB") or {}
+            commit = aligned_pressure.get("committedBytesPct") or {}
+            page_reads = aligned_pressure.get("pageReadsPerSecond") or {}
+            pages = aligned_pressure.get("pagesPerSecond") or {}
+            lines.append(
+                f"- `{capture.get('sourceCsv')}`: {aligned_system.get('sampleCount', 0)} system samples; Java CPU mean/p95/max {show(cpu.get('mean'))}/{show(cpu.get('p95'))}/{show(cpu.get('max'))}% of whole machine; system CPU p95/max {show(system_cpu.get('p95'))}/{show(system_cpu.get('max'))}%; working set p95/max {show((working_set.get('p95') or 0) / (1024 * 1024))}/{show((working_set.get('max') or 0) / (1024 * 1024))} MiB; private bytes p95/max {show((private.get('p95') or 0) / (1024 * 1024))}/{show((private.get('max') or 0) / (1024 * 1024))} MiB."
+            )
+            lines.append(
+                f"  Physical memory median/min {show((free.get('p50') or 0) / (1024 * 1024))}/{show((free.get('min') or 0) / (1024 * 1024))} MiB (available-memory equivalent {show(available.get('mean'))}/{show(available.get('min'))} MiB mean/min); commit mean/max {show(commit.get('mean'))}/{show(commit.get('max'))}%; pages/sec p95/max {show(pages.get('p95'), 0)}/{show(pages.get('max'), 0)}; page reads/sec p95/max {show(page_reads.get('p95'), 0)}/{show(page_reads.get('max'), 0)}."
+            )
     lines.extend(["", "## Tick backlog and JFR", ""])
     backlog = log.get("tickBacklogWarnings_ms", {})
     lines.append(
@@ -639,6 +931,44 @@ def render_markdown(summary: dict[str, Any]) -> str:
         for thread, samples in jfr.get("executionSamples", {}).items():
             frequent = ", ".join(item["method"] for item in samples.get("mostFrequentStackFrames", [])[:5])
             lines.append(f"- JFR execution samples for thread `{thread}`: n={samples['sampleCount']}; most frequent stack frames: {frequent or 'none'}.")
+        allocations = jfr.get("allocationDiagnostics") or {}
+        thread_allocations = allocations.get("threadAllocationCounters") or {}
+        if allocations.get("objectAllocationSampleCount") or thread_allocations.get("threadIntervalCount"):
+            top_classes = ", ".join(
+                f"{item['class']} ({item['sampleCount']})"
+                for item in allocations.get("mostSampledObjectClasses", [])[:5]
+            )
+            top_sites = ", ".join(
+                f"{item['site']} ({item['sampleCount']})"
+                for item in allocations.get("mostSampledAllocationSites", [])[:5]
+            )
+            thread_names = ", ".join(
+                f"{item['thread']} {show(item['allocatedBytes'] / (1024 * 1024))} MiB"
+                for item in thread_allocations.get("mostAllocatedThreads", [])[:5]
+            )
+            lines.append(
+                f"- JFR thread allocation counters: {show(thread_allocations.get('observedAllocatedMiBPerSecond'))} MiB/s aggregate over {show(thread_allocations.get('observedIntervalSeconds'))} s; highest threads: {thread_names or 'none'}."
+            )
+            lines.append(
+                f"  Sampled object classes: {top_classes or 'none'}; sampled allocation sites: {top_sites or 'none'}. Counts are JFR samples, not exact object counts."
+            )
+        for capture_name, capture_jfr in (summary.get("jfrByPresentMonWindow") or {}).items():
+            window_ticks = capture_jfr["durationSampledServerTicks_ms"]
+            window_gc = capture_jfr["gc"]
+            over_budget = window_ticks.get("count", 0)
+            above_50 = window_ticks.get("above50msCount", 0)
+            lines.append(
+                f"- JFR aligned to `{capture_name}`: {window_ticks['count']} sampled ServerTickTime averages; mean/p95/p99/max {show(window_ticks.get('mean'))}/{show(window_ticks.get('p95'))}/{show(window_ticks.get('p99'))}/{show(window_ticks.get('max'))} ms; {above_50}/{over_budget} sampled intervals above 50 ms. These are rolling/interval averages, not individual tick durations."
+            )
+            phase = window_gc.get("gcPhasePauseDurations_s") or {}
+            lines.append(
+                f"  GC pauses in window: {window_gc.get('gcPhasePauseEventCount', 0)} GC phase events, p95/max {show((phase.get('p95') or 0) * 1000)}/{show((phase.get('max') or 0) * 1000)} ms; total collection pauses {show(window_gc.get('pauseSecondsSumOfPauses'))} s."
+            )
+            for thread in ("Server thread", "Render thread", "Chunk Render Task Executor #0"):
+                samples = capture_jfr.get("executionSamples", {}).get(thread)
+                if samples:
+                    frequent = ", ".join(item["method"] for item in samples.get("mostFrequentStackFrames", [])[:5])
+                    lines.append(f"  `{thread}` samples n={samples['sampleCount']}: {frequent or 'none'}. ")
     else:
         lines.append("- No JFR recording found or the local `jfr` tool was unavailable.")
     lines.append("")
@@ -676,15 +1006,19 @@ def main() -> int:
             ["log_clock", "elapsed_from_modlauncher_s", "event", "subject", "value", "unit"],
         )
 
-    system_summary = summarize_system_samples(run_directory / "system-samples.csv")
+    system_sample_path = run_directory / "system-samples.csv"
+    system_rows = read_csv_rows(system_sample_path)
+    system_summary = summarize_system_samples(system_sample_path, system_rows)
     if system_summary:
         summary["systemSamples"] = system_summary
 
     pressure_summary = summarize_pressure_samples(run_directory / "system-pressure-samples.csv")
+    if not pressure_summary:
+        pressure_summary = summarize_pressure_from_system_samples(system_rows)
     if pressure_summary:
         summary["systemPressureSamples"] = pressure_summary
 
-    jfr_files = sorted(run_directory.glob("*.jfr"))
+    jfr_files = sorted(run_directory.glob("*.jfr"), key=lambda item: item.stat().st_mtime)
     jfr_tool = discover_jfr_tool(run_info, args.jfr_tool)
     if jfr_files and jfr_tool:
         summary["jfr"] = parse_jfr(jfr_files[-1], jfr_tool)
@@ -692,6 +1026,31 @@ def main() -> int:
     frametime_files = sorted(run_directory.glob("frametime-*.csv"))
     if frametime_files:
         summary["presentMon"] = [analyze_presentmon(path) for path in frametime_files]
+        window_samples: dict[str, Any] = {}
+        jfr_window_summaries: dict[str, Any] = {}
+        for capture in summary["presentMon"]:
+            start = parse_iso_datetime(capture.get("startedAtLocal"))
+            end = parse_iso_datetime(capture.get("endedAtLocal"))
+            if start is None or end is None:
+                continue
+            selected_rows = []
+            for row in system_rows:
+                sample_time = parse_iso_datetime(row.get("timestamp_utc"))
+                if sample_time is not None and start <= sample_time <= end:
+                    selected_rows.append(row)
+            window_samples[capture["sourceCsv"]] = {
+                "startedAtLocal": capture.get("startedAtLocal"),
+                "endedAtLocal": capture.get("endedAtLocal"),
+                "systemSamples": summarize_system_samples(system_sample_path, selected_rows),
+                "systemPressureSamples": summarize_pressure_from_system_samples(selected_rows),
+            }
+            if jfr_files and jfr_tool:
+                jfr_window_summaries[capture["sourceCsv"]] = parse_jfr(
+                    jfr_files[-1], jfr_tool, start, end
+                )
+        summary["presentMonWindowSamples"] = window_samples
+        if jfr_window_summaries:
+            summary["jfrByPresentMonWindow"] = jfr_window_summaries
 
     spark_samples = read_csv_rows(run_directory / "spark-samples.csv")
     if spark_samples:

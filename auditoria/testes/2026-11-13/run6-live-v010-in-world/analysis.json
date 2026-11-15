@@ -1,0 +1,2561 @@
+{
+  "runId": "run6-live-v010-in-world",
+  "scenario": null,
+  "status": null,
+  "git": {},
+  "runtime": {},
+  "world": {},
+  "visual": {},
+  "inventory": {},
+  "jfr": {
+    "sourceJfr": "live-180s.jfr",
+    "windowUtc": {
+      "start": null,
+      "end": null
+    },
+    "durationSampledServerTicks_ms": {
+      "count": 144,
+      "mean": 4868.134197305556,
+      "min": 38.258739999999996,
+      "p50": 1012.9587200000001,
+      "p95": 28249.591808,
+      "p99": 33331.601407999995,
+      "max": 33331.601407999995,
+      "above50msCount": 142,
+      "above50msPercentOfSamples": 98.61111111111111,
+      "sampleMeaning": "Minecraft ServerTickTime interval averages; not per-tick raw durations"
+    },
+    "gc": {
+      "garbageCollectionEvents": 3,
+      "pauseSecondsSumOfPauses": 0.254730204,
+      "gcPhasePauseEventCount": 4,
+      "gcPhasePauseDurations_s": {
+        "count": 4,
+        "mean": 0.06368255075,
+        "min": 0.000711724,
+        "p50": 0.037649393,
+        "p95": 0.144364379,
+        "p99": 0.144364379,
+        "max": 0.144364379
+      },
+      "heapUsedBytesObservedAfterGc": {
+        "count": 3,
+        "mean": 5008349530.666667,
+        "min": 4230541616.0,
+        "p50": 4231236976.0,
+        "p95": 6563270000.0,
+        "p99": 6563270000.0,
+        "max": 6563270000.0
+      },
+      "heapUsedBytesObservedBeforeGc": {
+        "count": 3,
+        "mean": 5638458768.0,
+        "min": 4231236976.0,
+        "p50": 6184479248.0,
+        "p95": 6499660080.0,
+        "p99": 6499660080.0,
+        "max": 6499660080.0
+      },
+      "heapSummaryWhenCounts": {
+        "after gc": 3,
+        "before gc": 3
+      }
+    },
+    "chunkGeneration": {
+      "eventCount": 0,
+      "duration_s": {
+        "count": 0,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "max": null
+      },
+      "sampleMeaning": "JFR chunk-generation events present in this recording window"
+    },
+    "allocationDiagnostics": {
+      "objectAllocationSampleCount": 4849,
+      "mostSampledObjectClasses": [
+        {
+          "class": "java/util/concurrent/ConcurrentHashMap$ValueIterator",
+          "sampleCount": 474
+        },
+        {
+          "class": "[B",
+          "sampleCount": 411
+        },
+        {
+          "class": "[Lnet/minecraft/core/Direction;",
+          "sampleCount": 208
+        },
+        {
+          "class": "net/minecraft/world/phys/Vec3",
+          "sampleCount": 159
+        },
+        {
+          "class": "[J",
+          "sampleCount": 155
+        },
+        {
+          "class": "java/util/Optional",
+          "sampleCount": 152
+        },
+        {
+          "class": "net/minecraft/core/Holder$Direct",
+          "sampleCount": 152
+        },
+        {
+          "class": "org/spongepowered/asm/mixin/injection/callback/CallbackInfo",
+          "sampleCount": 151
+        },
+        {
+          "class": "net/minecraft/core/BlockPos",
+          "sampleCount": 148
+        },
+        {
+          "class": "net/minecraft/world/level/ChunkPos",
+          "sampleCount": 122
+        },
+        {
+          "class": "[I",
+          "sampleCount": 121
+        },
+        {
+          "class": "java/lang/String",
+          "sampleCount": 118
+        },
+        {
+          "class": "[D",
+          "sampleCount": 110
+        },
+        {
+          "class": "[Ljava/lang/Object;",
+          "sampleCount": 99
+        },
+        {
+          "class": "java/util/ArrayList$Itr",
+          "sampleCount": 92
+        },
+        {
+          "class": "org/joml/Matrix4f",
+          "sampleCount": 84
+        },
+        {
+          "class": "org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable",
+          "sampleCount": 78
+        },
+        {
+          "class": "java/util/ArrayList",
+          "sampleCount": 73
+        },
+        {
+          "class": "java/util/HashMap$KeyIterator",
+          "sampleCount": 64
+        },
+        {
+          "class": "org/joml/Matrix3f",
+          "sampleCount": 58
+        }
+      ],
+      "mostSampledAllocationSites": [
+        {
+          "site": "com/electronwill/nightconfig/core/file/FileWatcher$WatcherThread.run",
+          "sampleCount": 468
+        },
+        {
+          "site": "net/minecraft/core/Direction.values",
+          "sampleCount": 208
+        },
+        {
+          "site": "com/mojang/blaze3d/vertex/PoseStack.m_85836_",
+          "sampleCount": 159
+        },
+        {
+          "site": "net/minecraft/core/Holder.m_205709_",
+          "sampleCount": 152
+        },
+        {
+          "site": "net/minecraft/resources/ResourceLocation.m_135832_",
+          "sampleCount": 115
+        },
+        {
+          "site": "xaero/map/misc/ConsistentBitArray.<init>",
+          "sampleCount": 110
+        },
+        {
+          "site": "net/minecraft/world/phys/shapes/IndirectMerger.<init>",
+          "sampleCount": 104
+        },
+        {
+          "site": "dev/toma/configuration/config/io/FileWatchManager.lambda$startService$2",
+          "sampleCount": 91
+        },
+        {
+          "site": "org/embeddedt/modernfix/world/ThreadDumper.obtainThreadDump",
+          "sampleCount": 90
+        },
+        {
+          "site": "net/minecraft/core/MappedRegistry.m_7854_",
+          "sampleCount": 84
+        },
+        {
+          "site": "net/sweenus/simplyswords/api/IncapacitatingStatusEffectRegistry.isIncapacitated",
+          "sampleCount": 74
+        },
+        {
+          "site": "waves/util/WaveHelpers.lambda$computeNearestShorePosParallel$2",
+          "sampleCount": 73
+        },
+        {
+          "site": "net/minecraft/world/phys/shapes/Shapes.m_166049_",
+          "sampleCount": 72
+        },
+        {
+          "site": "net/minecraft/client/multiplayer/ClientLevel.m_233612_",
+          "sampleCount": 67
+        },
+        {
+          "site": "net/minecraft/core/BlockPos.m_274561_",
+          "sampleCount": 57
+        },
+        {
+          "site": "circuitlord/reactivemusic/SongPicker.tickBlockCounterMap",
+          "sampleCount": 56
+        },
+        {
+          "site": "it/unimi/dsi/fastutil/doubles/DoubleArrayList.listIterator",
+          "sampleCount": 49
+        },
+        {
+          "site": "waves/util/WaveHelpers.toBlockPos",
+          "sampleCount": 45
+        },
+        {
+          "site": "net/minecraft/world/phys/shapes/Shapes.m_83058_",
+          "sampleCount": 43
+        },
+        {
+          "site": "it/hurts/sskirillss/relics/capability/entries/IRelicsCapability$RelicsCapabilityProvider.getCapability",
+          "sampleCount": 43
+        }
+      ],
+      "threadAllocationCounters": {
+        "threadIntervalCount": 72,
+        "observedIntervalSeconds": 207.679866,
+        "observedAllocatedBytes": 5198681400,
+        "observedAllocatedMiBPerSecond": 23.872554551623637,
+        "mostAllocatedThreads": [
+          {
+            "thread": "Render thread",
+            "allocatedBytes": 3454342816,
+            "observedSeconds": 207.679862,
+            "allocatedMiBPerSecond": 15.862481763791044
+          },
+          {
+            "thread": "Server thread",
+            "allocatedBytes": 1482940080,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 6.8097209537040015
+          },
+          {
+            "thread": "Sound engine",
+            "allocatedBytes": 157151696,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.7216469542103104
+          },
+          {
+            "thread": "CullThread",
+            "allocatedBytes": 40743608,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 0.18709629935088273
+          },
+          {
+            "thread": "ReactiveMusic Player Thread",
+            "allocatedBytes": 18606560,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.08544207726737733
+          },
+          {
+            "thread": "Netty Local Client IO #0",
+            "allocatedBytes": 14464592,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 0.06642199274105483
+          },
+          {
+            "thread": "ForkJoinPool.commonPool-worker-14",
+            "allocatedBytes": 9312408,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.042762954779461806
+          },
+          {
+            "thread": "Thread-18",
+            "allocatedBytes": 6047680,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.027771191550096986
+          },
+          {
+            "thread": "ForkJoinPool.commonPool-worker-15",
+            "allocatedBytes": 5506072,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.025284105673684058
+          },
+          {
+            "thread": "Netty Server IO #1",
+            "allocatedBytes": 4130992,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.018969682609516085
+          },
+          {
+            "thread": "Thread-8",
+            "allocatedBytes": 2822008,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.012958775054881556
+          },
+          {
+            "thread": "ModernFix integrated server watchdog",
+            "allocatedBytes": 851392,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 0.003909626572515295
+          },
+          {
+            "thread": "Auto-Sync thread",
+            "allocatedBytes": 762360,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.0035007880030246204
+          },
+          {
+            "thread": "Flywheel Task Executor #0",
+            "allocatedBytes": 560296,
+            "observedSeconds": 207.679857,
+            "allocatedMiBPerSecond": 0.002572901929459419
+          },
+          {
+            "thread": "Attach Listener",
+            "allocatedBytes": 278968,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 0.00128103236309649
+          },
+          {
+            "thread": "pool-12-thread-1",
+            "allocatedBytes": 46176,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 0.0002120420635999237
+          },
+          {
+            "thread": "JFR Periodic Tasks",
+            "allocatedBytes": 22472,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 0.000103192334832326
+          },
+          {
+            "thread": "Fzzy Config File Watcher",
+            "allocatedBytes": 20792,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 9.547770673877369e-05
+          },
+          {
+            "thread": "HttpClient-5-SelectorManager",
+            "allocatedBytes": 14888,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 6.836629943857554e-05
+          },
+          {
+            "thread": "EuphoriaConfigWatcher",
+            "allocatedBytes": 12792,
+            "observedSeconds": 207.679856,
+            "allocatedMiBPerSecond": 5.874138248376265e-05
+          }
+        ],
+        "sampleMeaning": "Per-thread cumulative allocation-counter differences between the first and last JFR ThreadAllocationStatistics events in the selected window. Object allocation classes and sites are sampled counts, not exact object counts."
+      }
+    },
+    "executionSamples": {
+      "CullThread": {
+        "sampleCount": 385,
+        "mostFrequentStackFrames": [
+          {
+            "method": "dev/tr7zw/entityculling/CullTask.run",
+            "frameCount": 296
+          },
+          {
+            "method": "java/lang/Thread.run",
+            "frameCount": 223
+          },
+          {
+            "method": "java/util/Arrays.fill",
+            "frameCount": 196
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/cache/ArrayOcclusionCache.resetCache",
+            "frameCount": 192
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/OcclusionCullingInstance.resetCache",
+            "frameCount": 192
+          },
+          {
+            "method": "dev/tr7zw/entityculling/CullTask.cullEntities",
+            "frameCount": 105
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/OcclusionCullingInstance.isAABBVisible",
+            "frameCount": 100
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/OcclusionCullingInstance.isVoxelVisible",
+            "frameCount": 91
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/OcclusionCullingInstance.isVisible",
+            "frameCount": 78
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 62
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 61
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 61
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 61
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_8055_",
+            "frameCount": 61
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/OcclusionCullingInstance.stepRay",
+            "frameCount": 13
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/cache/ArrayOcclusionCache.getState",
+            "frameCount": 9
+          },
+          {
+            "method": "com/logisticscraft/occlusionculling/OcclusionCullingInstance.getCacheValue",
+            "frameCount": 9
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.<init>",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.<init>",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/HashMap$KeySet.iterator",
+            "frameCount": 6
+          }
+        ]
+      },
+      "DFU cleaning thread": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "org/embeddedt/modernfix/dfu/DFUBlaster$CleanerThread.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Flywheel Task Executor #0": {
+        "sampleCount": 17,
+        "mostFrequentStackFrames": [
+          {
+            "method": "dev/engine_room/flywheel/impl/task/ParallelTaskExecutor$WorkerThread.run",
+            "frameCount": 10
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentLinkedDeque.pollFirst",
+            "frameCount": 6
+          },
+          {
+            "method": "dev/engine_room/flywheel/impl/task/ParallelTaskExecutor$WorkerThread.spinThenWait",
+            "frameCount": 4
+          },
+          {
+            "method": "dev/engine_room/flywheel/lib/task/NestedPlan.execute",
+            "frameCount": 4
+          },
+          {
+            "method": "dev/engine_room/flywheel/lib/task/Distribute.tasks",
+            "frameCount": 3
+          },
+          {
+            "method": "dev/engine_room/flywheel/lib/task/SimplePlan.lambda$execute$0",
+            "frameCount": 3
+          },
+          {
+            "method": "dev/engine_room/flywheel/lib/task/ForEachPlan.execute",
+            "frameCount": 3
+          },
+          {
+            "method": "dev.engine_room.flywheel.lib.task.SimplePlan$$Lambda$63362+0x0000000807411150/1564021262.run",
+            "frameCount": 2
+          },
+          {
+            "method": "dev/engine_room/flywheel/impl/task/ParallelTaskExecutor$WorkerThread.processTask",
+            "frameCount": 2
+          },
+          {
+            "method": "dev/engine_room/flywheel/lib/task/ConditionalPlan.execute",
+            "frameCount": 2
+          },
+          {
+            "method": "dev/engine_room/flywheel/lib/task/BarrierPlan.lambda$execute$0",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentLinkedDeque.unlink",
+            "frameCount": 2
+          },
+          {
+            "method": "dev/engine_room/flywheel/impl/task/WaitGroup.add",
+            "frameCount": 2
+          },
+          {
+            "method": "dev/engine_room/flywheel/impl/task/ParallelTaskExecutor.execute",
+            "frameCount": 2
+          },
+          {
+            "method": "dev.engine_room.flywheel.lib.task.SimplePlan$$Lambda$63375+0x0000000807413358/1914795004.accept",
+            "frameCount": 2
+          },
+          {
+            "method": "dev/engine_room/flywheel/impl/task/ThreadGroupNotifier.awaitNotification",
+            "frameCount": 1
+          },
+          {
+            "method": "dev.engine_room.flywheel.lib.task.BarrierPlan$$Lambda$63359+0x0000000807410698/1895733854.run",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/misc/Unsafe.putReferenceRelease",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/invoke/VarHandleReferences$FieldInstanceReadWrite.setRelease",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/invoke/VarHandleGuards.guard_LL_V",
+            "frameCount": 1
+          }
+        ]
+      },
+      "ForkJoinPool.commonPool-worker-14": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "waves/util/WaveHelpers.isShore",
+            "frameCount": 5
+          },
+          {
+            "method": "waves/util/WaveHelpers.toBlockPos",
+            "frameCount": 3
+          },
+          {
+            "method": "java/lang/Math.floor",
+            "frameCount": 1
+          },
+          {
+            "method": "waves/util/WaveHelpers.getFastChunkAccess",
+            "frameCount": 1
+          },
+          {
+            "method": "waves/util/WaveHelpers.getFastFluidState",
+            "frameCount": 1
+          },
+          {
+            "method": "waves/util/WaveHelpers.getIsShore",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "waves/util/WaveHelpers.lambda$computeNearestShorePosParallel$2",
+            "frameCount": 1
+          },
+          {
+            "method": "waves.util.WaveHelpers$$Lambda$64803+0x0000000807607650/2026896726.accept",
+            "frameCount": 1
+          }
+        ]
+      },
+      "HttpClient-5-SelectorManager": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "jdk/internal/net/http/HttpClientImpl$SelectorManager.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "HttpClient-5-Worker-20": {
+        "sampleCount": 10,
+        "mostFrequentStackFrames": [
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setProduct",
+            "frameCount": 4
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomialP256.mult",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/ec/ECOperations.setDouble",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/ec/ECOperations.double4",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setSquare",
+            "frameCount": 2
+          },
+          {
+            "method": "javax/crypto/Cipher.updateAAD",
+            "frameCount": 2
+          },
+          {
+            "method": "java/security/Provider.getService",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/jca/ProviderList$ServiceList.tryGet",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/jca/ProviderList$ServiceList$1.hasNext",
+            "frameCount": 1
+          },
+          {
+            "method": "java/security/KeyPairGenerator.getInstance",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/XDHKeyExchange$XDHEPossession.<init>",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.setSum",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.multiply",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECKeyPairGenerator.generateKeyPairImpl",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECKeyPairGenerator.generateKeyPair",
+            "frameCount": 1
+          },
+          {
+            "method": "java/security/KeyPairGenerator$Delegate.generateKeyPair",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/common/SSLFlowDelegate.cleanList",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/common/SSLFlowDelegate$Writer.processData",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/common/SSLFlowDelegate$Writer$WriterDownstreamPusher.run",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/common/SequentialScheduler$CompleteRestartableTask.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "IO-Worker-40": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/nbt/ShortTag$1.m_7300_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/nbt/ListTag$1.m_7300_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/nbt/ShortTag.m_129258_",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/misc/ScopedMemoryAccess.getIntInternal",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/misc/ScopedMemoryAccess.getInt",
+            "frameCount": 1
+          },
+          {
+            "method": "java/nio/DirectIntBufferS.get",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/storage/RegionFile.m_63686_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/storage/RegionFile.m_63645_",
+            "frameCount": 1
+          }
+        ]
+      },
+      "IO-Worker-43": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/nbt/ByteArrayTag$1.m_7300_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/nbt/CompoundTag$1.m_7300_",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/internal/misc/ScopedMemoryAccess.getIntInternal",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/misc/ScopedMemoryAccess.getInt",
+            "frameCount": 1
+          },
+          {
+            "method": "java/nio/DirectIntBufferS.get",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/storage/RegionFile.m_63654_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/storage/RegionFile$ChunkBuffer.close",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/nbt/CompoundTag.m_128413_",
+            "frameCount": 1
+          }
+        ]
+      },
+      "IO-Worker-44": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/nbt/CompoundTag$1.m_7300_",
+            "frameCount": 4
+          },
+          {
+            "method": "java/io/DataInputStream.readUTF",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/nbt/CompoundTag.m_128432_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/nbt/ListTag$1.m_7300_",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.newNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          }
+        ]
+      },
+      "JFR Periodic Tasks": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap.tabAt",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap.putIfAbsent",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/ClassLoader.getClassLoadingLock",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/loader/BuiltinClassLoader.loadClassOrNull",
+            "frameCount": 1
+          }
+        ]
+      },
+      "ModernFix integrated server watchdog": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/Arrays.copyOf",
+            "frameCount": 2
+          },
+          {
+            "method": "java/lang/AbstractStringBuilder.ensureCapacityInternal",
+            "frameCount": 2
+          },
+          {
+            "method": "java/lang/AbstractStringBuilder.append",
+            "frameCount": 2
+          },
+          {
+            "method": "java/lang/StringBuilder.append",
+            "frameCount": 2
+          },
+          {
+            "method": "java/lang/StringCoding.implEncodeAsciiArray",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/System$2.encodeASCII",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/nio/cs/SingleByte$Encoder.encodeArrayLoop",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/nio/cs/SingleByte$Encoder.encodeLoop",
+            "frameCount": 1
+          },
+          {
+            "method": "java/nio/charset/CharsetEncoder.encode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/StackTraceElement.toString",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/management/ThreadInfo.toString",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Netty Local Client IO #0": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "io/netty/buffer/AbstractByteBuf.slice",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/network/FriendlyByteBuf.slice",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/network/protocol/game/ClientboundCustomPayloadPacket.getInternalData",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraftforge/network/NetworkEvent.<init>",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Netty Server IO #1": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraftforge/eventbus/EventBus.post",
+            "frameCount": 2
+          },
+          {
+            "method": "io/netty/buffer/AbstractByteBuf.readShort",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/network/FriendlyByteBuf.readShort",
+            "frameCount": 1
+          },
+          {
+            "method": "io/netty/buffer/ByteBufInputStream.readShort",
+            "frameCount": 1
+          },
+          {
+            "method": "io/netty/buffer/ByteBufInputStream.readUnsignedShort",
+            "frameCount": 1
+          },
+          {
+            "method": "java/io/DataInputStream.readUTF",
+            "frameCount": 1
+          },
+          {
+            "method": "io/netty/util/internal/shaded/org/jctools/queues/BaseMpscLinkedArrayQueue.poll",
+            "frameCount": 1
+          },
+          {
+            "method": "io/netty/util/internal/shaded/org/jctools/queues/MpscUnboundedArrayQueue.poll",
+            "frameCount": 1
+          },
+          {
+            "method": "io/netty/util/concurrent/SingleThreadEventExecutor.pollTaskFrom",
+            "frameCount": 1
+          },
+          {
+            "method": "io/netty/util/concurrent/SingleThreadEventExecutor.pollTask",
+            "frameCount": 1
+          },
+          {
+            "method": "io/netty/util/concurrent/SingleThreadEventExecutor.runAllTasks",
+            "frameCount": 1
+          },
+          {
+            "method": "net.minecraftforge.eventbus.EventBus$$Lambda$5307+0x00000008011f7928/443355947.invoke",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraftforge/network/NetworkInstance.dispatch",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraftforge/network/NetworkHooks.lambda$onCustomPayload$1",
+            "frameCount": 1
+          }
+        ]
+      },
+      "ReactiveMusic Player Thread": {
+        "sampleCount": 277,
+        "mostFrequentStackFrames": [
+          {
+            "method": "circuitlord/reactivemusic/PlayerThread.run",
+            "frameCount": 222
+          },
+          {
+            "method": "java/lang/invoke/DirectMethodHandle$Holder.invokeStatic",
+            "frameCount": 68
+          },
+          {
+            "method": "java.lang.invoke.LambdaForm$MH+0x00000008000d1800/1434041222.invoke",
+            "frameCount": 68
+          },
+          {
+            "method": "java.lang.invoke.LambdaForm$MH+0x00000008000d2000/1338841523.invoke",
+            "frameCount": 68
+          },
+          {
+            "method": "java/lang/invoke/Invokers$Holder.linkToTargetMethod",
+            "frameCount": 68
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.decode",
+            "frameCount": 53
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.decodeFrame",
+            "frameCount": 53
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/Decoder.decodeFrame",
+            "frameCount": 44
+          },
+          {
+            "method": "rm_javazoom/jl/player/advanced/AdvancedPlayer.decodeFrame",
+            "frameCount": 38
+          },
+          {
+            "method": "circuitlord/reactivemusic/PlayerThread.setGainPercentage",
+            "frameCount": 28
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.dequantize_sample",
+            "frameCount": 11
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/SynthesisFilter.calculate_pcm_samples",
+            "frameCount": 9
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.hybrid",
+            "frameCount": 8
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/SynthesisFilter.compute_pcm_samples",
+            "frameCount": 8
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.huffman_decode",
+            "frameCount": 8
+          },
+          {
+            "method": "rm_javazoom/jl/player/advanced/AdvancedPlayer.play",
+            "frameCount": 6
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.stereo",
+            "frameCount": 5
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/huffcodetab.huffman_decoder",
+            "frameCount": 5
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/SampleBuffer.appendSamples",
+            "frameCount": 4
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.reorder",
+            "frameCount": 3
+          }
+        ]
+      },
+      "Render thread": {
+        "sampleCount": 623,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/client/Minecraft.m_91398_",
+            "frameCount": 52
+          },
+          {
+            "method": "net/minecraft/client/multiplayer/ClientLevel.m_104784_",
+            "frameCount": 39
+          },
+          {
+            "method": "net/minecraftforge/eventbus/ASMEventHandler.invoke",
+            "frameCount": 38
+          },
+          {
+            "method": "net/minecraft/client/multiplayer/ClientLevel.m_233612_",
+            "frameCount": 37
+          },
+          {
+            "method": "net/minecraft/world/entity/Entity.m_6478_",
+            "frameCount": 36
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 35
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_8055_",
+            "frameCount": 34
+          },
+          {
+            "method": "net.minecraftforge.eventbus.EventBus$$Lambda$5307+0x00000008011f7928/443355947.invoke",
+            "frameCount": 32
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 30
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 30
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 29
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 29
+          },
+          {
+            "method": "net/minecraft/client/Minecraft.m_91383_",
+            "frameCount": 27
+          },
+          {
+            "method": "traben/entity_model_features/models/parts/EMFModelPart.renderLikeVanilla",
+            "frameCount": 26
+          },
+          {
+            "method": "traben/entity_model_features/models/parts/EMFModelPart.renderLikeETF",
+            "frameCount": 25
+          },
+          {
+            "method": "net/minecraft/world/entity/LivingEntity.m_8107_",
+            "frameCount": 24
+          },
+          {
+            "method": "net/minecraft/world/phys/shapes/Shapes.m_83157_",
+            "frameCount": 23
+          },
+          {
+            "method": "net/minecraftforge/eventbus/EventBus.post",
+            "frameCount": 22
+          },
+          {
+            "method": "traben/entity_model_features/models/parts/EMFModelPart.renderWithTextureOverride",
+            "frameCount": 22
+          },
+          {
+            "method": "net/tct/matmos/procedures/EnvironmentDetectorProcedure.execute",
+            "frameCount": 22
+          }
+        ]
+      },
+      "Server thread": {
+        "sampleCount": 1356,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraftforge/eventbus/EventBus.post",
+            "frameCount": 112
+          },
+          {
+            "method": "net/minecraftforge/eventbus/ASMEventHandler.invoke",
+            "frameCount": 111
+          },
+          {
+            "method": "net.minecraftforge.eventbus.EventBus$$Lambda$5307+0x00000008011f7928/443355947.invoke",
+            "frameCount": 101
+          },
+          {
+            "method": "net/minecraft/world/entity/LivingEntity.m_8107_",
+            "frameCount": 79
+          },
+          {
+            "method": "net/minecraft/server/level/ServerChunkCache.m_8490_",
+            "frameCount": 66
+          },
+          {
+            "method": "net/minecraft/world/entity/Mob.m_8107_",
+            "frameCount": 57
+          },
+          {
+            "method": "net/minecraft/world/entity/Entity.m_6478_",
+            "frameCount": 57
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 57
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 57
+          },
+          {
+            "method": "net/minecraft/world/level/entity/EntitySectionStorage.m_188362_",
+            "frameCount": 56
+          },
+          {
+            "method": "net/minecraft/server/level/ServerChunkCache.m_201698_",
+            "frameCount": 56
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 56
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 55
+          },
+          {
+            "method": "net/minecraft/world/entity/Mob.m_6140_",
+            "frameCount": 54
+          },
+          {
+            "method": "net/minecraft/world/level/entity/EntitySectionStorage.m_260795_",
+            "frameCount": 53
+          },
+          {
+            "method": "net/minecraft/world/entity/LivingEntity.m_8119_",
+            "frameCount": 53
+          },
+          {
+            "method": "net/minecraft/server/level/ServerLevel.m_8793_",
+            "frameCount": 52
+          },
+          {
+            "method": "net/minecraft/world/level/BlockCollisions.computeNext",
+            "frameCount": 50
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 50
+          },
+          {
+            "method": "java/util/Objects.equals",
+            "frameCount": 50
+          }
+        ]
+      },
+      "Sound engine": {
+        "sampleCount": 24,
+        "mostFrequentStackFrames": [
+          {
+            "method": "com/mojang/blaze3d/audio/OggAudioStream.m_83755_",
+            "frameCount": 12
+          },
+          {
+            "method": "com/mojang/blaze3d/audio/OggAudioStream.m_83760_",
+            "frameCount": 10
+          },
+          {
+            "method": "com/mojang/blaze3d/audio/OggAudioStream.m_7118_",
+            "frameCount": 7
+          },
+          {
+            "method": "com/sonicether/soundphysics/utils/RaycastUtils.lambda$rayCast$0",
+            "frameCount": 7
+          },
+          {
+            "method": "com/mojang/blaze3d/audio/OggAudioStream$OutputConcat.m_83775_",
+            "frameCount": 6
+          },
+          {
+            "method": "java/nio/DirectByteBuffer.ix",
+            "frameCount": 5
+          },
+          {
+            "method": "java/nio/DirectByteBuffer.putShort",
+            "frameCount": 5
+          },
+          {
+            "method": "com/mojang/blaze3d/audio/Channel.m_83652_",
+            "frameCount": 5
+          },
+          {
+            "method": "net/minecraft/client/sounds/LoopingAudioStream.m_7118_",
+            "frameCount": 5
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 4
+          },
+          {
+            "method": "com/sonicether/soundphysics/world/ClonedClientLevel.m_6425_",
+            "frameCount": 4
+          },
+          {
+            "method": "com/mojang/blaze3d/audio/Channel.m_83682_",
+            "frameCount": 2
+          },
+          {
+            "method": "com.sonicether.soundphysics.utils.RaycastUtils$$Lambda$64459+0x000000080756a3c8/216350926.apply",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/BlockGetter.m_151361_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/phys/shapes/VoxelShape.m_83220_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/BlockGetter.m_45558_",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/ArrayList.grow",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/ArrayList.add",
+            "frameCount": 2
+          }
+        ]
+      },
+      "Thread-18": {
+        "sampleCount": 9,
+        "mostFrequentStackFrames": [
+          {
+            "method": "xaero/map/file/worldsave/WorldDataReader.buildRegion",
+            "frameCount": 4
+          },
+          {
+            "method": "xaero/map/file/worldsave/WorldDataReader.buildTileChunk",
+            "frameCount": 3
+          },
+          {
+            "method": "xaero/map/region/MapTileChunk.setTile",
+            "frameCount": 2
+          },
+          {
+            "method": "xaero/map/MapProcessor.handleRefresh",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 2
+          },
+          {
+            "method": "xaero/map/file/worldsave/WorldDataReader.buildTile",
+            "frameCount": 2
+          },
+          {
+            "method": "xaero/map/file/worldsave/WorldDataHandler.buildRegion",
+            "frameCount": 2
+          },
+          {
+            "method": "xaero/map/file/MapSaveLoad.loadRegion",
+            "frameCount": 2
+          },
+          {
+            "method": "xaero/map/misc/ConsistentBitArray.get",
+            "frameCount": 1
+          },
+          {
+            "method": "xaero/map/palette/Paletted2DFastBitArrayIntStorage.get",
+            "frameCount": 1
+          },
+          {
+            "method": "xaero/map/region/texture/RegionTexture.setBiome",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/Hashtable.get",
+            "frameCount": 1
+          },
+          {
+            "method": "xaero/map/world/MapWorld.getDimension",
+            "frameCount": 1
+          },
+          {
+            "method": "xaero/map/world/MapWorld.getFutureDimension",
+            "frameCount": 1
+          },
+          {
+            "method": "xaero/map/world/MapWorld.switchToFutureMultiworldTypeUnsynced",
+            "frameCount": 1
+          },
+          {
+            "method": "xaero/map/MapProcessor.updateWorldSynced",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "xaero/map/cache/BlockStateShortShapeCache.isShort",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/util/datafix/DataFixTypes.m_264080_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/util/datafix/DataFixTypes.m_264226_",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-607": {
+        "sampleCount": 4,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 4
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/HashMap.afterNodeInsertion",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.getOrCreate",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-608": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 2
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.afterNodeInsertion",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner$BlockPosInspection.add",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-609": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 2
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-611": {
+        "sampleCount": 6,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 6
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/core/BlockPos.m_121945_",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-612": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-613": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/world/level/levelgen/Heightmap.m_64240_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/levelgen/Heightmap.m_64242_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/ChunkAccess.m_5885_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_6924_",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.canSeeSkyConsiderSolids",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-614": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 2
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 2
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/ArrayList.grow",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/ArrayList.add",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/Arrays.copyOf",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-616": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-617": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-618": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 2
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.resize",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-619": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 2
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 2
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.newNode",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-620": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-622": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-623": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/HashMap.afterNodeAccess",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/creativecore/common/util/type/map/HashMapDouble.put",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.findState",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-624": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-631": {
+        "sampleCount": 4,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/creativecore/common/util/type/map/HashMapDouble.put",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.findState",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/ChunkAccess.m_141937_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/LevelHeightAccessor.m_151560_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/LevelHeightAccessor.m_151566_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/LevelHeightAccessor.m_151564_",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-633": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 3
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.resize",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-634": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-635": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-636": {
+        "sampleCount": 4,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/creativecore/common/util/type/map/HashMapDouble.put",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.findState",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-637": {
+        "sampleCount": 6,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 6
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 6
+          },
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 5
+          },
+          {
+            "method": "team/creative/creativecore/common/util/type/set/QuadBitSet.ensureCapacity",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/creativecore/common/util/type/set/QuadBitSet.set",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-638": {
+        "sampleCount": 9,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 8
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 8
+          },
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 7
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.newNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-640": {
+        "sampleCount": 4,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 4
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.resize",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-641": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-642": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.resize",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-643": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-644": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 3
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-645": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-646": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-647": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 3
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-648": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-650": {
+        "sampleCount": 4,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 3
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63085_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/PalettedContainer.m_63087_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunkSection.m_62982_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/chunk/LevelChunk.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/world/level/Level.m_8055_",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/Math.floor",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/creativecore/common/util/type/set/QuadBitSet.chunkIndex",
+            "frameCount": 1
+          },
+          {
+            "method": "team/creative/creativecore/common/util/type/set/QuadBitSet.set",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-651": {
+        "sampleCount": 4,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 4
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.newNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.resize",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-654": {
+        "sampleCount": 5,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 5
+          },
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 4
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 4
+          }
+        ]
+      },
+      "Thread-655": {
+        "sampleCount": 21,
+        "mostFrequentStackFrames": [
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.scan",
+            "frameCount": 21
+          },
+          {
+            "method": "team/creative/ambientsounds/environment/pocket/AirPocketScanner.run",
+            "frameCount": 21
+          },
+          {
+            "method": "net/minecraft/core/Direction.values",
+            "frameCount": 14
+          },
+          {
+            "method": "java/util/HashMap.newNode",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 3
+          },
+          {
+            "method": "net/minecraft/core/BlockPos.m_121945_",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-8": {
+        "sampleCount": 11,
+        "mostFrequentStackFrames": [
+          {
+            "method": "com/electronwill/nightconfig/core/file/FileWatcher$WatcherThread.run",
+            "frameCount": 10
+          },
+          {
+            "method": "sun/nio/fs/AbstractWatchService.poll",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/concurrent/LinkedBlockingDeque.poll",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/concurrent/LinkedBlockingDeque.pollFirst",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$Traverser.advance",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/concurrent/locks/ReentrantLock.lock",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$BaseIterator.<init>",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValueIterator.<init>",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValuesView.iterator",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/locks/ReentrantLock$NonfairSync.initialTryLock",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/locks/ReentrantLock$Sync.lock",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValueIterator.next",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Worker-Main-42": {
+        "sampleCount": 22,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/HashMap$TreeNode.getTreeNode",
+            "frameCount": 18
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 18
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 18
+          },
+          {
+            "method": "net/minecraft/server/packs/resources/ResourceProvider.m_244907_",
+            "frameCount": 18
+          },
+          {
+            "method": "net.minecraft.server.packs.resources.ResourceProvider$$Lambda$42908+0x0000000805b6fd90/2097278267.m_213713_",
+            "frameCount": 18
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap.get",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/lighting/DataLayerStorageMap.m_75532_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/lighting/LayerLightSectionStorage.m_75761_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/lighting/LayerLightSectionStorage.m_75758_",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/world/level/lighting/LayerLightSectionStorage.m_75791_",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/zip/ZipUtils.SH",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/zip/ZipUtils.CENNAM",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/zip/ZipFile$Source.getEntryPos",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/zip/ZipFile.getInputStream",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/server/packs/resources/IoSupplier.m_247182_",
+            "frameCount": 1
+          },
+          {
+            "method": "java/nio/file/Files.provider",
+            "frameCount": 1
+          },
+          {
+            "method": "java/nio/file/Files.newInputStream",
+            "frameCount": 1
+          },
+          {
+            "method": "org/embeddedt/modernfix/resources/PackResourcesCacheEngine$Node.lambda$outputResources$0",
+            "frameCount": 1
+          },
+          {
+            "method": "org.embeddedt.modernfix.resources.PackResourcesCacheEngine$Node$$Lambda$46223+0x0000000806079b20/1181649330.m_247737_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/server/packs/resources/Resource.m_215507_",
+            "frameCount": 1
+          }
+        ]
+      },
+      "pool-12-thread-1": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/concurrent/locks/ReentrantLock$Sync.tryRelease",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/locks/AbstractQueuedSynchronizer.release",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/locks/ReentrantLock.unlock",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/LinkedBlockingQueue.poll",
+            "frameCount": 1
+          },
+          {
+            "method": "com/corosus/watut/client/screen/ByteBufferProcessor.lambda$startProcessing$0",
+            "frameCount": 1
+          }
+        ]
+      }
+    },
+    "selectedJfrEventCounts": {
+      "jdk.ExecutionSample": 2865,
+      "jdk.GCHeapSummary": 6,
+      "jdk.GCPhasePause": 4,
+      "jdk.GarbageCollection": 3,
+      "jdk.ObjectAllocationSample": 4849,
+      "jdk.ThreadAllocationStatistics": 155,
+      "minecraft.ServerTickTime": 146
+    }
+  }
+}
