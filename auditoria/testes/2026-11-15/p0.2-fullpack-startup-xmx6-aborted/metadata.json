@@ -1,0 +1,18 @@
+{
+  "scenario": "fullpack client startup; aborted before main menu",
+  "startedAt": "2026-11-15T15:52:18.0680034-03:00",
+  "lastSampleAt": "2026-11-15T15:58:01.3875898-03:00",
+  "samples": 145,
+  "sampleIntervalSeconds": 2,
+  "javaVersion": "17.0.12",
+  "forge": "47.4.28",
+  "mods": 439,
+  "heapMin": "1G",
+  "heapMax": "6G",
+  "maxPrivateGiB": 10.54,
+  "maxWorkingSetGiB": 7.53,
+  "minFreePhysicalMemoryGiB": 0.057,
+  "reason": "Client stopped during resource reload after system free RAM fell below 64 MiB and UI became unresponsive",
+  "jfrGcFlags": "Supplied after main class in the Java argument file and ignored by ModLauncher; no JFR or GC log was produced",
+  "worldOpened": false
+}

@@ -1,0 +1,29 @@
+dominio;mod;versao_jar_instalada;versao_no_run_historico_492;versao_no_run_atual_505;leitura
+geral;AI Improvements;0.5.2;0.5.2;0.5.2;IA de entidades; stack do watchdog observou busca de alvo no Enderman mas não atribui a otimização como causa
+geral;Alternate Current;1.7.0;1.7.0;1.7.0;otimização de redstone; sem evento causal isolado
+cliente;BadOptimizations;2.4.1;2.4.1;2.4.1;otimizações gerais do cliente
+chunks;Better Chunk Loading;5.4;5.4;5.4;carregamento e fluxo de chunks
+chunks;Better FPS Distance;6.0;6.0;6.0;distância e processamento de chunks
+chunks;Chunk Sending;4.1;4.1;4.1;envio de chunks
+servidor;Clumps;12.0.0.4;12.0.0.4;12.0.0.4;agrupa orbes de experiência
+rede;Connectivity;7.7;7.7;7.7;conectividade e pacotes
+cliente;Cull Less Leaves;1.0.5;1.0.5;1.0.5;culling de folhas
+cliente;Dynamic FPS;3.11.4;3.11.4;3.11.4;redução de uso em segundo plano
+cliente;Embeddium;0.3.31+mc1.20.1;0.3.31+mc1.20.1;0.3.31+mc1.20.1;renderer e mixins de opções compartilhadas
+cliente;EntityCulling;1.12.1;1.11.2;1.12.1;versão mudou entre a execução histórica e a atual
+mundo;Fast Async World Save;2.6;2.6;2.6;salvamento de mundo assíncrono
+inicialização;FastBoot;1.2;1.2;1.2;inicialização
+memória;FerriteCore;6.0.1;6.0.1;6.0.1;uso de memória
+cliente;FPS Reducer;2.5.1;2.5.1;2.5.1;redução de FPS em segundo plano; sobrepõe parcialmente a política ociosa do Dynamic FPS
+cliente;ImmediatelyFast;1.5.5+1.20.4;1.5.5+1.20.4;1.5.5+1.20.4;otimizações de renderização; nome do JAR aponta MC 1.20.4 e merece validação de compatibilidade no MC 1.20.1
+memória;Memory Leak Fix;1.1.5;1.1.5;1.1.5;correções de retenção de memória
+memória;Memory Settings;6.0;6.0;6.0;configuração de memória
+geral;ModernFix;5.27.85+mc1.20.1;5.27.85+mc1.20.1;5.27.85+mc1.20.1;inicialização; memória; correções e instrumentação watchdog
+cliente;Oculus;1.8.0;1.8.0;1.8.0;shaders; modifica classes internas de Embeddium
+cliente;Oculus Flywheel Compat;2.0.3;2.0.3;2.0.3;compatibilidade gráfica; fallback de backend aparece no log
+chunks;SmoothChunk;4.1;4.1;4.1;suavização de processamento de chunks
+diagnóstico;Spark;1.10.53;não instalado;1.10.53;adicionado após a execução de 492 mods e carregado na execução atual de 505 mods
+cliente;Sodium Dynamic Lights;1.0.10 no JAR;1.0.9 no loader;1.0.9 no loader;drift entre nome do JAR e metadado carregado
+cliente;Sodium Extras;1.0.7 no JAR;1.0.6 no loader;1.0.6 no loader;drift entre nome do JAR e metadado carregado
+cliente;Sodium Options API;1.0.10;1.0.10;1.0.10;API de opções do renderer
+diagnóstico;Boundless Tweaks;0.1.0;não instalado;carregado segundo logs/modlist.txt;medição em janela de 1.200 ticks com mean/p50/p95/p99/max MSPT e TPS equivalente; o comando não foi amostrado in-world nesta execução

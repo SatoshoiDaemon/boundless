@@ -1,0 +1,2 @@
+timestamp_local;source_screenshot;fps_point;server_tick_ms_point;tick_rate_equivalent_tps_point;heap_used_mib;heap_max_mib;allocation_mib_s;gpu_utilization_pct;render_distance;simulation_distance;client_chunks;server_chunks;spawn_chunks;entities_total;monsters;resolution;shaderpack;visual_profile
+2026-11-13T21:21:39-03:00;../../../screenshots/2026-11-13_21.21.40.png;33;207;4.831;6110;10240;203;5;12;8;942;2244;289;130;72;1920x1080;ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5;Custom Popular; Fancy; dynamic lighting realtime

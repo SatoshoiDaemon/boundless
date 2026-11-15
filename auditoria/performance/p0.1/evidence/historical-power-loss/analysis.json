@@ -1,0 +1,86 @@
+{
+  "runId": "historical-in-world-power-outage-20261113",
+  "scenario": "client-startup",
+  "status": "interrupted-external-power-loss",
+  "git": {
+    "commit": null,
+    "branch": null,
+    "workingTreeClean": null
+  },
+  "runtime": {
+    "version": "1.20.1",
+    "forge": "47.4.28",
+    "javaMajor": 17,
+    "runtimeModCount": 492
+  },
+  "world": {
+    "label": "existing integrated world",
+    "seed": null,
+    "route": null
+  },
+  "log": {
+    "sourceLog": "historical log; raw file was not archived before replacement",
+    "runtimeModCount": 492,
+    "minecraftStartupTimer_s": 384.251,
+    "firstMainMenuSignal_s": 293,
+    "integratedServerStart_s": 489,
+    "worldDoneMarkerSeconds": null,
+    "worldDoneMarker_sFromLaunch": null,
+    "spawnPreparation": {
+      "firstPercent": 0,
+      "lastPercent": 98,
+      "elapsedBetweenFirstAndLast_s": 59
+    },
+    "tickBacklogWarnings_ms": {
+      "count": 30,
+      "mean": 34.940,
+      "median": 17.092,
+      "p95": 109.631,
+      "p99": 164.633,
+      "max": 164.633,
+      "ticksBehindMax": 3292,
+      "sampleMeaning": "Accumulated delay between Can't keep up warnings, not individual MSPT."
+    },
+    "modernFixWatchdogTick_ms": {
+      "count": 1,
+      "max": 40955,
+      "sampleMeaning": "Single reported server tick duration."
+    },
+    "longestModDeferredTasks": [
+      {"mod": "reactivemusic", "seconds": 14.90},
+      {"mod": "graveyard", "seconds": 14.13},
+      {"mod": "ironslib", "seconds": 13.27}
+    ],
+    "emiReloadSeconds": [47.668, 79.399],
+    "resourceGeneration_s": 41.233
+  },
+  "presentMon": [],
+  "manualF3Samples": [
+    {
+      "timestamp_local": "2026-11-13T21:21:39-03:00",
+      "fps": 33,
+      "server_tick_ms": 207,
+      "mean_time_tps_equivalent": 4.831,
+      "heap_used_mib": 6110,
+      "heap_max_mib": 10240,
+      "allocation_rate_mib_s": 203,
+      "gpu_utilization_pct": 5,
+      "render_distance": 12,
+      "simulation_distance": 8,
+      "loaded_client_chunks": 942,
+      "loaded_server_chunks": 2244,
+      "spawn_chunks": 289,
+      "total_entities": 130,
+      "monsters": 72,
+      "resolution": "1920x1080",
+      "shaderpack": "Complementary Reimagined r5.9.3 + Euphoria Patches 1.10.5",
+      "sourceScreenshot": "screenshots/2026-11-13_21.21.40.png",
+      "sampleMeaning": "Single F3 point; not an average or percentile."
+    }
+  ],
+  "notes": [
+    "The user confirmed the session ended because of a power outage, not a game failure.",
+    "A separate earlier morning JumpAnimation client crash belongs to another session.",
+    "No exact Git commit, JAR lock, configuration lock, seed, or route was captured for this execution."
+  ]
+}

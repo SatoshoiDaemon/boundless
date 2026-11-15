@@ -62,3 +62,6 @@ __pycache__/
 # CurseForge index and generated root artwork
 /config/**/*.bak*
 /config/**/*.toml_backup*
+
+# Raw per-run performance captures are local evidence; curated summaries are versioned.
+/auditoria/testes/runs/

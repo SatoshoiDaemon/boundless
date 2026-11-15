@@ -19,5 +19,4 @@ Use `/boundless diagnose` in game to print Minecraft, Forge, Java, Boundless Com
 ## Planned work
 
 - **v0.2 — Content repairs:** investigate Mowzie's Mobs Grottol models, Born in Chaos animation definitions, and broken recipes, advancements, loot tables, and tags. Prefer internal datapack or resourcepack fixes when sufficient.
-- **v0.3 — Performance diagnostics:** measure the reported extreme integrated-server tick delays, including records up to 111.641 seconds, and inspect chunk generation, entities, AI, and tick duration.
-- **v0.4 — Targeted optimizations:** implement fixes based on measured bottlenecks, prioritizing world generation, entities, and mod integrations while preserving intended visuals and gameplay.
+- Compatibility work remains in this module; startup, memory, CPU, and general performance instrumentation belongs to Boundless Tweaks, while chunk-pipeline changes belong to Boundless Chunk Utils.

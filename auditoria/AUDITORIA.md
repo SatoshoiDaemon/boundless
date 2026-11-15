@@ -1,17 +1,21 @@
-# Auditoria técnica estática — Boundless (Minecraft Forge 1.20.1)
+# Auditoria técnica — snapshot histórico e baseline atual — Boundless (Minecraft Forge 1.20.1)
 
 **Data da auditoria:** 13/11/2026  
 **Escopo:** instância atual, com foco nos arquivos recentes de `/logs`, inventário de `/mods`, configurações de `/config`, relatório de crash, opções do cliente e histórico local de mudanças.
 
 ## Resumo executivo
 
-A instância carregou o mundo, mas a sessão mais recente terminou em um crash client-side confirmado no `JumpAnimation`. Durante a mesma sessão também houve atrasos severos do servidor integrado. Esses atrasos são reais; os arquivos disponíveis não permitem atribuí-los com segurança a um mod específico.
+Esta auditoria foi redigida com base em execuções separadas do dia 13/11/2026. Há quatro crash reports históricos de sessões diferentes: dependência ausente no carregamento às 09:00, NPE do `JumpAnimation` às 09:58, `IllegalClassLoadError` no mixin do Boundless Compat às 15:34, e novo NPE do `JumpAnimation` às 18:21. Nenhum encerrou a execução de mundo das 21:10, que terminou por queda de energia conforme confirmação do usuário. Não atribua a queda de energia ao jogo. O baseline e as evidências de performance mais recentes estão em [P0.1 Performance Baseline](performance/p0.1/BASELINE_P0.1_2026-11-14.md).
 
-O inventário de runtime contém **425 JARs diretamente em `/mods`** e **491 IDs únicos na tabela de mods do Forge** (incluindo `forge`; alguns IDs são bibliotecas Jar-in-Jar). A tabela tem 514 linhas antes de consolidar IDs repetidos. A leitura recursiva de JARs externos e Jar-in-Jar encontrou **1.160 declarações de dependência** em manifestos `mods.toml` e `fabric.mod.json`. Não encontrei dependência obrigatória de outro mod carregado ausente por ID; `minecraft` e componentes do loader são tratados como ambiente, não como mods da tabela. As faixas de versão estão preservadas no CSV, mas não foram reavaliadas por um resolvedor semântico independente.
+As seções detalhadas abaixo preservam o estado de configuração e log observado na auditoria histórica. A execução posterior de 505 mods selecionou Complementary Reimagined + Euphoria Patches e teve 438 JARs diretos em `/mods`; esse conjunto de versões está no [inventário P0.1](performance/p0.1/optimization-inventory.csv), e os dados da nova execução estão no baseline P0.1. A antiga seção sobre shader inexistente descreve a configuração anterior e não o estado da execução de 23:09.
+
+Na execução mais recente desta rodada, o log de Forge registrou 505 mods e carregou Spark 1.10.53 e EntityCulling 1.12.1. O shaderpack Complementary Reimagined + Euphoria Patches estava ativo na medição visual. Isso substitui as referências abaixo ao estado anterior de 492 mods e shaderpack ausente.
+
+No snapshot histórico que originou o inventário abaixo havia **425 JARs diretamente em `/mods`** e **491 IDs únicos na tabela de mods do Forge** (incluindo `forge`; alguns IDs são bibliotecas Jar-in-Jar). A tabela tinha 514 linhas antes de consolidar IDs repetidos. A leitura recursiva de JARs externos e Jar-in-Jar encontrou **1.160 declarações de dependência** em manifestos `mods.toml` e `fabric.mod.json`. Não encontrei dependência obrigatória de outro mod carregado ausente por ID; `minecraft` e componentes do loader são tratados como ambiente, não como mods da tabela. As faixas de versão estão preservadas no CSV, mas não foram reavaliadas por um resolvedor semântico independente.
 
 Os pontos de maior prioridade são:
 
-1. **Crash confirmado:** NPE dentro de `JumpAnimationClient.isPlayerInSurvival()` ao ler `Minecraft.gameMode` nulo durante o callback do mod. O relatório registra um handler `mouseClicked`; a causa que deixou o contexto sem `gameMode` ainda precisa ser reproduzida.
+1. **Crashes históricos separados:** duas NPEs do `JumpAnimation`, uma falha de carregamento de classe no helper do mixin Boundless Compat e um erro de dependência `info_on_death` no estágio de carregamento. Esses relatórios não pertencem à sessão das 21:10–21:44 encerrada por queda de energia.
 2. **Travamentos confirmados:** nove mensagens `Can't keep up`, chegando a **111,641 s de atraso**, e watchdog do ModernFix registrando um tick de **40,091 s**. A única captura do thread do servidor estava dentro do tick de um villager, em `HurtBySensor`/`Brain`; isso é uma amostra de stack, não prova de causa-raiz.
 3. **Integridade de conteúdo:** 47 receitas, 18 avanços, 13 funções, 5 modelos e 4 animações registraram erros de carregamento/parsing. São recursos específicos que podem faltar; não são, por si, prova de gargalo de desempenho.
 4. **Configuração de shader desatualizada:** Oculus está configurado para `MakeUp-UltraFast-9.5g.zip`, mas esse arquivo foi atualizado para `MakeUp-UltraFast-9.6.zip` no histórico da instância e o log mais recente rejeitou o caminho antigo. Portanto, a sessão não comprova desempenho nem compatibilidade com shaders ativos.
@@ -20,10 +24,19 @@ Os pontos de maior prioridade são:
 ## Escopo e método
 
 - `/mods`: enumerei os JARs externos, li os manifestos Forge e Fabric e percorri arquivos Jar-in-Jar em `META-INF/jars/`.
-- `/logs`: priorizei `latest.log` e `modlist.txt`, ambos da sessão de 13/11/2026. Também consultei o relatório de crash mais recente, `stderr_stream.log`, o log compactado e `instance_audit.txt`.
+- `/logs`: priorizei o `latest.log` e `modlist.txt` disponíveis no snapshot da auditoria estática. O `latest.log` foi posteriormente substituído pela inicialização de 505 mods; a sessão de mundo encerrada por queda de energia está representada pelos dados preservados no baseline P0.1.
 - `/config` e raiz da instância: verifiquei as configurações ligadas a renderer, shaders, partículas, culling, IA, FPS, chunks e as opções de cliente relevantes.
 - A análise de manifestos foi somente leitura; não extraí nem alterei JARs. Nenhum arquivo original foi modificado.
-- Não executei build, jogo, benchmark ou teste de reprodução. Não há profiler de tick/frame, série temporal de heap/GC, contagens de entidades ou gravação de geração de chunks nos arquivos fornecidos.
+- Na auditoria estática inicial não executei build, jogo, benchmark ou teste de reprodução. A instrumentação e as novas medições limitadas estão documentadas em [P0.1](performance/p0.1/BASELINE_P0.1_2026-11-14.md); continuam pendentes a medição de mundo, Spark, TPS/MSPT por rota e geração inédita de chunks.
+
+### Crash reports consultados
+
+- `09.00.37-fml`: o carregamento falhou porque `armageddon_boss_dimensions` exigia `info_on_death` 1.0 ou superior, ausente naquele perfil.
+- `09.58.24-client`: `JumpAnimationClient.isPlayerInSurvival()` leu `Minecraft.gameMode` nulo durante `mouseClicked`.
+- `15.34.49-client`: `IllegalClassLoadError` ao referenciar `JumpAnimationGuard` de dentro do pacote declarado do mixin do Boundless Compat.
+- `18.21.48-client`: a mesma NPE do JumpAnimation ocorreu novamente; desta vez `JumpAnimationNullGameModeMixin` aparece na pilha, mas o NPE ainda aconteceu. O registro confirma que o caminho da chamada não foi protegido nessa execução; não determina sozinho por que a injeção não interrompeu o acesso.
+
+Os quatro reports precedem a sessão com 492 mods iniciada às 21:10, que entrou no mundo e foi interrompida externamente por queda de energia. O relatório P0.1 mantém esses eventos separados dos sintomas de TPS daquela sessão.
 
 ### Contagens do inventário
 
@@ -44,7 +57,7 @@ O inventário completo está em [inventario_mods.csv](inventario_mods.csv), com 
 
 ### 1. Crash client-side no JumpAnimation — impacto alto, risco alto
 
-O crash report `crash-reports/crash-2026-11-13_09.58.24-client.txt` aponta `Description: mouseClicked event handler` e uma `NullPointerException`: `JumpAnimationClient.isPlayerInSurvival()` acessa `Minecraft.gameMode` quando o campo está nulo. A chamada vem de `JumpAnimationClient.onKeyInput()`. O mesmo erro aparece no fim do `latest.log`.
+Os crash reports `crash-2026-11-13_09.58.24-client.txt` e `crash-2026-11-13_18.21.48-client.txt` apontam `Description: mouseClicked event handler` e a mesma `NullPointerException`: `JumpAnimationClient.isPlayerInSurvival()` acessa `Minecraft.gameMode` quando o campo está nulo. A chamada vem de `JumpAnimationClient.onKeyInput()`. No segundo report, `JumpAnimationNullGameModeMixin` aparece na pilha, mas o acesso ainda falha. Isso confirma que o erro persistiu após a tentativa de integração; o motivo técnico da falha de guarda não está isolado neste P0.1.
 
 O JAR instalado é `jumpanimation-2.0.0-1.20.1.jar`, e o manifesto declara suporte a Minecraft 1.20.1/Forge; a versão de arquivo 1.20.1 também aparece no [catálogo oficial de arquivos do projeto](https://www.curseforge.com/minecraft/mc-mods/jumpanimation/files/all?page=1&pageSize=20&showAlphaFiles=hide&version=1.20.1). Não há evidência de que Oculus/Embeddium tenha causado esse NPE. O gatilho exato permanece em aberto e deve ser reproduzido antes de escolher um workaround.
 
@@ -60,9 +73,9 @@ O carregamento reportou 47 receitas inválidas, 18 avanços, 13 funções, 5 mod
 
 Também há duas falhas de transformação do coremod `field_to_method.js` na função `biome`, 15 diagnósticos de configuração Mixin sem `minVersion`, além de avisos/erros secundários de asset. O jogo, apesar disso, chegou ao menu e abriu um mundo. A lista completa dos detalhes continua nos logs originais.
 
-### 4. Configuração do Oculus aponta para shaderpack inexistente
+### 4. Configuração histórica do Oculus apontava para shaderpack inexistente
 
-`config/oculus.properties` tem `enableShaders=true` e `shaderPack=MakeUp-UltraFast-9.5g.zip`. O histórico local `logs/instance_audit.txt` registra a substituição do arquivo por `MakeUp-UltraFast-9.6.zip`; o `/logs/latest.log` diz que o nome antigo não é válido e que não pode carregá-lo. Assim, o renderer recuou sem aquele shader. É uma divergência de configuração confirmada, não evidência de bug de shader na sessão.
+Na configuração lida para aquele snapshot, `config/oculus.properties` tinha `enableShaders=true` e `shaderPack=MakeUp-UltraFast-9.5g.zip`. O histórico local `logs/instance_audit.txt` registrou a substituição do arquivo por `MakeUp-UltraFast-9.6.zip`; o log daquele snapshot rejeitou o caminho antigo. O shader selecionado mudou depois. Portanto, esta é uma divergência de configuração histórica confirmada, não evidência de bug de shader na execução posterior.
 
 ### 5. Falha de injeção em trades de villager — erro confirmado, impacto não medido
 
@@ -97,7 +110,7 @@ Os detalhes por combinação, impacto, risco, viabilidade, evidência e próximo
 
 `config/embeddium-options.json` habilita culling de entidades, oclusão de fog e block-face culling, atualizações assíncronas de chunks e animação somente de texturas visíveis; weather/leaves estão em `FANCY`, o limite de render-ahead é 3 e threads de chunk builder estão em automático. Essas opções mostram recursos de otimização ativos, mas não informam FPS ou custo real.
 
-`options.txt` usa render distance 7, simulation distance 8 e partículas `ALL`. Particle Rain aceita até 1.500 partículas, tem densidade 50 e densidade de tempestade 167; os efeitos listados do Particular estão habilitados. Isso cria uma **oportunidade de medir cenas densas**, especialmente com chuva, partículas de combate e shader, sem demonstrar que a GPU está saturada. A RX 480 tem 4.095 MB de VRAM; essa especificação isolada não prova limitação.
+No snapshot histórico, `options.txt` usava render distance 7 e simulation distance 8; a captura P0.1 posterior registrou RD12/SD8. Particle Rain aceita até 1.500 partículas, tem densidade 50 e densidade de tempestade 167; os efeitos listados do Particular estão habilitados. Isso cria uma **oportunidade de medir cenas densas**, especialmente com chuva, partículas de combate e shader, sem demonstrar que a GPU está saturada. A RX 480 tem 4.095 MB de VRAM; essa especificação isolada não prova limitação.
 
 ### Animações, entidades e IA
 
@@ -109,7 +122,7 @@ O conjunto inclui várias camadas de biome/worldgen (Tectonic, Terralith, Biomes
 
 ### Memória
 
-O crash report descreve Java 17.0.15, CPU Intel i5-6600 de 4 threads, Radeon RX 480 com 4 GB de VRAM e heap JVM máximo de 4 GB (`-Xmx4096m`). O crash registrado é uma NPE, não um `OutOfMemoryError`. ModernFix, FerriteCore e MemoryLeakFix estão instalados, mas a configuração/log disponível não demonstra redundância prejudicial entre eles. Não há série de heap, GC, paginação ou memória nativa; **não há base para diagnosticar falta de memória**, apesar do tamanho do pack e do heap configurado.
+O crash report histórico descreve Java 17.0.15, CPU Intel i5-6600 de 4 threads, Radeon RX 480 com 4 GB de VRAM e heap JVM máximo de 4 GB (`-Xmx4096m`). O crash registrado é uma NPE, não um `OutOfMemoryError`. ModernFix, FerriteCore e MemoryLeakFix estão instalados, mas a configuração/log daquele snapshot não demonstra redundância prejudicial entre eles. A sessão inicial não tinha série de memória; a captura posterior confirmou pressão de memória durante a inicialização, detalhada no relatório P0.1, sem demonstrar que GC causou os travamentos de mundo.
 
 ## Proposta arquitetural para o mod exclusivo
 

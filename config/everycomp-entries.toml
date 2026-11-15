@@ -61,6 +61,10 @@
 		[types.stone_type.armageddon_mod]
 			helionite = true
 
+		[types.stone_type.deeperdarker]
+			sculk_stone = true
+			gloomslate = true
+
 	[types.cut_block_type]
 
 		[types.cut_block_type.ribbits]
@@ -472,6 +476,25 @@
 			helionite_bricks = true
 			mossy_helionite_bricks = true
 
+		[types.cut_block_type.deeperdarker]
+			echo = true
+			bloom = true
+			sculk_stone = true
+			cobbled_sculk_stone = true
+			polished_sculk_stone = true
+			sculk_stone_brick = true
+			sculk_stone_tile = true
+			smooth_sculk_stone = true
+			cut_sculk_stone = true
+			sculk_grime_brick = true
+			gloomslate = true
+			cobbled_gloomslate = true
+			polished_gloomslate = true
+			gloomslate_brick = true
+			gloomslate_tile = true
+			smooth_gloomslate = true
+			cut_gloomslate = true
+
 	[types.wood_type]
 
 		[types.wood_type.netherexp]
@@ -540,6 +563,10 @@
 			driftwood = true
 			river = true
 
+		[types.wood_type.deeperdarker]
+			bloom = true
+			echo = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ecologics]
@@ -598,6 +625,14 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
+
+		[types.leaves_type.deeperdarker]
+			echo = true
+
+	[types.mud_type]
+
+		[types.mud_type.deeperdarker]
+			sculk_grime = true
 
 #Disables specific entries
 [entries]

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "runId": "p0.2-fullpack-world-xmx5-20261115",
+  "dateLocal": "2026-11-15",
+  "branch": "work/p0.2-performance-stabilization",
+  "commit": "801c0e9",
+  "scenario": "fullpack-startup-and-new-integrated-world",
+  "world": {
+    "name": "P02-Xmx5-20261115",
+    "seed": "20261115",
+    "mode": "survival-normal",
+    "instance": "offline clone; no original saves opened"
+  },
+  "runtime": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.28",
+    "java": "Oracle JDK 17.0.12",
+    "directModJars": 439,
+    "loadedMods": 508,
+    "xmsGiB": 1,
+    "xmxGiB": 5
+  },
+  "host": {
+    "physicalMemoryGiB": 11.91,
+    "logicalProcessors": 4,
+    "gpu": "AMD Radeon RX 480"
+  },
+  "startup": {
+    "menuSeconds": 328.172
+  },
+  "processMetrics": {
+    "sampleCount": 416,
+    "privateBytesP95GiB": 9.83,
+    "privateBytesMaxGiB": 10.29,
+    "workingSetP95GiB": 6.57,
+    "workingSetMaxGiB": 6.87,
+    "freePhysicalMemoryMinMiB": 277,
+    "freePhysicalMemoryMedianMiB": 609
+  },
+  "gcLog": {
+    "pauseRecords": 1510,
+    "pauseTotalSeconds": 54.060485,
+    "pauseP95Ms": 93.208,
+    "pauseP99Ms": 238.704,
+    "pauseMaxMs": 4052.753
+  },
+  "simulation": {
+    "source": "/boundless perf during new-world preparation",
+    "ticks": 523,
+    "sampleSeconds": 334.6,
+    "meanMspt": 597.2,
+    "p50Mspt": 230.98,
+    "p95Mspt": 1572.96,
+    "p99Mspt": 4916.34,
+    "maxMspt": 57295.39,
+    "meanEquivalentTps": 1.67,
+    "stationary": false
+  },
+  "jfrCatchup": {
+    "recording": "world-catchup-xmx5.jfr",
+    "durationSeconds": 240,
+    "serverTickTimeIntervalCount": 233,
+    "meanIntervalMs": 143.7369,
+    "p95IntervalMs": 281,
+    "p99IntervalMs": 395,
+    "maxIntervalMs": 436,
+    "chunkGenerationEventCount": 0,
+    "rawJfrDirectory": "downloads/p0.2-fullpack-xmx6-20261115 (ignored locally)"
+  },
+  "presentMon": {
+    "captureSecondsApprox": 120,
+    "frameIntervals": 4268,
+    "meanFps": 35.5756,
+    "onePercentLowFps": 1.2581,
+    "zeroPointOnePercentLowFps": 0.2143,
+    "frametimeP95Ms": 36.894,
+    "frametimeP99Ms": 124.6391,
+    "maximumFrameMs": 14060.1745,
+    "shaderStateControlled": false,
+    "validShaderComparison": false
+  },
+  "log": {
+    "errorLineCount": 0,
+    "integratedSessionAtLeast30Minutes": false
+  },
+  "largeRawJfr": [
+    {
+      "file": "startup-xmx5.jfr",
+      "bytes": 53134118,
+      "sha256": "9acab352e53d38a640765d0ea537021edd6b72f51d5324b7e807757cd450677a"
+    },
+    {
+      "file": "world-entry-xmx5.jfr",
+      "bytes": 33306412,
+      "sha256": "731f32a904d3e53796e5e637b208e9639cf98f1aba40c7278ba710fd7b791773"
+    },
+    {
+      "file": "world-catchup-xmx5.jfr",
+      "bytes": 29378207,
+      "sha256": "d48fea3f5c90467112e120f18a70e9291a1da8d051e36b38034528500e6a4a40"
+    }
+  ]
+}
