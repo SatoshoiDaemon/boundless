@@ -1,8 +1,9 @@
 package com.satoshoidaemon.boundlessfix;
 
 import com.mojang.logging.LogUtils;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.forgespi.language.IModInfo;
+import net.minecraftforge.fml.loading.FMLLoader;
+import net.minecraftforge.fml.loading.LoadingModList;
+import net.minecraftforge.fml.loading.moddiscovery.ModInfo;
 import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
@@ -32,8 +33,15 @@ public final class BoundlessFixMixinPlugin implements IMixinConfigPlugin {
             return true;
         }
 
-        Optional<IModInfo> illage = ModList.get().getModContainerById(IllageProjectileCategoryFix.MOD_ID)
-                .map(container -> container.getModInfo());
+        LoadingModList loadingMods = FMLLoader.getLoadingModList();
+        if (loadingMods == null) {
+            LOGGER.warn("Illage projectile category patch is disabled because Forge's loading mod list is unavailable.");
+            return false;
+        }
+
+        Optional<ModInfo> illage = loadingMods.getMods().stream()
+                .filter(mod -> IllageProjectileCategoryFix.MOD_ID.equals(mod.getModId()))
+                .findFirst();
         if (illage.isEmpty()) {
             return false;
         }
