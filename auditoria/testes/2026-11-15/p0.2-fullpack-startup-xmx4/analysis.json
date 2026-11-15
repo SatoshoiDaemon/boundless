@@ -1,0 +1,2319 @@
+{
+  "runId": "p0.2-fullpack-xmx6-20261115",
+  "scenario": null,
+  "status": null,
+  "git": {},
+  "runtime": {},
+  "world": {},
+  "visual": {},
+  "inventory": {},
+  "jfr": {
+    "sourceJfr": "startup-xmx4.jfr",
+    "windowUtc": {
+      "start": null,
+      "end": null
+    },
+    "durationSampledServerTicks_ms": {
+      "count": 0,
+      "mean": null,
+      "min": null,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "max": null,
+      "above50msCount": 0,
+      "above50msPercentOfSamples": null,
+      "sampleMeaning": "Minecraft ServerTickTime interval averages; not per-tick raw durations"
+    },
+    "gc": {
+      "garbageCollectionEvents": 323,
+      "pauseSecondsSumOfPauses": 16.90514697,
+      "gcPhasePauseEventCount": 366,
+      "gcPhasePauseDurations_s": {
+        "count": 366,
+        "mean": 0.04618892608469945,
+        "min": 0.00011612,
+        "p50": 0.023074761,
+        "p95": 0.11784041,
+        "p99": 0.334122636,
+        "max": 2.788685038
+      },
+      "heapUsedBytesObservedAfterGc": {
+        "count": 323,
+        "mean": 2831278883.0712075,
+        "min": 13320192.0,
+        "p50": 3471835136.0,
+        "p95": 3965593816.0,
+        "p99": 4232052736.0,
+        "max": 4294500488.0
+      },
+      "heapUsedBytesObservedBeforeGc": {
+        "count": 323,
+        "mean": 3217310099.442724,
+        "min": 59457536.0,
+        "p50": 3796037280.0,
+        "p95": 4130107440.0,
+        "p99": 4265819456.0,
+        "max": 4294500488.0
+      },
+      "heapSummaryWhenCounts": {
+        "after gc": 323,
+        "before gc": 323
+      }
+    },
+    "chunkGeneration": {
+      "eventCount": 0,
+      "duration_s": {
+        "count": 0,
+        "mean": null,
+        "min": null,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "max": null
+      },
+      "sampleMeaning": "JFR chunk-generation events present in this recording window"
+    },
+    "allocationDiagnostics": {
+      "objectAllocationSampleCount": 93951,
+      "mostSampledObjectClasses": [
+        {
+          "class": "[B",
+          "sampleCount": 22082
+        },
+        {
+          "class": "java/util/concurrent/ConcurrentHashMap$ValueIterator",
+          "sampleCount": 5106
+        },
+        {
+          "class": "java/lang/reflect/Field",
+          "sampleCount": 5035
+        },
+        {
+          "class": "java/lang/String",
+          "sampleCount": 4094
+        },
+        {
+          "class": "[Ljava/lang/Object;",
+          "sampleCount": 3704
+        },
+        {
+          "class": "[I",
+          "sampleCount": 3502
+        },
+        {
+          "class": "java/util/Collections$1",
+          "sampleCount": 3274
+        },
+        {
+          "class": "java/util/zip/ZipEntry",
+          "sampleCount": 2880
+        },
+        {
+          "class": "java/util/Collections$SingletonSet",
+          "sampleCount": 2549
+        },
+        {
+          "class": "org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable",
+          "sampleCount": 2373
+        },
+        {
+          "class": "java/nio/file/attribute/FileTime",
+          "sampleCount": 1818
+        },
+        {
+          "class": "[C",
+          "sampleCount": 1379
+        },
+        {
+          "class": "java/util/ArrayList",
+          "sampleCount": 1334
+        },
+        {
+          "class": "java/util/HashMap$Node",
+          "sampleCount": 1250
+        },
+        {
+          "class": "[Ljava/lang/String;",
+          "sampleCount": 1163
+        },
+        {
+          "class": "org/spongepowered/asm/mixin/injection/callback/CallbackInfo",
+          "sampleCount": 1052
+        },
+        {
+          "class": "org/joml/Vector3f",
+          "sampleCount": 1045
+        },
+        {
+          "class": "java/nio/DirectByteBuffer",
+          "sampleCount": 1024
+        },
+        {
+          "class": "java/lang/ref/WeakReference",
+          "sampleCount": 743
+        },
+        {
+          "class": "java/util/stream/ReferencePipeline$Head",
+          "sampleCount": 722
+        }
+      ],
+      "mostSampledAllocationSites": [
+        {
+          "site": "com/electronwill/nightconfig/core/file/FileWatcher$WatcherThread.run",
+          "sampleCount": 4985
+        },
+        {
+          "site": "net/raphimc/immediatelyfast/feature/core/BatchableBufferSource.m_109912_",
+          "sampleCount": 3274
+        },
+        {
+          "site": "net/minecraft/server/packs/FilePackResources.m_8031_",
+          "sampleCount": 2867
+        },
+        {
+          "site": "net/raphimc/immediatelyfast/feature/core/BatchableBufferSource.getBufferBuilder",
+          "sampleCount": 2549
+        },
+        {
+          "site": "net/minecraft/resources/ResourceLocation.m_135828_",
+          "sampleCount": 2237
+        },
+        {
+          "site": "net/minecraft/client/renderer/block/BlockModelShaper.m_110887_",
+          "sampleCount": 1369
+        },
+        {
+          "site": "com/google/gson/stream/JsonReader.<init>",
+          "sampleCount": 990
+        },
+        {
+          "site": "net/minecraft/client/renderer/block/model/FaceBakery.m_111573_",
+          "sampleCount": 936
+        },
+        {
+          "site": "dev/toma/configuration/config/io/FileWatchManager.lambda$startService$2",
+          "sampleCount": 914
+        },
+        {
+          "site": "cpw/mods/niofs/union/UnionPath.toString",
+          "sampleCount": 912
+        },
+        {
+          "site": "org/lwjgl/system/MemoryUtil.slice",
+          "sampleCount": 906
+        },
+        {
+          "site": "org/objectweb/asm/ClassReader.readUtf",
+          "sampleCount": 873
+        },
+        {
+          "site": "cpw/mods/niofs/union/UnionPath.getPathParts",
+          "sampleCount": 841
+        },
+        {
+          "site": "cpw.mods.cl.ModuleClassLoader$$Lambda$258+0x000002159409b7f8/2017797638.apply",
+          "sampleCount": 783
+        },
+        {
+          "site": "net/minecraft/client/renderer/block/model/FaceBakery.m_252985_",
+          "sampleCount": 690
+        },
+        {
+          "site": "net/minecraft/client/renderer/block/model/FaceBakery.m_111600_",
+          "sampleCount": 679
+        },
+        {
+          "site": "net/raphimc/immediatelyfast/feature/core/BatchableBufferSource.handler$dmd000$etf$injectIntoGetBufferReturn",
+          "sampleCount": 669
+        },
+        {
+          "site": "it/unimi/dsi/fastutil/objects/ReferenceLinkedOpenHashSet.iterator",
+          "sampleCount": 658
+        },
+        {
+          "site": "net/minecraft/client/renderer/block/model/MultiVariant.m_7970_",
+          "sampleCount": 652
+        },
+        {
+          "site": "cpw/mods/niofs/union/UnionPath.<init>",
+          "sampleCount": 645
+        }
+      ],
+      "threadAllocationCounters": {
+        "threadIntervalCount": 95,
+        "observedIntervalSeconds": 722.672414,
+        "observedAllocatedBytes": 51354957688,
+        "observedAllocatedMiBPerSecond": 67.77054612627748,
+        "mostAllocatedThreads": [
+          {
+            "thread": "main",
+            "allocatedBytes": 50985890504,
+            "observedSeconds": 722.67241,
+            "allocatedMiBPerSecond": 67.28350716027212
+          },
+          {
+            "thread": "modloading-worker-0",
+            "allocatedBytes": 181366744,
+            "observedSeconds": 117.31361,
+            "allocatedMiBPerSecond": 1.4743797041368631
+          },
+          {
+            "thread": "modloading-worker-0",
+            "allocatedBytes": 54153000,
+            "observedSeconds": 317.247225,
+            "allocatedMiBPerSecond": 0.16278889517898118
+          },
+          {
+            "thread": "Worker-ResourceReload-1",
+            "allocatedBytes": 42759176,
+            "observedSeconds": 0.108857,
+            "allocatedMiBPerSecond": 374.60455406537505
+          },
+          {
+            "thread": "FancyMenu-WebUtils-ConnectivityCheck-1",
+            "allocatedBytes": 20421032,
+            "observedSeconds": 588.741287,
+            "allocatedMiBPerSecond": 0.03307906913093757
+          },
+          {
+            "thread": "Thread-9",
+            "allocatedBytes": 17525600,
+            "observedSeconds": 588.741287,
+            "allocatedMiBPerSecond": 0.028388895035332172
+          },
+          {
+            "thread": "modloading-worker-0",
+            "allocatedBytes": 15805304,
+            "observedSeconds": 117.313611,
+            "allocatedMiBPerSecond": 0.1284856237848903
+          },
+          {
+            "thread": "ReactiveMusic Player Thread",
+            "allocatedBytes": 12221112,
+            "observedSeconds": 471.536532,
+            "allocatedMiBPerSecond": 0.024716983396578525
+          },
+          {
+            "thread": "Worker-ResourceReload-2",
+            "allocatedBytes": 8588440,
+            "observedSeconds": 200.042471,
+            "allocatedMiBPerSecond": 0.04094417852894895
+          },
+          {
+            "thread": "modloading-worker-0",
+            "allocatedBytes": 5518384,
+            "observedSeconds": 317.247225,
+            "allocatedMiBPerSecond": 0.0165887694963043
+          },
+          {
+            "thread": "pool-2-thread-1",
+            "allocatedBytes": 3838224,
+            "observedSeconds": 588.741287,
+            "allocatedMiBPerSecond": 0.006217358507445839
+          },
+          {
+            "thread": "spark-monitoring-thread",
+            "allocatedBytes": 2360944,
+            "observedSeconds": 471.536533,
+            "allocatedMiBPerSecond": 0.004774967574513336
+          },
+          {
+            "thread": "Auto-Sync thread",
+            "allocatedBytes": 1998512,
+            "observedSeconds": 471.536533,
+            "allocatedMiBPerSecond": 0.0040419552506437235
+          },
+          {
+            "thread": "Attach Listener",
+            "allocatedBytes": 830224,
+            "observedSeconds": 722.6724,
+            "allocatedMiBPerSecond": 0.0010956047382798381
+          },
+          {
+            "thread": "IO-Worker-2",
+            "allocatedBytes": 337184,
+            "observedSeconds": 471.536533,
+            "allocatedMiBPerSecond": 0.0006819486894414711
+          },
+          {
+            "thread": "EuphoriaPatcher-FileWriter",
+            "allocatedBytes": 252832,
+            "observedSeconds": 588.741286,
+            "allocatedMiBPerSecond": 0.000409550664271955
+          },
+          {
+            "thread": "FileSystemWatchService",
+            "allocatedBytes": 164680,
+            "observedSeconds": 588.741287,
+            "allocatedMiBPerSecond": 0.00026675738544862956
+          },
+          {
+            "thread": "C1 CompilerThread0",
+            "allocatedBytes": 160288,
+            "observedSeconds": 722.6724,
+            "allocatedMiBPerSecond": 0.00021152398905524133
+          },
+          {
+            "thread": "FileSystemWatchService",
+            "allocatedBytes": 147952,
+            "observedSeconds": 588.741287,
+            "allocatedMiBPerSecond": 0.00023966048513417317
+          },
+          {
+            "thread": "JFR Periodic Tasks",
+            "allocatedBytes": 136872,
+            "observedSeconds": 722.6724,
+            "allocatedMiBPerSecond": 0.00018062307490248174
+          }
+        ],
+        "sampleMeaning": "Per-thread cumulative allocation-counter differences between the first and last JFR ThreadAllocationStatistics events in the selected window. Object allocation classes and sites are sampled counts, not exact object counts."
+      }
+    },
+    "executionSamples": {
+      "DFU cleaning thread": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap.clear",
+            "frameCount": 1
+          },
+          {
+            "method": "org.embeddedt.modernfix.dfu.DFUBlaster$CleanerThread$$Lambda$48718+0x000002159a3f9810/118423064.accept",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/ArrayList.forEach",
+            "frameCount": 1
+          },
+          {
+            "method": "org/embeddedt/modernfix/dfu/DFUBlaster$CleanerThread.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Datafixer Bootstrap": {
+        "sampleCount": 159,
+        "mostFrequentStackFrames": [
+          {
+            "method": "it/unimi/dsi/fastutil/longs/Long2ObjectMaps$SynchronizedMap.computeIfAbsent",
+            "frameCount": 34
+          },
+          {
+            "method": "com/mojang/datafixers/TypeRewriteRule$Seq.cap1",
+            "frameCount": 34
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap.computeIfAbsent",
+            "frameCount": 33
+          },
+          {
+            "method": "com/mojang/datafixers/TypeRewriteRule$Seq.rewrite",
+            "frameCount": 33
+          },
+          {
+            "method": "com/mojang/datafixers/DataFixerUpper.lambda$getRule$1",
+            "frameCount": 31
+          },
+          {
+            "method": "com/mojang/datafixers/types/Type.everywhere",
+            "frameCount": 29
+          },
+          {
+            "method": "com.mojang.datafixers.DataFixerUpper$$Lambda$24233+0x000002159776c9e0/1090731545.get",
+            "frameCount": 28
+          },
+          {
+            "method": "com/mojang/datafixers/types/Type.rewrite",
+            "frameCount": 28
+          },
+          {
+            "method": "com/mojang/datafixers/DataFixerUpper.getRule",
+            "frameCount": 27
+          },
+          {
+            "method": "com/mojang/datafixers/DataFixerBuilder.lambda$buildOptimized$1",
+            "frameCount": 26
+          },
+          {
+            "method": "com/mojang/datafixers/TypeRewriteRule$Everywhere.rewrite",
+            "frameCount": 17
+          },
+          {
+            "method": "java/util/Objects.equals",
+            "frameCount": 15
+          },
+          {
+            "method": "com.mojang.datafixers.DataFixerBuilder$$Lambda$24153+0x0000021597712d20/627482533.run",
+            "frameCount": 15
+          },
+          {
+            "method": "java/util/concurrent/CompletableFuture$AsyncRun.run",
+            "frameCount": 12
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap.get",
+            "frameCount": 11
+          },
+          {
+            "method": "com/mojang/datafixers/types/templates/Sum$1.apply",
+            "frameCount": 10
+          },
+          {
+            "method": "java/util/Objects.hash",
+            "frameCount": 10
+          },
+          {
+            "method": "com/mojang/datafixers/DataFix.getRule",
+            "frameCount": 9
+          },
+          {
+            "method": "java.lang.invoke.LambdaForm$MH+0x000002159456a000/2026632050.invoke",
+            "frameCount": 9
+          },
+          {
+            "method": "com/mojang/datafixers/types/families/RecursiveTypeFamily.apply",
+            "frameCount": 8
+          }
+        ]
+      },
+      "EuphoriaConfigWatcher": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "com/euphoriapatches/euphoria_patcher/config/Config.lambda$startConfigWatcher$1",
+            "frameCount": 1
+          },
+          {
+            "method": "com.euphoriapatches.euphoria_patcher.config.Config$$Lambda$1543+0x000002159474bdf0/599594742.run",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/Executors$RunnableAdapter.call",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/FutureTask.runAndReset",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "FancyMenu-WebUtils-ConnectivityCheck-1": {
+        "sampleCount": 6,
+        "mostFrequentStackFrames": [
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setProduct",
+            "frameCount": 4
+          },
+          {
+            "method": "sun/security/ec/ECOperations.setDouble",
+            "frameCount": 3
+          },
+          {
+            "method": "sun/security/ec/ECOperations.double4",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setSquare",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomialP384.mult",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.multiply",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomialP256.carryReduce",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomialP256.square",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/Inet6Address.numericToTextFormat",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/Inet6Address$Inet6AddressHolder.getHostAddress",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/Inet6Address.getHostAddress",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/Socket$SocketInputStream.read",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/SSLSocketInputRecord.read",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/StringLatin1.hashCode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/String.hashCode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/security/Provider$ServiceKey.hashCode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "java/security/Provider.getService",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/HandshakeHash$CacheOnlyHash.<init>",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/HandshakeHash$CacheOnlyHash.copy",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Forge Version Check": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/TreeSet.<init>",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/internal/net/http/hpack/Encoder.header",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/CompletableFuture.uniHandleStage",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/CompletableFuture.handle",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/ExchangeImpl.get",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/Exchange.establishExchange",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/Exchange.responseAsyncImpl0",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/http/HttpHeaders.headersOf",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/http/HttpHeaders.of",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/ImmutableHttpRequest.<init>",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/hpack/Huffman$Writer.lengthOf",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/hpack/Encoder.isHuffmanBetterFor",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/Http2Connection.encodeHeadersImpl",
+            "frameCount": 1
+          }
+        ]
+      },
+      "ForkJoinPool.commonPool-worker-1": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/nio/file/FileTreeWalker.getAttributes",
+            "frameCount": 2
+          },
+          {
+            "method": "java/nio/file/FileTreeWalker.visit",
+            "frameCount": 2
+          },
+          {
+            "method": "java/nio/file/FileTreeWalker.next",
+            "frameCount": 2
+          },
+          {
+            "method": "java/nio/file/Files.walkFileTree",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/internal/jimage/ImageReader$SharedImageReader.visitLocation",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/jimage/ImageReader$SharedImageReader.handleModulesSubTree",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/jimage/ImageReader$SharedImageReader.buildNode",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/jimage/ImageReader$SharedImageReader.findNode",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/jimage/ImageReader.findNode",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/jrtfs/JrtFileSystemProvider.readAttributes",
+            "frameCount": 1
+          },
+          {
+            "method": "java/nio/file/Files.readAttributes",
+            "frameCount": 1
+          }
+        ]
+      },
+      "ForkJoinPool.commonPool-worker-3": {
+        "sampleCount": 3,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/math/BigInteger.oddModPow",
+            "frameCount": 3
+          },
+          {
+            "method": "java/math/BigInteger.implMultiplyToLen",
+            "frameCount": 2
+          },
+          {
+            "method": "java/math/BigInteger.multiplyToLen",
+            "frameCount": 2
+          },
+          {
+            "method": "java/math/BigInteger.implMontgomeryMultiply",
+            "frameCount": 2
+          },
+          {
+            "method": "java/math/BigInteger.montgomeryMultiply",
+            "frameCount": 2
+          },
+          {
+            "method": "java/math/BigInteger.modPow",
+            "frameCount": 1
+          },
+          {
+            "method": "java/math/BigInteger.passesMillerRabin",
+            "frameCount": 1
+          },
+          {
+            "method": "java/math/BigInteger.primeToCertainty",
+            "frameCount": 1
+          },
+          {
+            "method": "java/math/BitSieve.retrieve",
+            "frameCount": 1
+          }
+        ]
+      },
+      "GML Mappings Thread": {
+        "sampleCount": 36,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraftforge/srgutils/InternalUtils.loadNamed",
+            "frameCount": 12
+          },
+          {
+            "method": "net/minecraftforge/srgutils/InternalUtils.load",
+            "frameCount": 11
+          },
+          {
+            "method": "net/minecraftforge/srgutils/InternalUtils.loadProguard",
+            "frameCount": 11
+          },
+          {
+            "method": "java/lang/String.split",
+            "frameCount": 9
+          },
+          {
+            "method": "net/minecraftforge/srgutils/IMappingFile.load",
+            "frameCount": 8
+          },
+          {
+            "method": "java/util/HashMap$ValueSpliterator.forEachRemaining",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/regex/Pattern.compile",
+            "frameCount": 5
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/stream/ReferencePipeline$Head.forEach",
+            "frameCount": 4
+          },
+          {
+            "method": "org/groovymc/gml/mappings/MappingsProvider$_loadLayeredMappings_closure4$_closure8.doCall",
+            "frameCount": 4
+          },
+          {
+            "method": "net/minecraftforge/srgutils/MappingFile.getClass",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/HashMap.putVal",
+            "frameCount": 3
+          },
+          {
+            "method": "net/minecraftforge/srgutils/NamedMappingFile.retPut",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/regex/Pattern.<init>",
+            "frameCount": 3
+          },
+          {
+            "method": "java/lang/StringBuffer.append",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/HashMap.get",
+            "frameCount": 3
+          },
+          {
+            "method": "java/lang/reflect/Array.newInstance",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/Arrays.copyOfRange",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraftforge/srgutils/InternalUtils.loadTSrg2",
+            "frameCount": 2
+          }
+        ]
+      },
+      "HttpClient-1-Worker-0": {
+        "sampleCount": 4,
+        "mostFrequentStackFrames": [
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setProduct",
+            "frameCount": 2
+          },
+          {
+            "method": "java/lang/Character.digit",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial25519.carryReduce",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial25519.mult",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/XECOperations.pointMultiply",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/X509TrustManagerImpl.checkTrusted",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/X509TrustManagerImpl.checkServerTrusted",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/CertificateMessage$T13CertificateConsumer.checkServerCerts",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/CertificateMessage$T13CertificateConsumer.onConsumeCertificate",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ssl/CertificateMessage$T13CertificateConsumer.consume",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/hpack/Decoder.decode",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/Http2Connection.decodeHeaders",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/Http2Connection.processFrame",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk.internal.net.http.Http2Connection$$Lambda$16912+0x0000021596a188c8/1936052839.processFrame",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/net/http/frame/FramesDecoder.decode",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/Long.parseLong",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/Long.valueOf",
+            "frameCount": 1
+          },
+          {
+            "method": "java.net.http.HttpHeaders$$Lambda$17077+0x0000021596a43378/684179467.applyAsLong",
+            "frameCount": 1
+          }
+        ]
+      },
+      "HttpClient-2-Worker-0": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setProduct",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomialP256.mult",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.setDouble",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.double4",
+            "frameCount": 1
+          }
+        ]
+      },
+      "HttpClient-2-Worker-1": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setProduct",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomialP384.mult",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.setDouble",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.double4",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/XECOperations.cswap",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/XECOperations.pointMultiply",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/XECOperations.computePublic",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/XDHKeyPairGenerator.generateKeyPair",
+            "frameCount": 1
+          },
+          {
+            "method": "java/security/KeyPairGenerator$Delegate.generateKeyPair",
+            "frameCount": 1
+          }
+        ]
+      },
+      "IO-Worker-2": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "org/lwjgl/openal/ALUtil.getStringList",
+            "frameCount": 1
+          },
+          {
+            "method": "com/mojang/blaze3d/audio/Library.m_193468_",
+            "frameCount": 1
+          },
+          {
+            "method": "com/mojang/blaze3d/audio/Library.m_193474_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/client/sounds/SoundEngine.m_194505_",
+            "frameCount": 1
+          },
+          {
+            "method": "net.minecraft.client.sounds.SoundEngine$$Lambda$47828+0x000002159a2eb9b8/1015824134.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Java Sound Event Dispatcher": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "com/sun/media/sound/EventDispatcher.dispatchEvents",
+            "frameCount": 2
+          },
+          {
+            "method": "com/sun/media/sound/EventDispatcher.run",
+            "frameCount": 2
+          },
+          {
+            "method": "java/lang/Thread.run",
+            "frameCount": 2
+          },
+          {
+            "method": "com/sun/media/sound/EventDispatcher.monitorLines",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Keep-Alive-Timer": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "sun/nio/ch/Net.getSocketOption",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/nio/ch/NioSocketImpl.getOption",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/DelegatingSocketImpl.getOption",
+            "frameCount": 1
+          },
+          {
+            "method": "java/net/Socket.getSoLinger",
+            "frameCount": 1
+          }
+        ]
+      },
+      "LauncherLogger-Worker": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/concurrent/LinkedBlockingQueue.poll",
+            "frameCount": 2
+          },
+          {
+            "method": "dev/kostromdan/mods/crash_assistant/common_config/loading_utils/LauncherLogger$AsyncLogWriter.run",
+            "frameCount": 2
+          }
+        ]
+      },
+      "NativeInitializationThread": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "cpw.mods.jarhandling.impl.Jar$$Lambda$164+0x000002159408df98/1199262943.apply",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/Optional.map",
+            "frameCount": 2
+          },
+          {
+            "method": "cpw/mods/jarhandling/impl/Jar.findFile",
+            "frameCount": 2
+          },
+          {
+            "method": "cpw/mods/jarhandling/impl/Jar$JarModuleDataProvider.findFile",
+            "frameCount": 2
+          },
+          {
+            "method": "cpw/mods/cl/ModuleClassLoader.lambda$findResourceList$14",
+            "frameCount": 2
+          }
+        ]
+      },
+      "Placebo Patreon Wing Loader": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "sun/security/util/math/intpoly/IntegerPolynomial$MutableElement.setProduct",
+            "frameCount": 2
+          },
+          {
+            "method": "sun/security/ec/ECOperations.setDouble",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.double4",
+            "frameCount": 1
+          },
+          {
+            "method": "sun/security/ec/ECOperations.multiply",
+            "frameCount": 1
+          }
+        ]
+      },
+      "ReactiveMusic Player Thread": {
+        "sampleCount": 7683,
+        "mostFrequentStackFrames": [
+          {
+            "method": "circuitlord/reactivemusic/PlayerThread.run",
+            "frameCount": 7547
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.decode",
+            "frameCount": 133
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.decodeFrame",
+            "frameCount": 133
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/Decoder.decodeFrame",
+            "frameCount": 111
+          },
+          {
+            "method": "rm_javazoom/jl/player/advanced/AdvancedPlayer.decodeFrame",
+            "frameCount": 76
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/SynthesisFilter.calculate_pcm_samples",
+            "frameCount": 45
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.huffman_decode",
+            "frameCount": 34
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/huffcodetab.huffman_decoder",
+            "frameCount": 23
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.hybrid",
+            "frameCount": 16
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/SynthesisFilter.compute_pcm_samples",
+            "frameCount": 14
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/SampleBuffer.appendSamples",
+            "frameCount": 13
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.dequantize_sample",
+            "frameCount": 13
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/SynthesisFilter.compute_new_v",
+            "frameCount": 12
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.inv_mdct",
+            "frameCount": 10
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.reorder",
+            "frameCount": 9
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/BitReserve.hgetbits",
+            "frameCount": 9
+          },
+          {
+            "method": "rm_javazoom/jl/player/advanced/AdvancedPlayer.play",
+            "frameCount": 6
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.stereo",
+            "frameCount": 6
+          },
+          {
+            "method": "rm_javazoom/jl/decoder/LayerIIIDecoder.get_scale_factors",
+            "frameCount": 4
+          },
+          {
+            "method": "rm_javazoom/jl/player/JavaSoundAudioDevice.toByteArray",
+            "frameCount": 3
+          }
+        ]
+      },
+      "Thread-22": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "de/keksuccino/konkrete/sound/SoundHandler.lambda$init$0",
+            "frameCount": 1
+          },
+          {
+            "method": "de.keksuccino.konkrete.sound.SoundHandler$$Lambda$52335+0x000002159a80bfb8/1763275935.run",
+            "frameCount": 1
+          },
+          {
+            "method": "java/lang/Thread.run",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Thread-23": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "xaero/map/MapRunner.run",
+            "frameCount": 2
+          },
+          {
+            "method": "java/lang/Thread.run",
+            "frameCount": 2
+          }
+        ]
+      },
+      "Thread-9": {
+        "sampleCount": 16,
+        "mostFrequentStackFrames": [
+          {
+            "method": "com/electronwill/nightconfig/core/file/FileWatcher$WatcherThread.run",
+            "frameCount": 12
+          },
+          {
+            "method": "java/util/concurrent/locks/AbstractQueuedSynchronizer.signalNext",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/concurrent/locks/AbstractQueuedSynchronizer.release",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/concurrent/locks/ReentrantLock.unlock",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/concurrent/LinkedBlockingDeque.pollFirst",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$Traverser.advance",
+            "frameCount": 4
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$BaseIterator.<init>",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValueIterator.<init>",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValuesView.iterator",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/concurrent/locks/LockSupport.unpark",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/concurrent/LinkedBlockingDeque.poll",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/locks/LockSupport.parkNanos",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValueIterator.next",
+            "frameCount": 1
+          }
+        ]
+      },
+      "Worker-Main-1": {
+        "sampleCount": 175,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraft/client/gui/font/FontManager.m_283966_",
+            "frameCount": 131
+          },
+          {
+            "method": "net.minecraft.client.gui.font.FontManager$$Lambda$48054+0x000002159a31ae28/842291848.accept",
+            "frameCount": 131
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/ints/IntOpenHashSet.forEach",
+            "frameCount": 122
+          },
+          {
+            "method": "net/minecraft/client/gui/font/CodepointMap.m_284412_",
+            "frameCount": 109
+          },
+          {
+            "method": "net/minecraft/client/gui/font/providers/BitmapProvider.m_214022_",
+            "frameCount": 100
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/ints/IntIterable.forEach",
+            "frameCount": 21
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/ints/AbstractIntCollection.forEach",
+            "frameCount": 21
+          },
+          {
+            "method": "net/minecraft/client/gui/font/providers/UnihexProvider.m_214022_",
+            "frameCount": 9
+          },
+          {
+            "method": "org/embeddedt/modernfix/render/font/LazyGlyphProvider.m_214022_",
+            "frameCount": 9
+          },
+          {
+            "method": "net/minecraft/client/gui/font/providers/UnihexProvider$Definition.m_285832_",
+            "frameCount": 8
+          },
+          {
+            "method": "net/minecraft/client/gui/font/providers/UnihexProvider$Definition.m_285976_",
+            "frameCount": 8
+          },
+          {
+            "method": "net.minecraft.client.gui.font.providers.UnihexProvider$Definition$$Lambda$48021+0x000002159a3133a0/584322088.m_285964_",
+            "frameCount": 8
+          },
+          {
+            "method": "net/minecraft/client/gui/font/providers/UnihexProvider.m_284537_",
+            "frameCount": 7
+          },
+          {
+            "method": "net/minecraft/client/gui/font/CodepointMap.m_284150_",
+            "frameCount": 7
+          },
+          {
+            "method": "com/mojang/serialization/DataResult.lambda$flatMap$11",
+            "frameCount": 5
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/ints/IntOpenHashSet.add",
+            "frameCount": 5
+          },
+          {
+            "method": "net/minecraft/client/gui/font/CodepointMap.m_284551_",
+            "frameCount": 5
+          },
+          {
+            "method": "net.minecraft.client.gui.font.CodepointMap$$Lambda$48053+0x000002159a31ac08/438689106.m_284511_",
+            "frameCount": 5
+          },
+          {
+            "method": "java/lang/invoke/Invokers$Holder.linkToTargetMethod",
+            "frameCount": 4
+          },
+          {
+            "method": "com/mojang/serialization/codecs/ListCodec.lambda$decode$4",
+            "frameCount": 4
+          }
+        ]
+      },
+      "Worker-ResourceReload-0": {
+        "sampleCount": 696,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/zip/ZipFile.getZipEntry",
+            "frameCount": 282
+          },
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.next",
+            "frameCount": 282
+          },
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.nextElement",
+            "frameCount": 245
+          },
+          {
+            "method": "me/jellysquid/mods/sodium/client/util/color/ColorSRGB.linearToSrgb",
+            "frameCount": 178
+          },
+          {
+            "method": "net/minecraft/server/packs/FilePackResources.m_8031_",
+            "frameCount": 101
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/MipmapGenerator.averageRgb",
+            "frameCount": 89
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/MipmapGenerator.weightedAverageColor",
+            "frameCount": 89
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/MipmapGenerator.m_118048_",
+            "frameCount": 89
+          },
+          {
+            "method": "net/minecraft/client/gui/font/FontManager.m_283966_",
+            "frameCount": 84
+          },
+          {
+            "method": "net.minecraft.client.gui.font.FontManager$$Lambda$48054+0x000002159a31ae28/842291848.accept",
+            "frameCount": 84
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/ints/IntOpenHashSet.forEach",
+            "frameCount": 79
+          },
+          {
+            "method": "java/lang/String.newStringUTF8NoRepl",
+            "frameCount": 74
+          },
+          {
+            "method": "java/lang/System$2.newStringUTF8NoRepl",
+            "frameCount": 74
+          },
+          {
+            "method": "java/util/zip/ZipCoder$UTF8ZipCoder.toString",
+            "frameCount": 74
+          },
+          {
+            "method": "net/minecraft/client/gui/font/CodepointMap.m_284412_",
+            "frameCount": 73
+          },
+          {
+            "method": "java/util/zip/ZipEntry.setExtra0",
+            "frameCount": 72
+          },
+          {
+            "method": "net/minecraft/client/gui/font/providers/BitmapProvider.m_214022_",
+            "frameCount": 68
+          },
+          {
+            "method": "java/nio/file/attribute/FileTime.from",
+            "frameCount": 63
+          },
+          {
+            "method": "java/util/zip/ZipUtils.unixTimeToFileTime",
+            "frameCount": 63
+          },
+          {
+            "method": "net/minecraftforge/resource/PathPackResources.handler$zef000$fastGetResources",
+            "frameCount": 53
+          }
+        ]
+      },
+      "Worker-ResourceReload-1": {
+        "sampleCount": 3111,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/Objects.equals",
+            "frameCount": 319
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 303
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/objects/ObjectOpenCustomHashSet.addOrGet",
+            "frameCount": 276
+          },
+          {
+            "method": "net/minecraft/client/renderer/block/BlockModelShaper.m_110889_",
+            "frameCount": 239
+          },
+          {
+            "method": "net/minecraftforge/client/model/ElementsModel.addQuads",
+            "frameCount": 207
+          },
+          {
+            "method": "java/util/stream/ReferencePipeline$2$1.accept",
+            "frameCount": 197
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 195
+          },
+          {
+            "method": "malte0811/ferritecore/fastmap/FastMap.getValue",
+            "frameCount": 195
+          },
+          {
+            "method": "net/minecraft/client/renderer/block/model/FaceBakery.m_111600_",
+            "frameCount": 194
+          },
+          {
+            "method": "net/minecraft/client/resources/model/ModelBakery.m_119259_",
+            "frameCount": 191
+          },
+          {
+            "method": "net.minecraft.client.resources.model.ModelBakery$$Lambda$48758+0x000002159a400cf0/2134473963.test",
+            "frameCount": 191
+          },
+          {
+            "method": "java/util/Spliterators$ArraySpliterator.forEachRemaining",
+            "frameCount": 191
+          },
+          {
+            "method": "net/minecraft/client/resources/model/ModelBakery.m_119341_",
+            "frameCount": 190
+          },
+          {
+            "method": "net/minecraft/client/resources/model/ModelBakery$ModelBakerImpl.bake",
+            "frameCount": 184
+          },
+          {
+            "method": "me/jellysquid/mods/sodium/client/render/texture/SpriteUtil.markSpriteActive",
+            "frameCount": 180
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/TextureAtlasSprite.modifyReturnValue$zmp000$embeddium$markActiveInterpolated",
+            "frameCount": 180
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/TextureAtlasSprite.m_118367_",
+            "frameCount": 180
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/SpriteContents.handler$bii000$iris$onTailMarkActive",
+            "frameCount": 173
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/SpriteContents.sodium$setActive",
+            "frameCount": 173
+          },
+          {
+            "method": "java/lang/invoke/DirectMethodHandle$Holder.invokeStatic",
+            "frameCount": 170
+          }
+        ]
+      },
+      "Worker-ResourceReload-2": {
+        "sampleCount": 438,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.nextElement",
+            "frameCount": 239
+          },
+          {
+            "method": "java/util/zip/ZipFile.getZipEntry",
+            "frameCount": 229
+          },
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.next",
+            "frameCount": 229
+          },
+          {
+            "method": "net/minecraft/server/packs/FilePackResources.m_8031_",
+            "frameCount": 85
+          },
+          {
+            "method": "me/jellysquid/mods/sodium/client/util/color/ColorSRGB.linearToSrgb",
+            "frameCount": 62
+          },
+          {
+            "method": "java/util/jar/JarFile.entryFor",
+            "frameCount": 55
+          },
+          {
+            "method": "java/util/jar/JavaUtilJarAccessImpl.entryFor",
+            "frameCount": 55
+          },
+          {
+            "method": "java/util/zip/ZipEntry.setExtra0",
+            "frameCount": 52
+          },
+          {
+            "method": "java/lang/String.startsWith",
+            "frameCount": 50
+          },
+          {
+            "method": "net/minecraftforge/resource/PathPackResources.handler$zef000$fastGetResources",
+            "frameCount": 45
+          },
+          {
+            "method": "java/lang/String.newStringUTF8NoRepl",
+            "frameCount": 42
+          },
+          {
+            "method": "java/lang/System$2.newStringUTF8NoRepl",
+            "frameCount": 42
+          },
+          {
+            "method": "java/util/zip/ZipCoder$UTF8ZipCoder.toString",
+            "frameCount": 42
+          },
+          {
+            "method": "java/nio/file/attribute/FileTime.from",
+            "frameCount": 40
+          },
+          {
+            "method": "java/util/zip/ZipUtils.unixTimeToFileTime",
+            "frameCount": 40
+          },
+          {
+            "method": "java/util/ImmutableCollections$MapN.get",
+            "frameCount": 40
+          },
+          {
+            "method": "org/embeddedt/modernfix/resources/PackResourcesCacheEngine$Node.getChild",
+            "frameCount": 40
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/MipmapGenerator.averageRgb",
+            "frameCount": 31
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/MipmapGenerator.weightedAverageColor",
+            "frameCount": 31
+          },
+          {
+            "method": "net/minecraft/client/renderer/texture/MipmapGenerator.m_118048_",
+            "frameCount": 31
+          }
+        ]
+      },
+      "main": {
+        "sampleCount": 3519,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/lang/module/Resolver.finish",
+            "frameCount": 531
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 520
+          },
+          {
+            "method": "java/lang/module/Configuration.<init>",
+            "frameCount": 515
+          },
+          {
+            "method": "java/lang/module/Resolver.makeGraph",
+            "frameCount": 478
+          },
+          {
+            "method": "java/util/HashMap.containsKey",
+            "frameCount": 474
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 423
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 416
+          },
+          {
+            "method": "net/minecraft/client/gui/font/FontSet.m_232558_",
+            "frameCount": 332
+          },
+          {
+            "method": "net.minecraft.client.gui.font.FontSet$$Lambda$43793+0x0000021599c670e0/1847378980.accept",
+            "frameCount": 330
+          },
+          {
+            "method": "java/util/HashMap.hash",
+            "frameCount": 301
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/ints/IntOpenHashSet.forEach",
+            "frameCount": 292
+          },
+          {
+            "method": "net/minecraft/client/gui/font/CodepointMap.m_284412_",
+            "frameCount": 255
+          },
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.nextElement",
+            "frameCount": 243
+          },
+          {
+            "method": "java/lang/module/ResolvedModule.hashCode",
+            "frameCount": 238
+          },
+          {
+            "method": "jdk/internal/module/ModuleReferenceImpl.hashCode",
+            "frameCount": 235
+          },
+          {
+            "method": "net/minecraft/client/gui/font/providers/BitmapProvider.m_214022_",
+            "frameCount": 229
+          },
+          {
+            "method": "java/util/zip/ZipFile.getZipEntry",
+            "frameCount": 228
+          },
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.next",
+            "frameCount": 228
+          },
+          {
+            "method": "java/util/Objects.equals",
+            "frameCount": 203
+          },
+          {
+            "method": "java/util/HashSet.contains",
+            "frameCount": 194
+          }
+        ]
+      },
+      "modloading-worker-0": {
+        "sampleCount": 441,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 80
+          },
+          {
+            "method": "cpw/mods/jarhandling/impl/Jar.findFile",
+            "frameCount": 77
+          },
+          {
+            "method": "java/util/HashMap.containsKey",
+            "frameCount": 73
+          },
+          {
+            "method": "cpw.mods.jarhandling.impl.Jar$$Lambda$164+0x000002159408df98/1199262943.apply",
+            "frameCount": 71
+          },
+          {
+            "method": "java/util/Optional.map",
+            "frameCount": 71
+          },
+          {
+            "method": "java/lang/String.startsWith",
+            "frameCount": 70
+          },
+          {
+            "method": "cpw/mods/jarhandling/impl/Jar$JarModuleDataProvider.findFile",
+            "frameCount": 66
+          },
+          {
+            "method": "cpw/mods/cl/ModuleClassLoader.lambda$findResourceList$14",
+            "frameCount": 66
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/MixinProcessor.applyMixins",
+            "frameCount": 63
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/MixinTransformer.transformClass",
+            "frameCount": 63
+          },
+          {
+            "method": "java/lang/StringLatin1.hashCode",
+            "frameCount": 56
+          },
+          {
+            "method": "java/lang/String.hashCode",
+            "frameCount": 56
+          },
+          {
+            "method": "java/util/HashMap.hash",
+            "frameCount": 53
+          },
+          {
+            "method": "org/spongepowered/asm/util/Bytecode.getOpcodeName",
+            "frameCount": 42
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/MixinConfig.packageMatch",
+            "frameCount": 35
+          },
+          {
+            "method": "org/objectweb/asm/ClassReader.accept",
+            "frameCount": 25
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/MixinConfig.hasMixinsFor",
+            "frameCount": 25
+          },
+          {
+            "method": "net/minecraft/core/IdMapper.m_122667_",
+            "frameCount": 24
+          },
+          {
+            "method": "net/minecraft/core/IdMapper.m_122664_",
+            "frameCount": 22
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/objects/Object2IntOpenCustomHashMap.put",
+            "frameCount": 20
+          }
+        ]
+      },
+      "pool-14-thread-1": {
+        "sampleCount": 1,
+        "mostFrequentStackFrames": [
+          {
+            "method": "com/corosus/watut/client/screen/ByteBufferProcessor.lambda$startProcessing$0",
+            "frameCount": 1
+          },
+          {
+            "method": "com.corosus.watut.client.screen.ByteBufferProcessor$$Lambda$57155+0x000002159aefc5a8/1094506629.run",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/Executors$RunnableAdapter.call",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/FutureTask.run",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ThreadPoolExecutor.runWorker",
+            "frameCount": 1
+          }
+        ]
+      },
+      "pool-2-thread-1": {
+        "sampleCount": 13,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/concurrent/ScheduledThreadPoolExecutor$DelayedWorkQueue.take",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/concurrent/ThreadPoolExecutor.runWorker",
+            "frameCount": 5
+          },
+          {
+            "method": "java/util/concurrent/ThreadPoolExecutor$Worker.run",
+            "frameCount": 4
+          },
+          {
+            "method": "java/lang/Thread.run",
+            "frameCount": 4
+          },
+          {
+            "method": "org/lwjgl/opengl/GL.createCapabilities",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/Formatter$FormatSpecifier.print",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject.awaitNanos",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/Formatter$FormatSpecifier.localizedMagnitude",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/ThreadPoolExecutor.getTask",
+            "frameCount": 2
+          },
+          {
+            "method": "java/util/concurrent/ScheduledThreadPoolExecutor$DelayedWorkQueue.add",
+            "frameCount": 2
+          },
+          {
+            "method": "org/lwjgl/opengl/GLCapabilities.<init>",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraftforge/fml/earlydisplay/DisplayWindow.initRender",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$Traverser.advance",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$BaseIterator.<init>",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValueIterator.<init>",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/ConcurrentHashMap$ValuesView.iterator",
+            "frameCount": 1
+          },
+          {
+            "method": "jdk/internal/loader/BuiltinClassLoader$2.run",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/Formatter$FormatSpecifier.printInteger",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/Formatter.format",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/concurrent/atomic/AtomicBoolean.set",
+            "frameCount": 1
+          }
+        ]
+      },
+      "pool-3-thread-1": {
+        "sampleCount": 94,
+        "mostFrequentStackFrames": [
+          {
+            "method": "org/objectweb/asm/ClassReader.accept",
+            "frameCount": 27
+          },
+          {
+            "method": "net/minecraftforge/fml/loading/moddiscovery/Scanner.fileVisitor",
+            "frameCount": 14
+          },
+          {
+            "method": "net/minecraftforge/fml/loading/moddiscovery/Scanner.lambda$scan$0",
+            "frameCount": 11
+          },
+          {
+            "method": "org/objectweb/asm/ClassReader.<init>",
+            "frameCount": 10
+          },
+          {
+            "method": "org/objectweb/asm/ClassReader.readMethod",
+            "frameCount": 10
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 9
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipFileSystem.getInode",
+            "frameCount": 8
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipPath.<init>",
+            "frameCount": 8
+          },
+          {
+            "method": "org/objectweb/asm/ClassReader.readUtf",
+            "frameCount": 8
+          },
+          {
+            "method": "cpw/mods/niofs/union/UnionFileSystem.readAttributes",
+            "frameCount": 7
+          },
+          {
+            "method": "java/lang/String.join",
+            "frameCount": 7
+          },
+          {
+            "method": "java/util/Arrays.hashCode",
+            "frameCount": 6
+          },
+          {
+            "method": "cpw/mods/niofs/union/UnionFileSystem.testFilter",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/Iterator.forEachRemaining",
+            "frameCount": 6
+          },
+          {
+            "method": "cpw/mods/niofs/union/UnionFileSystem.toRealPath",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/HashMap.put",
+            "frameCount": 6
+          },
+          {
+            "method": "java/util/HashSet.add",
+            "frameCount": 6
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipPath.getResolvedPath",
+            "frameCount": 6
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipPath.isDirectory",
+            "frameCount": 5
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipFileSystem.newByteChannel",
+            "frameCount": 5
+          }
+        ]
+      },
+      "pool-4-thread-1": {
+        "sampleCount": 255,
+        "mostFrequentStackFrames": [
+          {
+            "method": "org/spongepowered/asm/util/Bytecode.getOpcodeName",
+            "frameCount": 143
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/ClassInfo.findInHierarchy",
+            "frameCount": 107
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/ClassInfo.findMember",
+            "frameCount": 44
+          },
+          {
+            "method": "java/lang/Class.copyFields",
+            "frameCount": 39
+          },
+          {
+            "method": "java/lang/Class.getDeclaredFields",
+            "frameCount": 39
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/ClassInfo.findMethodInHierarchy",
+            "frameCount": 23
+          },
+          {
+            "method": "java/lang/reflect/Field.getInt",
+            "frameCount": 20
+          },
+          {
+            "method": "java/util/HashMap.getNode",
+            "frameCount": 19
+          },
+          {
+            "method": "java/util/HashMap$HashIterator.nextNode",
+            "frameCount": 18
+          },
+          {
+            "method": "java/util/HashMap$KeyIterator.next",
+            "frameCount": 18
+          },
+          {
+            "method": "jdk/internal/reflect/Reflection.verifyModuleAccess",
+            "frameCount": 16
+          },
+          {
+            "method": "org/objectweb/asm/ClassReader.accept",
+            "frameCount": 16
+          },
+          {
+            "method": "java/util/HashMap.containsKey",
+            "frameCount": 16
+          },
+          {
+            "method": "java/lang/StringLatin1.hashCode",
+            "frameCount": 15
+          },
+          {
+            "method": "java/lang/String.hashCode",
+            "frameCount": 15
+          },
+          {
+            "method": "org/spongepowered/asm/mixin/transformer/MixinProcessor.applyMixins",
+            "frameCount": 14
+          },
+          {
+            "method": "java/lang/Module.isExported",
+            "frameCount": 13
+          },
+          {
+            "method": "java/lang/reflect/AccessibleObject.checkAccess",
+            "frameCount": 13
+          },
+          {
+            "method": "java/lang/reflect/Field.checkAccess",
+            "frameCount": 13
+          },
+          {
+            "method": "java/lang/reflect/AccessibleObject.verifyAccess",
+            "frameCount": 12
+          }
+        ]
+      },
+      "pool-6-thread-1": {
+        "sampleCount": 133,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/util/regex/Pattern$GroupHead.match",
+            "frameCount": 32
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/BlockTypeResTransformer.replaceFullGenericType",
+            "frameCount": 28
+          },
+          {
+            "method": "java/util/regex/Pattern.compile",
+            "frameCount": 24
+          },
+          {
+            "method": "java/util/regex/Pattern$BmpCharProperty.match",
+            "frameCount": 21
+          },
+          {
+            "method": "java/util/regex/Pattern$Curly.match1",
+            "frameCount": 20
+          },
+          {
+            "method": "java/util/regex/Pattern$Curly.match",
+            "frameCount": 20
+          },
+          {
+            "method": "java/util/regex/Pattern$BmpCharPropertyGreedy.match",
+            "frameCount": 19
+          },
+          {
+            "method": "java/util/regex/Matcher.replaceAll",
+            "frameCount": 18
+          },
+          {
+            "method": "java/util/regex/Matcher.search",
+            "frameCount": 16
+          },
+          {
+            "method": "java/util/regex/Pattern$GroupTail.match",
+            "frameCount": 15
+          },
+          {
+            "method": "java/util/regex/Pattern.<init>",
+            "frameCount": 13
+          },
+          {
+            "method": "java/util/regex/Pattern$CharPropertyGreedy.match",
+            "frameCount": 12
+          },
+          {
+            "method": "java/util/regex/Matcher.find",
+            "frameCount": 11
+          },
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.nextElement",
+            "frameCount": 10
+          },
+          {
+            "method": "java/util/regex/Pattern$Start.match",
+            "frameCount": 10
+          },
+          {
+            "method": "java/util/regex/Pattern$Slice.match",
+            "frameCount": 9
+          },
+          {
+            "method": "java/util/regex/Pattern$CharProperty.match",
+            "frameCount": 9
+          },
+          {
+            "method": "java/util/zip/ZipFile.getZipEntry",
+            "frameCount": 8
+          },
+          {
+            "method": "java/util/zip/ZipFile$ZipEntryIterator.next",
+            "frameCount": 8
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/textures/TextureImage.forEachPixel",
+            "frameCount": 8
+          }
+        ]
+      },
+      "pool-6-thread-3": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/textures/TextureCollager.apply",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/textures/TextureOps.createScaled",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/amendments/client/ClientResourceGenerator.generateHangingSignAssets",
+            "frameCount": 1
+          },
+          {
+            "method": "net.mehvahdjukaar.amendments.client.ClientResourceGenerator$$Lambda$47294+0x000002159a25ea18/1600728951.accept",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/pack/DynResourceGenerator.lambda$regenerateDynamicAssets$0",
+            "frameCount": 1
+          },
+          {
+            "method": "java/util/regex/Matcher.replaceAll",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/BlockTypeResTransformer.replaceFullGenericType",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/BlockTypeResTransformer.lambda$replaceGenericType$4",
+            "frameCount": 1
+          },
+          {
+            "method": "net.mehvahdjukaar.moonlight.api.resources.BlockTypeResTransformer$$Lambda$47993+0x000002159a30ec98/766606268.apply",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/BlockTypeResTransformer.transform",
+            "frameCount": 1
+          }
+        ]
+      },
+      "pool-6-thread-4": {
+        "sampleCount": 22,
+        "mostFrequentStackFrames": [
+          {
+            "method": "java/lang/String.join",
+            "frameCount": 8
+          },
+          {
+            "method": "cpw/mods/niofs/union/UnionPath.toString",
+            "frameCount": 4
+          },
+          {
+            "method": "cpw/mods/niofs/union/UnionFileSystem.readAttributes",
+            "frameCount": 4
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipFileSystem.getInode",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/stream/ReferencePipeline$2$1.accept",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/stream/ReferencePipeline$3$1.accept",
+            "frameCount": 3
+          },
+          {
+            "method": "java/nio/file/FileTreeWalker.getAttributes",
+            "frameCount": 3
+          },
+          {
+            "method": "java/nio/file/FileTreeWalker.visit",
+            "frameCount": 3
+          },
+          {
+            "method": "java/nio/file/FileTreeWalker.next",
+            "frameCount": 3
+          },
+          {
+            "method": "com/google/common/base/Joiner.appendTo",
+            "frameCount": 3
+          },
+          {
+            "method": "java/util/Arrays.hashCode",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipFileSystem$IndexNode.name",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipFileSystem$IndexNode.as",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipFileSystem$IndexNode.keyOf",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipCoder$UTF8.getBytes",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipFileSystem.getBytes",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipPath.normalize",
+            "frameCount": 2
+          },
+          {
+            "method": "jdk/nio/zipfs/ZipPath.<init>",
+            "frameCount": 2
+          },
+          {
+            "method": "cpw/mods/niofs/union/UnionFileSystem.toRealPath",
+            "frameCount": 2
+          },
+          {
+            "method": "net/minecraft/resources/ResourceLocation.m_135828_",
+            "frameCount": 2
+          }
+        ]
+      },
+      "pool-6-thread-5": {
+        "sampleCount": 2,
+        "mostFrequentStackFrames": [
+          {
+            "method": "net/minecraftforge/resource/DelegatingPackResources.m_214146_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/server/packs/resources/FallbackResourceManager.m_213713_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/minecraft/server/packs/resources/MultiPackResourceManager.m_213713_",
+            "frameCount": 1
+          },
+          {
+            "method": "com/teamabnormals/blueprint/common/remolder/RemoldedResourceManager.m_213713_",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/textures/TextureImage.open",
+            "frameCount": 1
+          },
+          {
+            "method": "it/unimi/dsi/fastutil/ints/Int2ObjectArrayMap.get",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/textures/Respriter$Color2ColorMap.mapColor",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/textures/Respriter$FrameColorRemapper.lambda$of$1",
+            "frameCount": 1
+          },
+          {
+            "method": "net.mehvahdjukaar.moonlight.api.resources.textures.Respriter$FrameColorRemapper$$Lambda$47780+0x000002159a2dd568/1602515045.remapColor",
+            "frameCount": 1
+          },
+          {
+            "method": "net/mehvahdjukaar/moonlight/api/resources/textures/Respriter.lambda$recolorWithAnimation$1",
+            "frameCount": 1
+          }
+        ]
+      }
+    },
+    "selectedJfrEventCounts": {
+      "jdk.ExecutionSample": 16832,
+      "jdk.GCHeapSummary": 646,
+      "jdk.GCPhasePause": 366,
+      "jdk.GarbageCollection": 323,
+      "jdk.ObjectAllocationSample": 93951,
+      "jdk.ThreadAllocationStatistics": 498
+    }
+  }
+}
