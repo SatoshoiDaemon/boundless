@@ -632,8 +632,11 @@ def parse_jfr(
 
 
 def float_column(row: dict[str, str], *names: str) -> float | None:
+    casefolded = {key.casefold(): value for key, value in row.items() if key}
     for name in names:
         raw = row.get(name)
+        if raw is None:
+            raw = casefolded.get(name.casefold())
         if raw is None:
             continue
         text = raw.strip()

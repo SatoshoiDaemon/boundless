@@ -66,6 +66,29 @@ function Get-PropertyValue([string]$Path, [string]$Key) {
     return $null
 }
 
+function Get-RelativePathCompat([string]$BasePath, [string]$TargetPath) {
+    $base = (Resolve-Path -LiteralPath $BasePath).Path.TrimEnd('\', '/')
+    $target = (Resolve-Path -LiteralPath $TargetPath).Path
+    $prefix = $base + [IO.Path]::DirectorySeparatorChar
+    if ($target.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)) {
+        return $target.Substring($prefix.Length).Replace('\', '/')
+    }
+    throw "Path '$TargetPath' is outside base path '$BasePath'."
+}
+
+function Get-Sha256Hex([string]$Path) {
+    $stream = [IO.File]::OpenRead((Resolve-Path -LiteralPath $Path).Path)
+    $algorithm = [Security.Cryptography.SHA256]::Create()
+    try {
+        $hashBytes = $algorithm.ComputeHash($stream)
+    }
+    finally {
+        $algorithm.Dispose()
+        $stream.Dispose()
+    }
+    return [BitConverter]::ToString($hashBytes).Replace('-', '').ToLowerInvariant()
+}
+
 function Get-ConfigFingerprints {
     $extensions = @('.toml', '.properties', '.json', '.cfg', '.txt')
     $configurationFiles = @(
@@ -75,9 +98,9 @@ function Get-ConfigFingerprints {
     )
     foreach ($item in $configurationFiles) {
         [pscustomobject]@{
-            file = [IO.Path]::GetRelativePath($repoRoot, $item.FullName).Replace('\', '/')
+            file = Get-RelativePathCompat $repoRoot $item.FullName
             sizeBytes = $item.Length
-            sha256 = (Get-FileHash -LiteralPath $item.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            sha256 = Get-Sha256Hex $item.FullName
         }
     }
 
@@ -87,7 +110,7 @@ function Get-ConfigFingerprints {
         [pscustomobject]@{
             file = 'options.txt'
             sizeBytes = $item.Length
-            sha256 = (Get-FileHash -LiteralPath $optionsPath -Algorithm SHA256).Hash.ToLowerInvariant()
+        sha256 = Get-Sha256Hex $optionsPath
         }
     }
 }
@@ -109,7 +132,7 @@ $jarFiles | ForEach-Object {
     [pscustomobject]@{
         file = $_.Name
         sizeBytes = $_.Length
-        sha256 = (Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+        sha256 = Get-Sha256Hex $_.FullName
     }
 } | Export-Csv -LiteralPath $modLockPath -NoTypeInformation -Encoding UTF8
 
@@ -192,19 +215,20 @@ $selectedShaderPack = [string]$runInfo.inventory.selectedShaderPack
 if (-not [string]::IsNullOrWhiteSpace($selectedShaderPack)) {
     $shaderPackPath = Join-Path (Join-Path $repoRoot 'shaderpacks') $selectedShaderPack
     if (Test-Path -LiteralPath $shaderPackPath -PathType Leaf) {
-        $runInfo.inventory.selectedShaderPackSha256 = (Get-FileHash -LiteralPath $shaderPackPath -Algorithm SHA256).Hash.ToLowerInvariant()
+        $runInfo.inventory.selectedShaderPackSha256 = Get-Sha256Hex $shaderPackPath
         $runInfo.inventory.selectedShaderPackFileCount = 1
     } elseif (Test-Path -LiteralPath $shaderPackPath -PathType Container) {
         $shaderFiles = @(Get-ChildItem -LiteralPath $shaderPackPath -File -Recurse)
         $shaderFingerprints = [System.Collections.Generic.List[string]]::new()
         foreach ($item in $shaderFiles) {
-            $relativePath = [IO.Path]::GetRelativePath($shaderPackPath, $item.FullName).Replace('\', '/').ToLowerInvariant()
-            $sha = (Get-FileHash -LiteralPath $item.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            $relativePath = (Get-RelativePathCompat $shaderPackPath $item.FullName).ToLowerInvariant()
+            $sha = Get-Sha256Hex $item.FullName
             $shaderFingerprints.Add("${relativePath}:$sha")
         }
         $shaderFingerprints.Sort([StringComparer]::Ordinal)
         $bytes = [Text.Encoding]::UTF8.GetBytes(($shaderFingerprints -join "`n"))
-        $runInfo.inventory.selectedShaderPackSha256 = ([Convert]::ToHexString([Security.Cryptography.SHA256]::HashData($bytes))).ToLowerInvariant()
+        $hashBytes = [Security.Cryptography.SHA256]::Create().ComputeHash($bytes)
+        $runInfo.inventory.selectedShaderPackSha256 = [BitConverter]::ToString($hashBytes).Replace('-', '').ToLowerInvariant()
         $runInfo.inventory.selectedShaderPackFileCount = $shaderFiles.Count
     }
 }
