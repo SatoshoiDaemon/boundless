@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.satoshoidaemon.boundlessfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.satoshoidaemon.boundlessfix.BoundlessFixMixinPlugin",
+  "refmap": "boundlessfix.refmap.json",
+  "mixins": [
+    "illage.IllageProjectileCategoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
