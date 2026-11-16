@@ -45,3 +45,5 @@ git lfs pull
 ```
 
 Make gameplay changes in the corresponding instance directories. `scripts/`, `patches/`, and `development/` contain project tooling and compatibility work; `docs/`, `manifests/`, and `auditoria/` provide maintainer guides and technical references for understanding and troubleshooting the pack.
+
+For remote testing without the local PC, run **Boundless Headless Remote Tests** from the GitHub Actions tab. It can build custom mods, load the full pack, create a seeded world, and capture Linux runner logs and metrics. See [the remote test guide](docs/headless-mc-ci.md) for the test levels and Better Chunk Loading experiment.

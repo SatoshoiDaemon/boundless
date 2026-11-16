@@ -20,6 +20,11 @@
 /screenshots/
 
 # Runtime output and caches
+/run/
+/HeadlessMC/
+/headlessmc.jar
+/mc-runtime-test-*.jar
+/.headless-artifacts/
 /logs/
 /crash-reports/
 /downloads/

@@ -1,0 +1,398 @@
+name: Boundless Headless Remote Tests
+
+run-name: Boundless ${{ inputs.test_level || github.event.inputs.test_level || 'world' }} on ${{ inputs.target_ref || github.event.inputs.target_ref || github.sha }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: Branch, tag, or commit SHA to test
+        required: true
+        default: master
+        type: string
+      test_level:
+        description: Runtime depth
+        required: true
+        default: world
+        type: choice
+        options:
+          - bootstrap
+          - forge
+          - boundless-mods
+          - full-modpack
+          - world
+      bcl_experiment:
+        description: Better Chunk Loading prediction setting for the world tier
+        required: true
+        default: ab
+        type: choice
+        options:
+          - none
+          - on
+          - off
+          - ab
+  workflow_call:
+    inputs:
+      target_ref:
+        description: Branch, tag, or commit SHA to test
+        required: false
+        default: master
+        type: string
+      test_level:
+        description: bootstrap, forge, boundless-mods, full-modpack, or world
+        required: false
+        default: world
+        type: string
+      bcl_experiment:
+        description: none, on, off, or ab; used by the world tier
+        required: false
+        default: ab
+        type: string
+  push:
+    paths:
+      - .github/workflows/headless-mc.yml
+      - development/boundless-compat/**
+      - development/boundless-fix/**
+      - development/boundless-tweaks/**
+      - development/boundless-headless-test/**
+      - scripts/headless/**
+      - tests/**
+      - manifests/**
+      - config/**
+      - defaultconfigs/**
+      - kubejs/**
+      - mods/**
+
+permissions:
+  contents: read
+
+env:
+  TARGET_REF: ${{ github.event_name == 'push' && github.sha || inputs.target_ref || github.event.inputs.target_ref || github.sha }}
+  TEST_LEVEL: ${{ inputs.test_level || github.event.inputs.test_level || 'world' }}
+  BCL_EXPERIMENT: ${{ inputs.bcl_experiment || github.event.inputs.bcl_experiment || 'ab' }}
+  ARTIFACTS: ${{ github.workspace }}/.headless-artifacts
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Checkout full pack and LFS files
+        if: env.TEST_LEVEL == 'full-modpack' || env.TEST_LEVEL == 'world' || github.event_name == 'push'
+        id: checkout_full
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ env.TARGET_REF }}
+          fetch-depth: 1
+          lfs: true
+
+      - name: Checkout code-only test tier
+        if: env.TEST_LEVEL != 'full-modpack' && env.TEST_LEVEL != 'world' && github.event_name != 'push'
+        id: checkout_sparse
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ env.TARGET_REF }}
+          fetch-depth: 1
+          sparse-checkout: |
+            .github
+            config
+            defaultconfigs
+            development
+            kubejs
+            manifests
+            scripts
+            tests
+
+      - name: Record checked out revision
+        id: revision
+        run: |
+          echo "RUN_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          mkdir -p "$ARTIFACTS/build"
+          echo "Target: $TARGET_REF"
+          echo "Checked out: $(git rev-parse HEAD)"
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Java 17 for ForgeGradle
+        if: env.TEST_LEVEL != 'bootstrap'
+        uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Validate the versioned dependency manifest
+        id: static_validate
+        run: python -m scripts.validate_manifest --static
+
+      - name: Verify pinned runtime dependencies
+        id: runtime_lock
+        run: python scripts/headless/verify_lock.py
+
+      - name: Run repository Python tests
+        id: repository_tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build Forge smoke harness and Boundless mods
+        id: build_mods
+        if: env.TEST_LEVEL != 'bootstrap'
+        shell: bash
+        run: |
+          set -euo pipefail
+          projects=(boundless-headless-test)
+          if [[ "$TEST_LEVEL" == "boundless-mods" || "$TEST_LEVEL" == "full-modpack" || "$TEST_LEVEL" == "world" ]]; then
+            projects+=(boundless-compat boundless-fix boundless-tweaks)
+          fi
+          for project in "${projects[@]}"; do
+            echo "Building $project"
+            bash development/boundless-tweaks/gradlew -p "development/$project" --no-daemon build \
+              2>&1 | tee "$ARTIFACTS/build/$project.log"
+          done
+
+      - name: Prepare clean HeadlessMC instance
+        id: stage_instance
+        run: |
+          mkdir -p "$ARTIFACTS"
+          python scripts/headless/prepare_instance.py \
+            --level "$TEST_LEVEL" \
+            --target-ref "$TARGET_REF" \
+            --commit "$RUN_COMMIT" \
+            --artifacts "$ARTIFACTS"
+
+      - name: Configure world run with default Better Chunk Loading setting
+        if: env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'none'
+        run: python scripts/headless/configure_condition.py --enabled current --condition world
+
+      - name: Configure Better Chunk Loading prediction on
+        if: env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'on')
+        run: python scripts/headless/configure_condition.py --enabled true --condition prediction-on
+
+      - name: Configure Better Chunk Loading prediction off
+        if: env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'off'
+        run: python scripts/headless/configure_condition.py --enabled false --condition prediction-off
+
+      - name: Start runner metrics sampler for prediction-on
+        if: env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'on')
+        run: |
+          mkdir -p "$ARTIFACTS/prediction-on"
+          rm -f "$ARTIFACTS/prediction-on/stop-monitor"
+          nohup python scripts/headless/monitor.py \
+            --output "$ARTIFACTS/prediction-on/host-metrics.csv" \
+            --stop-file "$ARTIFACTS/prediction-on/stop-monitor" \
+            >/dev/null 2>&1 &
+          echo $! > "$ARTIFACTS/prediction-on/monitor.pid"
+
+      - name: Bootstrap HeadlessMC and open a clean Forge world
+        id: runtime_bootstrap
+        if: env.TEST_LEVEL == 'bootstrap'
+        continue-on-error: true
+        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
+        with:
+          mc: "1.20.1"
+          modloader: forge
+          java: "17"
+          mc-runtime-test: forge
+          mc-runtime-test-version: "5.0.1"
+          hmc-version: "3.0.0-RC9"
+          dummy-assets: "false"
+          xvfb: "true"
+          cache-mc: github
+          headlessmc-command: >-
+            --jvm "-Djava.awt.headless=true -Xms512m -Xmx3G -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+
+      - name: Run Forge GameTests
+        id: runtime_forge
+        if: env.TEST_LEVEL != 'bootstrap' && env.TEST_LEVEL != 'world'
+        continue-on-error: true
+        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
+        with:
+          mc: "1.20.1"
+          modloader: forge
+          java: "17"
+          mc-runtime-test: forge
+          mc-runtime-test-version: "5.0.1"
+          hmc-version: "3.0.0-RC9"
+          dummy-assets: "false"
+          xvfb: "true"
+          cache-mc: github
+          headlessmc-command: >-
+            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=${{ env.TEST_LEVEL }} -Dboundless.headless.requireBoundlessMods=${{ env.TEST_LEVEL == 'boundless-mods' || env.TEST_LEVEL == 'full-modpack' }} -Dboundless.headless.requireBcl=${{ env.TEST_LEVEL == 'full-modpack' }} -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+
+      - name: Run seeded Boundless world with prediction on
+        id: runtime_prediction_on
+        if: env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'on')
+        continue-on-error: true
+        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
+        with:
+          mc: "1.20.1"
+          modloader: forge
+          java: "17"
+          mc-runtime-test: forge
+          mc-runtime-test-version: "5.0.1"
+          hmc-version: "3.0.0-RC9"
+          dummy-assets: "false"
+          xvfb: "true"
+          cache-mc: github
+          headlessmc-command: >-
+            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=world -Dboundless.headless.requireBoundlessMods=true -Dboundless.headless.requireBcl=true -Dboundless.headless.worldWorkload=true -Dboundless.headless.seed=4242424242 -Dboundless.headless.ticks=1200 -Dboundless.headless.condition=prediction-on -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+
+      - name: Stop prediction-on metrics sampler
+        if: always() && env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'on')
+        run: |
+          touch "$ARTIFACTS/prediction-on/stop-monitor"
+          if [[ -f "$ARTIFACTS/prediction-on/monitor.pid" ]]; then
+            wait "$(cat "$ARTIFACTS/prediction-on/monitor.pid")" || true
+          fi
+
+      - name: Capture prediction-on logs and reports
+        if: always() && env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'on')
+        run: |
+          python scripts/headless/capture_run.py --label prediction-on \
+            --outcome "${{ steps.runtime_prediction_on.outcome }}" --artifacts "$ARTIFACTS"
+
+      - name: Configure Better Chunk Loading prediction off for the paired run
+        if: env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'ab'
+        run: python scripts/headless/configure_condition.py --enabled false --condition prediction-off
+
+      - name: Start runner metrics sampler for prediction-off
+        if: env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'off')
+        run: |
+          mkdir -p "$ARTIFACTS/prediction-off"
+          rm -f "$ARTIFACTS/prediction-off/stop-monitor"
+          nohup python scripts/headless/monitor.py \
+            --output "$ARTIFACTS/prediction-off/host-metrics.csv" \
+            --stop-file "$ARTIFACTS/prediction-off/stop-monitor" \
+            >/dev/null 2>&1 &
+          echo $! > "$ARTIFACTS/prediction-off/monitor.pid"
+
+      - name: Run seeded Boundless world with prediction off
+        id: runtime_prediction_off
+        if: env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'off')
+        continue-on-error: true
+        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
+        with:
+          mc: "1.20.1"
+          modloader: forge
+          java: "17"
+          mc-runtime-test: forge
+          mc-runtime-test-version: "5.0.1"
+          hmc-version: "3.0.0-RC9"
+          dummy-assets: "false"
+          xvfb: "true"
+          cache-mc: github
+          headlessmc-command: >-
+            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=world -Dboundless.headless.requireBoundlessMods=true -Dboundless.headless.requireBcl=true -Dboundless.headless.worldWorkload=true -Dboundless.headless.seed=4242424242 -Dboundless.headless.ticks=1200 -Dboundless.headless.condition=prediction-off -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+
+      - name: Stop prediction-off metrics sampler
+        if: always() && env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'off')
+        run: |
+          touch "$ARTIFACTS/prediction-off/stop-monitor"
+          if [[ -f "$ARTIFACTS/prediction-off/monitor.pid" ]]; then
+            wait "$(cat "$ARTIFACTS/prediction-off/monitor.pid")" || true
+          fi
+
+      - name: Capture prediction-off logs and reports
+        if: always() && env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'off')
+        run: |
+          python scripts/headless/capture_run.py --label prediction-off \
+            --outcome "${{ steps.runtime_prediction_off.outcome }}" --artifacts "$ARTIFACTS"
+
+      - name: Start runner metrics sampler for the default world run
+        if: env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'none'
+        run: |
+          mkdir -p "$ARTIFACTS/world"
+          rm -f "$ARTIFACTS/world/stop-monitor"
+          nohup python scripts/headless/monitor.py \
+            --output "$ARTIFACTS/world/host-metrics.csv" \
+            --stop-file "$ARTIFACTS/world/stop-monitor" \
+            >/dev/null 2>&1 &
+          echo $! > "$ARTIFACTS/world/monitor.pid"
+
+      - name: Run seeded Boundless world with the default setting
+        id: runtime_world
+        if: env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'none'
+        continue-on-error: true
+        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
+        with:
+          mc: "1.20.1"
+          modloader: forge
+          java: "17"
+          mc-runtime-test: forge
+          mc-runtime-test-version: "5.0.1"
+          hmc-version: "3.0.0-RC9"
+          dummy-assets: "false"
+          xvfb: "true"
+          cache-mc: github
+          headlessmc-command: >-
+            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=world -Dboundless.headless.requireBoundlessMods=true -Dboundless.headless.requireBcl=true -Dboundless.headless.worldWorkload=true -Dboundless.headless.seed=4242424242 -Dboundless.headless.ticks=1200 -Dboundless.headless.condition=world -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+
+      - name: Capture non-world runtime outputs
+        if: always() && env.TEST_LEVEL != 'world'
+        run: |
+          if [[ "$TEST_LEVEL" == "bootstrap" ]]; then
+            outcome="${{ steps.runtime_bootstrap.outcome }}"
+            label=bootstrap
+          else
+            outcome="${{ steps.runtime_forge.outcome }}"
+            label=runtime
+          fi
+          python scripts/headless/capture_run.py --label "$label" --outcome "$outcome" --artifacts "$ARTIFACTS"
+
+      - name: Stop default world metrics sampler
+        if: always() && env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'none'
+        run: |
+          touch "$ARTIFACTS/world/stop-monitor"
+          if [[ -f "$ARTIFACTS/world/monitor.pid" ]]; then
+            wait "$(cat "$ARTIFACTS/world/monitor.pid")" || true
+          fi
+
+      - name: Capture default world outputs
+        if: always() && env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'none'
+        run: |
+          python scripts/headless/capture_run.py --label world \
+            --outcome "${{ steps.runtime_world.outcome }}" --artifacts "$ARTIFACTS"
+
+      - name: Write GitHub Actions summary
+        if: always()
+        run: |
+          python scripts/headless/summarize.py \
+            --root "$ARTIFACTS" \
+            --level "$TEST_LEVEL" \
+            --target-ref "$TARGET_REF" \
+            --commit "$RUN_COMMIT" \
+            --experiment "$BCL_EXPERIMENT" \
+            --manifest-status "${{ steps.static_validate.outcome }}" \
+            --lock-status "${{ steps.runtime_lock.outcome }}" \
+            --repository-test-status "${{ steps.repository_tests.outcome }}" \
+            --build-status "${{ steps.build_mods.outcome }}"
+
+      - name: Upload logs, reports, metrics and build outputs
+        id: upload_artifact
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: boundless-headless-${{ github.run_number }}-${{ env.TEST_LEVEL }}
+          path: ${{ env.ARTIFACTS }}
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Fail the workflow when a selected check failed
+        if: always()
+        run: |
+          python scripts/headless/check_run.py \
+            --level "$TEST_LEVEL" \
+            --artifacts "$ARTIFACTS" \
+            --experiment "$BCL_EXPERIMENT" \
+            --action-status "${{ steps.static_validate.outcome }}" \
+            --action-status "${{ steps.runtime_lock.outcome }}" \
+            --action-status "${{ steps.repository_tests.outcome }}" \
+            --action-status "${{ steps.build_mods.outcome }}" \
+            --action-status "${{ steps.stage_instance.outcome }}" \
+            --action-status "${{ steps.runtime_bootstrap.outcome }}" \
+            --action-status "${{ steps.runtime_forge.outcome }}" \
+            --action-status "${{ steps.runtime_prediction_on.outcome }}" \
+            --action-status "${{ steps.runtime_prediction_off.outcome }}" \
+            --action-status "${{ steps.runtime_world.outcome }}" \
+            --action-status "${{ steps.upload_artifact.outcome }}"
