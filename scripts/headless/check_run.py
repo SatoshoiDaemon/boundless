@@ -33,7 +33,9 @@ def main() -> None:
         if not state.get("headlessmc", {}).get("sha256_matches"):
             failures.append(f"{label}: HeadlessMC checksum is missing or does not match the lock file")
         mcrt = state.get("mc_runtime_test", [])
-        if len(mcrt) != 1 or not mcrt[0].get("sha256_matches"):
+        expected_mcrt = RUNTIME_LOCK["mcRuntimeTest"]["file"]
+        pinned_mcrt = next((item for item in mcrt if item.get("file") == expected_mcrt), None)
+        if not state.get("expected_mc_runtime_test_present") or not pinned_mcrt or not pinned_mcrt.get("sha256_matches"):
             failures.append(f"{label}: MC-Runtime-Test checksum is missing or does not match the lock file")
 
     expected_runtime_labels = []

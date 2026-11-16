@@ -52,6 +52,8 @@ def main() -> None:
         copy_if_present(ROOT / relative, destination / target)
 
     mcrt_candidates = sorted((ROOT / "run" / "mods").glob("mc-runtime-test-*.jar"))
+    mcrt_expected = RUNTIME_LOCK["mcRuntimeTest"]["file"]
+    mcrt_jar = ROOT / "run" / "mods" / mcrt_expected
     hmc_jar = ROOT / "headlessmc.jar"
     dependency_state = {
         "headlessmc": {
@@ -68,6 +70,8 @@ def main() -> None:
             }
             for jar in mcrt_candidates
         ],
+        "expected_mc_runtime_test_file": mcrt_expected,
+        "expected_mc_runtime_test_present": mcrt_jar.is_file(),
     }
     dependency_state["headlessmc"]["sha256_matches"] = (
         dependency_state["headlessmc"]["actual_sha256"] == dependency_state["headlessmc"]["expected_sha256"]

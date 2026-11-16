@@ -24,7 +24,7 @@
 /HeadlessMC/
 /headlessmc.jar
 /mc-runtime-test-*.jar
-/.headless-artifacts/
+/headless-artifacts/
 /logs/
 /crash-reports/
 /downloads/

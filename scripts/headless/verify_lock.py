@@ -17,7 +17,7 @@ def main() -> None:
         "checkout": "actions/checkout",
         "setupPython": "actions/setup-python",
         "setupJava": "actions/setup-java",
-        "mcRuntimeTest": "headlesshq/mc-runtime-test",
+        "cache": "actions/cache",
         "uploadArtifact": "actions/upload-artifact",
     }
     errors: list[str] = []
@@ -26,15 +26,33 @@ def main() -> None:
         if pin not in workflow:
             errors.append(f"workflow action pin does not match runtime-lock.json: {pin}")
 
-    for locked_value in (
-        LOCK["minecraft"],
-        LOCK["forge"],
-        str(LOCK["javaMajor"]),
-        LOCK["headlessmc"]["version"],
-        LOCK["mcRuntimeTest"]["version"],
-    ):
-        if f'"{locked_value}"' not in workflow and f"={locked_value} " not in workflow:
-            errors.append(f"workflow does not reference locked runtime value {locked_value}")
+    download_mcrt = ROOT / "scripts" / "headless" / "download_mcrt.py"
+    install_runtime = ROOT / "scripts" / "headless" / "install_runtime.py"
+    launch_client = ROOT / "scripts" / "headless" / "run_client.py"
+    for script in (download_mcrt, install_runtime, launch_client):
+        if not script.is_file():
+            errors.append(f"runtime script is missing: {script.relative_to(ROOT)}")
+    if download_mcrt.is_file():
+        content = download_mcrt.read_text(encoding="utf-8")
+        for field in ('LOCK["mcRuntimeTest"]', '["downloadUrl"]', '["sha256"]', '["file"]'):
+            if field not in content:
+                errors.append(f"MC-Runtime-Test downloader does not use the locked field {field}")
+    if install_runtime.is_file():
+        content = install_runtime.read_text(encoding="utf-8")
+        for field in ('LOCK["headlessmc"]', 'LOCK["minecraft"]', 'LOCK["forge"]'):
+            if field not in content:
+                errors.append(f"HeadlessMC runtime installer does not use the locked field {field}")
+    if launch_client.is_file():
+        content = launch_client.read_text(encoding="utf-8")
+        for field in ('LOCK["mcRuntimeTest"]', 'LOCK["minecraft"]', 'LOCK["forge"]'):
+            if field not in content:
+                errors.append(f"HeadlessMC launcher does not use the locked field {field}")
+    if "scripts/headless/install_runtime.py" not in workflow or "scripts/headless/download_mcrt.py" not in workflow:
+        errors.append("workflow does not download and install the version-locked HeadlessMC runtime")
+    if "scripts/headless/run_client.py" not in workflow:
+        errors.append("workflow does not launch tests through the version-locked HeadlessMC runner")
+    if "headlesshq/mc-runtime-test@" in workflow:
+        errors.append("workflow must use the exact locked MC-Runtime-Test jar, not the action's wildcard download")
 
     for project in ("boundless-compat", "boundless-fix", "boundless-tweaks", "boundless-headless-test"):
         build_file = ROOT / "development" / project / "build.gradle"

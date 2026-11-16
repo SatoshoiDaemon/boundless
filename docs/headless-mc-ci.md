@@ -24,7 +24,7 @@ The `Boundless Headless Remote Tests` workflow runs a clean Linux client through
 
 ## Results and limits
 
-The run summary records the selected revision, staged mod hashes, Forge version, loaded mod counts, test outcomes, crash reports, tick-work and tick-interval CSVs, memory samples, runner memory/CPU sampling, JFR, and GC logs where the level provides them. `tick_work_ms` is measured between Forge server tick START and END events; `tick_interval_ms` includes the server's normal 20 TPS pacing.
+The run summary records the selected revision, staged mod hashes, Forge version, loaded mod counts, test outcomes, crash reports, tick-work and tick-interval CSVs, memory samples, runner memory/CPU sampling, JFR, and GC logs where the level provides them. HeadlessMC, its Forge build, and the MC-Runtime-Test jar are downloaded from pinned releases and checked against the versioned runtime lock; the Minecraft runtime cache is stored in GitHub Actions. `tick_work_ms` is measured between Forge server tick START and END events; `tick_interval_ms` includes the server's normal 20 TPS pacing.
 
 Every performance number is labeled as a GitHub `ubuntu-latest` Linux runner benchmark. Compare the two Better Chunk Loading conditions only when both have the same seed and workload. These values are not interchangeable with measurements from the Windows PC.
 

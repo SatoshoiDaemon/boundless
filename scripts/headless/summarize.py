@@ -13,6 +13,10 @@ from pathlib import Path
 from typing import Any
 
 
+ROOT = Path(__file__).resolve().parents[2]
+RUNTIME_LOCK = json.loads((ROOT / "development" / "boundless-headless-test" / "runtime-lock.json").read_text(encoding="utf-8"))
+
+
 def percentile(values: list[float], fraction: float) -> float | None:
     if not values:
         return None
@@ -116,7 +120,7 @@ def main() -> None:
         f"- **Level:** `{args.level}`",
         f"- **Target:** `{args.target_ref or 'current workflow ref'}` (`{args.commit or 'unknown commit'}`)",
         f"- **Better Chunk Loading experiment:** `{args.experiment}`",
-        "- **Runtime:** Minecraft 1.20.1 · Forge 47.4.28 expected · Java 17 · HeadlessMC 3.0.0-RC9 · MC-Runtime-Test 5.0.1",
+        f"- **Runtime:** Minecraft {RUNTIME_LOCK['minecraft']} · Forge {RUNTIME_LOCK['forge']} · Java {RUNTIME_LOCK['javaMajor']} · HeadlessMC {RUNTIME_LOCK['headlessmc']['version']} · MC-Runtime-Test {RUNTIME_LOCK['mcRuntimeTest']['version']}",
         f"- **Preflight:** manifest `{args.manifest_status}` · dependency lock `{args.lock_status}` · repository tests `{args.repository_test_status}` · mod build `{args.build_status}`",
         "",
     ]

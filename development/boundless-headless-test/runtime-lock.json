@@ -9,17 +9,20 @@
   "forgeGradle": "6.0.54",
   "headlessmc": {
     "version": "3.0.0-RC9",
+    "downloadUrl": "https://github.com/headlesshq/headlessmc/releases/download/3.0.0-RC9/headlessmc.jar",
     "sha256": "a343a7c51e48c566a5cd408bd0012ddf091ea105ecc31daff00af600d3a7218a"
   },
   "mcRuntimeTest": {
     "version": "5.0.1",
+    "file": "mc-runtime-test-1.20.1-forge-5.0.1.jar",
+    "downloadUrl": "https://github.com/headlesshq/mc-runtime-test-mod/releases/download/1.20.1-5.0.1/mc-runtime-test-1.20.1-forge-5.0.1.jar",
     "sha256": "49ca08da02dfdbe37f13d8078638a3700ef67fdd0fd841622e04c17c39831a91"
   },
   "actions": {
     "checkout": "d23441a48e516b6c34aea4fa41551a30e30af803",
     "setupPython": "ece7cb06caefa5fff74198d8649806c4678c61a1",
     "setupJava": "d1374f8ac74474200d16ef8ecee22c7ae7a51880",
-    "mcRuntimeTest": "dfc8a2a0145f723b01abda5e1cf59eaba516d128",
+    "cache": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
     "uploadArtifact": "b7c566a772e6b6bfb58ed0dc250532a479d7789f"
   }
 }

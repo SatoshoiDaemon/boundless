@@ -70,7 +70,7 @@ env:
   TARGET_REF: ${{ github.event_name == 'push' && github.sha || inputs.target_ref || github.event.inputs.target_ref || github.sha }}
   TEST_LEVEL: ${{ inputs.test_level || github.event.inputs.test_level || 'world' }}
   BCL_EXPERIMENT: ${{ inputs.bcl_experiment || github.event.inputs.bcl_experiment || 'ab' }}
-  ARTIFACTS: ${{ github.workspace }}/.headless-artifacts
+  ARTIFACTS: ${{ github.workspace }}/headless-artifacts
 
 jobs:
   test:
@@ -117,11 +117,14 @@ jobs:
           python-version: "3.12"
 
       - name: Set up Java 17 for ForgeGradle
-        if: env.TEST_LEVEL != 'bootstrap'
+        id: game_java
         uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6
         with:
           distribution: temurin
           java-version: "17"
+
+      - name: Record Java 17 runtime path
+        run: echo "MC_JAVA_HOME=$JAVA_HOME" >> "$GITHUB_ENV"
 
       - name: Validate the versioned dependency manifest
         id: static_validate
@@ -161,6 +164,39 @@ jobs:
             --commit "$RUN_COMMIT" \
             --artifacts "$ARTIFACTS"
 
+      - name: Set up Java 25 for HeadlessMC
+        id: hmc_java
+        uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Record HeadlessMC launcher path
+        run: echo "HMC_JAVA=$JAVA_HOME/bin/java" >> "$GITHUB_ENV"
+
+      - name: Restore the pinned Minecraft and Forge runtime
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: ~/.minecraft
+          key: headless-mc-${{ runner.os }}-${{ hashFiles('development/boundless-headless-test/runtime-lock.json') }}
+          restore-keys: |
+            Linux-1.20.1-forge-hmc
+
+      - name: Download HeadlessMC and install pinned Forge
+        id: runtime_install
+        run: python scripts/headless/install_runtime.py
+
+      - name: Download pinned MC-Runtime-Test
+        id: mcrt_install
+        run: python scripts/headless/download_mcrt.py
+
+      - name: Install headless graphics runtime
+        id: headless_graphics
+        run: |
+          sudo apt-get update
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+            xvfb x11-xserver-utils libgl1-mesa-dri mesa-vulkan-drivers
+
       - name: Configure world run with default Better Chunk Loading setting
         if: env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'none'
         run: python scripts/headless/configure_condition.py --enabled current --condition world
@@ -188,55 +224,21 @@ jobs:
         id: runtime_bootstrap
         if: env.TEST_LEVEL == 'bootstrap'
         continue-on-error: true
-        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
-        with:
-          mc: "1.20.1"
-          modloader: forge
-          java: "17"
-          mc-runtime-test: forge
-          mc-runtime-test-version: "5.0.1"
-          hmc-version: "3.0.0-RC9"
-          dummy-assets: "false"
-          xvfb: "true"
-          cache-mc: github
-          headlessmc-command: >-
-            --jvm "-Djava.awt.headless=true -Xms512m -Xmx3G -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+        run: python scripts/headless/run_client.py --level bootstrap --label bootstrap --artifacts "$ARTIFACTS"
 
       - name: Run Forge GameTests
         id: runtime_forge
         if: env.TEST_LEVEL != 'bootstrap' && env.TEST_LEVEL != 'world'
         continue-on-error: true
-        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
-        with:
-          mc: "1.20.1"
-          modloader: forge
-          java: "17"
-          mc-runtime-test: forge
-          mc-runtime-test-version: "5.0.1"
-          hmc-version: "3.0.0-RC9"
-          dummy-assets: "false"
-          xvfb: "true"
-          cache-mc: github
-          headlessmc-command: >-
-            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=${{ env.TEST_LEVEL }} -Dboundless.headless.requireBoundlessMods=${{ env.TEST_LEVEL == 'boundless-mods' || env.TEST_LEVEL == 'full-modpack' }} -Dboundless.headless.requireBcl=${{ env.TEST_LEVEL == 'full-modpack' }} -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+        run: python scripts/headless/run_client.py --level "$TEST_LEVEL" --label runtime --artifacts "$ARTIFACTS"
 
       - name: Run seeded Boundless world with prediction on
         id: runtime_prediction_on
         if: env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'on')
         continue-on-error: true
-        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
-        with:
-          mc: "1.20.1"
-          modloader: forge
-          java: "17"
-          mc-runtime-test: forge
-          mc-runtime-test-version: "5.0.1"
-          hmc-version: "3.0.0-RC9"
-          dummy-assets: "false"
-          xvfb: "true"
-          cache-mc: github
-          headlessmc-command: >-
-            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=world -Dboundless.headless.requireBoundlessMods=true -Dboundless.headless.requireBcl=true -Dboundless.headless.worldWorkload=true -Dboundless.headless.seed=4242424242 -Dboundless.headless.ticks=1200 -Dboundless.headless.condition=prediction-on -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+        run: >-
+          python scripts/headless/run_client.py --level world --label prediction-on
+          --artifacts "$ARTIFACTS" --condition prediction-on --seed 4242424242 --ticks 1200
 
       - name: Stop prediction-on metrics sampler
         if: always() && env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'on')
@@ -271,19 +273,9 @@ jobs:
         id: runtime_prediction_off
         if: env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'off')
         continue-on-error: true
-        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
-        with:
-          mc: "1.20.1"
-          modloader: forge
-          java: "17"
-          mc-runtime-test: forge
-          mc-runtime-test-version: "5.0.1"
-          hmc-version: "3.0.0-RC9"
-          dummy-assets: "false"
-          xvfb: "true"
-          cache-mc: github
-          headlessmc-command: >-
-            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=world -Dboundless.headless.requireBoundlessMods=true -Dboundless.headless.requireBcl=true -Dboundless.headless.worldWorkload=true -Dboundless.headless.seed=4242424242 -Dboundless.headless.ticks=1200 -Dboundless.headless.condition=prediction-off -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+        run: >-
+          python scripts/headless/run_client.py --level world --label prediction-off
+          --artifacts "$ARTIFACTS" --condition prediction-off --seed 4242424242 --ticks 1200
 
       - name: Stop prediction-off metrics sampler
         if: always() && env.TEST_LEVEL == 'world' && (env.BCL_EXPERIMENT == 'ab' || env.BCL_EXPERIMENT == 'off')
@@ -314,19 +306,9 @@ jobs:
         id: runtime_world
         if: env.TEST_LEVEL == 'world' && env.BCL_EXPERIMENT == 'none'
         continue-on-error: true
-        uses: headlesshq/mc-runtime-test@dfc8a2a0145f723b01abda5e1cf59eaba516d128 # v5.0.0
-        with:
-          mc: "1.20.1"
-          modloader: forge
-          java: "17"
-          mc-runtime-test: forge
-          mc-runtime-test-version: "5.0.1"
-          hmc-version: "3.0.0-RC9"
-          dummy-assets: "false"
-          xvfb: "true"
-          cache-mc: github
-          headlessmc-command: >-
-            --jvm "-Djava.awt.headless=true -Xms1G -Xmx5G -Dforge.enabledGameTestNamespaces=boundless_headless_test -DMcRuntimeGameTestMinExpectedGameTests=2 -Dboundless.headless.testLevel=world -Dboundless.headless.requireBoundlessMods=true -Dboundless.headless.requireBcl=true -Dboundless.headless.worldWorkload=true -Dboundless.headless.seed=4242424242 -Dboundless.headless.ticks=1200 -Dboundless.headless.condition=world -Dboundless.headless.expectedForge=47.4.28 -Xlog:gc*:file=run/logs/gc.log:time,uptime,level,tags -XX:StartFlightRecording=filename=run/logs/minecraft.jfr,settings=profile,dumponexit=true"
+        run: >-
+          python scripts/headless/run_client.py --level world --label world
+          --artifacts "$ARTIFACTS" --condition world --seed 4242424242 --ticks 1200
 
       - name: Capture non-world runtime outputs
         if: always() && env.TEST_LEVEL != 'world'
@@ -390,6 +372,9 @@ jobs:
             --action-status "${{ steps.repository_tests.outcome }}" \
             --action-status "${{ steps.build_mods.outcome }}" \
             --action-status "${{ steps.stage_instance.outcome }}" \
+            --action-status "${{ steps.runtime_install.outcome }}" \
+            --action-status "${{ steps.mcrt_install.outcome }}" \
+            --action-status "${{ steps.headless_graphics.outcome }}" \
             --action-status "${{ steps.runtime_bootstrap.outcome }}" \
             --action-status "${{ steps.runtime_forge.outcome }}" \
             --action-status "${{ steps.runtime_prediction_on.outcome }}" \
