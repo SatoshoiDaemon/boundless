@@ -17,4 +17,11 @@ class BoundlessFixMixinPluginTest {
     void skipsIllageMixinSafelyBeforeForgeCreatesTheLoadingList() {
         assertFalse(BoundlessFixMixinPlugin.shouldApplyIllageMixin(null));
     }
+
+    @Test
+    void onlyTargetsTheBundledAwcapiVersionWhoseCollisionCodeWasReplaced() {
+        assertTrue(ClimberCollisionOptimization.supports("awcapi", "1.0.3"));
+        assertFalse(ClimberCollisionOptimization.supports("awcapi", "1.0.2"));
+        assertFalse(ClimberCollisionOptimization.supports("anothermod", "1.0.3"));
+    }
 }

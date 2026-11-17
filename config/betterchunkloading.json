@@ -2,7 +2,7 @@
   "enablePrediction": {
     // Enables predictive chunkloading, which predicts player movement and preloads an area in movement direction: 
     // Default:true
-    "enablePrediction": true
+    "enablePrediction": false
   },
 
   "predictionLoadingSpeed": {
@@ -52,7 +52,7 @@
   "optimizeWaiting": {
     // Optimizes time the world is stalled while waiting for a chunk: 
     // Default:true
-    "optimizeWaiting": true
+    "optimizeWaiting": false
   },
 
   "debugLogging": {

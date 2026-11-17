@@ -8,7 +8,7 @@
   "chunkUnloadLimit": {
     // Maximum amount of chunks unloaded per tick, 
     // Default: 20, vanilla:200
-    "chunkUnloadLimit": 20
+    "chunkUnloadLimit": 40
   },
 
   "disableProtoSave": {

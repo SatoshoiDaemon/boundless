@@ -6,7 +6,8 @@
   "plugin": "com.satoshoidaemon.boundlessfix.BoundlessFixMixinPlugin",
   "refmap": "boundlessfix.refmap.json",
   "mixins": [
-    "illage.IllageProjectileCategoryMixin"
+    "illage.IllageProjectileCategoryMixin",
+    "spider.ClimberComponentCollisionScanMixin"
   ],
   "injectors": {
     "defaultRequire": 1

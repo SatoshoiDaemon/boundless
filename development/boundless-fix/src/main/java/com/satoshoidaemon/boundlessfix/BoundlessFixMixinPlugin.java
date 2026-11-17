@@ -17,6 +17,8 @@ public final class BoundlessFixMixinPlugin implements IMixinConfigPlugin {
     private static final Logger LOGGER = LogUtils.getLogger();
     private static final String ILLAGE_MIXIN =
             "com.satoshoidaemon.boundlessfix.mixin.illage.IllageProjectileCategoryMixin";
+    private static final String CLIMBER_MIXIN =
+            "com.satoshoidaemon.boundlessfix.mixin.spider.ClimberComponentCollisionScanMixin";
 
     @Override
     public void onLoad(String mixinPackage) {
@@ -30,10 +32,33 @@ public final class BoundlessFixMixinPlugin implements IMixinConfigPlugin {
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
         if (!ILLAGE_MIXIN.equals(mixinClassName)) {
-            return true;
+            return !CLIMBER_MIXIN.equals(mixinClassName) || shouldApplyClimberMixin(FMLLoader.getLoadingModList());
         }
 
         return shouldApplyIllageMixin(FMLLoader.getLoadingModList());
+    }
+
+    static boolean shouldApplyClimberMixin(LoadingModList loadingMods) {
+        if (loadingMods == null) {
+            LOGGER.warn("Spider collision optimization is disabled because Forge's loading mod list is unavailable.");
+            return false;
+        }
+
+        return loadingMods.getMods().stream()
+                .filter(mod -> ClimberCollisionOptimization.MOD_ID.equals(mod.getModId()))
+                .findFirst()
+                .map(mod -> {
+                    String version = mod.getVersion().toString();
+                    boolean supported = ClimberCollisionOptimization.supports(mod.getModId(), version);
+                    if (supported) {
+                        LOGGER.info("Applying the allocation-free spider collision scan for AWCAPI {}.", version);
+                    } else {
+                        LOGGER.warn("Spider collision optimization is disabled: supported AWCAPI version is {}.",
+                                ClimberCollisionOptimization.SUPPORTED_VERSION);
+                    }
+                    return supported;
+                })
+                .orElse(false);
     }
 
     static boolean shouldApplyIllageMixin(LoadingModList loadingMods) {
