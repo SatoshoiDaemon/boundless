@@ -1,0 +1,1071 @@
+﻿asset_path,pack_count,same_content,packs
+assets/.DS_Store,2,no,Enchantment-Outlines.zip;EnderEyes_26.3_v3.1.zip
+assets/alexsmobs/lang/en_us.json,2,no,[1.6] Enhanced Boss Bars.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/biomemakeover/textures/gui/altar.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/biomemakeover/textures/gui/witch.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/brewinandchewin/textures/gui/jei/keg.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/brewinandchewin/textures/gui/keg.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/cataclysm/lang/en_us.json,2,no,Cataclysmic_tunes_V8(Maledictus_update).zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/chesttracker/textures/gui/sprites/widgets/inventory_button/button.png,2,no,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/chesttracker/textures/gui/sprites/widgets/inventory_button/button_highlighted.png,2,no,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/cosmeticarmorreworked/textures/gui/cosarmorinventory.png,2,no,§5§lModded §f§lContainers §8§lDark§8.zip;§6Immersive§8_§6Interfaces§8_§6cosmetic§8_§6armor§8_§6rework.zip
+assets/craftingtweaks/gui.png,2,no,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/curios/textures/gui/inventory.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_back_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_belt_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_body_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_bracelet_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_charm_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_cosmetic_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_curio_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_hands_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_head_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_necklace_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/curios/textures/slot/empty_ring_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/easyanvils/textures/gui/edit_name_tag.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/easymagic/textures/gui/container/enchanting_table_reroll.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/enchantinginfuser/textures/gui/container/enchanting_infuser.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/farmersdelight/textures/gui/cooking_pot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/farmersdelight/textures/gui/jei/cutting_board.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/farmersdelight/textures/gui/jei/decomposition.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/farmersdelight/textures/gui/recipe_book_buttons.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/galosphere/textures/gui/container/combustion_table.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/inventorio/textures/gui/empty/axe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/inventorio/textures/gui/empty/hoe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/inventorio/textures/gui/empty/pickaxe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/inventorio/textures/gui/empty/shovel.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/inventorio/textures/gui/empty/sword.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/inventorio/textures/gui/player_inventory.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/inventorio/textures/gui/player_inventory_dark.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/ironchest/textures/gui/copper_container.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/ironchest/textures/gui/diamond_container.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/ironchest/textures/gui/dirt_container.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/ironchest/textures/gui/gold_container.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/ironchest/textures/gui/iron_container.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/bookmark_list_background.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/bookmark_list_slot_background.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/button_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/button_enabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/button_highlight.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/catalyst_tab.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/gui_background.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/icons/flame.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/icons/shapeless_icon.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/ingredient_list_background.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/ingredient_list_slot_background.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/recipe_catalyst_slot_background.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/search_background.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/single_recipe_background.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/slot.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/tab_selected.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/atlas/gui/tab_unselected.png,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/jei/textures/jei/gui/debug.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/minecraft/.DS_Store,2,no,Enchantment-Outlines.zip;EnderEyes_26.3_v3.1.zip
+assets/minecraft/blockstates/end_portal_frame.json,2,no,Better_End_Portal_Frame_(1.20).zip;EnderEyes_26.3_v3.1.zip
+assets/minecraft/emf/cem/chest.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/emf/cem/chest_animations.jpm,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/emf/cem/chest_large.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/emf/cem/chest_large_animations.jpm,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/emf/cem/ender_chest.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/emf/cem/trapped_chest.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/emf/cem/trapped_chest_large.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/font/default.json,10,no,[1.6] Enhanced Boss Bars.zip;Boundless R1 Resource Compatibility.zip;enchant icons 1.21 v1.3.zip;FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FA-Spiders-v2.3.1.zip;Icons v.1.14.zip;Visual Titles 1.3.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/items/bow.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/brush.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/copper_axe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/copper_hoe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/copper_pickaxe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/copper_shovel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/copper_sword.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/diamond_axe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/diamond_hoe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/diamond_pickaxe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/diamond_shovel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/diamond_sword.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/enchanted_golden_apple.json,2,no,eating_animations_x_farmers_delight.zip;Enchantment-Outlines.zip
+assets/minecraft/items/flint_and_steel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/golden_axe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/golden_hoe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/golden_pickaxe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/golden_shovel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/golden_sword.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/iron_axe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/iron_hoe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/iron_pickaxe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/iron_shovel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/iron_sword.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/mace.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/netherite_axe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/netherite_hoe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/netherite_pickaxe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/netherite_shovel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/netherite_sword.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/ominous_bottle.json,2,no,eating_animations_x_farmers_delight.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/potion.json,2,no,eating_animations_x_farmers_delight.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/shears.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/stone_axe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/stone_hoe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/stone_pickaxe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/stone_shovel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/stone_sword.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/waxed_copper_chest.json,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/items/waxed_exposed_copper_chest.json,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/items/waxed_oxidized_copper_chest.json,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/items/waxed_weathered_copper_chest.json,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/items/wooden_axe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/wooden_hoe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/wooden_pickaxe.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/wooden_shovel.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/items/wooden_sword.json,2,no,Enchantment-Outlines.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/af_za.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ar_sa.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ast_es.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/az_az.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ba_ru.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/bar.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/be_by.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/be_latn.json,3,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/bg_bg.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/br_fr.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/brb.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/bs_ba.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ca_es.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/cs_cz.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/cv_cu.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/cy_gb.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/da_dk.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/de_at.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/de_ch.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/de_de.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/el_gr.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_au.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_ca.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_gb.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_nz.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_pt.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_ud.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_us.json,8,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Enchantment-Outlines.zip;Farcr's Re-Crafted V2.28.1.zip;Icons v.1.14.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/en_us.json.rpo,2,no,§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/enp.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/enws.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/eo_uy.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/es_ar.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/es_cl.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/es_ec.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/es_es.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/es_mx.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/es_uy.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/es_ve.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/esan.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/et_ee.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/eu_es.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fa_ir.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fi_fi.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fil_ph.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fo_fo.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fr_ca.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fr_ch.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/fr_fr.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fra_de.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fur_it.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/fy_nl.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ga_ie.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/gd_gb.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/gl_es.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/go_fr.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/got_de.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/hal_ua.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/haw_us.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/he_il.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/hi_in.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/hn_no.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/hr_hr.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/hu_hu.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/hy_am.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/id_id.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ig_ng.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/io_en.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/is_is.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/isv.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/it_it.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ja_jp.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/jbo_en.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ka_ge.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/kk_kz.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/kn_in.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ko_kr.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ksh.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/kw_gb.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ky_kg.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/la_la.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/lb_lu.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/li_li.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/lmo.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/lo_la.json,3,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/lol_us.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/lt_lt.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/lv_lv.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/lzh.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/mk_mk.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/mn_mn.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ms_my.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/mt_mt.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/nah.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/nds_de.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/nl_be.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/nl_nl.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/nn_no.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/no_no.json,3,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/oc_fr.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ovd.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/pl_pl.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/pls.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/pt_br.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/pt_pt.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/qcb_es.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/qid.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/qya_aa.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ro_ro.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/rpr.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ru_ru.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ry_ua.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sah_sah.json,3,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/se_no.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sk_sk.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sl_si.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/so_so.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sq_al.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sr_cs.json,3,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sr_sp.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sv_se.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/sxu.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/szl.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/ta_in.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/th_th.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/tl_ph.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/tlh_aa.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/tok.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/tr_tr.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/tt_ru.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/tzo_mx.json,3,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/uk_ua.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/uz_uz.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/val_es.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/vec_it.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/vi_vn.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/vp_vl.json,3,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/vro.json,2,no,Icons v.1.14.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/lang/yi_de.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/yo_ng.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/zh_cn.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/zh_hk.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/zh_tw.json,5,no,[1.6] Enhanced Boss Bars.zip;enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/lang/zlm_arab.json,4,no,enchant icons 1.21 v1.3.zip;Icons v.1.14.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/models/.DS_Store,2,no,Enchantment-Outlines.zip;EnderEyes_26.3_v3.1.zip
+assets/minecraft/models/block/comparator.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/comparator_on.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/comparator_on_subtract.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/comparator_subtract.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/end_portal_frame_filled.json,2,no,Better_End_Portal_Frame_(1.20).zip;EnderEyes_26.3_v3.1.zip
+assets/minecraft/models/block/lever.json,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/block/lever_on.json,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/block/redstone_torch.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/redstone_wall_torch.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_1tick.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_1tick_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_1tick_on.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_1tick_on_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_2tick.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_2tick_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_2tick_on.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_2tick_on_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_3tick.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_3tick_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_3tick_on.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_3tick_on_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_4tick.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_4tick_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_4tick_on.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/repeater_4tick_on_locked.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/block/wheat_stage7.json,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/item/copper_lantern.json,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/item/exposed_copper_lantern.json,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/item/lantern.json,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/item/oxidized_copper_lantern.json,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/item/redstone_torch.json,3,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/item/soul_lantern.json,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/models/item/soul_torch.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/item/torch.json,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/models/item/weathered_copper_lantern.json,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/optifine/cem/boat.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/boat_patch.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/bogged.jem,2,no,FA-All_Extensions-v1.10.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/cat_baby.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/cave_spider.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/chest.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/optifine/cem/chest_animations.jpm,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/chest_boat.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/chest_large.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/optifine/cem/chest_large_animations.jpm,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/chest_minecart.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/chest_raft.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/chicken.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/chicken.properties,3,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/chicken_baby.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/cod.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/command_block_minecart.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/cow.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/cow.properties,3,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/cow_baby.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/creeper.jem,2,no,FA-All_Extensions-v1.10.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/creeper_charge.jem,2,no,FA-All_Extensions-v1.10.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/donkey.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/drowned.jem,2,no,FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/optifine/cem/elder_guardian.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/ender_chest.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/optifine/cem/enderman.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/furnace_minecart.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/guardian.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/head_zombie.jem,2,no,FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/optifine/cem/hopper_minecart.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/husk.jem,2,no,FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/optifine/cem/iron_golem.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/llama.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/minecart.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/minecart_animations.jpm,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/mooshroom.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/mooshroom.properties,3,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/mooshroom_baby.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/mule.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/pig.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/pig.properties,3,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/pig_baby.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/pillager.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/raft.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/salmon.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/sheep.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/sheep.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/sheep2.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/sheep_wool.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/sheep_wool.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/sheep_wool2.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/sheep_wool_undercoat.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/shulker_box.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/skeleton.jem,2,no,FA-All_Extensions-v1.10.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/slime.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/spawner_minecart.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/spider.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/stray.jem,2,no,FA-All_Extensions-v1.10.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/tnt_minecart.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/optifine/cem/trader_llama.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/trapped_chest.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/optifine/cem/trapped_chest_large.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/optifine/cem/villager.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/villager.properties,3,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/vindicator.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/wandering_trader.jem,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/optifine/cem/wolf_baby.jem,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/cem/zombie.jem,2,no,FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/optifine/cem/zombie_villager.jem,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/optifine/color.properties,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;Glowing Trim Elytra[MG-5.0][1.21.0-1.21.1].zip
+assets/minecraft/optifine/emissive.properties,6,no,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip;FA-Spiders-v2.3.1.zip;Glowing Trim Elytra[MG-5.0][1.21.0-1.21.1].zip;§3Blue's §fBetter Zombies §7v0.13.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/optifine/random/entity/chicken.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/chicken_cold.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/chicken_cold2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/chicken_temperate.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/chicken_temperate2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/chicken_warm.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/chicken_warm2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/cold_chicken.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/cold_chicken2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/cold_chicken3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/temperate_chicken.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/temperate_chicken2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/temperate_chicken3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/warm_chicken.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/warm_chicken2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken/warm_chicken3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/chicken3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/brown_mooshroom.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/brown_mooshroom2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/cold_cow.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/cold_cow2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/cow.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/cow2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/red_mooshroom.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/red_mooshroom2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/temperate_cow.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/temperate_cow2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/warm_cow.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/cow/warm_cow2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/enderman/enderman.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/enderman/enderman2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/enderman/enderman_eyes.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/enderman/enderman_eyes2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/fish/salmon.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/fish/salmon2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/illager/pillager_helmet2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/illager/vindicator_helmet2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/iron_golem/iron_golem_hat.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/iron_golem/iron_golem_hat2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/cold_pig.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/cold_pig2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_cold.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_cold2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_temperate.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_temperate2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_temperate3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_temperate4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_temperate_baby.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_temperate_baby2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_warm.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_warm2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_warm3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_warm4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_warm_baby.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/pig_warm_baby2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/temperate_pig.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/temperate_pig2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/temperate_pig3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/temperate_pig4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/warm_pig.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/warm_pig2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/warm_pig3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/pig/warm_pig4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_baby.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_baby2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_baby3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_horns.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_horns2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_horns3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool10.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool11.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool12.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool13.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool14.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool15.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool16.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool5.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool6.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool7.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool8.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool9.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool_baby.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool_baby2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool_baby3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool_undercoat.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool_undercoat2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/sheep/sheep_wool_undercoat3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/slime/slime.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/slime/slime2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager5.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager6.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager7.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager8.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/villager/villager9.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie/zombie.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie/zombie2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager.properties,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager2.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager2_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager3.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager3_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager4.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager4_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager5.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager5_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager6.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager6_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager7.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager7_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager8.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager8_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager9.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/optifine/random/entity/zombie_villager/zombie_villager9_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/sounds.json,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain1.ogg,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain2.ogg,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain3.ogg,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain4.ogg,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain5.ogg,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain6.ogg,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain7.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/rain8.ogg,3,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/thunder1.ogg,2,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/thunder2.ogg,2,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/ambient/weather/thunder3.ogg,2,no,[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/block/chest/close.ogg,2,no,Enhanced Audio r7.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/sounds/block/chest/close2.ogg,2,no,Enhanced Audio r7.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/sounds/block/chest/close3.ogg,2,no,Enhanced Audio r7.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/sounds/block/chest/open.ogg,2,no,Enhanced Audio r7.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/sounds/liquid/lava.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/liquid/lava2.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/liquid/lava3.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/step/glass1.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/step/glass2.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/step/glass3.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/sounds/step/glass4.ogg,2,yes,Enhanced Audio Ambience r2.zip;Enhanced Audio r7.zip
+assets/minecraft/texts/splashes.txt,2,no,cubic-sun-moon-v1.8.5.zip;Icons v.1.14.zip
+assets/minecraft/textures/.DS_Store,2,no,Enchantment-Outlines.zip;EnderEyes_26.3_v3.1.zip
+assets/minecraft/textures/block/attached_melon_stem.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/attached_pumpkin_stem.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/beetroots_stage2.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/beetroots_stage3.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/bricks.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/cactus_bottom.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/cherry_log_top.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/copper_lantern.png,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/copper_lantern.png.mcmeta,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/exposed_copper_lantern.png,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/exposed_copper_lantern.png.mcmeta,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/fire_0.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/fire_0.png.mcmeta,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/fire_1.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/fire_1.png.mcmeta,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/hay_block_side.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/hay_block_top.png,2,no,Fancy Crops v1.3.zip;Farcr's Re-Crafted V2.28.1.zip
+assets/minecraft/textures/block/melon_stem.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/oxidized_copper_lantern.png,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/oxidized_copper_lantern.png.mcmeta,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/potatoes_stage2.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/potatoes_stage3.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/pumpkin_side.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/pumpkin_stem.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/redstone_torch.png,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/textures/block/redstone_torch_off.png,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/textures/block/soul_fire_0.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/soul_fire_0.png.mcmeta,2,yes,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/soul_fire_1.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/soul_fire_1.png.mcmeta,2,yes,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/soul_lantern.png,3,no,Farcr's Re-Crafted V2.28.1.zip;Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/soul_lantern.png.mcmeta,3,no,Farcr's Re-Crafted V2.28.1.zip;Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/soul_torch.png,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/textures/block/stripped_cherry_log_top.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/sugar_cane.png,2,no,Fancy Crops v1.3.zip;Farcr's Re-Crafted V2.28.1.zip
+assets/minecraft/textures/block/torch.png,2,no,Farcr's Re-Crafted V2.28.1.zip;Just Fancy Torches v3.0.zip
+assets/minecraft/textures/block/weathered_copper_lantern.png,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/weathered_copper_lantern.png.mcmeta,2,no,Lanterns with Candles.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/block/wheat_stage7.png,2,no,Fancy Crops v1.3.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/entity/bat_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/bee/bee_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/bee/bee_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/bee/bee_angry_nectar_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/bee/bee_angry_nectar_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/chest/ender.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest/ender.png.mcmeta,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest/normal.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest/normal_left.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest/normal_right.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest/trapped.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest/trapped_left.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest/trapped_right.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/acacia.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/bamboo.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/birch.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/cherry.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;Farcr's Re-Crafted V2.28.1.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/dark_oak.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/jungle.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/mangrove.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/oak.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/pale_oak.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chest_boat/spruce.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/chicken.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/chicken/chicken_cold.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/chicken/chicken_temperate.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/chicken/chicken_warm.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/chicken/cold_chicken.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/chicken/temperate_chicken.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/entity/chicken/warm_chicken.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/cow/brown_mooshroom.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/cow/cold_cow.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/cow/cow.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/cow/cow_cold.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/cow_cold_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/cow_temperate.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/cow_temperate_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/cow_warm.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/cow_warm_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/mooshroom_brown.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/mooshroom_brown_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/mooshroom_red.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/mooshroom_red_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/cow/red_mooshroom.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/cow/temperate_cow.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/cow/warm_cow.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/creeper/creeper.png,2,no,FA-All_Extensions-v1.10.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/enderman/enderman.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;Farcr's Re-Crafted V2.28.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/enderman/enderman_eyes.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/endermite/endermite_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/endermite_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/equipment/horse_body/leather.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/entity/equipment/horse_chests.png,2,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/chainmail.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/copper.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/diamond.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/gold.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/iron.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/leather.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/leather_overlay.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/netherite.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/humanoid_baby/turtle_scute.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/equipment/llama_chests.png,2,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/fish/cod.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/fish/salmon.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/fox/fox.png,2,no,Farcr's Re-Crafted V2.28.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/fox/fox_sleep.png,2,no,Farcr's Re-Crafted V2.28.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/ghast/ghast_shooting_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/guardian.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/guardian/guardian.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/guardian/guardian_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/guardian/guardian_elder.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/guardian/guardian_elder_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/guardian_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/guardian_elder.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/guardian_elder_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/hoglin/hoglin_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/hoglin/hoglin_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/hoglin/zoglin_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/hoglin/zoglin_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/horse/donkey.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/donkey_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/horse/horse_black.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_brown.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_chestnut.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_creamy.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_darkbrown.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_gray.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_skeleton.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_white.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/horse_zombie.png,3,no,FreshAnimations_v1.11.2_1.20.zip;§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/mule.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/entity/horse/mule_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/illager/pillager.png,2,no,Farcr's Re-Crafted V2.28.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/illager/pillager_helmet.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/illager/ravager.png,2,no,Farcr's Re-Crafted V2.28.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/illager/vindicator_helmet.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/iron_golem/iron_golem.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/iron_golem/iron_golem_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/iron_golem/iron_golem_hat.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/minecart.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/textures/entity/minecart/minecart.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Objects-v2.1.3.zip
+assets/minecraft/textures/entity/pig/cold_pig.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/entity/pig/pig.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/pig/pig_cold.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/pig/pig_cold_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/pig/pig_temperate.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/pig/pig_temperate_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/pig/pig_warm.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/pig/pig_warm_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/pig/temperate_pig.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/pig/warm_pig.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/entity/piglin/piglin_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/piglin/piglin_brute_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/piglin/piglin_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/piglin/zombified_piglin_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/piglin/zombified_piglin_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/player/slim/alex.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/ari.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/efe.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/kai.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/makena.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/noor.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/steve.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/sunny.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/slim/zuri.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/test/test.png,2,no,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/alex.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/ari.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/efe.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/kai.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/makena.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/noor.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/steve.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/sunny.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/player/wide/zuri.png,2,yes,-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip;JustExpressions_v1.2.1.zip
+assets/minecraft/textures/entity/sheep/sheep.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/sheep/sheep_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/sheep/sheep_fur.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/sheep/sheep_horns.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/sheep/sheep_wool.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/sheep/sheep_wool_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/sheep/sheep_wool_undercoat.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/skeleton/bogged_overlay_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/skeleton/parched_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/skeleton/stray_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/slime/slime.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/spider/cave_spider.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/spider/cave_spider_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip
+assets/minecraft/textures/entity/spider/spider.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/spider/spider_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip
+assets/minecraft/textures/entity/spider/spider_eyes.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip
+assets/minecraft/textures/entity/spider_eyes.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Spiders-v2.3.1.zip
+assets/minecraft/textures/entity/squid/glow_squid.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/squid/squid.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/villager/villager.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/villager/villager_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/wandering_trader.png,3,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/wandering_trader/trader_pouches.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/wandering_trader/wandering_trader.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/wolf/wolf_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_ashen_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_ashen_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_black_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_black_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_chestnut_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_chestnut_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_rusty_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_rusty_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_snowy_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_snowy_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_spotted_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_spotted_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_striped_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_striped_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_woods_angry_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/wolf/wolf_woods_angry_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/zombie/drowned.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/textures/entity/zombie/drowned_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/zombie/drowned_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/zombie/drowned_outer_layer.png,2,no,FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/textures/entity/zombie/husk.png,3,no,Farcr's Re-Crafted V2.28.1.zip;FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/textures/entity/zombie/zombie.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;FreshAnimations_v1.11.2_1.20.zip;§3Blue's §fBetter Zombies §7v0.13.zip
+assets/minecraft/textures/entity/zombie_villager/zombie_villager.png,4,no,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip;Farcr's Re-Crafted V2.28.1.zip;FreshAnimations_v1.11.2_1.20.zip
+assets/minecraft/textures/entity/zombie_villager/zombie_villager_baby.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Details-v2.4.zip
+assets/minecraft/textures/entity/zombie_villager/zombie_villager_baby_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/entity/zombie_villager/zombie_villager_e.png,2,yes,FA-All_Extensions-v1.10.1.zip;FA-Emissive-v1.7.zip
+assets/minecraft/textures/environment/moon_phases.png,3,no,cubic-sun-moon-v1.8.5.zip;Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/environment/rain.png,2,no,Soft-Weather-1.0-Universal.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/environment/snow.png,2,no,Soft-Weather-1.0-Universal.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/environment/sun.png,2,no,cubic-sun-moon-v1.8.5.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/container/anvil.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/beacon.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/blast_furnace.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/brewing_stand.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/cartography_table.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/crafter.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/crafting_table.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/creative_inventory/tab_inventory.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/creative_inventory/tab_item_search.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/creative_inventory/tab_items.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/dispenser.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/enchanting_table.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/furnace.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/generic_54.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/grindstone.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/hopper.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/horse.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/inventory.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/loom.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/shulker_box.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/smithing.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/smoker.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/stonecutter.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/villager.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/villager2.png,2,no,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/container/villagers/trades.png,2,no,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/recipe_book.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/anvil/error.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/anvil/text_field.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/anvil/text_field_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/beacon/button.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/beacon/button_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/beacon/button_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/beacon/button_selected.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/blast_furnace/burn_progress.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/blast_furnace/lit_progress.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/cartography_table/error.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/crafter/disabled_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/crafter/unpowered_redstone.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/furnace/burn_progress.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/furnace/lit_progress.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/grindstone/error.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/horse/armor_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/horse/chest_slots.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/horse/llama_armor_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/horse/saddle_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/banner_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/dye_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/pattern.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/pattern_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/pattern_selected.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/pattern_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/scroller.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/loom/scroller_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/smithing/error.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/smoker/burn_progress.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/smoker/lit_progress.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/stonecutter/recipe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/stonecutter/recipe_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/stonecutter/recipe_selected.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/discount_strikethrough.png,2,yes,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/experience_bar_background.png,2,yes,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/experience_bar_current.png,2,yes,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/experience_bar_result.png,2,yes,§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/out_of_stock.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/scroller.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/scroller_disabled.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/trade_arrow.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/container/villager/trade_arrow_out_of_stock.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/hud/hotbar.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/hud/hotbar_selection.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/recipe_book/button.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/button_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/page_backward.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/page_backward_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/page_forward.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/page_forward_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/slot_craftable.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/slot_many_craftable.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/slot_many_uncraftable.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/slot_uncraftable.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/tab.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/recipe_book/tab_selected.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/server_list/join_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/server_list/move_down_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/server_list/move_up_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/transferable_list/move_down_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/transferable_list/move_up_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/transferable_list/select_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/transferable_list/unselect_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/widget/button.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/button_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/button_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/checkbox.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/cross_button.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/cross_button_highlighted.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/locked_button.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/page_backward.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/page_forward.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/scroller.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/scroller.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider_handle.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta,2,yes,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/slot_frame.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/tab.png,2,no,§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png,2,no,§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/tab_selected.png,2,no,§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png,2,no,§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/text_field.png,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta,3,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png,2,no,§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta,2,no,§6§lVanilla Experience+§0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/unlocked_button.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/gui/sprites/world_list/join_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/gui/sprites/world_list/marked_join_highlighted.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/acacia_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/acacia_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/axolotl_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/bamboo_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/bamboo_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/birch_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/birch_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/cherry_boat.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/cherry_chest_boat.png,3,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/cherry_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/cod_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/copper_axe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/copper_helmet.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/copper_hoe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/copper_pickaxe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/copper_shovel.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/crimson_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/dark_oak_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/dark_oak_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/diamond_axe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/diamond_helmet.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/diamond_hoe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/diamond_pickaxe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/diamond_shovel.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/egg.png,2,no,Fancy Crops v1.3.zip;Farcr's Re-Crafted V2.28.1.zip
+assets/minecraft/textures/item/empty_armor_slot_boots.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_armor_slot_chestplate.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_armor_slot_helmet.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_armor_slot_leggings.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_armor_slot_shield.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_amethyst_shard.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_axe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_diamond.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_emerald.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_hoe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_ingot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_lapis_lazuli.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_pickaxe.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_quartz.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_redstone_dust.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_shovel.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_smithing_template_armor_trim.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_smithing_template_netherite_upgrade.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/empty_slot_sword.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§8§lDarkmode §f§lColourful Containers§8.zip
+assets/minecraft/textures/item/glistering_melon_slice.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/gold_ingot.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/gold_nugget.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_axe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_boots.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_carrot.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_chestplate.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_helmet.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_hoe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_leggings.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_pickaxe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_shovel.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/golden_sword.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/iron_axe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/iron_hoe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/iron_pickaxe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/iron_shovel.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/jungle_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/jungle_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/lava_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/mangrove_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/mangrove_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/milk_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/netherite_hoe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/netherite_sword.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/oak_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/oak_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/pale_oak_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/powder_snow_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/pufferfish_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/salmon_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/spruce_chest_boat.png,2,no,§6§lVanilla Experience+§0.zip;§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip
+assets/minecraft/textures/item/spruce_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/stick.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/stone_axe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/stone_hoe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/stone_pickaxe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/stone_shovel.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/tadpole_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/tropical_fish_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/warped_hanging_sign.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/water_bucket.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/wooden_hoe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/wooden_pickaxe.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/item/wooden_shovel.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/minecraft/textures/misc/pumpkinblur.png,2,no,Farcr's Re-Crafted V2.28.1.zip;§6§lVanilla Experience+§0.zip
+assets/sophisticatedcore/textures/gui/gui_controls.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/gui/icons.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/gui/slots_background.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/gui/storage_background_12.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/gui/storage_background_12_wider.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/gui/storage_background_9.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/gui/storage_background_9_wider.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/item/empty_battery_input_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/item/empty_battery_output_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/item/empty_tank_input_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/item/empty_tank_output_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/sophisticatedcore/textures/item/empty_upgrade_slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/toms_storage/textures/gui/crafting_terminal.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/toms_storage/textures/gui/inventory_link.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/toms_storage/textures/gui/level_emitter.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/toms_storage/textures/gui/storage_terminal.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trashslot/textures/gui/slot.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trashslot/textures/item/trashcan.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/blank_back.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/more_slots.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/aglet.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/back.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/belt.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/cape.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/charm.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/empty.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/face.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/glove.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/glove_mirrored.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/hat.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/necklace.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/ring.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/trinkets/textures/gui/slots/shoes.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/twilightforest/lang/en_us.json,2,no,[1.6] Enhanced Boss Bars.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/twilightforest/textures/gui/crumble_horn_jei.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/twilightforest/textures/gui/guigoblintinkering.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/twilightforest/textures/gui/transformation_jei.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/twilightforest/textures/gui/uncrafting_jei.png,2,no,Default-Dark-Mode-1.20.2+-2025.5.0.zip;§5§lModded §f§lContainers §8§lDark§8.zip
+assets/witherstormmod/lang/en_us.json,2,no,[1.6] Enhanced Boss Bars.zip;§5§lModded §f§lContainers §8§lDark§8.zip

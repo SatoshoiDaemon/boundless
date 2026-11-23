@@ -1,0 +1,86 @@
+﻿file,size_bytes,archive,title,description,pack_format,supported_formats,assets,classification
+-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip,321871,ok,"§a☑ With Animated Eyes §b
+❖ For 1.21.2 and below","§a☑ With Animated Eyes §b
+❖ For 1.21.2 and below",15,"[0, 99]",23,entity_animation_or_model
+[1.6] Enhanced Boss Bars.zip,123242,ok,"§8Better Bars for 1.16.5.
+§6By: Naku","§8Better Bars for 1.16.5.
+§6By: Naku",34,"""""",136,item_block_entity_texture
+[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip,812169,ok,New sounds for rain and thunder,New sounds for rain and thunder,34,"""""",13,sound
+Armors.zip,192178,ok,3D models and textures by klauzera,3D models and textures by klauzera,32,"""""",97,item_block_entity_texture
+Better_End_Portal_Frame_(1.20).zip,5380,ok,§6by Daggsy,§6by Daggsy,15,"""""",8,general_or_unclassified
+Boundless R1 Resource Compatibility.zip,7704,ok,Boundless v2 R1: merged font providers for selected UI and enchantment packs,Boundless v2 R1: merged font providers for selected UI and enchantment packs,34,"{""min_inclusive"": 34, ""max_inclusive"": 34}",1,general_or_unclassified
+Cataclysm Reimagined v1.3.5 for NeoForge.zip,161820,ok,"§d■ Retexture Cataclysm
+§r§7■ By Waffy","§d■ Retexture Cataclysm
+§r§7■ By Waffy",34,"""""",191,item_block_entity_texture
+Cataclysmic_tunes_V8(Maledictus_update).zip,86794575,ok,Cataclysm Custom Music,Cataclysm Custom Music,34,"{""min_inclusive"": 15, ""max_inclusive"": 34}",35,sound
+cubic-sun-moon-v1.8.5.zip,16194897,ok,"§9Cubic Sun & Moon §7by §3JoeFly
+§7v1.8.5 | All Minecraft versions","§9Cubic Sun & Moon §7by §3JoeFly
+§7v1.8.5 | All Minecraft versions",15,"[1, 75]",64,visual_environment
+Default-Dark-Mode-1.20.2+-2025.5.0.zip,748843,ok,"Welcome to the dark side!
+§8by nebulr • 1.20.2+ • 2025.5.0","Welcome to the dark side!
+§8by nebulr • 1.20.2+ • 2025.5.0",18,"{""min_inclusive"": 18, ""max_inclusive"": 42}",700,general_or_unclassified
+eating_animations_x_farmers_delight.zip,1028806,ok,Eating Animations by NanakyTim,Eating Animations by NanakyTim,15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",1671,entity_texture_or_animation_compat
+enchant icons 1.21 v1.3.zip,168408,ok,§b §2 §3 §1 §a §d §e §4 §b,§b §2 §3 §1 §a §d §e §4 §b,34,"""""",139,ui_font
+Enchantment-Outlines.zip,2033368,ok,"§d§lEnchantment Outlines
+§7V2.0 | By Tixul & Not_thefirst","§d§lEnchantment Outlines
+§7V2.0 | By Tixul & Not_thefirst",15,"[15, 128]",639,ui_font
+EnderEyes_26.3_v3.1.zip,251632,ok,by Futureazoo,by Futureazoo,15,"[15, 97]",93,general_or_unclassified
+Enhanced Audio Ambience r2.zip,10791718,ok,§bEnhanced Audio §8| §aRelease 2          §bAmbience,§bEnhanced Audio §8| §aRelease 2          §bAmbience,15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",54,sound
+Enhanced Audio r7.zip,18977120,ok,§bEnhanced Audio §8| §aRelease 7,§bEnhanced Audio §8| §aRelease 7,15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",664,sound
+FA-All_Extensions-v1.10.1.zip,548952,ok,"§4■ 1.10.1 All Extensions§8
+■ By FreshLX","§4■ 1.10.1 All Extensions§8
+■ By FreshLX",15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",390,entity_animation_or_model
+FA-Details-v2.4.zip,400883,ok,"§4■ 2.4 Details Add-on§8
+■ By FreshLX","§4■ 2.4 Details Add-on§8
+■ By FreshLX",15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",238,entity_animation_or_model
+FA-Emissive-v1.7.zip,103295,ok,"§4■ 1.7 Emissive Add-on§8
+■ By FreshLX","§4■ 1.7 Emissive Add-on§8
+■ By FreshLX",15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",56,entity_animation_or_model
+FA-Objects-v2.1.3.zip,142277,ok,"§4■ 2.1.3 Objects Add-on§8
+■ By FreshLX","§4■ 2.1.3 Objects Add-on§8
+■ By FreshLX",15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",47,entity_animation_or_model
+FA-Spiders-v2.3.1.zip,78134,ok,"§4■ 2.3.1 Spider Edit§8
+■ By FreshLX","§4■ 2.3.1 Spider Edit§8
+■ By FreshLX",15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",10,entity_animation_or_model
+Fancy Crops v1.3.zip,92779,ok,"[{'text': 'A take on ', 'color': '#808080'}, {'text': 'prettier Minecraft farming', 'color': '#a0a0a0'}, {'text': ' by ', 'color': '#808080'}, {'text': 'Bee', 'color': '#beabee'}]","[{'text': 'A take on ', 'color': '#808080'}, {'text': 'prettier Minecraft farming', 'color': '#a0a0a0'}, {'text': ' by ', 'color': '#808080'}, {'text': 'Bee', 'color': '#beabee'}]",15,"{""min_inclusive"": 15, ""max_inclusive"": 1024}",122,item_block_entity_texture
+Farcr's Re-Crafted V2.28.1.zip,607665,ok,§c·|· §7Also try No Man's Land! - Version §c2.28,§c·|· §7Also try No Man's Land! - Version §c2.28,15,"[15, 32767]",808,general_or_unclassified
+FreshAnimations_v1.11.2_1.20.zip,742790,ok,"§a■ 1.11.2 BASE§8
+■ By FreshLX","§a■ 1.11.2 BASE§8
+■ By FreshLX",15,"{""min_inclusive"": 15, ""max_inclusive"": 75}",365,entity_animation_or_model
+Glowing Trim Elytra[MG-5.0][1.21.0-1.21.1].zip,2484795,ok,"§6Glowing Trim Elytra[MG-5.0]
+§3By §2STM19","§6Glowing Trim Elytra[MG-5.0]
+§3By §2STM19",34,"[0, 34]",2307,item_block_entity_texture
+Icons v.1.14.zip,9414964,ok,"[{'text': ' 1.20 - 26.3'}, '\n', {'text': ' §7By §rWeNAN Studios', 'color': '#BE5AD1'}]","[{'text': ' 1.20 - 26.3'}, '\n', {'text': ' §7By §rWeNAN Studios', 'color': '#BE5AD1'}]",15,"[15, 200]",1783,ui_font
+Just Fancy Torches v3.0.zip,144257,ok,"§r⏵ 3D Animated Torches!§6
+By SR400X","§r⏵ 3D Animated Torches!§6
+By SR400X",15,"[15, 255]",48,item_block_entity_texture
+JustExpressions_v1.2.1.zip,262755,ok,"§7■ Fresh Animation eyes... 4 u §4
+■ By FreshLX and Ithan","§7■ Fresh Animation eyes... 4 u §4
+■ By FreshLX and Ithan",15,"{""min_inclusive"": 15, ""max_inclusive"": 999}",24,entity_animation_or_model
+Lanterns with Candles.zip,1847266,ok,§8Replaces lanterns with candle-themed versions,§8Replaces lanterns with candle-themed versions,20,"[16, 100]",42,item_block_entity_texture
+slightly-improved-font-1.1.6.zip,74613,ok,"§eSlightly Improved Font 1.1.6
+§bMade by latvian.dev","§eSlightly Improved Font 1.1.6
+§bMade by latvian.dev",15,"[15, 9999]",5,ui_font
+Soft-Weather-1.0-Universal.zip,6534,ok,Makes rain and snow less visually obtrusive.,Makes rain and snow less visually obtrusive.,13,"{""min_inclusive"": 1, ""max_inclusive"": 32767}",6,visual_environment
+updated_aquaculture-1.1.zip,705425,ok,Created by DB3K - Ver.1.1,Created by DB3K - Ver.1.1,9,"""""",141,general_or_unclassified
+Visual Titles 1.3.zip,444982,ok,1.3 by §6unroman,1.3 by §6unroman,6,"{""min_inclusive"": 6, ""max_inclusive"": 999}",200,general_or_unclassified
+§3Blue's §fBetter Zombies §7v0.13.zip,923392,ok,§8| §7v0.13 - [mc 1.19.3 - 1.21.2]     §fby §3MrBlueYeti,§8| §7v0.13 - [mc 1.19.3 - 1.21.2]     §fby §3MrBlueYeti,42,"[12, 42]",112,general_or_unclassified
+§5§lModded §f§lContainers §8§lDark§8.zip,1494702,ok,"§f§kModded §fContainers v6!§l§r
+§f§lby §c§lNolyoly","§f§kModded §fContainers v6!§l§r
+§f§lby §c§lNolyoly",15,"{""min_inclusive"": 30, ""max_inclusive"": 99}",578,general_or_unclassified
+§6Immersive§8_§6Interfaces§8_§6cosmetic§8_§6armor§8_§6rework.zip,8382,ok,Cosmetic Armor Reworked Support - Immersive Interfaces,Cosmetic Armor Reworked Support - Immersive Interfaces,15,"[15, 100]",1,ui_font
+§6§lVanilla Experience+§0.zip,2576926,ok,"§eImproves, refines, and fixes
+§fFor 1.21-1.21.10 §8By Kryqu","§eImproves, refines, and fixes
+§fFor 1.21-1.21.10 §8By Kryqu",34,"{""min_inclusive"": 34, ""max_inclusive"": 69}",2793,general_or_unclassified
+§8§lDarkmode §f§lColourful Containers§8.zip,771993,ok,"§4§l!§fOptiGUI required§4§l!§r 26.2
+§f§lby §4§lKingybu","§4§l!§fOptiGUI required§4§l!§r 26.2
+§f§lby §4§lKingybu",15,"{""min_inclusive"": 0, ""max_inclusive"": 99}",580,ui_font
+§aChests§8-§aReimagined§0_§8[v1.8.2]§0.zip,459472,ok,"§7Chests Reopened!
+§r§8By Reijvi","§7Chests Reopened!
+§r§8By Reijvi",15,"[15, 99]",108,item_block_entity_texture
+§a§lLeaves Experience+§0.zip,75158,ok,"§2Bushy Leaves
+§fFor 1.13+ §8By Kryqu","§2Bushy Leaves
+§fFor 1.13+ §8By Kryqu",15,"{""min_inclusive"": 4, ""max_inclusive"": 999}",41,general_or_unclassified
+§eArmorstands§8-§eReimagined§0_§8[v1.3]§0.zip,125054,ok,"§7Wear my armor will ya?
+§r§8By Reijvi","§7Wear my armor will ya?
+§r§8By Reijvi",15,"[15, 99]",12,item_block_entity_texture
